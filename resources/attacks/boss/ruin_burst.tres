@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[sub_resource type="BoxShape3D" id="Shape"]
+size = Vector3(6,2.5,6)
+[resource]
+script = ExtResource("1")
+attack_name = &"RUIN_BURST"
+startup = 1.35
+active = 0.2
+recovery = 1.2
+damage = 40
+stamina_damage = 75
+stamina_cost = 25
+blockable = false
+parryable = false
+combo_open = 0.0
+combo_close = 0.0
+turn_speed = 0.0
+correction_limit = 0.0
+hitbox_shape = SubResource("Shape")
+hitbox_offset = Vector3(0,1.25,0)

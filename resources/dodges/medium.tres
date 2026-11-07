@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/player/dodge_profile.gd" id="1"]
+[resource]
+script = ExtResource("1")
+profile_name = &"MEDIUM"
+total_duration = 0.78
+movement_duration = 0.36
+distance = 2.6
+invulnerability_start = 0.06
+invulnerability_end = 0.30
+recovery = 0.30

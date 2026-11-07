@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/lockable_target.gd" id="1_target"]
+
+[sub_resource type="StandardMaterial3D" id="Material"]
+albedo_color = Color(0.68, 0.37, 0.25, 1)
+roughness = 1.0
+
+[sub_resource type="CapsuleMesh" id="Mesh"]
+material = SubResource("Material")
+radius = 0.4
+height = 1.8
+radial_segments = 16
+rings = 8
+
+[sub_resource type="CapsuleShape3D" id="Shape"]
+radius = 0.4
+height = 1.8
+
+[node name="LockableDummy" type="Node3D" node_paths=PackedStringArray("lock_point", "collision_body")]
+script = ExtResource("1_target")
+lock_point = NodePath("LockPoint")
+collision_body = NodePath("Body")
+
+[node name="Body" type="StaticBody3D" parent="."]
+collision_layer = 1
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Body"]
+position = Vector3(0, 0.9, 0)
+shape = SubResource("Shape")
+
+[node name="Visual" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.9, 0)
+mesh = SubResource("Mesh")
+
+[node name="LockPoint" type="Marker3D" parent="."]
+position = Vector3(0, 1.25, 0)

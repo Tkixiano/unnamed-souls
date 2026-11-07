@@ -1,0 +1,207 @@
+[gd_scene format=3]
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="1_player"]
+[ext_resource type="PackedScene" path="res://scenes/props/camera_rig.tscn" id="2_camera"]
+[ext_resource type="PackedScene" path="res://scenes/bosses/ruins_guardian.tscn" id="3_boss"]
+[ext_resource type="Script" path="res://scripts/systems/checkpoint_manager.gd" id="4_checkpoints"]
+[ext_resource type="PackedScene" path="res://scenes/props/bonfire.tscn" id="5_bonfire"]
+[ext_resource type="PackedScene" path="res://scenes/ui/death_screen.tscn" id="6_death"]
+[ext_resource type="PackedScene" path="res://scenes/ui/player_vitals.tscn" id="7_vitals"]
+[ext_resource type="PackedScene" path="res://scenes/ui/estus_hud.tscn" id="8_estus"]
+[ext_resource type="PackedScene" path="res://scenes/ui/boss_hud.tscn" id="9_boss_hud"]
+[ext_resource type="Script" path="res://scripts/bosses/encounter_entry.gd" id="10_entry"]
+[ext_resource type="Script" path="res://scripts/systems/test_arena.gd" id="11_arena"]
+[ext_resource type="Script" path="res://scripts/player/lock_on_controller.gd" id="12_lock"]
+[ext_resource type="Script" path="res://scripts/systems/lock_on_indicator.gd" id="13_indicator"]
+[ext_resource type="Script" path="res://scripts/combat/attack_debug.gd" id="14_debug"]
+
+[sub_resource type="StandardMaterial3D" id="GroundMaterial"]
+albedo_color = Color(0.22,0.23,0.21,1)
+roughness = 1.0
+[sub_resource type="StandardMaterial3D" id="WallMaterial"]
+albedo_color = Color(0.32,0.34,0.36,1)
+roughness = 1.0
+[sub_resource type="Environment" id="Environment"]
+background_mode = 1
+background_color = Color(0.07,0.08,0.1,1)
+ambient_light_source = 3
+ambient_light_color = Color(0.8,0.85,0.9,1)
+ambient_light_energy = 0.7
+reflected_light_source = 2
+[sub_resource type="BoxMesh" id="FloorMesh"]
+material = SubResource("GroundMaterial")
+size = Vector3(24,0.5,28)
+[sub_resource type="BoxShape3D" id="FloorShape"]
+size = Vector3(24,0.5,28)
+[sub_resource type="BoxShape3D" id="EntryShape"]
+size = Vector3(3.8,2.5,2.5)
+[sub_resource type="BoxMesh" id="NorthMesh"]
+material = SubResource("WallMaterial")
+size = Vector3(20,3,0.5)
+[sub_resource type="BoxShape3D" id="NorthShape"]
+size = Vector3(20,3,0.5)
+[sub_resource type="BoxMesh" id="WestMesh"]
+material = SubResource("WallMaterial")
+size = Vector3(0.5,3,18)
+[sub_resource type="BoxShape3D" id="WestShape"]
+size = Vector3(0.5,3,18)
+[sub_resource type="BoxMesh" id="EastMesh"]
+material = SubResource("WallMaterial")
+size = Vector3(0.5,3,18)
+[sub_resource type="BoxShape3D" id="EastShape"]
+size = Vector3(0.5,3,18)
+[sub_resource type="BoxMesh" id="SouthLeftMesh"]
+material = SubResource("WallMaterial")
+size = Vector3(8,3,0.5)
+[sub_resource type="BoxShape3D" id="SouthLeftShape"]
+size = Vector3(8,3,0.5)
+[sub_resource type="BoxMesh" id="SouthRightMesh"]
+material = SubResource("WallMaterial")
+size = Vector3(8,3,0.5)
+[sub_resource type="BoxShape3D" id="SouthRightShape"]
+size = Vector3(8,3,0.5)
+
+[node name="BossArena" type="Node3D"]
+script = ExtResource("11_arena")
+[node name="Ground" type="StaticBody3D" parent="."]
+position = Vector3(0,-0.25,2)
+[node name="Mesh" type="MeshInstance3D" parent="Ground"]
+mesh = SubResource("FloorMesh")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+shape = SubResource("FloorShape")
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment")
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+rotation = Vector3(-0.9,-0.5,0)
+light_color = Color(1,0.95,0.85,1)
+[node name="Walls" type="Node3D" parent="."]
+[node name="North" type="StaticBody3D" parent="Walls"]
+position = Vector3(0,1.5,-9)
+[node name="Mesh" type="MeshInstance3D" parent="Walls/North"]
+mesh = SubResource("NorthMesh")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/North"]
+shape = SubResource("NorthShape")
+[node name="West" type="StaticBody3D" parent="Walls"]
+position = Vector3(-10,1.5,0)
+[node name="Mesh" type="MeshInstance3D" parent="Walls/West"]
+mesh = SubResource("WestMesh")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/West"]
+shape = SubResource("WestShape")
+[node name="East" type="StaticBody3D" parent="Walls"]
+position = Vector3(10,1.5,0)
+[node name="Mesh" type="MeshInstance3D" parent="Walls/East"]
+mesh = SubResource("EastMesh")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/East"]
+shape = SubResource("EastShape")
+[node name="SouthLeft" type="StaticBody3D" parent="Walls"]
+position = Vector3(-6,1.5,9)
+[node name="Mesh" type="MeshInstance3D" parent="Walls/SouthLeft"]
+mesh = SubResource("SouthLeftMesh")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/SouthLeft"]
+shape = SubResource("SouthLeftShape")
+[node name="SouthRight" type="StaticBody3D" parent="Walls"]
+position = Vector3(6,1.5,9)
+[node name="Mesh" type="MeshInstance3D" parent="Walls/SouthRight"]
+mesh = SubResource("SouthRightMesh")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/SouthRight"]
+shape = SubResource("SouthRightShape")
+
+[node name="Player" parent="." node_paths=PackedStringArray("movement_camera") instance=ExtResource("1_player")]
+position = Vector3(0,0,11)
+movement_camera = NodePath("../CameraRig/YawPivot/PitchPivot/SpringArm3D/Camera3D")
+[node name="CameraRig" parent="." node_paths=PackedStringArray("follow_target") instance=ExtResource("2_camera")]
+position = Vector3(0,1.25,11)
+follow_target = NodePath("../Player")
+[node name="LockOnController" type="Node" parent="." node_paths=PackedStringArray("player","camera_rig")]
+process_physics_priority = -5
+script = ExtResource("12_lock")
+player = NodePath("../Player")
+camera_rig = NodePath("../CameraRig")
+[node name="Boss" parent="." instance=ExtResource("3_boss")]
+position = Vector3(0,0,-3)
+[node name="Visual" parent="Boss" index="1"]
+rotation = Vector3(0,3.1415927,0)
+[node name="SoldierAI" parent="Boss" index="9" node_paths=PackedStringArray("target")]
+target = NodePath("../../Player")
+[node name="EncounterEntry" type="Area3D" parent="." node_paths=PackedStringArray("boss","player")]
+position = Vector3(0,1,7)
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+script = ExtResource("10_entry")
+boss = NodePath("../Boss")
+player = NodePath("../Player")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EncounterEntry"]
+shape = SubResource("EntryShape")
+[node name="EntryLabel" type="Label3D" parent="."]
+position = Vector3(0,2.7,8.5)
+billboard = 1
+font_size = 28
+pixel_size = 0.004
+text = "ENTRADA AL ENCUENTRO"
+[node name="CheckpointManager" type="Node" parent="." node_paths=PackedStringArray("player","lock_controller","camera_rig","initial_spawn")]
+process_physics_priority = -30
+script = ExtResource("4_checkpoints")
+player = NodePath("../Player")
+lock_controller = NodePath("../LockOnController")
+camera_rig = NodePath("../CameraRig")
+initial_spawn = NodePath("../Bonfire/RespawnPoint")
+[node name="Bonfire" parent="." node_paths=PackedStringArray("manager") instance=ExtResource("5_bonfire")]
+position = Vector3(1.3,0,11)
+bonfire_id = &"guardian_bonfire"
+manager = NodePath("../CheckpointManager")
+[node name="HUD" type="CanvasLayer" parent="."]
+[node name="PlayerVitals" parent="HUD" node_paths=PackedStringArray("attributes") instance=ExtResource("7_vitals")]
+attributes = NodePath("../../Player/Attributes")
+[node name="EstusHUD" parent="HUD" node_paths=PackedStringArray("estus") instance=ExtResource("8_estus")]
+estus = NodePath("../../Player/EstusController")
+[node name="BossHUD" parent="HUD" node_paths=PackedStringArray("boss") instance=ExtResource("9_boss_hud")]
+boss = NodePath("../../Boss")
+[node name="AttackDebug" type="Label" parent="HUD" node_paths=PackedStringArray("attack_controller")]
+offset_left = 24.0
+offset_top = 250.0
+offset_right = 1000.0
+offset_bottom = 276.0
+script = ExtResource("14_debug")
+attack_controller = NodePath("../../Player/AttackController")
+mouse_filter = 2
+[node name="LockOnIndicator" type="Control" parent="HUD" node_paths=PackedStringArray("lock_controller","camera")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+visible = false
+script = ExtResource("13_indicator")
+lock_controller = NodePath("../../LockOnController")
+camera = NodePath("../../CameraRig/YawPivot/PitchPivot/SpringArm3D/Camera3D")
+[node name="Margin" type="MarginContainer" parent="HUD"]
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 1256.0
+mouse_filter = 2
+[node name="Info" type="VBoxContainer" parent="HUD/Margin"]
+layout_mode = 2
+[node name="Title" type="Label" parent="HUD/Margin/Info"]
+layout_mode = 2
+text = "FASE 3C · GUARDIÁN DE LAS RUINAS"
+theme_override_font_sizes/font_size = 20
+[node name="ControllerStatus" type="Label" parent="HUD/Margin/Info"]
+layout_mode = 2
+text = "Mando: detectando…"
+theme_override_font_sizes/font_size = 16
+[node name="Hint" type="Label" parent="HUD/Margin/Info"]
+layout_mode = 2
+text = "F: hoguera · Avanzá por la entrada para comenzar · F6: probar esta escena · F5: proyecto principal"
+theme_override_font_sizes/font_size = 14
+[node name="Controls" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 662.0
+offset_right = 1256.0
+offset_bottom = 690.0
+text = "WASD · Espacio: esquiva/carrera · Ctrl: escudo · J/clic izq.: ligero · K/Shift: fuerte · Q: fijar · E: Estus · R: empuñadura"
+theme_override_font_sizes/font_size = 14
+mouse_filter = 2
+[node name="DeathLayer" type="CanvasLayer" parent="."]
+layer = 100
+[node name="DeathScreen" parent="DeathLayer" node_paths=PackedStringArray("manager") instance=ExtResource("6_death")]
+manager = NodePath("../../CheckpointManager")
+[editable path="Boss"]

@@ -1,0 +1,588 @@
+[gd_scene format=3 uid="uid://cwceipc2xeyn3"]
+
+
+
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="1_player"]
+
+[ext_resource type="Script" uid="uid://b6imylhj3jt46" path="res://scripts/systems/test_arena.gd" id="2_arena"]
+
+[ext_resource type="PackedScene" path="res://scenes/props/camera_rig.tscn" id="3_camera"]
+
+[ext_resource type="PackedScene" path="res://scenes/props/training_dummy.tscn" id="4_dummy"]
+
+[ext_resource type="Script" path="res://scripts/player/lock_on_controller.gd" id="5_lock"]
+
+[ext_resource type="Script" path="res://scripts/systems/lock_on_indicator.gd" id="6_indicator"]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/player_vitals.tscn" id="7_vitals"]
+
+[ext_resource type="Script" path="res://scripts/systems/dodge_debug.gd" id="8_debug"]
+
+[ext_resource type="Script" path="res://scripts/combat/attack_debug.gd" id="9_attack_debug"]
+
+
+
+[ext_resource type="Script" path="res://scripts/combat/defense_test_attacker.gd" id="10_defense_test"]
+
+[ext_resource type="Script" path="res://scripts/systems/lockable_target.gd" id="11_lockable"]
+
+[ext_resource type="Script" path="res://scripts/combat/defense_debug.gd" id="12_defense_debug"]
+
+
+
+[ext_resource type="PackedScene" path="res://scenes/ui/estus_hud.tscn" id="13_estus_hud"]
+[ext_resource type="Script" path="res://scripts/combat/action_debug.gd" id="14_action_debug"]
+
+[ext_resource type="PackedScene" path="res://scenes/enemies/soldier.tscn" id="15_soldier"]
+
+[ext_resource type="PackedScene" path="res://scenes/props/bonfire.tscn" id="16_bonfire"]
+[ext_resource type="Script" path="res://scripts/systems/checkpoint_manager.gd" id="17_checkpoints"]
+[ext_resource type="PackedScene" path="res://scenes/ui/death_screen.tscn" id="18_death"]
+[ext_resource type="Script" path="res://scripts/systems/checkpoint_status.gd" id="19_checkpoint_status"]
+
+[sub_resource type="StandardMaterial3D" id="Material_ground"]
+
+albedo_color = Color(0.24, 0.27, 0.25, 1)
+
+
+
+[sub_resource type="BoxMesh" id="Mesh_ground"]
+
+material = SubResource("Material_ground")
+
+size = Vector3(20, 0.5, 20)
+
+
+
+[sub_resource type="BoxShape3D" id="Shape_ground"]
+
+size = Vector3(20, 0.5, 20)
+
+
+
+[sub_resource type="Environment" id="Environment_arena"]
+
+background_mode = 1
+
+background_color = Color(0.085, 0.105, 0.125, 1)
+
+ambient_light_source = 3
+
+ambient_light_color = Color(0.8, 0.85, 0.9, 1)
+
+ambient_light_energy = 0.65
+
+reflected_light_source = 2
+
+
+
+[sub_resource type="StandardMaterial3D" id="ObstacleMaterial"]
+
+albedo_color = Color(0.36, 0.39, 0.42, 1)
+
+roughness = 1.0
+
+
+
+[sub_resource type="BoxMesh" id="RearWallMesh"]
+
+material = SubResource("ObstacleMaterial")
+
+size = Vector3(10, 3.5, 0.5)
+
+
+
+[sub_resource type="BoxShape3D" id="RearWallShape"]
+
+size = Vector3(10, 3.5, 0.5)
+
+
+
+[sub_resource type="BoxMesh" id="WestWallMesh"]
+
+material = SubResource("ObstacleMaterial")
+
+size = Vector3(0.5, 3.5, 10)
+
+
+
+[sub_resource type="BoxShape3D" id="WestWallShape"]
+
+size = Vector3(0.5, 3.5, 10)
+
+
+
+[sub_resource type="CylinderMesh" id="ColumnMesh"]
+
+material = SubResource("ObstacleMaterial")
+
+top_radius = 0.65
+
+bottom_radius = 0.65
+
+height = 3.0
+
+radial_segments = 16
+
+
+
+[sub_resource type="CylinderShape3D" id="ColumnShape"]
+
+radius = 0.65
+
+height = 3.0
+
+
+
+[node name="TestArena" type="Node3D" unique_id=1965422969]
+
+script = ExtResource("2_arena")
+
+
+
+[node name="Ground" type="StaticBody3D" parent="." unique_id=1123226093]
+
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
+
+collision_mask = 2
+
+
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=1628638004]
+
+mesh = SubResource("Mesh_ground")
+
+
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=1149325157]
+
+shape = SubResource("Shape_ground")
+
+
+
+[node name="Player" parent="." unique_id=2094762472 node_paths=PackedStringArray("movement_camera") instance=ExtResource("1_player")]
+
+position = Vector3(7,0,0)
+movement_camera = NodePath("../CameraRig/YawPivot/PitchPivot/SpringArm3D/Camera3D")
+
+
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=138399581]
+
+environment = SubResource("Environment_arena")
+
+
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1455053098]
+
+transform = Transform3D(0.8660254, 0.40957603, -0.28678823, 0, 0.57357645, 0.81915206, 0.5, -0.7094065, 0.49673176, 0, 0, 0)
+
+light_color = Color(1, 0.94, 0.84, 1)
+
+
+
+[node name="CameraRig" parent="." node_paths=PackedStringArray("follow_target") instance=ExtResource("3_camera")]
+
+position = Vector3(0, 1.25, 0)
+
+follow_target = NodePath("../Player")
+
+
+
+[node name="LockOnController" type="Node" parent="." node_paths=PackedStringArray("player", "camera_rig")]
+
+process_physics_priority = -5
+
+script = ExtResource("5_lock")
+
+player = NodePath("../Player")
+
+camera_rig = NodePath("../CameraRig")
+
+
+
+[node name="Targets" type="Node3D" parent="."]
+
+
+
+[node name="Center" parent="Targets" instance=ExtResource("4_dummy")]
+
+position = Vector3(0, 0, -6)
+
+target_id = &"arena_center"
+
+
+
+[node name="Left" parent="Targets" instance=ExtResource("4_dummy")]
+
+position = Vector3(-3, 0, -5)
+
+target_id = &"arena_left"
+
+
+
+[node name="Right" parent="Targets" instance=ExtResource("4_dummy")]
+
+position = Vector3(3, 0, -5)
+
+target_id = &"arena_right"
+
+
+
+[node name="Obstacles" type="Node3D" parent="."]
+
+
+
+[node name="RearWall" type="StaticBody3D" parent="Obstacles"]
+
+position = Vector3(0, 1.75, 5.5)
+
+collision_mask = 2
+
+
+
+[node name="Mesh" type="MeshInstance3D" parent="Obstacles/RearWall"]
+
+mesh = SubResource("RearWallMesh")
+
+
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacles/RearWall"]
+
+shape = SubResource("RearWallShape")
+
+
+
+[node name="WestWall" type="StaticBody3D" parent="Obstacles"]
+
+position = Vector3(-5, 1.75, 0)
+
+collision_mask = 2
+
+
+
+[node name="Mesh" type="MeshInstance3D" parent="Obstacles/WestWall"]
+
+mesh = SubResource("WestWallMesh")
+
+
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacles/WestWall"]
+
+shape = SubResource("WestWallShape")
+
+
+
+[node name="Column" type="StaticBody3D" parent="Obstacles"]
+
+position = Vector3(3, 1.5, 0)
+
+collision_mask = 2
+
+
+
+[node name="Mesh" type="MeshInstance3D" parent="Obstacles/Column"]
+
+mesh = SubResource("ColumnMesh")
+
+
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacles/Column"]
+
+shape = SubResource("ColumnShape")
+
+
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1889873478]
+
+
+
+[node name="PlayerVitals" parent="HUD" node_paths=PackedStringArray("attributes") instance=ExtResource("7_vitals")]
+
+attributes = NodePath("../../Player/Attributes")
+
+
+
+[node name="DodgeDebug" type="Label" parent="HUD" node_paths=PackedStringArray("dodge_controller")]
+
+offset_left = 24.0
+
+offset_top = 250.0
+
+offset_right = 650.0
+
+offset_bottom = 276.0
+
+mouse_filter = 2
+
+theme_override_font_sizes/font_size = 14
+
+script = ExtResource("8_debug")
+
+dodge_controller = NodePath("../../Player/DodgeController")
+
+
+
+[node name="AttackDebug" type="Label" parent="HUD" node_paths=PackedStringArray("attack_controller")]
+
+offset_left = 24.0
+
+offset_top = 282.0
+
+offset_right = 850.0
+
+offset_bottom = 308.0
+
+mouse_filter = 2
+
+theme_override_font_sizes/font_size = 14
+
+script = ExtResource("9_attack_debug")
+
+attack_controller = NodePath("../../Player/AttackController")
+
+
+
+[node name="LockOnIndicator" type="Control" parent="HUD" node_paths=PackedStringArray("lock_controller", "camera")]
+
+layout_mode = 3
+
+anchors_preset = 15
+
+anchor_right = 1.0
+
+anchor_bottom = 1.0
+
+grow_horizontal = 2
+
+grow_vertical = 2
+
+mouse_filter = 2
+
+visible = false
+
+script = ExtResource("6_indicator")
+
+lock_controller = NodePath("../../LockOnController")
+
+camera = NodePath("../../CameraRig/YawPivot/PitchPivot/SpringArm3D/Camera3D")
+
+
+
+[node name="Margin" type="MarginContainer" parent="HUD" unique_id=585215595]
+
+offset_left = 24.0
+
+offset_top = 24.0
+
+offset_right = 1256.0
+
+mouse_filter = 2
+
+
+
+[node name="Info" type="VBoxContainer" parent="HUD/Margin" unique_id=173015571]
+
+layout_mode = 2
+
+mouse_filter = 2
+
+theme_override_constants/separation = 6
+
+
+
+[node name="Title" type="Label" parent="HUD/Margin/Info" unique_id=457878882]
+
+layout_mode = 2
+
+theme_override_colors/font_color = Color(0.85, 0.87, 0.88, 1)
+
+theme_override_font_sizes/font_size = 20
+
+text = "SOUL GAME · FASE 3B"
+
+
+
+[node name="ControllerStatus" type="Label" parent="HUD/Margin/Info" unique_id=707432167]
+
+layout_mode = 2
+
+theme_override_colors/font_color = Color(0.68, 0.73, 0.76, 1)
+
+theme_override_font_sizes/font_size = 16
+
+text = "Mando: detectando…"
+
+autowrap_mode = 3
+
+
+
+[node name="Hint" type="Label" parent="HUD/Margin/Info" unique_id=937922787]
+
+layout_mode = 2
+
+theme_override_colors/font_color = Color(0.55, 0.6, 0.64, 1)
+
+theme_override_font_sizes/font_size = 14
+
+text = "WASD: mover · Espacio: esquiva / mantener para correr · Ctrl: escudo · C: parry · Q: fijar · E: Estus · R: dos manos"
+
+autowrap_mode = 3
+
+
+
+[node name="DefenseTestAttacker" parent="." instance=ExtResource("1_player")]
+
+position = Vector3(7.5,0,7.5)
+
+controls_enabled = false
+
+combat_faction = &"test_attacker"
+
+
+
+[node name="LockableTarget" type="Node3D" parent="DefenseTestAttacker" node_paths=PackedStringArray("lock_point","collision_body")]
+
+script = ExtResource("11_lockable")
+
+target_id = &"defense_test_attacker"
+
+lock_point = NodePath("AimPoint")
+
+collision_body = NodePath("..")
+
+
+
+[node name="AimPoint" type="Marker3D" parent="DefenseTestAttacker/LockableTarget"]
+
+position = Vector3(0,1.25,0)
+
+
+
+[node name="DefenseLabel" type="Label3D" parent="DefenseTestAttacker"]
+
+position = Vector3(0,2.1,0)
+
+billboard = 1
+
+font_size = 32
+
+pixel_size = 0.008
+
+text = "PRUEBA DEFENSA"
+
+
+
+[node name="DefenseTestController" type="Node" parent="." node_paths=PackedStringArray("player","attacker","target","label")]
+
+process_physics_priority = -20
+
+script = ExtResource("10_defense_test")
+
+player = NodePath("../Player")
+
+attacker = NodePath("../DefenseTestAttacker")
+
+target = NodePath("../DefenseTestAttacker/LockableTarget")
+
+label = NodePath("../DefenseTestAttacker/DefenseLabel")
+
+
+
+[node name="DefenseDebug" type="Label" parent="HUD" node_paths=PackedStringArray("player","test_attacker")]
+
+offset_left = 24.0
+
+offset_top = 312.0
+
+offset_right = 1256.0
+
+offset_bottom = 340.0
+
+mouse_filter = 2
+
+theme_override_font_sizes/font_size = 14
+
+script = ExtResource("12_defense_debug")
+
+player = NodePath("../../Player")
+
+test_attacker = NodePath("../../DefenseTestAttacker")
+
+
+[node name="DefenseTestHint" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 662.0
+offset_right = 1256.0
+offset_bottom = 690.0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.7,0.73,0.76,1)
+text = "TEST · F1: frontal · F2: no parry · F3: trasero · F4: rompeguardia (preparan atacante técnico)"
+
+[node name="EstusHUD" parent="HUD" node_paths=PackedStringArray("estus") instance=ExtResource("13_estus_hud")]
+estus = NodePath("../../Player/EstusController")
+
+[node name="ActionDebug" type="Label" parent="HUD" node_paths=PackedStringArray("player")]
+offset_left = 24.0
+offset_top = 342.0
+offset_right = 1256.0
+offset_bottom = 370.0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 14
+script = ExtResource("14_action_debug")
+player = NodePath("../../Player")
+
+[node name="Soldier" parent="." instance=ExtResource("15_soldier")]
+position = Vector3(0,0,-3.8)
+
+[node name="Visual" parent="Soldier" index="1"]
+rotation = Vector3(0,3.1415927,0)
+
+[node name="SoldierAI" parent="Soldier" node_paths=PackedStringArray("target") index="8"]
+target = NodePath("../../Player")
+
+[editable path="Soldier"]
+
+[node name="KeyboardCombatHint" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 628.0
+offset_right = 1256.0
+offset_bottom = 654.0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.75,0.78,0.8,1)
+text = "Clic izq./J: ataque · Shift/K: fuerte · L: escudo · I: parry · Flechas: cámara/cambiar objetivo · Arrastrar botón der.: cámara"
+
+[node name="CheckpointManager" type="Node" parent="." node_paths=PackedStringArray("player","lock_controller","camera_rig","initial_spawn")]
+process_physics_priority = -30
+script = ExtResource("17_checkpoints")
+player = NodePath("../Player")
+lock_controller = NodePath("../LockOnController")
+camera_rig = NodePath("../CameraRig")
+initial_spawn = NodePath("../Bonfire/RespawnPoint")
+
+[node name="Bonfire" parent="." node_paths=PackedStringArray("manager") instance=ExtResource("16_bonfire")]
+position = Vector3(7,0,1.3)
+bonfire_id = &"arena_bonfire"
+manager = NodePath("../CheckpointManager")
+
+[node name="RespawnPoint" parent="Bonfire" index="2"]
+position = Vector3(0,0,-1.3)
+rotation = Vector3(0,1.0735,0)
+
+[node name="CheckpointStatus" type="Label" parent="HUD" node_paths=PackedStringArray("player","manager")]
+offset_left = 24.0
+offset_top = 378.0
+offset_right = 1256.0
+offset_bottom = 404.0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 14
+script = ExtResource("19_checkpoint_status")
+player = NodePath("../../Player")
+manager = NodePath("../../CheckpointManager")
+
+[node name="DeathLayer" type="CanvasLayer" parent="."]
+layer = 100
+[node name="DeathScreen" parent="DeathLayer" node_paths=PackedStringArray("manager") instance=ExtResource("18_death")]
+manager = NodePath("../../CheckpointManager")

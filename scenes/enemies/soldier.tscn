@@ -1,0 +1,123 @@
+[gd_scene load_steps=19 format=3]
+[ext_resource type="Script" path="res://scripts/enemies/soldier_actor.gd" id="1_actor"]
+[ext_resource type="Script" path="res://scripts/enemies/soldier_ai.gd" id="2_ai"]
+[ext_resource type="Script" path="res://scripts/systems/actor_attributes.gd" id="3_stats"]
+[ext_resource type="Script" path="res://scripts/player/action_state.gd" id="4_state"]
+[ext_resource type="Script" path="res://scripts/player/attack_controller.gd" id="5_attack"]
+[ext_resource type="Script" path="res://scripts/combat/hurtbox.gd" id="6_hurt"]
+[ext_resource type="Script" path="res://scripts/combat/attack_hitbox.gd" id="7_hit"]
+[ext_resource type="Script" path="res://scripts/combat/critical_vulnerability.gd" id="8_critical"]
+[ext_resource type="Script" path="res://scripts/systems/lockable_target.gd" id="9_lock"]
+[ext_resource type="Resource" path="res://resources/attacks/soldier_light.tres" id="10_data"]
+
+[sub_resource type="CapsuleShape3D" id="BodyShape"]
+radius = 0.35
+height = 1.8
+[sub_resource type="CapsuleMesh" id="BodyMesh"]
+radius = 0.35
+height = 1.8
+radial_segments = 12
+rings = 6
+[sub_resource type="StandardMaterial3D" id="FrontMaterial"]
+albedo_color = Color(0.9,0.25,0.12,1)
+[sub_resource type="BoxMesh" id="FrontMesh"]
+material = SubResource("FrontMaterial")
+size = Vector3(0.2,0.15,0.2)
+[sub_resource type="StandardMaterial3D" id="SwordMaterial"]
+albedo_color = Color(0.75,0.75,0.8,1)
+roughness = 1.0
+[sub_resource type="BoxMesh" id="SwordMesh"]
+material = SubResource("SwordMaterial")
+size = Vector3(0.1,0.1,1.3)
+[sub_resource type="CapsuleShape3D" id="HurtShape"]
+radius = 0.42
+height = 1.8
+[sub_resource type="BoxShape3D" id="HitShape"]
+size = Vector3(1.5,1.6,1.8)
+
+[node name="Soldier" type="CharacterBody3D"]
+collision_layer = 3
+collision_mask = 3
+floor_snap_length = 0.25
+floor_max_angle = 0.7853982
+floor_stop_on_slope = true
+script = ExtResource("1_actor")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0,0.9,0)
+shape = SubResource("BodyShape")
+
+[node name="Visual" type="Node3D" parent="."]
+[node name="Body" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0,0.9,0)
+mesh = SubResource("BodyMesh")
+[node name="FacingMarker" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0,1.4,-0.35)
+mesh = SubResource("FrontMesh")
+
+[node name="Attributes" type="Node" parent="."]
+process_physics_priority = 30
+script = ExtResource("3_stats")
+max_health = 180.0
+[node name="ActionState" type="Node" parent="."]
+script = ExtResource("4_state")
+[node name="AttackController" type="Node" parent="." node_paths=PackedStringArray("player","combat_pivot","hitbox","sword_mesh")]
+script = ExtResource("5_attack")
+player = NodePath("..")
+combat_pivot = NodePath("../CombatPivot")
+hitbox = NodePath("../CombatPivot/Hitbox")
+sword_mesh = NodePath("../CombatPivot/Sword")
+light_1 = ExtResource("10_data")
+input_enabled = false
+
+[node name="CombatPivot" type="Node3D" parent="."]
+[node name="Sword" type="MeshInstance3D" parent="CombatPivot"]
+position = Vector3(0.45,1,-0.8)
+mesh = SubResource("SwordMesh")
+[node name="Hitbox" type="Area3D" parent="CombatPivot"]
+position = Vector3(0,1,-1.2)
+collision_layer = 0
+collision_mask = 8
+monitoring = false
+monitorable = false
+script = ExtResource("7_hit")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CombatPivot/Hitbox"]
+shape = SubResource("HitShape")
+disabled = true
+
+[node name="Hurtbox" type="Area3D" parent="." node_paths=PackedStringArray("actor","attributes","physical_body")]
+position = Vector3(0,0.9,0)
+collision_layer = 8
+collision_mask = 0
+monitoring = false
+script = ExtResource("6_hurt")
+actor = NodePath("..")
+attributes = NodePath("../Attributes")
+physical_body = NodePath("..")
+faction = &"hostile"
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hurtbox"]
+shape = SubResource("HurtShape")
+
+[node name="CriticalVulnerability" type="Node" parent="." node_paths=PackedStringArray("actor","hurtbox")]
+script = ExtResource("8_critical")
+actor = NodePath("..")
+hurtbox = NodePath("../Hurtbox")
+[node name="LockableTarget" type="Node3D" parent="." node_paths=PackedStringArray("lock_point","collision_body")]
+script = ExtResource("9_lock")
+target_id = &"arena_soldier"
+lock_point = NodePath("AimPoint")
+collision_body = NodePath("..")
+[node name="AimPoint" type="Marker3D" parent="LockableTarget"]
+position = Vector3(0,1.25,0)
+
+[node name="SoldierAI" type="Node" parent="." node_paths=PackedStringArray("actor")]
+process_physics_priority = -10
+script = ExtResource("2_ai")
+actor = NodePath("..")
+
+[node name="StatusLabel" type="Label3D" parent="."]
+position = Vector3(0,2.2,0)
+billboard = 1
+font_size = 24
+pixel_size = 0.004
+text = "SOLDADO"

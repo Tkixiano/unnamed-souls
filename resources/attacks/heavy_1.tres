@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+attack_name = &"HEAVY_1"
+startup = 0.55
+active = 0.20
+recovery = 0.65
+damage = 45.0
+stamina_cost = 35.0
+blockable = true
+parryable = false
+stamina_damage = 65.0
+combo_open = 0.0
+combo_close = 0.0

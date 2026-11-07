@@ -1,0 +1,61 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/props/lockable_dummy.tscn" id="1_base"]
+[ext_resource type="Script" path="res://scripts/combat/training_dummy.gd" id="2_dummy"]
+[ext_resource type="Script" path="res://scripts/systems/actor_attributes.gd" id="3_stats"]
+[ext_resource type="Script" path="res://scripts/combat/hurtbox.gd" id="4_hurt"]
+
+[ext_resource type="Script" path="res://scripts/player/action_state.gd" id="5_actions"]
+[ext_resource type="Script" path="res://scripts/combat/critical_vulnerability.gd" id="6_critical"]
+
+[sub_resource type="StandardMaterial3D" id="FrontMaterial"]
+albedo_color = Color(1,0.72,0.2,1)
+[sub_resource type="BoxMesh" id="FrontMesh"]
+material = SubResource("FrontMaterial")
+size = Vector3(0.18,0.14,0.15)
+
+[sub_resource type="CapsuleShape3D" id="HurtShape"]
+radius = 0.42
+height = 1.8
+
+[node name="TrainingDummy" instance=ExtResource("1_base")]
+script = ExtResource("2_dummy")
+
+[node name="Attributes" type="Node" parent="."]
+script = ExtResource("3_stats")
+max_stamina = 1.0
+stamina_regeneration = 0.0
+
+[node name="Hurtbox" type="Area3D" parent="." node_paths=PackedStringArray("actor","attributes","physical_body")]
+position = Vector3(0,0.9,0)
+collision_layer = 8
+collision_mask = 0
+monitoring = false
+script = ExtResource("4_hurt")
+actor = NodePath("..")
+attributes = NodePath("../Attributes")
+physical_body = NodePath("../Body")
+faction = &"training"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hurtbox"]
+shape = SubResource("HurtShape")
+
+[node name="HealthLabel" type="Label3D" parent="."]
+position = Vector3(0,2.15,0)
+billboard = 1
+font_size = 32
+pixel_size = 0.008
+outline_size = 6
+text = "VIDA 100 / 100"
+
+[node name="ActionState" type="Node" parent="."]
+script = ExtResource("5_actions")
+
+[node name="CriticalVulnerability" type="Node" parent="." node_paths=PackedStringArray("actor","hurtbox")]
+script = ExtResource("6_critical")
+actor = NodePath("..")
+hurtbox = NodePath("../Hurtbox")
+
+[node name="FacingMarker" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0,0.5,-0.4)
+mesh = SubResource("FrontMesh")

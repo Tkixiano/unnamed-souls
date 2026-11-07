@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/player_vitals_hud.gd" id="1_hud"]
+
+[sub_resource type="StyleBoxFlat" id="Background"]
+bg_color = Color(0.06, 0.07, 0.08, 0.9)
+
+[sub_resource type="StyleBoxFlat" id="Health"]
+bg_color = Color(0.62, 0.18, 0.16, 1)
+
+[sub_resource type="StyleBoxFlat" id="Stamina"]
+bg_color = Color(0.3, 0.57, 0.25, 1)
+
+[node name="PlayerVitals" type="MarginContainer"]
+offset_left = 24.0
+offset_top = 132.0
+offset_right = 324.0
+offset_bottom = 238.0
+mouse_filter = 2
+script = ExtResource("1_hud")
+
+[node name="Bars" type="VBoxContainer" parent="."]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 5
+
+[node name="HealthLabel" type="Label" parent="Bars"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "VIDA"
+
+[node name="HealthBar" type="ProgressBar" parent="Bars"]
+custom_minimum_size = Vector2(300, 16)
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/background = SubResource("Background")
+theme_override_styles/fill = SubResource("Health")
+step = 0.0
+show_percentage = false
+
+[node name="StaminaLabel" type="Label" parent="Bars"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "STAMINA"
+
+[node name="StaminaBar" type="ProgressBar" parent="Bars"]
+custom_minimum_size = Vector2(300, 16)
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/background = SubResource("Background")
+theme_override_styles/fill = SubResource("Stamina")
+step = 0.0
+show_percentage = false

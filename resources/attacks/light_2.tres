@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+attack_name = &"LIGHT_2"
+startup = 0.30
+active = 0.15
+recovery = 0.45
+damage = 25.0
+stamina_cost = 20.0
+blockable = true
+parryable = true
+stamina_damage = 35.0
+combo_open = 0.0
+combo_close = 0.0

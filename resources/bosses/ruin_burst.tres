@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/bosses/boss_pattern.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/attacks/boss/ruin_burst.tres" id="2"]
+[resource]
+script = ExtResource("1")
+pattern_id = &"RUIN_BURST"
+attacks = Array[Resource]([ExtResource("2")])
+maximum_distance = 3.0
+half_angle = 180.0
+cooldown = 7.0
+phase_one_weight = 0.0
+phase_two_weight = 0.65

@@ -1,0 +1,211 @@
+[gd_scene load_steps=36 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/player_controller.gd" id="1_controller"]
+[ext_resource type="Script" path="res://scripts/systems/actor_attributes.gd" id="2_attributes"]
+[ext_resource type="Script" path="res://scripts/player/action_state.gd" id="3_actions"]
+[ext_resource type="Script" path="res://scripts/player/dodge_controller.gd" id="4_dodge"]
+[ext_resource type="Resource" path="res://resources/dodges/fast.tres" id="5_fast"]
+[ext_resource type="Resource" path="res://resources/dodges/medium.tres" id="6_medium"]
+[ext_resource type="Resource" path="res://resources/dodges/heavy.tres" id="7_heavy"]
+[ext_resource type="Resource" path="res://resources/dodges/backstep.tres" id="8_backstep"]
+[ext_resource type="Script" path="res://scripts/player/attack_controller.gd" id="9_attack"]
+[ext_resource type="Resource" path="res://resources/attacks/light_1.tres" id="10_light"]
+[ext_resource type="Resource" path="res://resources/attacks/light_2.tres" id="11_light"]
+[ext_resource type="Resource" path="res://resources/attacks/heavy_1.tres" id="12_heavy"]
+[ext_resource type="Script" path="res://scripts/combat/attack_hitbox.gd" id="13_hit"]
+[ext_resource type="Script" path="res://scripts/combat/hurtbox.gd" id="14_hurt"]
+
+[ext_resource type="Script" path="res://scripts/combat/defense_controller.gd" id="15_defense"]
+[ext_resource type="Script" path="res://scripts/combat/riposte_controller.gd" id="16_riposte"]
+[ext_resource type="Script" path="res://scripts/combat/critical_vulnerability.gd" id="17_critical"]
+
+[ext_resource type="Script" path="res://scripts/player/grip_controller.gd" id="18_grip"]
+[ext_resource type="Script" path="res://scripts/player/estus_controller.gd" id="19_estus"]
+[ext_resource type="Resource" path="res://resources/attacks/two_hand_light_1.tres" id="20_two_light"]
+[ext_resource type="Resource" path="res://resources/attacks/two_hand_light_2.tres" id="21_two_light"]
+[ext_resource type="Resource" path="res://resources/attacks/two_hand_heavy_1.tres" id="22_two_heavy"]
+
+[sub_resource type="StandardMaterial3D" id="FlaskMaterial"]
+albedo_color = Color(1,0.68,0.15,1)
+roughness = 1.0
+
+[sub_resource type="CylinderMesh" id="FlaskMesh"]
+material = SubResource("FlaskMaterial")
+top_radius = 0.06
+bottom_radius = 0.09
+height = 0.25
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="ShieldMaterial"]
+albedo_color = Color(0.25,0.45,0.7,1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="ShieldMesh"]
+material = SubResource("ShieldMaterial")
+size = Vector3(0.55,0.8,0.12)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape_player"]
+radius = 0.35
+height = 1.8
+
+[sub_resource type="StandardMaterial3D" id="Material_player"]
+albedo_color = Color(0.55, 0.65, 0.72, 1)
+roughness = 1.0
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_player"]
+material = SubResource("Material_player")
+radius = 0.35
+height = 1.8
+radial_segments = 16
+rings = 8
+
+[sub_resource type="StandardMaterial3D" id="Material_facing"]
+albedo_color = Color(0.86, 0.55, 0.23, 1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="Mesh_facing"]
+material = SubResource("Material_facing")
+size = Vector3(0.18, 0.14, 0.24)
+
+[sub_resource type="CapsuleShape3D" id="HurtShape"]
+radius = 0.42
+height = 1.8
+
+[sub_resource type="BoxShape3D" id="HitShape"]
+size = Vector3(1.5,1.6,1.8)
+
+[sub_resource type="StandardMaterial3D" id="SwordMaterial"]
+albedo_color = Color(0.72,0.74,0.78,1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="SwordMesh"]
+material = SubResource("SwordMaterial")
+size = Vector3(0.08,0.08,1.3)
+
+[node name="Player" type="CharacterBody3D"]
+collision_layer = 2
+collision_mask = 1
+floor_snap_length = 0.25
+floor_max_angle = 0.7853982
+floor_stop_on_slope = true
+floor_constant_speed = true
+script = ExtResource("1_controller")
+
+[node name="Attributes" type="Node" parent="."]
+process_physics_priority = 30
+script = ExtResource("2_attributes")
+
+[node name="ActionState" type="Node" parent="."]
+script = ExtResource("3_actions")
+
+[node name="DodgeController" type="Node" parent="." node_paths=PackedStringArray("player")]
+script = ExtResource("4_dodge")
+player = NodePath("..")
+fast_profile = ExtResource("5_fast")
+medium_profile = ExtResource("6_medium")
+heavy_profile = ExtResource("7_heavy")
+backstep_profile = ExtResource("8_backstep")
+
+[node name="AttackController" type="Node" parent="." node_paths=PackedStringArray("player","combat_pivot","hitbox","sword_mesh")]
+script = ExtResource("9_attack")
+player = NodePath("..")
+combat_pivot = NodePath("../CombatPivot")
+hitbox = NodePath("../CombatPivot/Hitbox")
+sword_mesh = NodePath("../CombatPivot/Sword")
+light_1 = ExtResource("10_light")
+light_2 = ExtResource("11_light")
+heavy_1 = ExtResource("12_heavy")
+
+[node name="CombatPivot" type="Node3D" parent="."]
+
+[node name="Sword" type="MeshInstance3D" parent="CombatPivot"]
+position = Vector3(0.45,1.0,-0.8)
+mesh = SubResource("SwordMesh")
+
+[node name="Hitbox" type="Area3D" parent="CombatPivot"]
+position = Vector3(0,1.0,-1.2)
+collision_layer = 0
+collision_mask = 8
+monitoring = false
+monitorable = false
+script = ExtResource("13_hit")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CombatPivot/Hitbox"]
+shape = SubResource("HitShape")
+disabled = true
+
+[node name="Hurtbox" type="Area3D" parent="." node_paths=PackedStringArray("actor","attributes","physical_body")]
+position = Vector3(0,0.9,0)
+collision_layer = 8
+collision_mask = 0
+monitoring = false
+script = ExtResource("14_hurt")
+actor = NodePath("..")
+attributes = NodePath("../Attributes")
+physical_body = NodePath("..")
+faction = &"player"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hurtbox"]
+shape = SubResource("HurtShape")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.9, 0)
+shape = SubResource("CapsuleShape_player")
+
+[node name="Visual" type="Node3D" parent="."]
+
+[node name="Placeholder" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.9, 0)
+mesh = SubResource("CapsuleMesh_player")
+
+[node name="FacingMarker" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 1.4, -0.35)
+mesh = SubResource("Mesh_facing")
+
+[node name="Shield" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.3,1.0,-0.5)
+mesh = SubResource("ShieldMesh")
+visible = false
+
+[node name="DefenseController" type="Node" parent="." node_paths=PackedStringArray("player","shield_mesh")]
+script = ExtResource("15_defense")
+player = NodePath("..")
+shield_mesh = NodePath("../Visual/Shield")
+
+[node name="RiposteController" type="Node" parent="." node_paths=PackedStringArray("player")]
+script = ExtResource("16_riposte")
+player = NodePath("..")
+
+[node name="CriticalVulnerability" type="Node" parent="." node_paths=PackedStringArray("actor","hurtbox")]
+script = ExtResource("17_critical")
+actor = NodePath("..")
+hurtbox = NodePath("../Hurtbox")
+
+[node name="LoweredShield" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.4,0.85,-0.2)
+mesh = SubResource("ShieldMesh")
+
+[node name="Flask" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.35,1.3,-0.4)
+mesh = SubResource("FlaskMesh")
+visible = false
+
+[node name="SecondHand" type="MeshInstance3D" parent="CombatPivot"]
+position = Vector3(-0.12,1.0,-0.35)
+mesh = SubResource("Mesh_facing")
+visible = false
+
+[node name="GripController" type="Node" parent="." node_paths=PackedStringArray("player","sword","lowered_shield","second_hand")]
+script = ExtResource("18_grip")
+player = NodePath("..")
+sword = NodePath("../CombatPivot/Sword")
+lowered_shield = NodePath("../Visual/LoweredShield")
+second_hand = NodePath("../CombatPivot/SecondHand")
+two_hand_light_1 = ExtResource("20_two_light")
+two_hand_light_2 = ExtResource("21_two_light")
+two_hand_heavy_1 = ExtResource("22_two_heavy")
+
+[node name="EstusController" type="Node" parent="." node_paths=PackedStringArray("player","flask")]
+script = ExtResource("19_estus")
+player = NodePath("..")
+flask = NodePath("../Visual/Flask")

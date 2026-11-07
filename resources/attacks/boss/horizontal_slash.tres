@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[sub_resource type="BoxShape3D" id="Shape"]
+size = Vector3(5,2,2.6)
+[resource]
+script = ExtResource("1")
+attack_name = &"HORIZONTAL_SLASH"
+startup = 0.7
+active = 0.2
+recovery = 0.8
+damage = 24
+stamina_damage = 35
+stamina_cost = 14
+blockable = true
+parryable = false
+combo_open = 0.0
+combo_close = 0.0
+turn_speed = 65.0
+correction_limit = 20.0
+hitbox_shape = SubResource("Shape")
+hitbox_offset = Vector3(0,1.4,-1.7)

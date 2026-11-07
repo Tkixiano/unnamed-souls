@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/player/dodge_profile.gd" id="1"]
+[resource]
+script = ExtResource("1")
+profile_name = &"BACKSTEP"
+total_duration = 0.45
+movement_duration = 0.18
+distance = 1.0
+invulnerability_start = 0.0
+invulnerability_end = 0.10
+recovery = 0.18

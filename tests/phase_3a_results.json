@@ -1,0 +1,93 @@
+{
+	"checks": {
+		"active_direction_committed": true,
+		"active_hitbox_and_damage": true,
+		"alert_is_readable_pause": true,
+		"alert_to_chase_and_approach": true,
+		"all_player_components_and_ai_enabled": true,
+		"autonomous_attack_reached": true,
+		"backstab_against_live_ai_actor": true,
+		"backstab_damage_once": true,
+		"backstab_restores_enemy_action_state": true,
+		"below_threshold_damage_no_stagger": true,
+		"brief_occlusion_keeps_target": true,
+		"complete_attack_then_decision_pause": true,
+		"contact_parry_interrupts_enemy": true,
+		"critical_death_fixture_starts_backstab": true,
+		"critical_reservation_released": true,
+		"critical_test_lethal_damage_applied": true,
+		"damage_interrupts_startup_into_stagger": true,
+		"damage_stagger_recovers": true,
+		"death_disables_ai_hitbox_and_target": true,
+		"death_during_critical_releases_reservation": true,
+		"detection_enters_alert": true,
+		"enemy_dies_via_shared_hurtbox": true,
+		"enemy_lockable": true,
+		"extended_occlusion_returns_home": true,
+		"guard_stamina_cost_exact": true,
+		"leash_enters_returning": true,
+		"lock_released_after_enemy_death": true,
+		"no_ai_attack_against_dead_player": true,
+		"no_damage_before_startup_end": true,
+		"no_postmortem_attack_damage": true,
+		"normal_player_attack_starts_frontally": true,
+		"parried_enemy_vulnerable_and_incapacitated": true,
+		"parry_starts_against_ai_attack": true,
+		"phase_durations_quantized_to_physics": true,
+		"progressive_facing_toward_player": true,
+		"real_attack_respects_dodge_iframes": true,
+		"real_enemy_guard_break": true,
+		"real_enemy_hit_blocked": true,
+		"real_hitbox_damage_to_enemy": true,
+		"recovery_hitbox_off": true,
+		"returns_home_without_teleport": true,
+		"riposte_on_ai_enemy": true,
+		"riposte_single_damage_to_enemy": true,
+		"single_damage_per_attack": true,
+		"startup_has_no_hitbox_or_damage": true,
+		"stops_in_attack_range": true,
+		"target_death_interrupts_existing_startup": true
+	},
+	"component_checks": {
+		"attack_resource_parameters": true,
+		"body_width_probe_rejects_obstacle": true,
+		"bounded_attack_burst_has_extended_pause": true,
+		"clear_short_path_remains_valid": true,
+		"dead_player_not_detected": true,
+		"distance_rejects_outside_radius": true,
+		"edge_ground_probe_rejects_void": true,
+		"idle_initial": true,
+		"line_of_sight_rejects_solid_wall": true,
+		"perception_in_distance_and_cone": true,
+		"scene_required_nodes_and_shared_attack_script": true,
+		"seeded_wait_reproducible": true,
+		"vision_rejects_behind": true,
+		"wait_variation_bounded": true
+	},
+	"failed": [],
+	"measurements": {
+		"attack_phase_events": [
+			[
+				1,
+				0.0
+			],
+			[
+				2,
+				0.55
+			],
+			[
+				3,
+				0.733333333333334
+			],
+			[
+				0,
+				1.48333333333333
+			]
+		],
+		"return_maximum_observed_step": 0.0222222805023193
+	},
+	"passed": 61,
+	"physical_devices": [],
+	"status": "complete",
+	"total": 61
+}

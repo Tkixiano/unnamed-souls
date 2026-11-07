@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/orbit_camera.gd" id="1_rig"]
+[ext_resource type="Script" path="res://scripts/systems/camera_spring_arm.gd" id="2_arm"]
+
+[sub_resource type="SphereShape3D" id="CameraSweep"]
+radius = 0.25
+
+[node name="CameraRig" type="Node3D"]
+process_physics_priority = 10
+physics_interpolation_mode = 1
+script = ExtResource("1_rig")
+
+[node name="YawPivot" type="Node3D" parent="."]
+
+[node name="PitchPivot" type="Node3D" parent="YawPivot"]
+rotation = Vector3(-0.31415927, 0, 0)
+
+[node name="SpringArm3D" type="SpringArm3D" parent="YawPivot/PitchPivot"]
+process_physics_priority = 20
+spring_length = 4.5
+margin = 0.08
+collision_mask = 1
+shape = SubResource("CameraSweep")
+script = ExtResource("2_arm")
+
+[node name="Camera3D" type="Camera3D" parent="YawPivot/PitchPivot/SpringArm3D"]
+position = Vector3(0, 0, 4.5)
+current = true
+fov = 60.0
+near = 0.05
+far = 60.0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/combat/attack_data.gd" id="1"]
+[sub_resource type="BoxShape3D" id="Shape"]
+size = Vector3(1.6,2.7,3.4)
+[resource]
+script = ExtResource("1")
+attack_name = &"VERTICAL_SLAM"
+startup = 1.05
+active = 0.18
+recovery = 1.15
+damage = 36
+stamina_damage = 90
+stamina_cost = 20
+blockable = true
+parryable = false
+combo_open = 0.0
+combo_close = 0.0
+turn_speed = 65.0
+correction_limit = 20.0
+hitbox_shape = SubResource("Shape")
+hitbox_offset = Vector3(0,1.4,-1.9)
