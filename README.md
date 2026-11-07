@@ -1,7 +1,10 @@
 # Soul game — Fase 3C
 
-Jefe de prueba: abrir `scenes/levels/boss_arena.tscn` y pulsar **F6**.
-**F5** conserva la arena principal. Avanzá desde la hoguera hacia la entrada.
+**F5** abre el selector temporal de arenas, también usado al iniciar una exportación.
+Elegí Arena de pruebas o Arena del jefe. **Escape / Menu / Options** o el botón
+Menú regresa al selector desde ambas arenas. No pausa ni conserva el combate al salir.
+Para probar una arena directamente, abrila y pulsá **F6**.
+En el jefe, avanzá desde la hoguera hacia la entrada.
 
 Base técnica con locomoción analógica para Godot 4.6.x / GDScript. Abrir
 `project.godot` y ejecutar la escena principal con F5 (F6 ejecuta la escena abierta).
@@ -41,8 +44,8 @@ daño, parry, riposte y backstab. La hoguera permite descansar y reaparecer al m
 | Estus | E |
 | Una/dos manos | R |
 | Interactuar | F: encender / descansar cerca de la hoguera |
-| Confirmar / cancelar menú | Enter / Retroceso (acciones preparadas; sin menús todavía) |
-| Pausa | Escape (binding preparado; la pausa de juego todavía no está implementada) |
+| Confirmar / cancelar menú | Enter / A / Cruz para confirmar en el selector |
+| Pausa | Escape / Menu / Options: volver al selector (no es pausa) |
 | Pantalla completa | F11 |
 | Ataques técnicos | F1 frontal, F2 no parryable, F3 trasero, F4 rompeguardia |
 | Reiniciar prueba | F5 desde el editor de Godot |
@@ -749,3 +752,21 @@ la escena principal. El Guardián de las Ruinas usa combate compartido, tres pat
 iniciales y un área advertida en fase 2. F para hoguera; los controles previos
 siguen disponibles. La derrota/victoria y los reintentos usan los checkpoints.
 [Informe 3C](tests/phase_3c_results.md): arquitectura, parámetros, políticas y validación.
+
+
+## Selector temporal de desarrollo
+
+`scenes/ui/arena_selector.tscn` es la escena principal actual. Tiene guía de
+controles, selección con mouse/teclado/mando y salida del juego. Referencia las
+arenas mediante PackedScene exportadas para incluir sus dependencias al exportar.
+Los mandos genéricos requieren mapeo reconocido.
+
+El selector es independiente: para reemplazarlo después basta cambiar la escena
+principal en Proyecto > Ajustes del proyecto > Aplicación > Ejecutar. Las arenas
+se siguen ejecutando por separado. `ArenaMenuLink` es una instancia opcional
+en cada arena; se puede quitar o cambiar su ruta de menú sin tocar el combate.
+No se agregó ningún autoload ni se modificó InputMap. Volver al selector descarga
+la arena; entrar otra vez inicia una prueba nueva, excepto la derrota del jefe
+que sigue conservándose durante la misma ejecución. Cerrar el juego la reinicia.
+
+Validación del selector: [resultado](tests/arena_selector_results.md).

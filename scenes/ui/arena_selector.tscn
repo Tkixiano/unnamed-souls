@@ -1,0 +1,128 @@
+[gd_scene load_steps=8 format=3]
+[ext_resource type="Script" path="res://scripts/systems/arena_selector.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/levels/test_arena.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/levels/boss_arena.tscn" id="3"]
+[sub_resource type="StyleBoxFlat" id="Normal"]
+bg_color = Color(0.12,0.16,0.2,1)
+content_margin_left = 16.0
+content_margin_right = 16.0
+content_margin_top = 18.0
+content_margin_bottom = 18.0
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_left = 6
+corner_radius_bottom_right = 6
+[sub_resource type="StyleBoxFlat" id="Hover"]
+bg_color = Color(0.22,0.27,0.31,1)
+content_margin_top = 18.0
+content_margin_bottom = 18.0
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0,0,0,0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.92,0.7,0.36,1)
+[sub_resource type="Theme" id="Theme"]
+default_font_size = 16
+Label/colors/font_color = Color(0.87,0.9,0.92,1)
+Button/styles/normal = SubResource("Normal")
+Button/styles/hover = SubResource("Hover")
+Button/styles/pressed = SubResource("Hover")
+Button/styles/focus = SubResource("Focus")
+[node name="ArenaSelector" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme")
+script = ExtResource("1")
+test_arena = ExtResource("2")
+boss_arena = ExtResource("3")
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color(0.035,0.05,0.065,1)
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_bottom = 24
+[node name="Layout" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 14
+[node name="Title" type="Label" parent="Margin/Layout"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "SOUL GAME / PRUEBAS DE DESARROLLO"
+[node name="Subtitle" type="Label" parent="Margin/Layout"]
+layout_mode = 2
+text = "Elegí una arena. Geometría provisional y sistemas en desarrollo."
+[node name="Separator" type="HSeparator" parent="Margin/Layout"]
+layout_mode = 2
+[node name="Content" type="HBoxContainer" parent="Margin/Layout"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 30
+[node name="Choices" type="VBoxContainer" parent="Margin/Layout/Content"]
+custom_minimum_size = Vector2(255,0)
+layout_mode = 2
+theme_override_constants/separation = 14
+[node name="Heading" type="Label" parent="Margin/Layout/Content/Choices"]
+layout_mode = 2
+text = "SELECCIONAR ARENA"
+theme_override_colors/font_color = Color(0.92,0.7,0.36,1)
+[node name="Test" type="Button" parent="Margin/Layout/Content/Choices"]
+layout_mode = 2
+text = "Arena de pruebas"
+[node name="TestInfo" type="Label" parent="Margin/Layout/Content/Choices"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Soldado, muñecos técnicos,\nhoguera y pruebas de combate."
+[node name="Boss" type="Button" parent="Margin/Layout/Content/Choices"]
+layout_mode = 2
+text = "Arena del jefe"
+[node name="BossInfo" type="Label" parent="Margin/Layout/Content/Choices"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Guardián de las Ruinas.\nCruzá la entrada para comenzar."
+[node name="Quit" type="Button" parent="Margin/Layout/Content/Choices"]
+layout_mode = 2
+text = "Salir"
+[node name="Hint" type="Label" parent="Margin/Layout/Content/Choices"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Menú: flechas / WASD / cruceta\no stick izquierdo.\nConfirmar: Enter / A / Cruz.\nTambién podés usar el mouse."
+[node name="Guide" type="VBoxContainer" parent="Margin/Layout/Content"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+[node name="Heading" type="Label" parent="Margin/Layout/Content/Guide"]
+layout_mode = 2
+text = "CONTROLES DE JUEGO"
+theme_override_colors/font_color = Color(0.92,0.7,0.36,1)
+[node name="Bindings" type="GridContainer" parent="Margin/Layout/Content/Guide"]
+layout_mode = 2
+columns = 3
+theme_override_constants/h_separation = 18
+theme_override_constants/v_separation = 5
+[node name="Notes" type="Label" parent="Margin/Layout/Content/Guide"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "Escudo y parry requieren una mano. Carrera: mantener 0,25 s con dirección.\nF1–F4: ataques del muñeco técnico (solo arena de pruebas).\nMandos genéricos: requieren un mapeo reconocido; los botones físicos pueden variar."
+[node name="Status" type="Label" parent="Margin/Layout"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+[node name="Footer" type="Label" parent="Margin/Layout"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "Sin guardado en disco. La victoria del jefe se conserva durante esta ejecución; cerrá y abrí el juego para reiniciarla."
