@@ -1,0 +1,1320 @@
+{
+  "scripts/bosses/boss_hud.gd": {
+    "extends": [
+      "Control"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_on_health(current: float, maximum: float) -> void:",
+      "_on_phase(phase: int) -> void:",
+      "_on_state(_previous: int, current: int) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var boss: CharacterBody3D"
+    ]
+  },
+  "scripts/bosses/boss_pattern.gd": {
+    "extends": [
+      "Resource"
+    ],
+    "methods": [
+      "is_valid() -> bool:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var pattern_id: StringName",
+      "@export var attacks: Array[Resource] = []",
+      "@export var minimum_distance: float = 0.0",
+      "@export var maximum_distance: float = 3.0",
+      "@export var half_angle: float = 65.0",
+      "@export var cooldown: float = 3.0",
+      "@export var phase_one_weight: float = 1.0",
+      "@export var phase_two_weight: float = 1.0"
+    ]
+  },
+  "scripts/bosses/encounter_entry.gd": {
+    "extends": [
+      "Area3D"
+    ],
+    "methods": [
+      "_physics_process(_delta: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var boss: CharacterBody3D",
+      "@export var player: CharacterBody3D",
+      "@export var enabled: bool = true"
+    ]
+  },
+  "scripts/bosses/guardian_brain.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "reset_brain() -> void:",
+      "state_name() -> String:",
+      "target_alive() -> bool:",
+      "direction_to_target() -> Vector3:",
+      "inside_arena(point: Vector3) -> bool:",
+      "start_encounter() -> bool:",
+      "_physics_process(delta: float) -> void:",
+      "_move(direction: Vector3) -> void:",
+      "eligible_patterns() -> Array[Resource]:",
+      "choose_pattern() -> Resource:",
+      "start_pattern(id: StringName) -> bool:",
+      "_start_hit() -> bool:",
+      "_on_attack_finished(_name: StringName, completed: bool) -> void:",
+      "_on_attack_phase(phase: int) -> void:",
+      "_on_health_changed(current: float, maximum: float) -> void:",
+      "_begin_transition() -> void:",
+      "_on_impact(result: Dictionary) -> void:",
+      "_next_wait() -> float:",
+      "_end_encounter(reason: StringName) -> void:",
+      "_on_died() -> void:",
+      "_change(next: State) -> void:"
+    ],
+    "signals": [
+      "state_changed(previous: State, current: State)",
+      "encounter_started",
+      "encounter_ended(reason: StringName)",
+      "phase_changed(phase: int)",
+      "victory",
+      "pattern_started(id: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd",
+      "res://scripts/enemies/enemy_world_queries.gd",
+      "res://scripts/combat/attack_variant.gd"
+    ],
+    "exports": [
+      "@export var actor: CharacterBody3D",
+      "@export var target: CharacterBody3D",
+      "@export var warning_mesh: MeshInstance3D",
+      "@export var transition_marker: MeshInstance3D",
+      "@export var patterns: Array[Resource] = []",
+      "@export var enabled: bool = true",
+      "@export_group(\"Encuentro y movimiento\")",
+      "@export var arena_half_extents: Vector2 = Vector2(8.8,8.8)",
+      "@export var arena_center: Vector3 = Vector3.ZERO",
+      "@export var intro_duration: float = 1.0",
+      "@export var preferred_distance: float = 2.7",
+      "@export var reposition_duration: float = 0.6",
+      "@export var decision_time: float = 0.85",
+      "@export var decision_variation: float = 0.15",
+      "@export var recent_pattern_limit: int = 1",
+      "@export var random_seed: int = 3301",
+      "@export_group(\"Fase 2\")",
+      "@export_range(0.1,0.9,0.05) var phase_health_ratio: float = 0.5",
+      "@export var transition_duration: float = 1.4",
+      "@export_range(0.5,1,0.05) var phase_two_recovery_multiplier: float = 0.8",
+      "@export_range(0.5,1,0.05) var phase_two_decision_multiplier: float = 0.7",
+      "@export_group(\"Stagger\")",
+      "@export var interruption_threshold: float = 55.0",
+      "@export var stagger_duration: float = 0.8"
+    ]
+  },
+  "scripts/bosses/ruins_guardian.gd": {
+    "extends": [
+      "\"res://scripts/enemies/soldier_actor.gd\""
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_remember_defeat() -> void:",
+      "get_attack_variant(_kind: int) -> Resource:",
+      "_on_phase_changed(phase: int) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [
+      "res://scripts/systems/session_progress.gd"
+    ],
+    "exports": [
+      "@export var boss_id: StringName = &\"ruins_guardian\""
+    ]
+  },
+  "scripts/combat/action_debug.gd": {
+    "extends": [
+      "Label"
+    ],
+    "methods": [
+      "_process(_delta: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var enabled: bool = true"
+    ]
+  },
+  "scripts/combat/attack_data.gd": {
+    "extends": [
+      "Resource"
+    ],
+    "methods": [
+      "snapshot() -> Dictionary:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var attack_name: StringName = &\"LIGHT_1\"",
+      "@export_range(0.01, 3.0, 0.01) var startup: float = 0.25",
+      "@export_range(0.01, 2.0, 0.01) var active: float = 0.15",
+      "@export_range(0.01, 3.0, 0.01) var recovery: float = 0.40",
+      "@export_range(0.0, 1000.0, 1.0) var damage: float = 20.0",
+      "@export_range(0.0, 100.0, 1.0) var stamina_cost: float = 18.0",
+      "@export_group(\"Propiedades defensivas explícitas\")",
+      "@export var blockable: bool = false",
+      "@export var parryable: bool = false",
+      "@export var damage_type: StringName = &\"physical\"",
+      "@export_range(0.0, 1000.0, 1.0) var stamina_damage: float = 0.0",
+      "@export_group(\"Combo LIGHT_1\")",
+      "@export_range(0.0, 3.0, 0.01) var combo_open: float = 0.40",
+      "@export_range(0.0, 3.0, 0.01) var combo_close: float = 0.72",
+      "@export_range(0.01, 2.0, 0.01) var buffer_lifetime: float = 0.50",
+      "@export_group(\"Orientación durante startup\")",
+      "@export_range(0.0, 360.0, 1.0) var turn_speed: float = 100.0",
+      "@export_range(0.0, 90.0, 1.0) var correction_limit: float = 30.0",
+      "@export_group(\"Volumen opcional del golpe\")",
+      "@export var hitbox_shape: Shape3D",
+      "@export var hitbox_offset: Vector3 = Vector3(0,1,-1.2)"
+    ]
+  },
+  "scripts/combat/attack_debug.gd": {
+    "extends": [
+      "Label"
+    ],
+    "methods": [
+      "_process(_delta: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var attack_controller: Node"
+    ]
+  },
+  "scripts/combat/attack_hitbox.gd": {
+    "extends": [
+      "Area3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "configure_volume(data: Dictionary = {}) -> void:",
+      "begin_swing(attacker: Node, faction: StringName, damage: float, swing_id: int, context: Dictionary = {}) -> void:",
+      "is_active() -> bool:",
+      "set_attack_direction(direction: Vector3) -> void:",
+      "set_active(value: bool) -> void:",
+      "sample_hits() -> void:",
+      "_unobstructed(hurtbox: Hurtbox) -> bool:"
+    ],
+    "signals": [
+      "hit_confirmed(actor: Node, damage: float, swing_id: int)",
+      "impact_resolved(actor: Node, result: Dictionary)"
+    ],
+    "dependencies": [
+      "res://scripts/combat/hurtbox.gd",
+      "res://scripts/combat/combat_debug_geometry.gd"
+    ],
+    "exports": [
+      "@export var debug_enabled: bool = true"
+    ]
+  },
+  "scripts/combat/attack_variant.gd": {
+    "extends": [
+      "Resource"
+    ],
+    "methods": [
+      "snapshot() -> Dictionary:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var source: Resource",
+      "@export var attack_name: StringName = &\"TWO_HAND_LIGHT_1\"",
+      "@export_range(0.1,4.0,0.05) var damage_multiplier: float = 1.35",
+      "@export_range(0.1,4.0,0.05) var stamina_multiplier: float = 1.2",
+      "@export_range(0.5,2.0,0.05) var startup_multiplier: float = 1.0",
+      "@export_range(0.5,2.0,0.05) var recovery_multiplier: float = 1.0"
+    ]
+  },
+  "scripts/combat/combat_debug_geometry.gd": {
+    "extends": [
+      "RefCounted"
+    ],
+    "methods": [],
+    "signals": [],
+    "dependencies": [],
+    "exports": []
+  },
+  "scripts/combat/critical_vulnerability.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "open_from_parry(duration: float) -> bool:",
+      "is_available() -> bool:",
+      "_open_unreserved() -> bool:",
+      "_valid_actor() -> bool:",
+      "can_backstab() -> bool:",
+      "reserve_backstab(requester: Node) -> bool:",
+      "is_reserved() -> bool:",
+      "reserve(requester: Node) -> bool:",
+      "authorize_damage(requester: Node) -> bool:",
+      "finish_reservation(requester: Node) -> void:",
+      "_physics_process(delta: float) -> void:",
+      "_close() -> void:",
+      "_on_state_changed(_previous: int, current: int) -> void:",
+      "_reset() -> void:"
+    ],
+    "signals": [
+      "changed"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var actor: Node3D",
+      "@export var hurtbox: Area3D",
+      "@export var parry_allowed: bool = true",
+      "@export var riposte_allowed: bool = true",
+      "@export var backstab_allowed: bool = true"
+    ]
+  },
+  "scripts/combat/defense_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "_input(event: InputEvent) -> void:",
+      "process_requests() -> void:",
+      "is_blocking() -> bool:",
+      "try_parry() -> bool:",
+      "advance_clock(delta: float) -> void:",
+      "resolve_contact(attacker: Node3D, packet: Dictionary) -> Dictionary:",
+      "_end_owned() -> void:",
+      "release_for_grip() -> void:",
+      "_on_state_changed(_previous: int, current: int) -> void:",
+      "_reset() -> void:",
+      "_event(value: StringName) -> void:"
+    ],
+    "signals": [
+      "defense_event(event: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var shield_mesh: MeshInstance3D",
+      "@export var input_enabled: bool = true",
+      "@export var debug_enabled: bool = true",
+      "@export_group(\"Escudo\")",
+      "@export_range(0,100) var absorption: float = 100.0",
+      "@export_range(0,100) var stability: float = 60.0",
+      "@export_range(1,180) var frontal_cone: float = 120.0",
+      "@export_range(0,1) var movement_multiplier: float = 0.45",
+      "@export_range(0,1) var regeneration_multiplier: float = 0.2",
+      "@export var locked_turn_speed: float = 120.0",
+      "@export_group(\"Guard break\")",
+      "@export var guard_break_recovery: float = 1.0",
+      "@export var guard_break_health_multiplier: float = 1.0",
+      "@export_group(\"Parry\")",
+      "@export var parry_startup: float = 0.12",
+      "@export var parry_active: float = 0.15",
+      "@export var parry_recovery: float = 0.55",
+      "@export var parry_cost: float = 15.0",
+      "@export var vulnerability_duration: float = 1.8"
+    ]
+  },
+  "scripts/combat/defense_debug.gd": {
+    "extends": [
+      "Label"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_process(delta: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var test_attacker: CharacterBody3D",
+      "@export var enabled: bool = true"
+    ]
+  },
+  "scripts/combat/defense_test_attacker.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "reset_after_checkpoint() -> void:",
+      "_unhandled_input(event: InputEvent) -> void:",
+      "_physics_process(_delta: float) -> void:",
+      "execute_test(kind: int) -> bool:",
+      "_update_health(current: float, maximum: float) -> void:",
+      "_disable_target() -> void:",
+      "_restore_target() -> void:"
+    ],
+    "signals": [],
+    "dependencies": [
+      "res://scripts/combat/attack_data.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var attacker: CharacterBody3D",
+      "@export var target: Node3D",
+      "@export var label: Label3D",
+      "@export var technical_input_enabled: bool = true"
+    ]
+  },
+  "scripts/combat/hurtbox.gd": {
+    "extends": [
+      "Area3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "set_debug_enabled(value: bool) -> void:",
+      "can_target(attacker: Node, attacker_faction: StringName) -> bool:",
+      "can_receive(attacker: Node, attacker_faction: StringName) -> bool:",
+      "receive_hit(attacker: Node, attacker_faction: StringName, damage: float, swing_id: int, context: Dictionary = {}) -> float:",
+      "resolve_hit(attacker: Node, attacker_faction: StringName, damage: float, swing_id: int, context: Dictionary = {}) -> Dictionary:"
+    ],
+    "signals": [
+      "damage_received(amount: float, attacker: Node, swing_id: int)",
+      "impact_resolved(result: Dictionary)"
+    ],
+    "dependencies": [
+      "res://scripts/systems/actor_attributes.gd",
+      "res://scripts/combat/combat_debug_geometry.gd"
+    ],
+    "exports": [
+      "@export var actor: Node",
+      "@export var attributes: Attributes",
+      "@export var physical_body: CollisionObject3D",
+      "@export var faction: StringName = &\"\"",
+      "@export var enabled: bool = true",
+      "@export var debug_enabled: bool = true"
+    ]
+  },
+  "scripts/combat/riposte_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "is_active() -> bool:",
+      "try_contextual() -> int:",
+      "advance_clock(delta: float) -> void:",
+      "after_physics_step() -> void:",
+      "current_critical_name() -> StringName:",
+      "_within_reach(candidate: Node, kind: CriticalKind) -> bool:",
+      "_finish() -> void:",
+      "_cancel() -> void:",
+      "_on_state_changed(_previous: int, current: int) -> void:"
+    ],
+    "signals": [
+      "riposte_event(event: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var distance: float = 2.1",
+      "@export var facing_angle: float = 45.0",
+      "@export var target_facing_angle: float = 60.0",
+      "@export var stamina_cost: float = 30.0",
+      "@export var damage: float = 120.0",
+      "@export var duration: float = 1.05",
+      "@export var damage_time: float = 0.35",
+      "@export_group(\"Backstab\")",
+      "@export var backstab_enabled: bool = true",
+      "@export var backstab_distance: float = 1.6",
+      "@export_range(1,80,1) var backstab_rear_half_angle: float = 40.0",
+      "@export_range(1,80,1) var backstab_facing_half_angle: float = 45.0",
+      "@export var backstab_cost: float = 30.0",
+      "@export var backstab_damage: float = 140.0",
+      "@export var backstab_duration: float = 1.2",
+      "@export var backstab_damage_time: float = 0.45"
+    ]
+  },
+  "scripts/combat/training_dummy.gd": {
+    "extends": [
+      "\"res://scripts/systems/lockable_target.gd\""
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_on_health_changed(_current: float, _maximum: float) -> void:",
+      "_on_hit(amount: float, _attacker: Node, _swing_id: int) -> void:",
+      "_on_died() -> void:",
+      "_on_restored() -> void:",
+      "_update_label() -> void:",
+      "set_combat_debug(value: bool) -> void:",
+      "get_critical_vulnerability() -> Node:",
+      "is_critical_committed() -> bool:",
+      "can_receive_attack() -> bool:",
+      "interrupt_attack_for_critical() -> bool:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var combat_faction: StringName = &\"training\""
+    ]
+  },
+  "scripts/enemies/enemy_world_queries.gd": {
+    "extends": [
+      "RefCounted"
+    ],
+    "methods": [],
+    "signals": [],
+    "dependencies": [],
+    "exports": []
+  },
+  "scripts/enemies/soldier_actor.gd": {
+    "extends": [
+      "CharacterBody3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_physics_process(delta: float) -> void:",
+      "set_move_intent(direction: Vector3) -> void:",
+      "face_direction(direction: Vector3, delta: float) -> void:",
+      "face_attack_direction(direction: Vector3) -> void:",
+      "get_attack_aim_direction() -> Vector3:",
+      "can_move() -> bool:",
+      "can_receive_attack() -> bool:",
+      "get_critical_vulnerability() -> Node:",
+      "is_critical_committed() -> bool:",
+      "interrupt_attack_for_critical() -> bool:",
+      "can_interrupt_for_backstab() -> bool:",
+      "_on_action_changed(_previous: int, _current: int) -> void:",
+      "_on_damage(_amount: float, _attacker: Node, _swing: int) -> void:",
+      "_on_died() -> void:",
+      "_on_restored() -> void:",
+      "should_restore_at_checkpoint() -> bool:",
+      "restore_at_checkpoint() -> bool:",
+      "set_combat_debug(value: bool) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var entity_kind: EntityKind = EntityKind.NORMAL_ENEMY",
+      "@export var combat_faction: StringName = &\"hostile\"",
+      "@export var speed: float = 2.0",
+      "@export var acceleration: float = 8.0",
+      "@export var turn_speed: float = 150.0",
+      "@export var debug_enabled: bool = true",
+      "@export var display_name: String = \"SOLDADO\""
+    ]
+  },
+  "scripts/enemies/soldier_ai.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "reset_brain() -> void:",
+      "state_name() -> String:",
+      "target_alive() -> bool:",
+      "direction_to_target() -> Vector3:",
+      "has_line_of_sight() -> bool:",
+      "can_detect() -> bool:",
+      "_physics_process(delta: float) -> void:",
+      "_return_home(delta: float) -> void:",
+      "_try_travel(direction: Vector3) -> void:",
+      "can_travel(direction: Vector3) -> bool:",
+      "_next_wait() -> float:",
+      "_on_attack_finished(_attack_name: StringName, completed: bool) -> void:",
+      "_on_impact(result: Dictionary) -> void:",
+      "_on_died() -> void:",
+      "_change(next: State) -> void:"
+    ],
+    "signals": [
+      "state_changed(previous: State, current: State)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd",
+      "res://scripts/enemies/enemy_world_queries.gd"
+    ],
+    "exports": [
+      "@export var actor: CharacterBody3D",
+      "@export var target: CharacterBody3D",
+      "@export var enabled: bool = true",
+      "@export_group(\"Percepción\")",
+      "@export var detection_radius: float = 7.0",
+      "@export_range(1,360,1) var vision_angle: float = 130.0",
+      "@export var loss_radius: float = 12.0",
+      "@export var unseen_tolerance: float = 1.2",
+      "@export var maximum_pursuit_distance: float = 8.0",
+      "@export var initial_delay: float = 1.0",
+      "@export var alert_duration: float = 0.45",
+      "@export_group(\"Decisiones\")",
+      "@export var preferred_distance: float = 1.85",
+      "@export var attack_range: float = 1.75",
+      "@export var attack_half_angle: float = 15.0",
+      "@export var decision_time: float = 0.9",
+      "@export var decision_variation: float = 0.2",
+      "@export var maximum_consecutive_attacks: int = 2",
+      "@export var extended_pause: float = 2.0",
+      "@export_range(0,1,0.05) var reposition_chance: float = 0.35",
+      "@export var random_seed: int = 3101",
+      "@export_group(\"Reacción\")",
+      "@export var interruption_threshold: float = 15.0",
+      "@export var stagger_duration: float = 0.65"
+    ]
+  },
+  "scripts/player/action_state.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "can_transition_to(next_state: int) -> bool:",
+      "transition_to(next_state: int) -> bool:",
+      "can_move() -> bool:",
+      "can_sprint() -> bool:",
+      "blocks_regeneration() -> bool:",
+      "reset_to_free() -> void:",
+      "claim_state(next_state: int, owner: Node) -> bool:",
+      "complete_owned_state(owner: Node) -> bool:"
+    ],
+    "signals": [
+      "state_changed(previous: State, current: State)"
+    ],
+    "dependencies": [],
+    "exports": []
+  },
+  "scripts/player/attack_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "_input(event: InputEvent) -> void:",
+      "process_pending_request() -> void:",
+      "request_attack(kind: int) -> bool:",
+      "_start(kind: int) -> bool:",
+      "is_active() -> bool:",
+      "current_attack_name() -> StringName:",
+      "has_buffered_attack() -> bool:",
+      "get_attack_direction() -> Vector3:",
+      "sync_idle_pose() -> void:",
+      "advance_clock(delta: float) -> void:",
+      "after_physics_step() -> void:",
+      "_steer(delta: float) -> void:",
+      "_change_phase(next_phase: Phase) -> void:",
+      "_complete() -> void:",
+      "_on_action_changed(_previous: int, current: int) -> void:",
+      "_on_reset() -> void:",
+      "_abort() -> void:",
+      "set_phase_from_animation(next_phase: int) -> bool:",
+      "finish_from_animation() -> bool:",
+      "interrupt_for_damage() -> bool:",
+      "interrupt_for_parry() -> bool:",
+      "refresh_debug() -> void:",
+      "_reject(reason: StringName) -> bool:"
+    ],
+    "signals": [
+      "attack_started(attack_name: StringName, swing_id: int)",
+      "phase_changed(phase: Phase)",
+      "attack_finished(attack_name: StringName, completed: bool)",
+      "attack_rejected(reason: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/combat/attack_data.gd",
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var combat_pivot: Node3D",
+      "@export var hitbox: Area3D",
+      "@export var sword_mesh: MeshInstance3D",
+      "@export var faction: StringName = &\"player\"",
+      "@export var light_1: AttackData",
+      "@export var light_2: AttackData",
+      "@export var heavy_1: AttackData",
+      "@export var input_enabled: bool = true",
+      "@export var debug_enabled: bool = true:",
+      "@export var animation_driven: bool = false"
+    ]
+  },
+  "scripts/player/defense_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "_input(event: InputEvent) -> void:",
+      "process_requests() -> void:",
+      "is_blocking() -> bool:",
+      "try_parry() -> bool:",
+      "advance_clock(delta: float) -> void:",
+      "resolve_contact(attacker: Node3D, packet: Dictionary) -> Dictionary:",
+      "_in_front(attacker: Node3D) -> bool:",
+      "_end_owned() -> void:",
+      "_on_state_changed(_previous: int, current: int) -> void:",
+      "_reset() -> void:",
+      "_event(value: StringName) -> void:"
+    ],
+    "signals": [
+      "defense_event(event: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var shield_mesh: MeshInstance3D",
+      "@export var input_enabled: bool = true",
+      "@export var debug_enabled: bool = true",
+      "@export_range(0.0,100.0,1.0) var physical_absorption: float = 100.0",
+      "@export_range(0.0,100.0,1.0) var stability: float = 60.0",
+      "@export_range(1.0,180.0,1.0) var frontal_cone: float = 120.0",
+      "@export_range(0.0,1.0,0.05) var block_movement_multiplier: float = 0.45",
+      "@export_range(0.0,1.0,0.05) var block_regeneration_multiplier: float = 0.20",
+      "@export var guard_break_recovery: float = 1.0",
+      "@export_range(0.0,1.0,0.05) var guard_break_health_multiplier: float = 1.0",
+      "@export var parry_startup: float = 0.12",
+      "@export var parry_active: float = 0.15",
+      "@export var parry_recovery: float = 0.55",
+      "@export var parry_cost: float = 15.0",
+      "@export var vulnerability_duration: float = 1.8",
+      "@export var locked_turn_speed: float = 120.0"
+    ]
+  },
+  "scripts/player/dodge_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "get_weight_class() -> WeightClass:",
+      "get_profile_name() -> StringName:",
+      "is_active() -> bool:",
+      "is_invulnerable() -> bool:",
+      "is_recovering() -> bool:",
+      "_on_button_released(_held_seconds: float, was_long_press: bool) -> void:",
+      "process_pending_request() -> void:",
+      "try_dodge(input_vector: Vector2) -> bool:",
+      "_resolve_request(input_vector: Vector2) -> Dictionary:",
+      "_start(request: Dictionary) -> bool:",
+      "advance_motion(delta: float) -> Vector3:",
+      "finish_physics_step() -> void:",
+      "_on_action_changed(_previous: int, current: int) -> void:",
+      "_on_reset() -> void:",
+      "_abort() -> void:",
+      "_reject(reason: StringName) -> bool:"
+    ],
+    "signals": [
+      "dodge_started(profile: StringName, direction: Vector3, backstep: bool)",
+      "dodge_finished",
+      "dodge_rejected(reason: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/player/dodge_profile.gd",
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export_group(\"Entrada y depuración\")",
+      "@export var input_enabled: bool = true",
+      "@export var debug_enabled: bool = true",
+      "@export_group(\"Carga provisional\")",
+      "@export_range(0.0, 200.0, 0.1, \"suffix:%\") var equipment_load_percent: float = 25.0",
+      "@export_group(\"Costes\")",
+      "@export_range(0.0, 100.0, 1.0) var roll_cost: float = 25.0",
+      "@export_range(0.0, 100.0, 1.0) var backstep_cost: float = 15.0",
+      "@export_group(\"Perfiles\")",
+      "@export var fast_profile: Profile",
+      "@export var medium_profile: Profile",
+      "@export var heavy_profile: Profile",
+      "@export var backstep_profile: Profile"
+    ]
+  },
+  "scripts/player/dodge_profile.gd": {
+    "extends": [
+      "Resource"
+    ],
+    "methods": [
+      "snapshot() -> Dictionary:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var profile_name: StringName = &\"FAST\"",
+      "@export_range(0.1, 3.0, 0.01) var total_duration: float = 0.60",
+      "@export_range(0.05, 2.0, 0.01) var movement_duration: float = 0.30",
+      "@export_range(0.0, 6.0, 0.05) var distance: float = 3.0",
+      "@export_range(0.0, 2.0, 0.01) var invulnerability_start: float = 0.04",
+      "@export_range(0.0, 2.0, 0.01) var invulnerability_end: float = 0.30",
+      "@export_range(0.0, 2.0, 0.01) var recovery: float = 0.20"
+    ]
+  },
+  "scripts/player/estus_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "_input(event: InputEvent) -> void:",
+      "process_request() -> void:",
+      "try_use() -> bool:",
+      "is_active() -> bool:",
+      "advance_clock(delta: float) -> void:",
+      "interrupt_for_stagger() -> bool:",
+      "_cancel() -> void:",
+      "_set_phase(value: Phase) -> void:",
+      "_on_state_changed(_previous: int, current: int) -> void:",
+      "_reset() -> void:"
+    ],
+    "signals": [
+      "charges_changed(current: int, capacity: int)",
+      "phase_changed(phase: Phase)",
+      "used(healing_applied: float)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var flask: MeshInstance3D",
+      "@export var input_enabled: bool = true",
+      "@export_range(0,99) var initial_charges: int = 5",
+      "@export_range(0,1000,1) var healing_amount: float = 60.0",
+      "@export_range(0.0,3.0,0.01) var preparation: float = 0.45",
+      "@export_range(0.01,3.0,0.01) var use_time: float = 0.85",
+      "@export_range(0.1,5.0,0.01) var total_duration: float = 1.5"
+    ]
+  },
+  "scripts/player/grip_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "initialize() -> void:",
+      "_input(event: InputEvent) -> void:",
+      "process_request() -> void:",
+      "try_toggle() -> bool:",
+      "is_switching() -> bool:",
+      "shield_available() -> bool:",
+      "get_critical_multiplier() -> float:",
+      "get_attack_profile(kind: int) -> Resource:",
+      "advance_clock(delta: float) -> void:",
+      "sync_visual() -> void:",
+      "_cancel() -> void:",
+      "_on_state_changed(_previous: int, current: int) -> void:",
+      "_reset() -> void:"
+    ],
+    "signals": [
+      "mode_changed(mode: Mode)",
+      "switching_changed(active: bool)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var sword: MeshInstance3D",
+      "@export var lowered_shield: MeshInstance3D",
+      "@export var second_hand: MeshInstance3D",
+      "@export var input_enabled: bool = true",
+      "@export_range(0.1,1.5,0.01) var switch_duration: float = 0.4",
+      "@export_range(0.0,1.5,0.01) var commit_time: float = 0.2",
+      "@export var two_hand_light_1: Resource",
+      "@export var two_hand_light_2: Resource",
+      "@export var two_hand_heavy_1: Resource",
+      "@export_range(1,3,0.05) var critical_damage_multiplier: float = 1.2"
+    ]
+  },
+  "scripts/player/lock_on_controller.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_on_player_action_state_changed(_previous: int, _current: int) -> void:",
+      "_input(event: InputEvent) -> void:",
+      "_physics_process(delta: float) -> void:",
+      "_exit_tree() -> void:",
+      "is_locked() -> bool:",
+      "try_acquire() -> bool:",
+      "can_acquire(target: LockableTarget) -> bool:",
+      "has_line_of_sight(target: LockableTarget) -> bool:",
+      "switch_target(direction: int) -> bool:",
+      "_update_switch() -> void:",
+      "_set_target(target: LockableTarget) -> void:",
+      "release_lock(reason: StringName = &\"manual\") -> void:",
+      "_screen_position(target: LockableTarget) -> Vector2:",
+      "_update_camera(delta: float) -> void:"
+    ],
+    "signals": [
+      "target_changed(target: LockableTarget)",
+      "lock_released(reason: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/systems/lockable_target.gd",
+      "res://scripts/player/player_controller.gd",
+      "res://scripts/systems/orbit_camera.gd"
+    ],
+    "exports": [
+      "@export_group(\"Referencias\")",
+      "@export var player: PlayerController",
+      "@export var camera_rig: OrbitCamera",
+      "@export_group(\"Adquisición y pérdida\")",
+      "@export_range(1.0, 30.0, 0.5, \"suffix:m\") var acquisition_distance: float = 14.0",
+      "@export_range(1.0, 40.0, 0.5, \"suffix:m\") var break_distance: float = 18.0",
+      "@export_range(5.0, 85.0, 1.0, \"suffix:°\") var acquisition_half_angle: float = 50.0",
+      "@export_range(0.05, 2.0, 0.05, \"suffix:s\") var occlusion_grace: float = 0.45",
+      "@export_flags_3d_physics var visibility_mask: int = 1",
+      "@export_group(\"Cambio lateral\")",
+      "@export_range(0.3, 1.0, 0.05) var switch_threshold: float = 0.65",
+      "@export_range(0.05, 0.4, 0.05) var switch_neutral: float = 0.25",
+      "@export_group(\"Encuadre\")",
+      "@export_range(0.5, 15.0, 0.5, \"suffix:1/s\") var camera_smoothing: float = 6.0",
+      "@export_range(30.0, 360.0, 5.0, \"suffix:°/s\") var maximum_camera_turn: float = 150.0",
+      "@export_range(0.1, 0.8, 0.05) var framing_weight: float = 0.5",
+      "@export_range(0.5, 4.0, 0.1, \"suffix:m\") var framing_height_bias: float = 2.0"
+    ]
+  },
+  "scripts/player/player_controller.gd": {
+    "extends": [
+      "CharacterBody3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_input(event: InputEvent) -> void:",
+      "_notification(what: int) -> void:",
+      "_physics_process(delta: float) -> void:",
+      "camera_relative_direction(input_vector: Vector2) -> Vector3:",
+      "set_movement_reference(forward: Vector3) -> void:",
+      "clear_movement_reference() -> void:",
+      "has_movement_reference() -> bool:",
+      "resolve_movement_direction(input_vector: Vector2) -> Vector3:",
+      "is_invulnerable() -> bool:",
+      "can_receive_attack() -> bool:",
+      "_update_horizontal_velocity(delta: float) -> void:",
+      "face_direction(direction: Vector3, delta: float) -> void:",
+      "face_attack_direction(direction: Vector3) -> void:",
+      "_update_locomotion_state() -> void:",
+      "_on_sprint_dodge_released(held_seconds: float, was_long_press: bool) -> void:",
+      "can_move() -> bool:",
+      "can_lock_on() -> bool:",
+      "can_accept_action_input() -> bool:",
+      "restore_at_checkpoint(spawn: Transform3D, relocate: bool = true) -> void:",
+      "_update_sprint(delta: float) -> void:",
+      "_on_died() -> void:",
+      "_on_action_state_changed(_previous: int, _current: int) -> void:",
+      "_on_fully_restored() -> void:",
+      "face_defense_direction(direction: Vector3) -> void:",
+      "get_defense_controller() -> Node:",
+      "get_riposte_controller() -> Node:",
+      "get_attack_variant(kind: int) -> Resource:",
+      "get_critical_vulnerability() -> Node:",
+      "interrupt_attack_for_critical() -> bool:",
+      "can_interrupt_for_backstab() -> bool:",
+      "is_critical_committed() -> bool:"
+    ],
+    "signals": [
+      "locomotion_state_changed(state: LocomotionState)",
+      "sprint_dodge_released(held_seconds: float, was_long_press: bool)"
+    ],
+    "dependencies": [
+      "res://scripts/player/sprint_dodge_input.gd",
+      "res://scripts/systems/actor_attributes.gd",
+      "res://scripts/player/action_state.gd",
+      "res://scripts/player/dodge_controller.gd",
+      "res://scripts/player/attack_controller.gd",
+      "res://scripts/combat/defense_controller.gd",
+      "res://scripts/combat/riposte_controller.gd",
+      "res://scripts/combat/critical_vulnerability.gd",
+      "res://scripts/player/grip_controller.gd",
+      "res://scripts/player/estus_controller.gd"
+    ],
+    "exports": [
+      "@export var controls_enabled: bool = true",
+      "@export var combat_faction: StringName = &\"player\"",
+      "@export_group(\"Locomoción\")",
+      "@export_range(0.1, 10.0, 0.1, \"suffix:m/s\") var walk_speed: float = 3.2",
+      "@export_range(0.1, 15.0, 0.1, \"suffix:m/s\") var run_speed: float = 6.0",
+      "@export_range(0.1, 60.0, 0.1, \"suffix:m/s²\") var acceleration: float = 14.0",
+      "@export_range(0.1, 60.0, 0.1, \"suffix:m/s²\") var deceleration: float = 20.0",
+      "@export_group(\"Entrada\")",
+      "@export_range(0.0, 0.9, 0.01) var input_deadzone: float = 0.22",
+      "@export_range(0.05, 1.0, 0.01, \"suffix:s\") var sprint_hold_threshold: float = 0.25",
+      "@export_group(\"Orientación visual\")",
+      "@export_range(1.0, 1080.0, 1.0, \"suffix:°/s\") var turn_speed: float = 540.0",
+      "@export var orient_to_movement: bool = true",
+      "@export var movement_camera: Camera3D",
+      "@export_group(\"Stamina de carrera\")",
+      "@export_range(0.0, 100.0, 0.5, \"suffix:pt/s\") var sprint_stamina_cost: float = 12.0",
+      "@export_range(1.0, 100.0, 1.0) var sprint_resume_stamina: float = 15.0"
+    ]
+  },
+  "scripts/player/sprint_dodge_input.gd": {
+    "extends": [
+      "RefCounted"
+    ],
+    "methods": [
+      "set_pressed(pressed: bool) -> void:",
+      "advance(delta: float, hold_threshold: float) -> void:",
+      "cancel() -> void:"
+    ],
+    "signals": [
+      "released(held_seconds: float, was_long_press: bool)"
+    ],
+    "dependencies": [],
+    "exports": []
+  },
+  "scripts/systems/actor_attributes.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_physics_process(delta: float) -> void:",
+      "has_stamina(amount: float) -> bool:",
+      "consume_stamina(amount: float) -> bool:",
+      "restore_stamina(amount: float) -> float:",
+      "apply_damage(amount: float) -> float:",
+      "restore_health(amount: float) -> float:",
+      "restore_all() -> void:",
+      "set_regeneration_blocked(reason: StringName, blocked: bool) -> void:",
+      "is_regeneration_blocked() -> bool:",
+      "set_regeneration_multiplier(reason: StringName, value: float) -> void:",
+      "clear_regeneration_multiplier(reason: StringName) -> void:",
+      "get_regeneration_multiplier() -> float:",
+      "restart_stamina_regeneration_delay() -> void:",
+      "advance_regeneration(delta: float) -> void:",
+      "_set_stamina(value: float) -> void:",
+      "_valid_amount(amount: float) -> bool:"
+    ],
+    "signals": [
+      "health_changed(current: float, maximum: float)",
+      "stamina_changed(current: float, maximum: float)",
+      "died",
+      "fully_restored"
+    ],
+    "dependencies": [],
+    "exports": [
+      "@export_group(\"Máximos\")",
+      "@export_range(1.0, 10000.0, 1.0) var max_health: float = 100.0:",
+      "@export_range(1.0, 10000.0, 1.0) var max_stamina: float = 100.0:",
+      "@export_group(\"Regeneración\")",
+      "@export_range(0.0, 100.0, 0.5) var stamina_regeneration: float = 25.0",
+      "@export_range(0.0, 5.0, 0.05, \"suffix:s\") var regeneration_delay: float = 0.75"
+    ]
+  },
+  "scripts/systems/arena_menu_link.gd": {
+    "extends": [
+      "CanvasLayer"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_unhandled_input(event: InputEvent) -> void:",
+      "_return_to_menu() -> void:",
+      "_change_scene() -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export_file(\"*.tscn\") var menu_scene: String = \"res://scenes/ui/arena_selector.tscn\""
+    ]
+  },
+  "scripts/systems/arena_selector.gd": {
+    "extends": [
+      "Control"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_input(event: InputEvent) -> void:",
+      "_process(_delta: float) -> void:",
+      "_unhandled_input(event: InputEvent) -> void:",
+      "_launch(arena: PackedScene) -> void:",
+      "_change_scene(arena: PackedScene) -> void:",
+      "_update_devices() -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var test_arena: PackedScene",
+      "@export var boss_arena: PackedScene"
+    ]
+  },
+  "scripts/systems/bonfire.gd": {
+    "extends": [
+      "Node3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "contains_player(player: CharacterBody3D) -> bool:",
+      "get_spawn_transform() -> Transform3D:",
+      "set_lit(value: bool) -> void:",
+      "_process(_delta: float) -> void:",
+      "_exit_tree() -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var bonfire_id: StringName = &\"\"",
+      "@export var manager: Node"
+    ]
+  },
+  "scripts/systems/camera_spring_arm.gd": {
+    "extends": [
+      "SpringArm3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_physics_process(delta: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": []
+  },
+  "scripts/systems/checkpoint_manager.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "register_bonfire(bonfire: Node3D) -> bool:",
+      "unregister_bonfire(bonfire: Node3D) -> void:",
+      "get_active_bonfire() -> Node3D:",
+      "get_bonfire_count() -> int:",
+      "get_respawn_transform() -> Transform3D:",
+      "can_interact() -> bool:",
+      "activate_bonfire(bonfire: Node3D) -> bool:",
+      "_valid_interaction(bonfire: Node3D) -> bool:",
+      "_activate(bonfire: Node3D) -> void:",
+      "rest_at(bonfire: Node3D) -> bool:",
+      "restore_enemies() -> int:",
+      "request_respawn() -> bool:",
+      "is_death_visible() -> bool:",
+      "_input(event: InputEvent) -> void:",
+      "_physics_process(delta: float) -> void:",
+      "_on_player_died() -> void:",
+      "_on_external_restore() -> void:",
+      "cancel_pending_respawn() -> void:",
+      "_restore_camera(recenter: bool, spawn: Transform3D) -> void:"
+    ],
+    "signals": [
+      "checkpoint_activated(id: StringName)",
+      "rested(id: StringName)",
+      "death_started",
+      "death_visibility_changed(visible: bool)",
+      "respawned(id: StringName)"
+    ],
+    "dependencies": [
+      "res://scripts/player/action_state.gd"
+    ],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var lock_controller: Node",
+      "@export var camera_rig: Node3D",
+      "@export var initial_spawn: Marker3D",
+      "@export var interaction_enabled: bool = true",
+      "@export var automatic_respawn_enabled: bool = true",
+      "@export_range(0,5,0.05) var death_delay: float = 0.6",
+      "@export_range(0.1,10,0.05) var death_screen_duration: float = 2.0"
+    ]
+  },
+  "scripts/systems/checkpoint_status.gd": {
+    "extends": [
+      "Label"
+    ],
+    "methods": [
+      "_process(_delta: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var player: CharacterBody3D",
+      "@export var manager: Node"
+    ]
+  },
+  "scripts/systems/controller_registry.gd": {
+    "extends": [
+      "Node"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "has_controller() -> bool:",
+      "get_devices() -> Array[Dictionary]:",
+      "_on_joy_connection_changed(device_id: int, connected: bool) -> void:",
+      "_refresh() -> void:"
+    ],
+    "signals": [
+      "devices_changed",
+      "connection_reported(device_id: int, connected: bool)"
+    ],
+    "dependencies": [],
+    "exports": []
+  },
+  "scripts/systems/death_screen.gd": {
+    "extends": [
+      "Control"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_on_visibility_changed(value: bool) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var manager: Node"
+    ]
+  },
+  "scripts/systems/dodge_debug.gd": {
+    "extends": [
+      "Label"
+    ],
+    "methods": [
+      "_process(_delta: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var dodge_controller: Node"
+    ]
+  },
+  "scripts/systems/estus_hud.gd": {
+    "extends": [
+      "MarginContainer"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_update_charges(current: int, capacity: int) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var estus: Node"
+    ]
+  },
+  "scripts/systems/lockable_target.gd": {
+    "extends": [
+      "Node3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "is_available() -> bool:",
+      "get_aim_position() -> Vector3:",
+      "get_reference_position() -> Vector3:",
+      "get_collision_exclusions() -> Array[RID]:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var target_id: StringName = &\"\"",
+      "@export var lock_point: Node3D",
+      "@export var collision_body: CollisionObject3D",
+      "@export var available: bool = true",
+      "@export var alive: bool = true"
+    ]
+  },
+  "scripts/systems/lock_on_indicator.gd": {
+    "extends": [
+      "Control"
+    ],
+    "methods": [
+      "_process(_delta: float) -> void:",
+      "_draw() -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export var lock_controller: Node",
+      "@export var camera: Camera3D"
+    ]
+  },
+  "scripts/systems/orbit_camera.gd": {
+    "extends": [
+      "Node3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_unhandled_input(event: InputEvent) -> void:",
+      "_notification(what: int) -> void:",
+      "_physics_process(delta: float) -> void:",
+      "_sync_distance_settings() -> void:",
+      "get_follow_target() -> Node3D:",
+      "set_follow_target(target: Node3D, snap: bool = true) -> void:",
+      "snap_to_target() -> void:",
+      "get_orbit_angles() -> Vector2:",
+      "set_orbit_angles(yaw_radians: float, pitch_radians: float) -> void:",
+      "set_control_mode(mode: ControlMode) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [],
+    "exports": [
+      "@export_group(\"Seguimiento\")",
+      "@export var follow_target: Node3D",
+      "@export_range(0.0, 3.0, 0.05, \"suffix:m\") var follow_height: float = 1.25",
+      "@export_range(0.0, 40.0, 0.5, \"suffix:1/s\") var follow_smoothing: float = 14.0",
+      "@export_group(\"Órbita\")",
+      "@export_range(10.0, 360.0, 1.0, \"suffix:°/s\") var horizontal_sensitivity: float = 150.0",
+      "@export_range(10.0, 360.0, 1.0, \"suffix:°/s\") var vertical_sensitivity: float = 110.0",
+      "@export_range(0.0, 0.9, 0.01) var input_deadzone: float = 0.22",
+      "@export var invert_vertical: bool = false",
+      "@export_range(-85.0, 0.0, 1.0, \"suffix:°\") var minimum_pitch: float = -65.0",
+      "@export_range(0.0, 80.0, 1.0, \"suffix:°\") var maximum_pitch: float = 35.0",
+      "@export_range(-180.0, 180.0, 1.0, \"suffix:°\") var initial_yaw: float = 0.0",
+      "@export_range(-85.0, 80.0, 1.0, \"suffix:°\") var initial_pitch: float = -18.0",
+      "@export_group(\"Distancia y colisión\")",
+      "@export_range(1.0, 10.0, 0.1, \"suffix:m\") var normal_distance: float = 4.5",
+      "@export_range(0.1, 1.5, 0.05, \"suffix:m\") var minimum_distance: float = 0.55",
+      "@export_range(0.0, 30.0, 0.5, \"suffix:1/s\") var distance_recovery: float = 8.0",
+      "@export_group(\"Mouse técnico\")",
+      "@export var mouse_enabled: bool = true",
+      "@export_range(0.01, 1.0, 0.01, \"suffix:°/px\") var mouse_sensitivity: float = 0.16"
+    ]
+  },
+  "scripts/systems/player_vitals_hud.gd": {
+    "extends": [
+      "MarginContainer"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_on_health_changed(current: float, maximum: float) -> void:",
+      "_on_stamina_changed(current: float, maximum: float) -> void:"
+    ],
+    "signals": [],
+    "dependencies": [
+      "res://scripts/systems/actor_attributes.gd"
+    ],
+    "exports": [
+      "@export var attributes: ActorAttributes"
+    ]
+  },
+  "scripts/systems/session_progress.gd": {
+    "extends": [
+      "RefCounted"
+    ],
+    "methods": [],
+    "signals": [],
+    "dependencies": [],
+    "exports": []
+  },
+  "scripts/systems/test_arena.gd": {
+    "extends": [
+      "Node3D"
+    ],
+    "methods": [
+      "_ready() -> void:",
+      "_unhandled_input(event: InputEvent) -> void:",
+      "_update_controller_status() -> void:"
+    ],
+    "signals": [],
+    "dependencies": [
+      "res://scripts/systems/controller_registry.gd"
+    ],
+    "exports": []
+  }
+}

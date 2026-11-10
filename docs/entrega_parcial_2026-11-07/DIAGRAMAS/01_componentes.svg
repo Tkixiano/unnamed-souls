@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="795" viewBox="0 0 1200 795">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="48" font-family="Arial,sans-serif" font-size="30" font-weight="bold" fill="#163148">Arquitectura compartida del prototipo</text>
+<polyline points="350,150 435,150" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="435,150 423,144 423,156" fill="#587287"/>
+<polyline points="850,150 765,150" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="765,150 777,144 777,156" fill="#587287"/>
+<polyline points="600,210 600,335" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="600,335 594,323 606,323" fill="#587287"/>
+<polyline points="1015,210 1015,335" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="1015,335 1009,323 1021,323" fill="#587287"/>
+<polyline points="185,335 185,270 465,270 465,210" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="465,210 459,222 471,222" fill="#587287"/>
+<polyline points="765,410 850,410" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="850,410 838,404 838,416" fill="#587287"/>
+<polyline points="600,485 600,610" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="600,610 594,598 606,598" fill="#587287"/>
+<polyline points="1015,485 1015,610" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="1015,610 1009,598 1021,598" fill="#587287"/>
+<polyline points="850,680 765,680" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="765,680 777,674 777,686" fill="#587287"/>
+<polyline points="350,680 435,680" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="435,680 423,674 423,686" fill="#587287"/>
+<polyline points="80,610 80,530 410,530 410,195 435,195" fill="none" stroke="#587287" stroke-width="3"/>
+<polygon points="435,195 423,189 423,201" fill="#587287"/>
+<rect x="20" y="90" width="330" height="120" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="34" y="125" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">Entrada e inventario</text>
+<text x="34" y="153" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">InputMap / ControllerRegistry</text>
+<text x="34" y="183" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Selector: acceso a las arenas</text>
+<rect x="435" y="90" width="330" height="120" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="449" y="125" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">Actores físicos</text>
+<text x="449" y="153" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">PlayerController / SoldierActor</text>
+<text x="449" y="183" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">RuinsGuardian hereda soldado</text>
+<rect x="850" y="90" width="330" height="120" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="864" y="125" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">Decisiones de adversarios</text>
+<text x="864" y="153" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">SoldierAI / GuardianBrain</text>
+<text x="864" y="183" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Percepción y patrones</text>
+<rect x="20" y="335" width="330" height="150" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="34" y="370" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">Cámara y fijación</text>
+<text x="34" y="398" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">LockOnController / objetivos</text>
+<text x="34" y="428" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">LockableTarget / CameraRig</text>
+<text x="34" y="458" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">SpringArm: colisión</text>
+<rect x="435" y="335" width="330" height="150" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="449" y="370" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">Acciones del protagonista</text>
+<text x="449" y="398" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">ActionState, Dodge, Defense</text>
+<text x="449" y="428" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Riposte, Estus y Grip</text>
+<text x="449" y="458" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Propiedad y exclusión mutua</text>
+<rect x="850" y="335" width="330" height="150" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="864" y="370" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">Ataque compartido</text>
+<text x="864" y="398" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">AttackController</text>
+<text x="864" y="428" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">AttackData / AttackVariant</text>
+<text x="864" y="458" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Startup, Active, Recovery</text>
+<rect x="20" y="610" width="330" height="140" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="34" y="645" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">CheckpointManager</text>
+<text x="34" y="672" font-family="Arial,sans-serif" font-size="20" font-weight="normal" fill="#163148">Bonfire: descanso y restauración</text>
+<text x="34" y="702" font-family="Arial,sans-serif" font-size="20" font-weight="normal" fill="#163148">SessionProgress: derrota por ID</text>
+<text x="34" y="733" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Memoria de sesión, sin disco</text>
+<rect x="435" y="610" width="330" height="140" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="449" y="645" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">ActorAttributes</text>
+<text x="449" y="673" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Vida y stamina con límites</text>
+<text x="449" y="700" font-family="Arial,sans-serif" font-size="18" font-weight="normal" fill="#163148">health_changed / stamina_changed</text>
+<text x="449" y="733" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">HUD de atributos por señales</text>
+<rect x="850" y="610" width="330" height="140" rx="8" fill="#edf3f6" stroke="#345b73" stroke-width="2"/>
+<text x="864" y="645" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#163148">AttackHitbox / Hurtbox</text>
+<text x="864" y="673" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Facciones y deduplicación</text>
+<text x="864" y="703" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Defensa / i-frames / crítico</text>
+<text x="864" y="733" font-family="Arial,sans-serif" font-size="21" font-weight="normal" fill="#163148">Único descuento final de vida</text>
+</svg>

@@ -1,0 +1,17 @@
+flowchart TD
+  I[InputMap y ControllerRegistry] --> P[PlayerController]
+  AI[SoldierAI o GuardianBrain] --> S[SoldierActor o RuinsGuardian]
+  P --> AS[ActionState y componentes de acción]
+  P --> AC[AttackController]
+  S --> AC
+  DATA[AttackData y AttackVariant] --> AC
+  AC --> HB[AttackHitbox]
+  HB --> HU[Hurtbox]
+  HU --> DF[DefenseController / crítico / i-frames]
+  DF --> AT[ActorAttributes]
+  AT --> HUD[HUD por señales]
+  LO[LockOnController y LockableTarget] --> P
+  LO --> CAM[CameraRig y SpringArm]
+  CP[CheckpointManager y Bonfire] --> P
+  CP --> S
+  S --> SS[SessionProgress: ID derrotado]

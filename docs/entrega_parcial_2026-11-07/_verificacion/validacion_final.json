@@ -1,0 +1,43 @@
+{
+  "protected_files": 195,
+  "modified_protected_files": [],
+  "missing_protected_files": [],
+  "pdf_pages": 25,
+  "pdf_opened_with": [
+    "pypdf",
+    "pdfplumber",
+    "Poppler"
+  ],
+  "pdf_all_pages_rendered": true,
+  "visual_review": "Todas las páginas en tres hojas de contacto; portada, diagramas, tabla de pruebas y evidencia revisadas también a mayor escala.",
+  "editable_pdf_fields": [
+    "proyecto",
+    "integrantes",
+    "curso",
+    "docentes"
+  ],
+  "canonical_and_widget_fields_match": true,
+  "embedded_figures": 8,
+  "toc_entries": 14,
+  "outside_horizontal_margins": [],
+  "source_figures_exist": true,
+  "historical_3c": {
+    "new": 73,
+    "regressions": 590,
+    "not_rerun_in_this_audit": true
+  },
+  "final_godot_run": {
+    "run_id": "r96071406-68",
+    "main": "res://scenes/ui/arena_selector.tscn",
+    "version": "4.6.3-stable (official)",
+    "physics_ticks": 60,
+    "resolution": [
+      1280,
+      720
+    ],
+    "new_editor_errors_since_cursor_13": 0,
+    "game_errors": 0,
+    "physical_joypads": [],
+    "stopped_after_review": true
+  }
+}

@@ -1,0 +1,13 @@
+flowchart TD
+  A[ACTIVE: consulta Hitbox] --> B{Identidad y facción válidas}
+  B -- No --> X[Sin impacto]
+  B -- Sí --> C{Pareja crítica o i-frames}
+  C -- Protegido --> X
+  C -- Disponible --> D[Crítico autenticado o defensa por contacto]
+  D --> E[Único apply_damage de Hurtbox hacia atributos]
+  E --> F{Vida cero}
+  F -- Sí --> G[DEAD cancela acciones y lock-on]
+  G --> H[DEATH_DELAY: 0,60 s]
+  H --> J[YOU DIED: 2 s]
+  J --> K[Ocultar overlay y restaurar en otro tick]
+  K --> L[FREE y espera de botones neutrales]

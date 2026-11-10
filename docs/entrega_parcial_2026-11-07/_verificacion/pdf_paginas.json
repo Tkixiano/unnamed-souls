@@ -1,0 +1,177 @@
+[
+  {
+    "page": 1,
+    "chars": 446,
+    "images": 0,
+    "start": "ESCUELA TÉCNICA N.º 3 DE BENAVÍDEZ\nEspecialidad Informática | Ciclo lectivo 2026\nDesarrollo de un\nvideojuego\nS",
+    "end": "pos de identificación editables. Documento parcial, con evidencia y límites de validación."
+  },
+  {
+    "page": 2,
+    "chars": 745,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nÍndice\n1. Introducción y contexto 3\n2. Objetivos y alcance 3",
+    "end": "onden a informes históricos contrastados.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 2"
+  },
+  {
+    "page": 3,
+    "chars": 2402,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n1. Introducción y contexto\nUn soulslike es un videojuego de ",
+    "end": " sistemas de la especialidad Informática.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 3"
+  },
+  {
+    "page": 4,
+    "chars": 1650,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n2.2 Objetivos específicos\nObjetivo Estado al corte\nOrganizar",
+    "end": "integración; no son funciones terminadas.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 4"
+  },
+  {
+    "page": 5,
+    "chars": 3226,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n3. Método de auditoría y criterios de evidencia\nSe inspeccio",
+    "end": " afirmar que el juego fue desarrollado de\nCorte: 07/11/2026 | Fase 4A no iniciada Página 5"
+  },
+  {
+    "page": 6,
+    "chars": 1484,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nmanera autónoma ni que las pruebas automáticas sustituyan es",
+    "end": "ón deben revisarse antes de distribuirla.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 6"
+  },
+  {
+    "page": 7,
+    "chars": 2703,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n5. Arquitectura del prototipo\n5.1 Organización de carpetas y",
+    "end": "oload existente es el\nhelper de Godot AI.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 7"
+  },
+  {
+    "page": 8,
+    "chars": 290,
+    "images": 1,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nFigura D1. Relaciones principales auditadas. Las flechas rep",
+    "end": " existentes y no introduce nuevas clases.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 8"
+  },
+  {
+    "page": 9,
+    "chars": 3103,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n6. Desarrollo por fases\n6.1 Fase 1A: estructura, controles y",
+    "end": "nicas en esa fase se\ncompletaron después.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 9"
+  },
+  {
+    "page": 10,
+    "chars": 3050,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n6.6 Fase 2B: rodadas, backstep e invulnerabilidad\nObjetivo: ",
+    "end": "nal; sin búsqueda de rutas alternativas.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 10"
+  },
+  {
+    "page": 11,
+    "chars": 1347,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n6.11 Fase 3B: hogueras, muerte y reaparición\nObjetivo: ciclo",
+    "end": "imaciones ni ajuste final de dificultad.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 11"
+  },
+  {
+    "page": 12,
+    "chars": 3505,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n7. Mecánicas y funcionamiento técnico\n7.1 Entrada, locomoció",
+    "end": "rdinar HUD y acciones sin copiar saldos.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 12"
+  },
+  {
+    "page": 13,
+    "chars": 2847,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nLa regeneración base es 25 puntos/s con retraso de 0,75 s de",
+    "end": "errupción limpia la solicitud pendiente.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 13"
+  },
+  {
+    "page": 14,
+    "chars": 2218,
+    "images": 1,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nAttackData guarda datos editables; snapshot los valida y cop",
+    "end": "a en STAGGERED por 1 s. Igualar el saldo\nCorte: 07/11/2026 | Fase 4A no iniciada Página 14"
+  },
+  {
+    "page": 15,
+    "chars": 3883,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\npermite bloquear a cero; tras guard break hay que soltar y v",
+    "end": "instancia, sin duplicarse. El estado del\nCorte: 07/11/2026 | Fase 4A no iniciada Página 15"
+  },
+  {
+    "page": 16,
+    "chars": 2142,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\ncheckpoint se conserva dentro de ese nivel; no hay archivo d",
+    "end": "ución; cerrar y abrir el juego la borra.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 16"
+  },
+  {
+    "page": 17,
+    "chars": 2020,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n8. Pruebas y validación\n8.1 Resultados históricos contrastad",
+    "end": "dos los sistemas nuevos simultáneamente.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 17"
+  },
+  {
+    "page": 18,
+    "chars": 1817,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nEl selector temporal fue verificado separadamente con teclad",
+    "end": "e defectos\nfuera de los casos ensayados.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 18"
+  },
+  {
+    "page": 19,
+    "chars": 3187,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n9. Dificultades técnicas documentadas\nProblema real Resoluci",
+    "end": "ñade acceso directo y guía de controles.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 19"
+  },
+  {
+    "page": 20,
+    "chars": 1494,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n10.2 Pendientes para la versión de exposición\nÁrea Trabajo p",
+    "end": "l\ncompleta a partir del estado auditado.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 20"
+  },
+  {
+    "page": 21,
+    "chars": 895,
+    "images": 2,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n11. Evidencia gráfica\nLas seis imágenes son PNG originales d",
+    "end": "epuración: la\ninterfaz no es definitiva.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 21"
+  },
+  {
+    "page": 22,
+    "chars": 555,
+    "images": 2,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nFigura 3. Lock-on adquirido sobre arena_soldier mediante la ",
+    "end": " el encuentro sin reemplazar test_arena.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 22"
+  },
+  {
+    "page": 23,
+    "chars": 652,
+    "images": 2,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\nFigura 5. Encuentro iniciado por la interfaz real, jefe con ",
+    "end": "ual. Se descartó el proceso al terminar.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 23"
+  },
+  {
+    "page": 24,
+    "chars": 3285,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n12. Conclusión\nEl proyecto alcanzó una base funcional de sou",
+    "end": "ni se certificaron sus valores internos.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 24"
+  },
+  {
+    "page": 25,
+    "chars": 846,
+    "images": 0,
+    "start": "INFORME PARCIAL | SOULSLIKE 3D Informática - 2026\n14. Datos a completar antes de presentar\n• Nombre definitivo",
+    "end": "responsables ni\nvalidaciones pendientes.\nCorte: 07/11/2026 | Fase 4A no iniciada Página 25"
+  }
+]
