@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_170.res" id="1_0hpox"]
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_172.res" id="2_scg4a"]
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_171.res" id="3_vsx42"]
+
+[resource]
+resource_name = "material_0"
+cull_mode = 2
+albedo_texture = ExtResource("1_0hpox")
+metallic = 1.0
+metallic_texture = ExtResource("2_scg4a")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_scg4a")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_vsx42")

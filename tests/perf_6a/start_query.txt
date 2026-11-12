@@ -1,0 +1,4 @@
+var q=load("res://tests/perf_6a/query_checks.gd").new()
+get_tree().root.set_meta("perf6a_query_runner",q)
+q.start(get_tree())
+return "query equivalence checks started"

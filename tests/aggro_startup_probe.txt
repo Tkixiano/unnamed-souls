@@ -1,0 +1,20 @@
+var t=get_tree()
+var a=t.root.get_node("AudioDirector")
+var m=t.root.get_node("GameMenus")
+var s=t.current_scene
+var buses=[]
+for i in range(AudioServer.bus_count): buses.append({"name":AudioServer.get_bus_name(i),"db":AudioServer.get_bus_volume_db(i),"muted":AudioServer.is_bus_mute(i)})
+var d={"scene":s.scene_file_path,"main":ProjectSettings.get_setting("application/run/main_scene"),"paused":t.paused,"automatic_victory":m.automatic_victory_screen,"buses":buses,"options":m.options.values.duplicate(),"music_context":a.music.current_id,"missing_audio":a.catalog.missing_ids().size(),"reserved_sfx_voices":a._spatial.size()+a._global.size(),"music_playing":a.music.voices.any(func(v): return v.playing),"physical_devices":Input.get_connected_joypads()}
+var p=s.get_node_or_null("Player")
+if p!=null:
+	d["grounded"]=p.is_on_floor()
+	d["player_health"]=p.attributes.current_health
+	d["estus"]=p.estus_controller.current_charges
+	d["boss_health"]=s.get_node("Boss").attributes.current_health
+	d["phase_two"]=s.get_node("Boss").brain.phase_two
+else:
+	var focus=s.get_viewport().gui_get_focus_owner()
+	d["focus"]=str(focus.name) if focus else "none"
+FileAccess.open("res://tests/aggro_f6_startup.json" if p!=null else "res://tests/aggro_f5_startup.json",FileAccess.WRITE).store_string(JSON.stringify(d,"\t"))
+return d
+

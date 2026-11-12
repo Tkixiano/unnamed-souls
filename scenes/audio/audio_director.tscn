@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/audio/audio_director.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/audio/game_audio_catalog.tres" id="2"]
+[node name="AudioDirector" type="Node"]
+process_mode = 3
+script = ExtResource("1")
+catalog = ExtResource("2")

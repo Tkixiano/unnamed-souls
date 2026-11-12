@@ -1,0 +1,19 @@
+{
+	"arguments": [
+		"--script",
+		"C:/JUEGOs 3D/soul-game/tests/phase_6b/pack_probe.gd"
+	],
+	"autoloads": [
+		"ControllerRegistry",
+		"GameMenus",
+		"AudioDirector",
+		"MainMenu"
+	],
+	"executable": "C:/godot 4.6/Godot_v4.6.3-stable_win64.exe",
+	"main": "res://scenes/ui/main_menu.tscn",
+	"mcp_helper": false,
+	"release_template": false,
+	"resource_root": "",
+	"scene": "res://scenes/ui/main_menu.tscn",
+	"source_tests": false
+}

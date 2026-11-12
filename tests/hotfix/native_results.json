@@ -1,0 +1,22 @@
+{
+	"aggro_checks.gd": {
+		"failed": [],
+		"passed": 38.0,
+		"total": 38.0
+	},
+	"phase_5b_checks.gd": {
+		"failed": [],
+		"passed": 73.0,
+		"total": 73.0
+	},
+	"phase_5c_checks.gd": {
+		"failed": [],
+		"passed": 95.0,
+		"total": 95.0
+	},
+	"phase_5c_followup.gd": {
+		"failed": [],
+		"passed": 5.0,
+		"total": 5.0
+	}
+}

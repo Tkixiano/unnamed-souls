@@ -134,10 +134,10 @@ func run(tree: SceneTree) -> Dictionary:
 		await _reset()
 		_lock.try_acquire()
 		await _step(2)
-		var cardinal := Vector2(signf(input_vector.x),0) if absf(input_vector.x) > absf(input_vector.y) else Vector2(0,signf(input_vector.y))
-		var expected: Vector3 = _p.resolve_movement_direction(cardinal).normalized()
+		# Hotfix: retain both components and the camera-relative analog angle under lock-on.
+		var expected: Vector3 = _p.camera_relative_direction(input_vector).normalized()
 		_d.try_dodge(input_vector)
-		_checks["locked_cardinal_" + str(input_vector)] = _d.direction.dot(expected) > 0.999
+		_checks["locked_omnidirectional_" + str(input_vector)] = _d.direction.dot(expected) > 0.999
 		await _step(38)
 		_checks["lock_survives_dodge_" + str(input_vector)] = _lock.is_locked()
 	await _reset()

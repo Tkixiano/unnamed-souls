@@ -238,7 +238,10 @@ func run(tree: SceneTree) -> Dictionary:
 	_ai.start_pattern(&"HORIZONTAL_SLASH")
 	_b.position.x = 9.5
 	await _step(2)
-	_checks["arena_boundary_resets_safely"] = _b.position.distance_to(Vector3(0,0,-3)) < 0.01 and not _ai.encounter_active and not _b.attack_controller.is_active()
+	# Hotfix: spatial separation must not reset an active encounter. Explicit restoration remains covered below.
+	_checks["arena_boundary_preserves_encounter"] = _b.position.x > 9.0 and _ai.encounter_active and _b.attack_controller.is_active()
+	_b.restore_at_checkpoint()
+	_checks["explicit_reset_restores_boss_safely"] = _b.position.distance_to(Vector3(0,0,-3)) < 0.01 and not _ai.encounter_active and not _b.attack_controller.is_active()
 	await _reset()
 	lock.try_acquire()
 	_ai.start_pattern(&"HORIZONTAL_SLASH")
@@ -258,7 +261,8 @@ func run(tree: SceneTree) -> Dictionary:
 	_m.rest_at(scene.get_node("Bonfire"))
 	await _step(4)
 	_checks["repeated_rest_no_boss_duplicates"] = _b.attributes.current_health == 0.0 and tree.get_nodes_in_group("checkpoint_enemies").size() == 1 and _hud.victory_message.visible
-	_checks["main_scene_configuration_preserved"] = ProjectSettings.get_setting("application/run/main_scene") == "res://scenes/levels/test_arena.tscn"
+	# Phase 5B: deliberate main-menu launcher; retain integrated/technical destinations.
+	_checks["main_scene_configuration_preserved"] = ProjectSettings.get_setting("application/run/main_scene") == "res://scenes/ui/main_menu.tscn" and ResourceLoader.exists("res://scenes/levels/main_level.tscn") and ResourceLoader.exists("res://scenes/levels/test_arena.tscn") and ResourceLoader.exists("res://scenes/ui/arena_selector.tscn")
 	_checks["session_defeat_recorded_by_stable_id"] = load("res://scripts/systems/session_progress.gd").boss_is_defeated(tree, &"ruins_guardian")
 	tree.change_scene_to_file("res://scenes/levels/boss_arena.tscn")
 	await tree.scene_changed

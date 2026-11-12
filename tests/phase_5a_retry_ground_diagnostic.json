@@ -1,0 +1,93 @@
+[
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 1,
+		"within_area": false,
+		"y": 0.0972777754068375
+	},
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 2,
+		"within_area": true,
+		"y": 0.0918333306908607
+	},
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 3,
+		"within_area": true,
+		"y": 0.083666667342186
+	},
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 4,
+		"within_area": true,
+		"y": 0.0727777779102325
+	},
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 5,
+		"within_area": true,
+		"y": 0.0591666661202908
+	},
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 6,
+		"within_area": true,
+		"y": 0.0428333282470703
+	},
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 7,
+		"within_area": true,
+		"y": 0.0237777698785067
+	},
+	{
+		"can_rest": false,
+		"ground": false,
+		"tick": 8,
+		"within_area": true,
+		"y": 0.00199998915195465
+	},
+	{
+		"can_rest": true,
+		"ground": true,
+		"tick": 9,
+		"within_area": true,
+		"y": 0.0004687390755862
+	},
+	{
+		"can_rest": true,
+		"ground": true,
+		"tick": 10,
+		"within_area": true,
+		"y": 0.0004687390755862
+	},
+	{
+		"can_rest": true,
+		"ground": true,
+		"tick": 11,
+		"within_area": true,
+		"y": 0.0004687390755862
+	},
+	{
+		"can_rest": true,
+		"ground": true,
+		"tick": 12,
+		"within_area": true,
+		"y": 0.0004687390755862
+	},
+	{
+		"can_rest": true,
+		"ground": true,
+		"tick": 13,
+		"within_area": true,
+		"y": 0.0004687390755862
+	}
+]

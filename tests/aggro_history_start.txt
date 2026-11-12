@@ -1,0 +1,4 @@
+var s=load("res://tests/aggro_regressions.gd").new()
+get_tree().root.set_meta("aggro_regression_runner",s)
+s.historical(get_tree())
+return "historical regressions started"

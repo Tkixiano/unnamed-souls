@@ -1,0 +1,46 @@
+{
+  "pid": 7744,
+  "samples": [
+    {
+      "working_set": 206901248,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    },
+    {
+      "working_set": 204247040,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    },
+    {
+      "working_set": 200413184,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    },
+    {
+      "working_set": 199032832,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    },
+    {
+      "working_set": 196980736,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    },
+    {
+      "working_set": 193081344,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    },
+    {
+      "working_set": 189235200,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    },
+    {
+      "working_set": 185479168,
+      "peak_working_set": 312131584,
+      "private_bytes": 406843392
+    }
+  ],
+  "scope": "Actual extracted Release; stationary near initial bonfire in integrated forest; editor and QA engine closed. Not entire-route or target-hardware peak."
+}

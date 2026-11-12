@@ -1,0 +1,15 @@
+{
+  "executable": "C:\\Users\\tkixi\\AppData\\Local\\Temp\\UnnamedSouls_Preview6B_kc178wd9\\Unnamed Souls.exe",
+  "first_png_seconds": 2.5128224999643862,
+  "exit_seconds": 2.976716300006956,
+  "exit": 0,
+  "timed_out": false,
+  "working_set_peak": 242921472,
+  "private_bytes_peak": 204021760,
+  "scope": "Actual extracted Release, normal entry; first PNG includes encoding/IO; 3 frames then automatic quit. Menu only; not full-level RAM or sustained FPS.",
+  "frames": [
+    "C:\\JUEGOs 3D\\soul-game\\tests\\phase_6b\\evidence\\startup00000000.png",
+    "C:\\JUEGOs 3D\\soul-game\\tests\\phase_6b\\evidence\\startup00000001.png",
+    "C:\\JUEGOs 3D\\soul-game\\tests\\phase_6b\\evidence\\startup00000002.png"
+  ]
+}

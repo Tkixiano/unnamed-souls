@@ -1,0 +1,4 @@
+var s=load("res://tests/perf_6a/regressions.gd").new()
+get_tree().root.set_meta("perf6a_regression_runner",s)
+s.historical(get_tree())
+return "historic regression started"

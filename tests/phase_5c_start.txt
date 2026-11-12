@@ -1,0 +1,4 @@
+var s=load("res://tests/phase_5c_checks.gd").new()
+get_tree().root.set_meta("phase5c_suite",s)
+s.start(get_tree())
+return "audio checks started"

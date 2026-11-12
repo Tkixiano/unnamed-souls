@@ -1,0 +1,3 @@
+var scene = get_tree().current_scene
+var player = scene.get_node("Player")
+print("HOTFIX_F6 scene=",scene.scene_file_path," hp=",player.attributes.current_health," stamina=",player.attributes.current_stamina," estus=",player.estus_controller.current_charges," boss_half_extents=",scene.get_node("Boss").brain.arena_half_extents)

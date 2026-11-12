@@ -84,10 +84,7 @@ func _physics_process(delta: float) -> void:
 			return
 	else:
 		_occluded_seconds = 0.0
-	# Reuse the existing shared-button interpreter and its long-press decision.
-	if player.is_sprinting:
-		release_lock(&"sprint")
-		return
+	# Locomotion changes do not release an otherwise valid target.
 	_update_switch()
 	var toward := current_target.get_reference_position() - player.global_position
 	toward.y = 0.0

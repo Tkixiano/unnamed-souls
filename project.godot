@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Soul game"
-run/main_scene="res://scenes/ui/arena_selector.tscn"
+run/main_scene="res://scenes/ui/main_menu.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -19,6 +19,8 @@ config/icon="res://icon.svg"
 
 _mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
 ControllerRegistry="*res://scripts/systems/controller_registry.gd"
+GameMenus="*res://scenes/ui/game_menus.tscn"
+AudioDirector="*res://scenes/audio/audio_director.tscn"
 
 [display]
 

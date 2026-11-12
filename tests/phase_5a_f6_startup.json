@@ -1,0 +1,9 @@
+{
+	"boss_health": 600.0,
+	"boss_phase_two": false,
+	"grounded": true,
+	"health": 100.0,
+	"main": "res://scenes/levels/main_level.tscn",
+	"scene": "res://scenes/levels/ruins_boss_arena.tscn",
+	"tutorial_absent": true
+}

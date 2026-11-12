@@ -1,8 +1,9 @@
 extends Control
 ## Temporary launcher; arenas have no dependency on this controller.
+@export var main_level: PackedScene
 @export var test_arena: PackedScene
 @export var boss_arena: PackedScene
-@onready var buttons: Array[Button] = [$Margin/Layout/Content/Choices/Test, $Margin/Layout/Content/Choices/Boss, $Margin/Layout/Content/Choices/Quit]
+@onready var buttons: Array[Button] = [$Margin/Layout/Content/Choices/Level, $Margin/Layout/Content/Choices/Test, $Margin/Layout/Content/Choices/Boss, $Margin/Layout/Content/Choices/Quit]
 @onready var guide: GridContainer = $Margin/Layout/Content/Guide/Bindings
 @onready var status: Label = $Margin/Layout/Status
 var _opening := false
@@ -10,9 +11,10 @@ var _stick_latched := false
 
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-	buttons[0].pressed.connect(_launch.bind(test_arena))
-	buttons[1].pressed.connect(_launch.bind(boss_arena))
-	buttons[2].pressed.connect(func() -> void: get_tree().quit())
+	buttons[0].pressed.connect(_launch.bind(main_level))
+	buttons[1].pressed.connect(_launch.bind(test_arena))
+	buttons[2].pressed.connect(_launch.bind(boss_arena))
+	buttons[3].pressed.connect(func() -> void: get_tree().quit())
 	for index in range(buttons.size()):
 		buttons[index].focus_neighbor_top = buttons[index].get_path_to(buttons[posmod(index-1,buttons.size())])
 		buttons[index].focus_neighbor_bottom = buttons[index].get_path_to(buttons[(index+1)%buttons.size()])
@@ -32,7 +34,7 @@ func _ready() -> void:
 		["Estus", "E", "X / Cuadrado"],
 		["Una / dos manos", "R", "Y / Triángulo"],
 		["Hoguera / interacción", "F", "A / Cruz"],
-		["Volver a este menú", "Escape / botón Menú", "Menu / Options"],
+		["Pausa", "Escape", "Menu / Options"],
 		["Pantalla completa", "F11", "—"]
 	]:
 		for column in range(3):

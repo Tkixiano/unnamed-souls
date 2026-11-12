@@ -1,0 +1,53 @@
+{
+  "context": "Editor-capable engine in game mode loading the actual embedded Release PCK via --main-pack; NOT the Release executable or editor UI. External driver and test sources only.",
+  "suites": {
+    "aggro_checks": {
+      "passed": 38.0,
+      "total": 38.0,
+      "failed": []
+    },
+    "phase_3c_checks": {
+      "passed": 73,
+      "total": 73,
+      "failed": []
+    },
+    "phase_4b_checks": {
+      "passed": 47.0,
+      "total": 47.0,
+      "failed": []
+    },
+    "phase_4b_retry": {
+      "passed": 8.0,
+      "total": 8.0,
+      "failed": []
+    },
+    "phase_5a_checks": {
+      "passed": 53.0,
+      "total": 53.0,
+      "failed": []
+    },
+    "phase_5a_context_checks": {
+      "passed": 10.0,
+      "total": 10.0,
+      "failed": []
+    },
+    "phase_5b_checks": {
+      "passed": 73.0,
+      "total": 73.0,
+      "failed": []
+    },
+    "phase_5c_checks": {
+      "passed": 95,
+      "total": 95,
+      "failed": []
+    }
+  },
+  "initial_combined_passed": 396,
+  "initial_combined_total": 397,
+  "initial_failures_preserved": [
+    "phase_5c_checks:boss_death_and_victory_events_once"
+  ],
+  "audio_isolation": "Fresh process; the original combined sequence ran menu tests before audio, leaving a prior boss_death in the global diagnostic counter. No assertion changed.",
+  "passed": 397.0,
+  "total": 397.0
+}

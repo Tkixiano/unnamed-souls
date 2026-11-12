@@ -1,0 +1,2005 @@
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 3.4.11                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                 \U0001f5a5  Server:      Godot AI, 3.4.11                            |
+|                 \U0001f680 Deploy free: https://horizon.prefect.io                  |
+|                                                                             |
++-----------------------------------------------------------------------------+
++-----------------------------------------------------------------------------+
+|                         \U0001f389 Update available: 4.1.8                          |
+|                     Run: pip install --upgrade fastmcp                      |
++-----------------------------------------------------------------------------+
+
+
+godot_ai.server | WebSocket server starting on port 9500
+[11/11/26 01:29:34] INFO     Starting MCP server 'Godot AI'    transport.py:361
+                             with transport 'streamable-http'                  
+                             on http://127.0.0.1:8000/mcp                      
+INFO:     Started server process [18376]
+INFO:     Waiting for application startup.
+godot_ai.transport.websocket | Starting WebSocket server on port 9500
+mcp.server.streamable_http_manager | StreamableHTTP session manager started
+INFO:     Application startup complete.
+websockets.server | server listening on 127.0.0.1:9500
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+websockets.server | connection open
+godot-ai-telemetry | Telemetry enabled
+godot_ai.transport.websocket | Session connected: soul-game@7f6c (pid=21648, Godot 4.6.3-stable (official), C:/JUEGOs 3D/soul-game/)
+godot_ai.transport.websocket | Session soul-gam: custom tools -> 0 registered (0 enabled)
+godot_ai.transport.websocket | Session soul-gam: scene changed to res://scenes/levels/ruins_boss_arena.tscn
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: bdbdb6cb31704f5fa55b337a11870312
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9685dd075732436fa18a350852204024
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: cab8aae299544ef9bcc77295306e96cf
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 05ca0b2caa5c492490f7424c30e89c0c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: d3b2450775644d359a6df474e0b4d91a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 881f7aa79050412ebf10db00ea5a51b2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 98060d460c044b7c89eb48ad9b1957ab
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 916b0c8f76c14d1eb43f8fa25542717f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ae1d9dce275e459ab664f723dfcf44ad
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 393167691a3943508d7a05e008755006
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 060b693e836246e0920236c3221bbf7c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: d88da6fbd0e54613a0ffe4a20390ba39
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 91121aa73ec3471a8ea72bd25fb46259
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: bcb1202313c640f380d92b3cd671eba9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session bdbdb6cb31704f5fa55b337a11870312 idle timeout
+mcp.server.streamable_http | Terminating session: bdbdb6cb31704f5fa55b337a11870312
+mcp.server.streamable_http_manager | Session 9685dd075732436fa18a350852204024 idle timeout
+mcp.server.streamable_http | Terminating session: 9685dd075732436fa18a350852204024
+mcp.server.streamable_http_manager | Session cab8aae299544ef9bcc77295306e96cf idle timeout
+mcp.server.streamable_http | Terminating session: cab8aae299544ef9bcc77295306e96cf
+mcp.server.streamable_http_manager | Session 05ca0b2caa5c492490f7424c30e89c0c idle timeout
+mcp.server.streamable_http | Terminating session: 05ca0b2caa5c492490f7424c30e89c0c
+mcp.server.streamable_http_manager | Session d3b2450775644d359a6df474e0b4d91a idle timeout
+mcp.server.streamable_http | Terminating session: d3b2450775644d359a6df474e0b4d91a
+mcp.server.streamable_http_manager | Session 881f7aa79050412ebf10db00ea5a51b2 idle timeout
+mcp.server.streamable_http | Terminating session: 881f7aa79050412ebf10db00ea5a51b2
+mcp.server.streamable_http_manager | Session 98060d460c044b7c89eb48ad9b1957ab idle timeout
+mcp.server.streamable_http | Terminating session: 98060d460c044b7c89eb48ad9b1957ab
+mcp.server.streamable_http_manager | Session 916b0c8f76c14d1eb43f8fa25542717f idle timeout
+mcp.server.streamable_http | Terminating session: 916b0c8f76c14d1eb43f8fa25542717f
+mcp.server.streamable_http_manager | Session ae1d9dce275e459ab664f723dfcf44ad idle timeout
+mcp.server.streamable_http | Terminating session: ae1d9dce275e459ab664f723dfcf44ad
+mcp.server.streamable_http_manager | Session 393167691a3943508d7a05e008755006 idle timeout
+mcp.server.streamable_http | Terminating session: 393167691a3943508d7a05e008755006
+mcp.server.streamable_http_manager | Session 060b693e836246e0920236c3221bbf7c idle timeout
+mcp.server.streamable_http | Terminating session: 060b693e836246e0920236c3221bbf7c
+mcp.server.streamable_http_manager | Session d88da6fbd0e54613a0ffe4a20390ba39 idle timeout
+mcp.server.streamable_http | Terminating session: d88da6fbd0e54613a0ffe4a20390ba39
+mcp.server.streamable_http_manager | Session 91121aa73ec3471a8ea72bd25fb46259 idle timeout
+mcp.server.streamable_http | Terminating session: 91121aa73ec3471a8ea72bd25fb46259
+mcp.server.streamable_http_manager | Session bcb1202313c640f380d92b3cd671eba9 idle timeout
+mcp.server.streamable_http | Terminating session: bcb1202313c640f380d92b3cd671eba9
+mcp.server.streamable_http_manager | Created new transport with session ID: a5c982a750f34c118b9811d6e4bab9cc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9510d1cb40a041b1b594295e45490ffd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 03445c5016804eb39f5611cd68456b04
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 93ba63f968854690b61736210f8b4fde
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 335d4a3d55c8400882e2b110ae751b68
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 89d1a3ece27e46a8b0ab1c31efb6cd4f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5df839a82d74415fb9e1f8bd6aad7196
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4394998816fe46babf446ff971175983
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7afeefa672d040ec9ce5754a423d17b6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4cb5dff5cf1e494391234349a163be69
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0ac4ce3db4b44197bbafad9acb4e458b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9a9942bb67844775a02b0f2346d306ef
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 454396ac0b1a402a8be4659b2f6b60d6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 712f150d55f140b7b421d5bfe9bf6ecf
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 990185e92c2c44c7aaf1dc7de93ca5f8
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4fbc7999106c4f6fa854545a18f21e0d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: f4cabdbfed9842a0a72f4c8bc5841b49
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0dcaabf712c14d1c8423678682eb2541
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: aded76c12d06439cbd8c27437ccaa6b3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3890ec38f5c84db084c8b11c3e6ad131
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 48661ba837da40328dd8cc97432b8f8d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 339861990c8a470c89a112418e3e04c6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9debdd1670e247f383f0c9244c3a9eaa
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 674c0b69f2464620a16a9ff03c214e2c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9e9ac3d8ed36478e81e45266677b45ea
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 239a8337b35c45e6b349a345597e8ef9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: fc85439d62e14c938c53073a4f531591
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+[11/11/26 08:08:27] Error calling tool 'editor_manage'                         
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4cd87fa732324f0493374195b932c8d7
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: d664b7929e07440a8423ec9ad5a93239
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2c7cfbedcd324292adc1e4d778c4e573
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0737134da5ef4c94bf1fa5814c569d2f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c3ff8ceba16146b7910e8f7315ee586f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: af0eaa5d3ffd4553aafc05cbbbcf07e0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8556dcdb29d843f290ae4767968a7378
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7eafefb360ff4aafb04dc5af14dadfeb
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 275ba432a54347fd91625c46b73cb3ee
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5675b15eb5f745a8883d8d5931f102b3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 015efd5c1e68458591743fd48fe44b3d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 37d0830991c743adb594e0c49037eadc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: b21488af66e34036bcfee402513f029e
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 65fa0c1dfbd14093bc8d6acfba349a1b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4fae0fc352504ec59fb987d40e5405d6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7bbe13e99ebc463a9dc91f2af81dcaec
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7293312a850349fe9112e1ab42d3b889
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3b25c1b1edfe4fbb9820ee2dd667f511
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 42bdc5a77eb148e59b3c6bc6717928b6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2fff5a4a96794c0ead5e01470cfa51b3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2ee6d6be226b49709827a62e1778ab9c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 201ad178a4224bcea524d395ee3c3d95
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 6763f65cb9fd4e6ebd8c199d156602cb
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 234cfab7b2404c9ea1e3eadca57e9d59
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: f1ded9483e454d9e94b23af83a1a74f9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e91f7b7d6c7840598cdc63c470823a7b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session a5c982a750f34c118b9811d6e4bab9cc idle timeout
+mcp.server.streamable_http | Terminating session: a5c982a750f34c118b9811d6e4bab9cc
+mcp.server.streamable_http_manager | Session 9510d1cb40a041b1b594295e45490ffd idle timeout
+mcp.server.streamable_http | Terminating session: 9510d1cb40a041b1b594295e45490ffd
+mcp.server.streamable_http_manager | Session 03445c5016804eb39f5611cd68456b04 idle timeout
+mcp.server.streamable_http | Terminating session: 03445c5016804eb39f5611cd68456b04
+mcp.server.streamable_http_manager | Session 93ba63f968854690b61736210f8b4fde idle timeout
+mcp.server.streamable_http | Terminating session: 93ba63f968854690b61736210f8b4fde
+mcp.server.streamable_http_manager | Session 335d4a3d55c8400882e2b110ae751b68 idle timeout
+mcp.server.streamable_http | Terminating session: 335d4a3d55c8400882e2b110ae751b68
+mcp.server.streamable_http_manager | Session 89d1a3ece27e46a8b0ab1c31efb6cd4f idle timeout
+mcp.server.streamable_http | Terminating session: 89d1a3ece27e46a8b0ab1c31efb6cd4f
+mcp.server.streamable_http_manager | Session 5df839a82d74415fb9e1f8bd6aad7196 idle timeout
+mcp.server.streamable_http | Terminating session: 5df839a82d74415fb9e1f8bd6aad7196
+mcp.server.streamable_http_manager | Session 4394998816fe46babf446ff971175983 idle timeout
+mcp.server.streamable_http | Terminating session: 4394998816fe46babf446ff971175983
+mcp.server.streamable_http_manager | Session 7afeefa672d040ec9ce5754a423d17b6 idle timeout
+mcp.server.streamable_http | Terminating session: 7afeefa672d040ec9ce5754a423d17b6
+mcp.server.streamable_http_manager | Session 4cb5dff5cf1e494391234349a163be69 idle timeout
+mcp.server.streamable_http | Terminating session: 4cb5dff5cf1e494391234349a163be69
+mcp.server.streamable_http_manager | Session 0ac4ce3db4b44197bbafad9acb4e458b idle timeout
+mcp.server.streamable_http | Terminating session: 0ac4ce3db4b44197bbafad9acb4e458b
+mcp.server.streamable_http_manager | Session 9a9942bb67844775a02b0f2346d306ef idle timeout
+mcp.server.streamable_http | Terminating session: 9a9942bb67844775a02b0f2346d306ef
+mcp.server.streamable_http_manager | Session 454396ac0b1a402a8be4659b2f6b60d6 idle timeout
+mcp.server.streamable_http | Terminating session: 454396ac0b1a402a8be4659b2f6b60d6
+mcp.server.streamable_http_manager | Session 712f150d55f140b7b421d5bfe9bf6ecf idle timeout
+mcp.server.streamable_http | Terminating session: 712f150d55f140b7b421d5bfe9bf6ecf
+mcp.server.streamable_http_manager | Session 990185e92c2c44c7aaf1dc7de93ca5f8 idle timeout
+mcp.server.streamable_http | Terminating session: 990185e92c2c44c7aaf1dc7de93ca5f8
+mcp.server.streamable_http_manager | Session 4fbc7999106c4f6fa854545a18f21e0d idle timeout
+mcp.server.streamable_http | Terminating session: 4fbc7999106c4f6fa854545a18f21e0d
+mcp.server.streamable_http_manager | Session f4cabdbfed9842a0a72f4c8bc5841b49 idle timeout
+mcp.server.streamable_http | Terminating session: f4cabdbfed9842a0a72f4c8bc5841b49
+mcp.server.streamable_http_manager | Session 0dcaabf712c14d1c8423678682eb2541 idle timeout
+mcp.server.streamable_http | Terminating session: 0dcaabf712c14d1c8423678682eb2541
+mcp.server.streamable_http_manager | Session aded76c12d06439cbd8c27437ccaa6b3 idle timeout
+mcp.server.streamable_http | Terminating session: aded76c12d06439cbd8c27437ccaa6b3
+mcp.server.streamable_http_manager | Session 3890ec38f5c84db084c8b11c3e6ad131 idle timeout
+mcp.server.streamable_http | Terminating session: 3890ec38f5c84db084c8b11c3e6ad131
+mcp.server.streamable_http_manager | Session 48661ba837da40328dd8cc97432b8f8d idle timeout
+mcp.server.streamable_http | Terminating session: 48661ba837da40328dd8cc97432b8f8d
+mcp.server.streamable_http_manager | Session 339861990c8a470c89a112418e3e04c6 idle timeout
+mcp.server.streamable_http | Terminating session: 339861990c8a470c89a112418e3e04c6
+mcp.server.streamable_http_manager | Session 9debdd1670e247f383f0c9244c3a9eaa idle timeout
+mcp.server.streamable_http | Terminating session: 9debdd1670e247f383f0c9244c3a9eaa
+mcp.server.streamable_http_manager | Session 674c0b69f2464620a16a9ff03c214e2c idle timeout
+mcp.server.streamable_http | Terminating session: 674c0b69f2464620a16a9ff03c214e2c
+mcp.server.streamable_http_manager | Session 9e9ac3d8ed36478e81e45266677b45ea idle timeout
+mcp.server.streamable_http | Terminating session: 9e9ac3d8ed36478e81e45266677b45ea
+mcp.server.streamable_http_manager | Session 239a8337b35c45e6b349a345597e8ef9 idle timeout
+mcp.server.streamable_http | Terminating session: 239a8337b35c45e6b349a345597e8ef9
+mcp.server.streamable_http_manager | Session fc85439d62e14c938c53073a4f531591 idle timeout
+mcp.server.streamable_http | Terminating session: fc85439d62e14c938c53073a4f531591
+mcp.server.streamable_http_manager | Session 4cd87fa732324f0493374195b932c8d7 idle timeout
+mcp.server.streamable_http | Terminating session: 4cd87fa732324f0493374195b932c8d7
+mcp.server.streamable_http_manager | Session d664b7929e07440a8423ec9ad5a93239 idle timeout
+mcp.server.streamable_http | Terminating session: d664b7929e07440a8423ec9ad5a93239
+mcp.server.streamable_http_manager | Session 2c7cfbedcd324292adc1e4d778c4e573 idle timeout
+mcp.server.streamable_http | Terminating session: 2c7cfbedcd324292adc1e4d778c4e573
+mcp.server.streamable_http_manager | Session 0737134da5ef4c94bf1fa5814c569d2f idle timeout
+mcp.server.streamable_http | Terminating session: 0737134da5ef4c94bf1fa5814c569d2f
+mcp.server.streamable_http_manager | Session c3ff8ceba16146b7910e8f7315ee586f idle timeout
+mcp.server.streamable_http | Terminating session: c3ff8ceba16146b7910e8f7315ee586f
+mcp.server.streamable_http_manager | Session af0eaa5d3ffd4553aafc05cbbbcf07e0 idle timeout
+mcp.server.streamable_http | Terminating session: af0eaa5d3ffd4553aafc05cbbbcf07e0
+mcp.server.streamable_http_manager | Session 8556dcdb29d843f290ae4767968a7378 idle timeout
+mcp.server.streamable_http | Terminating session: 8556dcdb29d843f290ae4767968a7378
+mcp.server.streamable_http_manager | Session 7eafefb360ff4aafb04dc5af14dadfeb idle timeout
+mcp.server.streamable_http | Terminating session: 7eafefb360ff4aafb04dc5af14dadfeb
+mcp.server.streamable_http_manager | Session 275ba432a54347fd91625c46b73cb3ee idle timeout
+mcp.server.streamable_http | Terminating session: 275ba432a54347fd91625c46b73cb3ee
+mcp.server.streamable_http_manager | Session 5675b15eb5f745a8883d8d5931f102b3 idle timeout
+mcp.server.streamable_http | Terminating session: 5675b15eb5f745a8883d8d5931f102b3
+mcp.server.streamable_http_manager | Session 015efd5c1e68458591743fd48fe44b3d idle timeout
+mcp.server.streamable_http | Terminating session: 015efd5c1e68458591743fd48fe44b3d
+mcp.server.streamable_http_manager | Session 37d0830991c743adb594e0c49037eadc idle timeout
+mcp.server.streamable_http | Terminating session: 37d0830991c743adb594e0c49037eadc
+mcp.server.streamable_http_manager | Session b21488af66e34036bcfee402513f029e idle timeout
+mcp.server.streamable_http | Terminating session: b21488af66e34036bcfee402513f029e
+mcp.server.streamable_http_manager | Session 65fa0c1dfbd14093bc8d6acfba349a1b idle timeout
+mcp.server.streamable_http | Terminating session: 65fa0c1dfbd14093bc8d6acfba349a1b
+mcp.server.streamable_http_manager | Session 4fae0fc352504ec59fb987d40e5405d6 idle timeout
+mcp.server.streamable_http | Terminating session: 4fae0fc352504ec59fb987d40e5405d6
+mcp.server.streamable_http_manager | Session 7bbe13e99ebc463a9dc91f2af81dcaec idle timeout
+mcp.server.streamable_http | Terminating session: 7bbe13e99ebc463a9dc91f2af81dcaec
+mcp.server.streamable_http_manager | Session 7293312a850349fe9112e1ab42d3b889 idle timeout
+mcp.server.streamable_http | Terminating session: 7293312a850349fe9112e1ab42d3b889
+mcp.server.streamable_http_manager | Session 3b25c1b1edfe4fbb9820ee2dd667f511 idle timeout
+mcp.server.streamable_http | Terminating session: 3b25c1b1edfe4fbb9820ee2dd667f511
+mcp.server.streamable_http_manager | Session 42bdc5a77eb148e59b3c6bc6717928b6 idle timeout
+mcp.server.streamable_http | Terminating session: 42bdc5a77eb148e59b3c6bc6717928b6
+mcp.server.streamable_http_manager | Session 2fff5a4a96794c0ead5e01470cfa51b3 idle timeout
+mcp.server.streamable_http | Terminating session: 2fff5a4a96794c0ead5e01470cfa51b3
+mcp.server.streamable_http_manager | Session 2ee6d6be226b49709827a62e1778ab9c idle timeout
+mcp.server.streamable_http | Terminating session: 2ee6d6be226b49709827a62e1778ab9c
+mcp.server.streamable_http_manager | Session 201ad178a4224bcea524d395ee3c3d95 idle timeout
+mcp.server.streamable_http | Terminating session: 201ad178a4224bcea524d395ee3c3d95
+mcp.server.streamable_http_manager | Session 6763f65cb9fd4e6ebd8c199d156602cb idle timeout
+mcp.server.streamable_http | Terminating session: 6763f65cb9fd4e6ebd8c199d156602cb
+mcp.server.streamable_http_manager | Session 234cfab7b2404c9ea1e3eadca57e9d59 idle timeout
+mcp.server.streamable_http | Terminating session: 234cfab7b2404c9ea1e3eadca57e9d59
+mcp.server.streamable_http_manager | Session f1ded9483e454d9e94b23af83a1a74f9 idle timeout
+mcp.server.streamable_http | Terminating session: f1ded9483e454d9e94b23af83a1a74f9
+mcp.server.streamable_http_manager | Session e91f7b7d6c7840598cdc63c470823a7b idle timeout
+mcp.server.streamable_http | Terminating session: e91f7b7d6c7840598cdc63c470823a7b
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: 31631b4f818e414a943b4604543bba32
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 02079b2d59374d1583b3e3f735710312
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7fa2cadfa72a416aab8fe0cea30dba9f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 824f2e807b544f849f30d4e9d310e7ad
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: de5ade89b5a044fa892da74f057a6627
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: db1e568d850e4c55a5b67b4b72a83faf
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5a6d1964c2cf430783933c3a361b3594
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 00982078c87446759b43409108e54a7a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 20bd3aa538e6454ca4e8fca270ea4f13
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a844a0e27a4d4d5a8929bd76ed7c4d6f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 80f5dd6ca7d7493189e7a5507bde2531
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 47d4e3f3fd584678bdd0f80885d7c42a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 640ae0114de742749fb2027f82642059
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4c29178abe0347b28d57603956f7ccca
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8e68ab928d3345c785e146d5ef4a35fd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 1784f2f797f14548bdbeeb91368c499f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9df2a6d8f61d4b5d8eebae04cd5d1a21
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a408a0cbbfd84e0d92ecaea68de907f7
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http_manager | Created new transport with session ID: b99d9a990be84b73bd9528991632e5a4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0323d0ca61c84a859ee96b58a6959827
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 215a4abf061048f9bc814dc05e7223f6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7f7d208c76c44fee8a2dca01574ed2a4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 86e6bcbdada642f7b8cc41620179e378
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 783455aa1467413fa4eb491f0c124e14
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: d33b5cb13ab248b2a325cdf277bbe6b9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 60575f63e4b14ae8921418b7f2a4dcfd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 00dd53fde87340609feb037528b5b9fd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3e620fabde444158bb5fbbe952cc3788
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: adf202e1cfd84e0ca1c89ab41b3ddda5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: f127a55dbb3f49eab0c171e0125b3f67
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 31631b4f818e414a943b4604543bba32 idle timeout
+mcp.server.streamable_http | Terminating session: 31631b4f818e414a943b4604543bba32
+mcp.server.streamable_http_manager | Created new transport with session ID: 3108882c6d86406aa3bc9882be9ae7d9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5b7fa34f036a4afd9e46b8be1d50b840
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7a92632403cb430aafe1e4af38b0f3de
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4bf74ba47581479899c0a01ecd7b3b73
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5b1f9e18ef584e78a92b39240eb3c2bc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 02079b2d59374d1583b3e3f735710312 idle timeout
+mcp.server.streamable_http | Terminating session: 02079b2d59374d1583b3e3f735710312
+mcp.server.streamable_http_manager | Created new transport with session ID: 08f5ca93dcc04b4e8b0720de0432e289
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 7fa2cadfa72a416aab8fe0cea30dba9f idle timeout
+mcp.server.streamable_http | Terminating session: 7fa2cadfa72a416aab8fe0cea30dba9f
+mcp.server.streamable_http_manager | Session 824f2e807b544f849f30d4e9d310e7ad idle timeout
+mcp.server.streamable_http | Terminating session: 824f2e807b544f849f30d4e9d310e7ad
+mcp.server.streamable_http_manager | Created new transport with session ID: 99dab31918214e6abad5b7552a113f16
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a65278a1904342099f40363c699535b0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session de5ade89b5a044fa892da74f057a6627 idle timeout
+mcp.server.streamable_http | Terminating session: de5ade89b5a044fa892da74f057a6627
+mcp.server.streamable_http_manager | Session db1e568d850e4c55a5b67b4b72a83faf idle timeout
+mcp.server.streamable_http | Terminating session: db1e568d850e4c55a5b67b4b72a83faf
+mcp.server.streamable_http_manager | Session 5a6d1964c2cf430783933c3a361b3594 idle timeout
+mcp.server.streamable_http | Terminating session: 5a6d1964c2cf430783933c3a361b3594
+mcp.server.streamable_http_manager | Session 00982078c87446759b43409108e54a7a idle timeout
+mcp.server.streamable_http | Terminating session: 00982078c87446759b43409108e54a7a
+mcp.server.streamable_http_manager | Session 20bd3aa538e6454ca4e8fca270ea4f13 idle timeout
+mcp.server.streamable_http | Terminating session: 20bd3aa538e6454ca4e8fca270ea4f13
+mcp.server.streamable_http_manager | Session a844a0e27a4d4d5a8929bd76ed7c4d6f idle timeout
+mcp.server.streamable_http | Terminating session: a844a0e27a4d4d5a8929bd76ed7c4d6f
+mcp.server.streamable_http_manager | Session 80f5dd6ca7d7493189e7a5507bde2531 idle timeout
+mcp.server.streamable_http | Terminating session: 80f5dd6ca7d7493189e7a5507bde2531
+mcp.server.streamable_http_manager | Session 47d4e3f3fd584678bdd0f80885d7c42a idle timeout
+mcp.server.streamable_http | Terminating session: 47d4e3f3fd584678bdd0f80885d7c42a
+mcp.server.streamable_http_manager | Created new transport with session ID: 476c114c520c4aed816733c80193e2ff
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c3e668ddd4ff4304898ed1528826864a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 6d131382d83c42498558694636d31c2b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: cb449fcb942547c8abf95bb818c2cbfa
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 665aec06708c406a95408840237b510a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 38abd926e488443f9954eb44cb0ca594
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 42ab69fe59204a0d9bd166c512fde91d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: 3a954d7d58d44dfa91f93d88ae3739d4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 640ae0114de742749fb2027f82642059 idle timeout
+mcp.server.streamable_http | Terminating session: 640ae0114de742749fb2027f82642059
+mcp.server.streamable_http_manager | Session 4c29178abe0347b28d57603956f7ccca idle timeout
+mcp.server.streamable_http | Terminating session: 4c29178abe0347b28d57603956f7ccca
+mcp.server.streamable_http_manager | Session 8e68ab928d3345c785e146d5ef4a35fd idle timeout
+mcp.server.streamable_http | Terminating session: 8e68ab928d3345c785e146d5ef4a35fd
+mcp.server.streamable_http_manager | Session 1784f2f797f14548bdbeeb91368c499f idle timeout
+mcp.server.streamable_http | Terminating session: 1784f2f797f14548bdbeeb91368c499f
+mcp.server.streamable_http_manager | Session 9df2a6d8f61d4b5d8eebae04cd5d1a21 idle timeout
+mcp.server.streamable_http | Terminating session: 9df2a6d8f61d4b5d8eebae04cd5d1a21
+mcp.server.streamable_http_manager | Session a408a0cbbfd84e0d92ecaea68de907f7 idle timeout
+mcp.server.streamable_http | Terminating session: a408a0cbbfd84e0d92ecaea68de907f7
+mcp.server.streamable_http_manager | Session b99d9a990be84b73bd9528991632e5a4 idle timeout
+mcp.server.streamable_http | Terminating session: b99d9a990be84b73bd9528991632e5a4
+mcp.server.streamable_http_manager | Session 0323d0ca61c84a859ee96b58a6959827 idle timeout
+mcp.server.streamable_http | Terminating session: 0323d0ca61c84a859ee96b58a6959827
+mcp.server.streamable_http_manager | Session 215a4abf061048f9bc814dc05e7223f6 idle timeout
+mcp.server.streamable_http | Terminating session: 215a4abf061048f9bc814dc05e7223f6
+mcp.server.streamable_http_manager | Session 7f7d208c76c44fee8a2dca01574ed2a4 idle timeout
+mcp.server.streamable_http | Terminating session: 7f7d208c76c44fee8a2dca01574ed2a4
+mcp.server.streamable_http_manager | Session 86e6bcbdada642f7b8cc41620179e378 idle timeout
+mcp.server.streamable_http | Terminating session: 86e6bcbdada642f7b8cc41620179e378
+mcp.server.streamable_http_manager | Session 783455aa1467413fa4eb491f0c124e14 idle timeout
+mcp.server.streamable_http | Terminating session: 783455aa1467413fa4eb491f0c124e14
+mcp.server.streamable_http_manager | Session d33b5cb13ab248b2a325cdf277bbe6b9 idle timeout
+mcp.server.streamable_http | Terminating session: d33b5cb13ab248b2a325cdf277bbe6b9
+mcp.server.streamable_http_manager | Session 60575f63e4b14ae8921418b7f2a4dcfd idle timeout
+mcp.server.streamable_http | Terminating session: 60575f63e4b14ae8921418b7f2a4dcfd
+mcp.server.streamable_http_manager | Session 00dd53fde87340609feb037528b5b9fd idle timeout
+mcp.server.streamable_http | Terminating session: 00dd53fde87340609feb037528b5b9fd
+mcp.server.streamable_http_manager | Session 3e620fabde444158bb5fbbe952cc3788 idle timeout
+mcp.server.streamable_http | Terminating session: 3e620fabde444158bb5fbbe952cc3788
+mcp.server.streamable_http_manager | Session adf202e1cfd84e0ca1c89ab41b3ddda5 idle timeout
+mcp.server.streamable_http | Terminating session: adf202e1cfd84e0ca1c89ab41b3ddda5
+mcp.server.streamable_http_manager | Session f127a55dbb3f49eab0c171e0125b3f67 idle timeout
+mcp.server.streamable_http | Terminating session: f127a55dbb3f49eab0c171e0125b3f67
+mcp.server.streamable_http_manager | Session 3108882c6d86406aa3bc9882be9ae7d9 idle timeout
+mcp.server.streamable_http | Terminating session: 3108882c6d86406aa3bc9882be9ae7d9
+mcp.server.streamable_http_manager | Session 5b7fa34f036a4afd9e46b8be1d50b840 idle timeout
+mcp.server.streamable_http | Terminating session: 5b7fa34f036a4afd9e46b8be1d50b840
+mcp.server.streamable_http_manager | Session 7a92632403cb430aafe1e4af38b0f3de idle timeout
+mcp.server.streamable_http | Terminating session: 7a92632403cb430aafe1e4af38b0f3de
+mcp.server.streamable_http_manager | Session 4bf74ba47581479899c0a01ecd7b3b73 idle timeout
+mcp.server.streamable_http | Terminating session: 4bf74ba47581479899c0a01ecd7b3b73
+mcp.server.streamable_http_manager | Session 5b1f9e18ef584e78a92b39240eb3c2bc idle timeout
+mcp.server.streamable_http | Terminating session: 5b1f9e18ef584e78a92b39240eb3c2bc
+mcp.server.streamable_http_manager | Session 08f5ca93dcc04b4e8b0720de0432e289 idle timeout
+mcp.server.streamable_http | Terminating session: 08f5ca93dcc04b4e8b0720de0432e289
+mcp.server.streamable_http_manager | Session 99dab31918214e6abad5b7552a113f16 idle timeout
+mcp.server.streamable_http | Terminating session: 99dab31918214e6abad5b7552a113f16
+mcp.server.streamable_http_manager | Session a65278a1904342099f40363c699535b0 idle timeout
+mcp.server.streamable_http | Terminating session: a65278a1904342099f40363c699535b0
+mcp.server.streamable_http_manager | Session 476c114c520c4aed816733c80193e2ff idle timeout
+mcp.server.streamable_http | Terminating session: 476c114c520c4aed816733c80193e2ff
+mcp.server.streamable_http_manager | Session c3e668ddd4ff4304898ed1528826864a idle timeout
+mcp.server.streamable_http | Terminating session: c3e668ddd4ff4304898ed1528826864a
+mcp.server.streamable_http_manager | Session 6d131382d83c42498558694636d31c2b idle timeout
+mcp.server.streamable_http | Terminating session: 6d131382d83c42498558694636d31c2b
+mcp.server.streamable_http_manager | Session cb449fcb942547c8abf95bb818c2cbfa idle timeout
+mcp.server.streamable_http | Terminating session: cb449fcb942547c8abf95bb818c2cbfa
+mcp.server.streamable_http_manager | Session 665aec06708c406a95408840237b510a idle timeout
+mcp.server.streamable_http | Terminating session: 665aec06708c406a95408840237b510a
+mcp.server.streamable_http_manager | Session 38abd926e488443f9954eb44cb0ca594 idle timeout
+mcp.server.streamable_http | Terminating session: 38abd926e488443f9954eb44cb0ca594
+mcp.server.streamable_http_manager | Session 42ab69fe59204a0d9bd166c512fde91d idle timeout
+mcp.server.streamable_http | Terminating session: 42ab69fe59204a0d9bd166c512fde91d
+mcp.server.streamable_http_manager | Session 3a954d7d58d44dfa91f93d88ae3739d4 idle timeout
+mcp.server.streamable_http | Terminating session: 3a954d7d58d44dfa91f93d88ae3739d4
+mcp.server.streamable_http_manager | Created new transport with session ID: d6e439beb0db4d369bf9dcc2b83d6a65
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: cfb76c55b3a6484a87f4f21793b41f3e
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2e170fdf38664ee39b824e289ba79be7
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: fa80f92da6394cc79b82a36fe46853d3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 36b01324d9bd403cb40808d82748eb0c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: f6cffbc4dc4f48908db62225f41936cc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2e3b8d8c76bf457e88396fbc12f6b358
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: da930580414349c8b8254b5b755207ef
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7757dbe8a96144038a923d5c2c10e9a9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a561a2740ca9429c9fb7e033e922c8ae
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: b2a9f46a8d3a4105b4b8f8bb7345e57c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 76f45fb8055a428199c02bd4c276cba2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 6eb4a5a163d54e249e45a1d32328a73c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8a860949b283444dbcfac3c2aef362e2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 021890d9d5654a59beb3b4ccaed75fe5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session d6e439beb0db4d369bf9dcc2b83d6a65 idle timeout
+mcp.server.streamable_http | Terminating session: d6e439beb0db4d369bf9dcc2b83d6a65
+mcp.server.streamable_http_manager | Created new transport with session ID: ac2f0bbfd58444c3945551560a035b38
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7d42ed554547494cb311f1ad94917cc5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 28e0fc2fa2444c188e86bb3456582e84
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5fe7422eee584b72bf56065708be8ecf
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 674205f94b154b9f8c109ed8879cbd9d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c0878f1cf7be4d2b8f188f7d5bbe0354
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 229c5265f54f43eab8a19432d0e74532
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3d27c35857d34cb0a6d42a9dc0292965
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 045fc50cccba47d5b99d9abc62c70a07
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session cfb76c55b3a6484a87f4f21793b41f3e idle timeout
+mcp.server.streamable_http | Terminating session: cfb76c55b3a6484a87f4f21793b41f3e
+mcp.server.streamable_http_manager | Session 2e170fdf38664ee39b824e289ba79be7 idle timeout
+mcp.server.streamable_http | Terminating session: 2e170fdf38664ee39b824e289ba79be7
+mcp.server.streamable_http_manager | Created new transport with session ID: 722c474cde4944fe8fdf9a27fa1c056e
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session fa80f92da6394cc79b82a36fe46853d3 idle timeout
+mcp.server.streamable_http | Terminating session: fa80f92da6394cc79b82a36fe46853d3
+mcp.server.streamable_http_manager | Session 36b01324d9bd403cb40808d82748eb0c idle timeout
+mcp.server.streamable_http | Terminating session: 36b01324d9bd403cb40808d82748eb0c
+mcp.server.streamable_http_manager | Created new transport with session ID: 49bc37751f1b41cdb884d8e140bd0169
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0625b762e2d14facb3f4aef504000982
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8c0a0212a35d408d9fea051233883b46
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c327f4d1e06b4061a3c81148f53b1c44
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session f6cffbc4dc4f48908db62225f41936cc idle timeout
+mcp.server.streamable_http | Terminating session: f6cffbc4dc4f48908db62225f41936cc
+mcp.server.streamable_http_manager | Session 2e3b8d8c76bf457e88396fbc12f6b358 idle timeout
+mcp.server.streamable_http | Terminating session: 2e3b8d8c76bf457e88396fbc12f6b358
+mcp.server.streamable_http_manager | Session da930580414349c8b8254b5b755207ef idle timeout
+mcp.server.streamable_http | Terminating session: da930580414349c8b8254b5b755207ef
+mcp.server.streamable_http_manager | Session 7757dbe8a96144038a923d5c2c10e9a9 idle timeout
+mcp.server.streamable_http | Terminating session: 7757dbe8a96144038a923d5c2c10e9a9
+mcp.server.streamable_http_manager | Session a561a2740ca9429c9fb7e033e922c8ae idle timeout
+mcp.server.streamable_http | Terminating session: a561a2740ca9429c9fb7e033e922c8ae
+mcp.server.streamable_http_manager | Created new transport with session ID: bd8896d5e9374e98a477670e91c07b8d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a7c9fe759a0c4163acb5f1a46ae68420
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2fce11caedda47819f4265d00dbbcec5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 6ab6d7a8909c476197a4a6d5b8c3702b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session b2a9f46a8d3a4105b4b8f8bb7345e57c idle timeout
+mcp.server.streamable_http | Terminating session: b2a9f46a8d3a4105b4b8f8bb7345e57c
+mcp.server.streamable_http_manager | Session 76f45fb8055a428199c02bd4c276cba2 idle timeout
+mcp.server.streamable_http | Terminating session: 76f45fb8055a428199c02bd4c276cba2
+mcp.server.streamable_http_manager | Session 6eb4a5a163d54e249e45a1d32328a73c idle timeout
+mcp.server.streamable_http | Terminating session: 6eb4a5a163d54e249e45a1d32328a73c
+mcp.server.streamable_http_manager | Session 8a860949b283444dbcfac3c2aef362e2 idle timeout
+mcp.server.streamable_http | Terminating session: 8a860949b283444dbcfac3c2aef362e2
+mcp.server.streamable_http_manager | Created new transport with session ID: 8dbb821d347d41a69ffaa4aaba75cd23
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+[11/11/26 13:51:05] Error calling tool 'editor_manage'                         
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 021890d9d5654a59beb3b4ccaed75fe5 idle timeout
+mcp.server.streamable_http | Terminating session: 021890d9d5654a59beb3b4ccaed75fe5
+mcp.server.streamable_http_manager | Created new transport with session ID: ca2452a4c68244acb53d1a48df24a8d8
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+[11/11/26 13:53:19] Error calling tool 'editor_manage'                         
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ae5c6a71d44042cba55a241ff88ca16e
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c7a0ceb15b5e45d9bd6f530e032920b9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: eb433af0d6444d428f8096ad6031c8b4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0507ead7717d451488a56d241d64ff18
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c65a0bf6fd734fc99bf99e57176ef4c4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: cc923ea666b445d7a3fc68bf3b833f0a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7e7a65f36a334d64bf3647d026a03857
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7c64369ddb4b44f2932abceff520b9a7
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7b91ce6ddd7f421bba937042a7b6d33d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+[11/11/26 13:56:13] Error calling tool 'editor_manage'                         
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: bae053c930144304a1754114ec5e3514
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: dc42faad2be2457994bae440f6ab7140
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 25160e787c8742f882173a294f3bd806
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+mcp.server.streamable_http_manager | Created new transport with session ID: a73b2dee9d7343b2be141388fed90b66
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7527c3cd635a40ba9f85446ec72b0afc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c50c7075673a49608549626226094a96
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session ac2f0bbfd58444c3945551560a035b38 idle timeout
+mcp.server.streamable_http | Terminating session: ac2f0bbfd58444c3945551560a035b38
+mcp.server.streamable_http_manager | Created new transport with session ID: db3530b7ee364bbcb180efffdc10e3ab
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0bccde6c509740adad8b80920a9b16a1
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http_manager | Created new transport with session ID: 72479df819054006963fe93e77a18396
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 7d42ed554547494cb311f1ad94917cc5 idle timeout
+mcp.server.streamable_http | Terminating session: 7d42ed554547494cb311f1ad94917cc5
+mcp.server.streamable_http_manager | Session 28e0fc2fa2444c188e86bb3456582e84 idle timeout
+mcp.server.streamable_http | Terminating session: 28e0fc2fa2444c188e86bb3456582e84
+mcp.server.streamable_http_manager | Session 5fe7422eee584b72bf56065708be8ecf idle timeout
+mcp.server.streamable_http | Terminating session: 5fe7422eee584b72bf56065708be8ecf
+mcp.server.streamable_http_manager | Created new transport with session ID: 15f945f8e83b4fc2882b6850b3a21dd7
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: df655dbd1a50456e8c92080e3d3e96a0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c700f2a8dbbf498ea0186bee7f20c559
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c229154616f8443db99a68155552659a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 6fc13b6d919848868785b653bf14f422
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 1ccc81fc14b74f078d067930ed46eaa1
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e6979868b77d40b2baa90b875b199873
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: b553ee076ebe4b6e83e48694e31e56dc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 70e1dc437bcf4869bdecda29c2359b84
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 95685d70cfeb4750ba98995cb30f5b00
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 95c76abbe21c458c8412dc7093996644
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 674205f94b154b9f8c109ed8879cbd9d idle timeout
+mcp.server.streamable_http | Terminating session: 674205f94b154b9f8c109ed8879cbd9d
+mcp.server.streamable_http_manager | Session c0878f1cf7be4d2b8f188f7d5bbe0354 idle timeout
+mcp.server.streamable_http | Terminating session: c0878f1cf7be4d2b8f188f7d5bbe0354
+mcp.server.streamable_http_manager | Created new transport with session ID: 2ecb9ef5bc704abd9a51fd2178a9810d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8b25fdb15d274e37954731eeceb479a9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 229c5265f54f43eab8a19432d0e74532 idle timeout
+mcp.server.streamable_http | Terminating session: 229c5265f54f43eab8a19432d0e74532
+mcp.server.streamable_http_manager | Created new transport with session ID: 3e40a348ccb245f8b0069a34eea6444b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: bfa81948b21c45ee82e418e7f551a973
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: cd561c78cabb49fdb25f26e99ef9145b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 3d27c35857d34cb0a6d42a9dc0292965 idle timeout
+mcp.server.streamable_http | Terminating session: 3d27c35857d34cb0a6d42a9dc0292965
+mcp.server.streamable_http_manager | Session 045fc50cccba47d5b99d9abc62c70a07 idle timeout
+mcp.server.streamable_http | Terminating session: 045fc50cccba47d5b99d9abc62c70a07
+mcp.server.streamable_http_manager | Session 722c474cde4944fe8fdf9a27fa1c056e idle timeout
+mcp.server.streamable_http | Terminating session: 722c474cde4944fe8fdf9a27fa1c056e
+mcp.server.streamable_http_manager | Session 49bc37751f1b41cdb884d8e140bd0169 idle timeout
+mcp.server.streamable_http | Terminating session: 49bc37751f1b41cdb884d8e140bd0169
+mcp.server.streamable_http_manager | Session 0625b762e2d14facb3f4aef504000982 idle timeout
+mcp.server.streamable_http | Terminating session: 0625b762e2d14facb3f4aef504000982
+mcp.server.streamable_http_manager | Session 8c0a0212a35d408d9fea051233883b46 idle timeout
+mcp.server.streamable_http | Terminating session: 8c0a0212a35d408d9fea051233883b46
+mcp.server.streamable_http_manager | Session c327f4d1e06b4061a3c81148f53b1c44 idle timeout
+mcp.server.streamable_http | Terminating session: c327f4d1e06b4061a3c81148f53b1c44
+mcp.server.streamable_http_manager | Session bd8896d5e9374e98a477670e91c07b8d idle timeout
+mcp.server.streamable_http | Terminating session: bd8896d5e9374e98a477670e91c07b8d
+mcp.server.streamable_http_manager | Session a7c9fe759a0c4163acb5f1a46ae68420 idle timeout
+mcp.server.streamable_http | Terminating session: a7c9fe759a0c4163acb5f1a46ae68420
+mcp.server.streamable_http_manager | Session 2fce11caedda47819f4265d00dbbcec5 idle timeout
+mcp.server.streamable_http | Terminating session: 2fce11caedda47819f4265d00dbbcec5
+mcp.server.streamable_http_manager | Session 6ab6d7a8909c476197a4a6d5b8c3702b idle timeout
+mcp.server.streamable_http | Terminating session: 6ab6d7a8909c476197a4a6d5b8c3702b
+mcp.server.streamable_http_manager | Session 8dbb821d347d41a69ffaa4aaba75cd23 idle timeout
+mcp.server.streamable_http | Terminating session: 8dbb821d347d41a69ffaa4aaba75cd23
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+mcp.server.streamable_http_manager | Session ca2452a4c68244acb53d1a48df24a8d8 idle timeout
+mcp.server.streamable_http | Terminating session: ca2452a4c68244acb53d1a48df24a8d8
+mcp.server.streamable_http_manager | Session ae5c6a71d44042cba55a241ff88ca16e idle timeout
+mcp.server.streamable_http | Terminating session: ae5c6a71d44042cba55a241ff88ca16e
+mcp.server.streamable_http_manager | Session c7a0ceb15b5e45d9bd6f530e032920b9 idle timeout
+mcp.server.streamable_http | Terminating session: c7a0ceb15b5e45d9bd6f530e032920b9
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+mcp.server.streamable_http_manager | Session eb433af0d6444d428f8096ad6031c8b4 idle timeout
+mcp.server.streamable_http | Terminating session: eb433af0d6444d428f8096ad6031c8b4
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Session 0507ead7717d451488a56d241d64ff18 idle timeout
+mcp.server.streamable_http | Terminating session: 0507ead7717d451488a56d241d64ff18
+mcp.server.streamable_http_manager | Session c65a0bf6fd734fc99bf99e57176ef4c4 idle timeout
+mcp.server.streamable_http | Terminating session: c65a0bf6fd734fc99bf99e57176ef4c4
+mcp.server.streamable_http_manager | Session cc923ea666b445d7a3fc68bf3b833f0a idle timeout
+mcp.server.streamable_http | Terminating session: cc923ea666b445d7a3fc68bf3b833f0a
+mcp.server.streamable_http_manager | Session 7e7a65f36a334d64bf3647d026a03857 idle timeout
+mcp.server.streamable_http | Terminating session: 7e7a65f36a334d64bf3647d026a03857
+mcp.server.streamable_http_manager | Session 7c64369ddb4b44f2932abceff520b9a7 idle timeout
+mcp.server.streamable_http | Terminating session: 7c64369ddb4b44f2932abceff520b9a7
+mcp.server.streamable_http_manager | Session 7b91ce6ddd7f421bba937042a7b6d33d idle timeout
+mcp.server.streamable_http | Terminating session: 7b91ce6ddd7f421bba937042a7b6d33d
+mcp.server.streamable_http_manager | Session bae053c930144304a1754114ec5e3514 idle timeout
+mcp.server.streamable_http | Terminating session: bae053c930144304a1754114ec5e3514
+mcp.server.streamable_http_manager | Session dc42faad2be2457994bae440f6ab7140 idle timeout
+mcp.server.streamable_http | Terminating session: dc42faad2be2457994bae440f6ab7140
+mcp.server.streamable_http_manager | Session 25160e787c8742f882173a294f3bd806 idle timeout
+mcp.server.streamable_http | Terminating session: 25160e787c8742f882173a294f3bd806
+mcp.server.streamable_http_manager | Session a73b2dee9d7343b2be141388fed90b66 idle timeout
+mcp.server.streamable_http | Terminating session: a73b2dee9d7343b2be141388fed90b66
+mcp.server.streamable_http_manager | Session 7527c3cd635a40ba9f85446ec72b0afc idle timeout
+mcp.server.streamable_http | Terminating session: 7527c3cd635a40ba9f85446ec72b0afc
+mcp.server.streamable_http_manager | Session c50c7075673a49608549626226094a96 idle timeout
+mcp.server.streamable_http | Terminating session: c50c7075673a49608549626226094a96
+mcp.server.streamable_http_manager | Session db3530b7ee364bbcb180efffdc10e3ab idle timeout
+mcp.server.streamable_http | Terminating session: db3530b7ee364bbcb180efffdc10e3ab
+mcp.server.streamable_http_manager | Session 0bccde6c509740adad8b80920a9b16a1 idle timeout
+mcp.server.streamable_http | Terminating session: 0bccde6c509740adad8b80920a9b16a1
+mcp.server.streamable_http_manager | Session 72479df819054006963fe93e77a18396 idle timeout
+mcp.server.streamable_http | Terminating session: 72479df819054006963fe93e77a18396
+mcp.server.streamable_http_manager | Session 15f945f8e83b4fc2882b6850b3a21dd7 idle timeout
+mcp.server.streamable_http | Terminating session: 15f945f8e83b4fc2882b6850b3a21dd7
+mcp.server.streamable_http_manager | Session df655dbd1a50456e8c92080e3d3e96a0 idle timeout
+mcp.server.streamable_http | Terminating session: df655dbd1a50456e8c92080e3d3e96a0
+mcp.server.streamable_http_manager | Session c700f2a8dbbf498ea0186bee7f20c559 idle timeout
+mcp.server.streamable_http | Terminating session: c700f2a8dbbf498ea0186bee7f20c559
+mcp.server.streamable_http_manager | Session c229154616f8443db99a68155552659a idle timeout
+mcp.server.streamable_http | Terminating session: c229154616f8443db99a68155552659a
+mcp.server.streamable_http_manager | Session 6fc13b6d919848868785b653bf14f422 idle timeout
+mcp.server.streamable_http | Terminating session: 6fc13b6d919848868785b653bf14f422
+mcp.server.streamable_http_manager | Session 1ccc81fc14b74f078d067930ed46eaa1 idle timeout
+mcp.server.streamable_http | Terminating session: 1ccc81fc14b74f078d067930ed46eaa1
+mcp.server.streamable_http_manager | Session e6979868b77d40b2baa90b875b199873 idle timeout
+mcp.server.streamable_http | Terminating session: e6979868b77d40b2baa90b875b199873
+mcp.server.streamable_http_manager | Session b553ee076ebe4b6e83e48694e31e56dc idle timeout
+mcp.server.streamable_http | Terminating session: b553ee076ebe4b6e83e48694e31e56dc
+mcp.server.streamable_http_manager | Session 70e1dc437bcf4869bdecda29c2359b84 idle timeout
+mcp.server.streamable_http | Terminating session: 70e1dc437bcf4869bdecda29c2359b84
+mcp.server.streamable_http_manager | Session 95685d70cfeb4750ba98995cb30f5b00 idle timeout
+mcp.server.streamable_http | Terminating session: 95685d70cfeb4750ba98995cb30f5b00
+mcp.server.streamable_http_manager | Session 95c76abbe21c458c8412dc7093996644 idle timeout
+mcp.server.streamable_http | Terminating session: 95c76abbe21c458c8412dc7093996644
+mcp.server.streamable_http_manager | Session 2ecb9ef5bc704abd9a51fd2178a9810d idle timeout
+mcp.server.streamable_http | Terminating session: 2ecb9ef5bc704abd9a51fd2178a9810d
+mcp.server.streamable_http_manager | Session 8b25fdb15d274e37954731eeceb479a9 idle timeout
+mcp.server.streamable_http | Terminating session: 8b25fdb15d274e37954731eeceb479a9
+mcp.server.streamable_http_manager | Session 3e40a348ccb245f8b0069a34eea6444b idle timeout
+mcp.server.streamable_http | Terminating session: 3e40a348ccb245f8b0069a34eea6444b
+mcp.server.streamable_http_manager | Session bfa81948b21c45ee82e418e7f551a973 idle timeout
+mcp.server.streamable_http | Terminating session: bfa81948b21c45ee82e418e7f551a973
+mcp.server.streamable_http_manager | Session cd561c78cabb49fdb25f26e99ef9145b idle timeout
+mcp.server.streamable_http | Terminating session: cd561c78cabb49fdb25f26e99ef9145b
+mcp.server.streamable_http_manager | Created new transport with session ID: 7be5e4ab482c4025ab346aad1307196e
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 218b1558ce3845be9f096b7bc2bb0d6d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9dc37dea035a4c1aacbbbbe519d4b4f2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: da09384d3f004b648c4fe690a0179601
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 904035820e3d478cbfec55f55175c18f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 000e461920da4b56bc030d108f589758
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c75a0d6de0cb4627a3a0d4359e01a7c1
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5191d39a98a440f18bcb7dbdcdcd91b0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: f1c2ebde6bb742158128c0145d4b14a6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 944ddddefc1843f79af009bc52603305
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+[11/11/26 14:53:02] Error calling tool 'editor_manage'                         
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 08295acaec1242b2b32d7c5cf41289aa
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+mcp.server.streamable_http_manager | Created new transport with session ID: 8ea6ec2df8ca4c7bb32c006e11439aa6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 82a778803b6d40e9899e763bb2000ba3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ebc72843fd8541afa11392deb7426ed2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5a29d113296545b59bcc2bb57ac5d1bd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c9a9f442769b4448bd9c3c6dc15de9c3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 750a182091a2427785293d99f608b53c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 65b28787551f46239249b1566d2ef3a0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: cb68ba7b0d91467c860e3a11cde6ae27
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+[11/11/26 14:57:17] Error calling tool 'editor_manage'                         
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8264945333064e3cbf617febe97a8444
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: b78c6dea706e45949cbd773bc41da325
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 12acc983cdab4d9fb5cecebd4bff4058
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c4761ea630734f6bba3b820ed11c47a6
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2f3ada1c71ba4d66b43b8e0bdd512fc2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2e74c2c84c6d42dda32575858912cea1
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0fe4d61188e743559db0a66226bcc575
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a4c9934bb4fc45f3bdc4fac9fb6cd7fd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e67e238a01624fb7be73578f96aee074
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c007e7d2ec144141b294ad7f0c079451
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a907909348534392b968fd6c8312472a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 550083eb444d4df5b238cd2808f5c498
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 7be5e4ab482c4025ab346aad1307196e idle timeout
+mcp.server.streamable_http | Terminating session: 7be5e4ab482c4025ab346aad1307196e
+mcp.server.streamable_http_manager | Session 218b1558ce3845be9f096b7bc2bb0d6d idle timeout
+mcp.server.streamable_http | Terminating session: 218b1558ce3845be9f096b7bc2bb0d6d
+mcp.server.streamable_http_manager | Session 9dc37dea035a4c1aacbbbbe519d4b4f2 idle timeout
+mcp.server.streamable_http | Terminating session: 9dc37dea035a4c1aacbbbbe519d4b4f2
+mcp.server.streamable_http_manager | Session da09384d3f004b648c4fe690a0179601 idle timeout
+mcp.server.streamable_http | Terminating session: da09384d3f004b648c4fe690a0179601
+mcp.server.streamable_http_manager | Session 904035820e3d478cbfec55f55175c18f idle timeout
+mcp.server.streamable_http | Terminating session: 904035820e3d478cbfec55f55175c18f
+mcp.server.streamable_http_manager | Session 000e461920da4b56bc030d108f589758 idle timeout
+mcp.server.streamable_http | Terminating session: 000e461920da4b56bc030d108f589758
+mcp.server.streamable_http_manager | Session c75a0d6de0cb4627a3a0d4359e01a7c1 idle timeout
+mcp.server.streamable_http | Terminating session: c75a0d6de0cb4627a3a0d4359e01a7c1
+mcp.server.streamable_http_manager | Session 5191d39a98a440f18bcb7dbdcdcd91b0 idle timeout
+mcp.server.streamable_http | Terminating session: 5191d39a98a440f18bcb7dbdcdcd91b0
+mcp.server.streamable_http_manager | Session f1c2ebde6bb742158128c0145d4b14a6 idle timeout
+mcp.server.streamable_http | Terminating session: f1c2ebde6bb742158128c0145d4b14a6
+mcp.server.streamable_http_manager | Session 944ddddefc1843f79af009bc52603305 idle timeout
+mcp.server.streamable_http | Terminating session: 944ddddefc1843f79af009bc52603305
+mcp.server.streamable_http_manager | Session 08295acaec1242b2b32d7c5cf41289aa idle timeout
+mcp.server.streamable_http | Terminating session: 08295acaec1242b2b32d7c5cf41289aa
+mcp.server.streamable_http_manager | Session 8ea6ec2df8ca4c7bb32c006e11439aa6 idle timeout
+mcp.server.streamable_http | Terminating session: 8ea6ec2df8ca4c7bb32c006e11439aa6
+mcp.server.streamable_http_manager | Session 82a778803b6d40e9899e763bb2000ba3 idle timeout
+mcp.server.streamable_http | Terminating session: 82a778803b6d40e9899e763bb2000ba3
+mcp.server.streamable_http_manager | Session ebc72843fd8541afa11392deb7426ed2 idle timeout
+mcp.server.streamable_http | Terminating session: ebc72843fd8541afa11392deb7426ed2
+mcp.server.streamable_http_manager | Session 5a29d113296545b59bcc2bb57ac5d1bd idle timeout
+mcp.server.streamable_http | Terminating session: 5a29d113296545b59bcc2bb57ac5d1bd
+mcp.server.streamable_http_manager | Session c9a9f442769b4448bd9c3c6dc15de9c3 idle timeout
+mcp.server.streamable_http | Terminating session: c9a9f442769b4448bd9c3c6dc15de9c3
+mcp.server.streamable_http_manager | Session 750a182091a2427785293d99f608b53c idle timeout
+mcp.server.streamable_http | Terminating session: 750a182091a2427785293d99f608b53c
+mcp.server.streamable_http_manager | Session 65b28787551f46239249b1566d2ef3a0 idle timeout
+mcp.server.streamable_http | Terminating session: 65b28787551f46239249b1566d2ef3a0
+mcp.server.streamable_http_manager | Session cb68ba7b0d91467c860e3a11cde6ae27 idle timeout
+mcp.server.streamable_http | Terminating session: cb68ba7b0d91467c860e3a11cde6ae27
+mcp.server.streamable_http_manager | Session 8264945333064e3cbf617febe97a8444 idle timeout
+mcp.server.streamable_http | Terminating session: 8264945333064e3cbf617febe97a8444
+mcp.server.streamable_http_manager | Session b78c6dea706e45949cbd773bc41da325 idle timeout
+mcp.server.streamable_http | Terminating session: b78c6dea706e45949cbd773bc41da325
+mcp.server.streamable_http_manager | Session 12acc983cdab4d9fb5cecebd4bff4058 idle timeout
+mcp.server.streamable_http | Terminating session: 12acc983cdab4d9fb5cecebd4bff4058
+mcp.server.streamable_http_manager | Session c4761ea630734f6bba3b820ed11c47a6 idle timeout
+mcp.server.streamable_http | Terminating session: c4761ea630734f6bba3b820ed11c47a6
+mcp.server.streamable_http_manager | Session 2f3ada1c71ba4d66b43b8e0bdd512fc2 idle timeout
+mcp.server.streamable_http | Terminating session: 2f3ada1c71ba4d66b43b8e0bdd512fc2
+mcp.server.streamable_http_manager | Session 2e74c2c84c6d42dda32575858912cea1 idle timeout
+mcp.server.streamable_http | Terminating session: 2e74c2c84c6d42dda32575858912cea1
+mcp.server.streamable_http_manager | Session 0fe4d61188e743559db0a66226bcc575 idle timeout
+mcp.server.streamable_http | Terminating session: 0fe4d61188e743559db0a66226bcc575
+mcp.server.streamable_http_manager | Session a4c9934bb4fc45f3bdc4fac9fb6cd7fd idle timeout
+mcp.server.streamable_http | Terminating session: a4c9934bb4fc45f3bdc4fac9fb6cd7fd
+mcp.server.streamable_http_manager | Session e67e238a01624fb7be73578f96aee074 idle timeout
+mcp.server.streamable_http | Terminating session: e67e238a01624fb7be73578f96aee074
+mcp.server.streamable_http_manager | Session c007e7d2ec144141b294ad7f0c079451 idle timeout
+mcp.server.streamable_http | Terminating session: c007e7d2ec144141b294ad7f0c079451
+mcp.server.streamable_http_manager | Session a907909348534392b968fd6c8312472a idle timeout
+mcp.server.streamable_http | Terminating session: a907909348534392b968fd6c8312472a
+mcp.server.streamable_http_manager | Session 550083eb444d4df5b238cd2808f5c498 idle timeout
+mcp.server.streamable_http | Terminating session: 550083eb444d4df5b238cd2808f5c498
+mcp.server.streamable_http_manager | Created new transport with session ID: a173cf3cbf6343c6b6c4b099b2a61868
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e0f87b96d2574a0a9b7a2817320fd73a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: 966c70e13629476ea664258b587704bd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: 71b33f3fbd914428b16a94c21df5ff4b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+mcp.server.streamable_http_manager | Created new transport with session ID: 6b238e4b094e4983955e0fb44ead56ff
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e5098ca3afe345d8a902c1b2b3aa648c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: 7dc6462df97340ff8af60abf64401afd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: ebe14230f80b46d1adb0e4cfae37613b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 1752ed43bfbe482e8b5b6b9091c70a84
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 35125854d65a431484ed832679d4ab58
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 24651f658c664e4d99e9e4f4435cd0b4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 9037794902884c8f9fe43650ee6b3a18
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3d444013c3cc4cecaf780369677cad00
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0587d6fe143344ecadfd9ba770db72ea
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ab0f2db56b3f4d2b8cf513f2ddcae5e5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3fc687b991f24c5a8d1884e413342c2a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 275e0907f0e446aca765f564ef3a94cd
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c422b0ba472f4f6e8982ed1f0b368f6b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session a173cf3cbf6343c6b6c4b099b2a61868 idle timeout
+mcp.server.streamable_http | Terminating session: a173cf3cbf6343c6b6c4b099b2a61868
+mcp.server.streamable_http_manager | Created new transport with session ID: e873a52bbc684759afbd7f4fa1f4b7d4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+[11/11/26 16:03:17] Error calling tool 'editor_manage'                         
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 83da3302c00240b3aea55b05b8cd80e5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7870eebb60af4a588f848c5b995773c7
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4b534d8c5c4c4dd6a96e94fa7ada6548
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: 3c177ab1ed4249a4b52ad9f36d2870fc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: aac02496eafe404c93712a642fdf0d14
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: f6b5ab32ec2a45ceaccfeb8cd6690903
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ff8e4cd69eee4964b1a9f2ffae68bbf3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 1dc46506c5c442e380cb6cf90f101bb7
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session e0f87b96d2574a0a9b7a2817320fd73a idle timeout
+mcp.server.streamable_http | Terminating session: e0f87b96d2574a0a9b7a2817320fd73a
+mcp.server.streamable_http_manager | Created new transport with session ID: f9730fc92a7348c190f93fbd9b17dfbb
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 871d52f8dcdb4ab881d99a7f035a39c2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 6b83f4fc667041efbe3e959f9fa3b013
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 966c70e13629476ea664258b587704bd idle timeout
+mcp.server.streamable_http | Terminating session: 966c70e13629476ea664258b587704bd
+mcp.server.streamable_http_manager | Session 71b33f3fbd914428b16a94c21df5ff4b idle timeout
+mcp.server.streamable_http | Terminating session: 71b33f3fbd914428b16a94c21df5ff4b
+mcp.server.streamable_http_manager | Session 6b238e4b094e4983955e0fb44ead56ff idle timeout
+mcp.server.streamable_http | Terminating session: 6b238e4b094e4983955e0fb44ead56ff
+mcp.server.streamable_http_manager | Session e5098ca3afe345d8a902c1b2b3aa648c idle timeout
+mcp.server.streamable_http | Terminating session: e5098ca3afe345d8a902c1b2b3aa648c
+mcp.server.streamable_http_manager | Session 7dc6462df97340ff8af60abf64401afd idle timeout
+mcp.server.streamable_http | Terminating session: 7dc6462df97340ff8af60abf64401afd
+mcp.server.streamable_http_manager | Session ebe14230f80b46d1adb0e4cfae37613b idle timeout
+mcp.server.streamable_http | Terminating session: ebe14230f80b46d1adb0e4cfae37613b
+mcp.server.streamable_http_manager | Session 1752ed43bfbe482e8b5b6b9091c70a84 idle timeout
+mcp.server.streamable_http | Terminating session: 1752ed43bfbe482e8b5b6b9091c70a84
+websockets.server | connection closed
+godot_ai.transport.websocket | Session disconnected: soul-game@7f6c (close code 1011, reason 'keepalive ping timeout')
+godot_ai.sessions.registry | Active session soul-gam disconnected; no active session until next register/activate
+mcp.server.streamable_http_manager | Session 35125854d65a431484ed832679d4ab58 idle timeout
+mcp.server.streamable_http | Terminating session: 35125854d65a431484ed832679d4ab58
+websockets.server | connection open
+godot_ai.transport.websocket | Session connected: soul-game@7f6c (pid=21648, Godot 4.6.3-stable (official), C:/JUEGOs 3D/soul-game/)
+godot_ai.transport.websocket | Session soul-gam: custom tools -> 0 registered (0 enabled)
+godot_ai.transport.websocket | Session soul-gam: scene changed to res://scenes/levels/ruins_boss_arena.tscn
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 24651f658c664e4d99e9e4f4435cd0b4 idle timeout
+mcp.server.streamable_http | Terminating session: 24651f658c664e4d99e9e4f4435cd0b4
+mcp.server.streamable_http_manager | Session 9037794902884c8f9fe43650ee6b3a18 idle timeout
+mcp.server.streamable_http | Terminating session: 9037794902884c8f9fe43650ee6b3a18
+mcp.server.streamable_http_manager | Session 3d444013c3cc4cecaf780369677cad00 idle timeout
+mcp.server.streamable_http | Terminating session: 3d444013c3cc4cecaf780369677cad00
+mcp.server.streamable_http_manager | Created new transport with session ID: 8b7e3c98a7c348e7b314c8d5ff99b927
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 276f1c4ee356413497828beb7645d721
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 96fc0ae1436148e7bf2ad931a570b34f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: d58c04dd9e224121bb32e33190a9317c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: bf7ed737ed0046af858b54eb3c48aae5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 67f5e6ed47424132899123b3b494918e
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 18a2c9a02ad64399a1186e13cfdc27e9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c2ba4ef9253148b69880c1dfc5722ed1
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: d16a1e2e18d44ce8aa6517a09e59b4cc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5cc7d68b7bc743d3a7773bbbd0ebfae0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 0587d6fe143344ecadfd9ba770db72ea idle timeout
+mcp.server.streamable_http | Terminating session: 0587d6fe143344ecadfd9ba770db72ea
+mcp.server.streamable_http_manager | Session ab0f2db56b3f4d2b8cf513f2ddcae5e5 idle timeout
+mcp.server.streamable_http | Terminating session: ab0f2db56b3f4d2b8cf513f2ddcae5e5
+mcp.server.streamable_http_manager | Session 3fc687b991f24c5a8d1884e413342c2a idle timeout
+mcp.server.streamable_http | Terminating session: 3fc687b991f24c5a8d1884e413342c2a
+mcp.server.streamable_http_manager | Session 275e0907f0e446aca765f564ef3a94cd idle timeout
+mcp.server.streamable_http | Terminating session: 275e0907f0e446aca765f564ef3a94cd
+mcp.server.streamable_http_manager | Session c422b0ba472f4f6e8982ed1f0b368f6b idle timeout
+mcp.server.streamable_http | Terminating session: c422b0ba472f4f6e8982ed1f0b368f6b
+mcp.server.streamable_http_manager | Session e873a52bbc684759afbd7f4fa1f4b7d4 idle timeout
+mcp.server.streamable_http | Terminating session: e873a52bbc684759afbd7f4fa1f4b7d4
+mcp.server.streamable_http_manager | Session 83da3302c00240b3aea55b05b8cd80e5 idle timeout
+mcp.server.streamable_http | Terminating session: 83da3302c00240b3aea55b05b8cd80e5
+mcp.server.streamable_http_manager | Session 7870eebb60af4a588f848c5b995773c7 idle timeout
+mcp.server.streamable_http | Terminating session: 7870eebb60af4a588f848c5b995773c7
+mcp.server.streamable_http_manager | Session 4b534d8c5c4c4dd6a96e94fa7ada6548 idle timeout
+mcp.server.streamable_http | Terminating session: 4b534d8c5c4c4dd6a96e94fa7ada6548
+mcp.server.streamable_http_manager | Session 3c177ab1ed4249a4b52ad9f36d2870fc idle timeout
+mcp.server.streamable_http | Terminating session: 3c177ab1ed4249a4b52ad9f36d2870fc
+mcp.server.streamable_http_manager | Session aac02496eafe404c93712a642fdf0d14 idle timeout
+mcp.server.streamable_http | Terminating session: aac02496eafe404c93712a642fdf0d14
+mcp.server.streamable_http_manager | Session f6b5ab32ec2a45ceaccfeb8cd6690903 idle timeout
+mcp.server.streamable_http | Terminating session: f6b5ab32ec2a45ceaccfeb8cd6690903
+mcp.server.streamable_http_manager | Session ff8e4cd69eee4964b1a9f2ffae68bbf3 idle timeout
+mcp.server.streamable_http | Terminating session: ff8e4cd69eee4964b1a9f2ffae68bbf3
+mcp.server.streamable_http_manager | Session 1dc46506c5c442e380cb6cf90f101bb7 idle timeout
+mcp.server.streamable_http | Terminating session: 1dc46506c5c442e380cb6cf90f101bb7
+mcp.server.streamable_http_manager | Session f9730fc92a7348c190f93fbd9b17dfbb idle timeout
+mcp.server.streamable_http | Terminating session: f9730fc92a7348c190f93fbd9b17dfbb
+mcp.server.streamable_http_manager | Session 871d52f8dcdb4ab881d99a7f035a39c2 idle timeout
+mcp.server.streamable_http | Terminating session: 871d52f8dcdb4ab881d99a7f035a39c2
+mcp.server.streamable_http_manager | Session 6b83f4fc667041efbe3e959f9fa3b013 idle timeout
+mcp.server.streamable_http | Terminating session: 6b83f4fc667041efbe3e959f9fa3b013
+mcp.server.streamable_http_manager | Created new transport with session ID: 616a4d35572d4a55ab7bae623c57398c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 21d4a6e742c64f74ae9999f969294a4f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2a519d98064f49a992c4692ed5a8d41a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5e843537d6b44fcbb19e6f02e49680bf
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8432ee16b88140f28abef8151af40979
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 75589e137e3a45bfb5b75a1f56f68d6a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 637b5e5a69814ba290bc494bdf4d07b3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ab64db29f5c74e5ab0a30d6a8c888787
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 8b7e3c98a7c348e7b314c8d5ff99b927 idle timeout
+mcp.server.streamable_http | Terminating session: 8b7e3c98a7c348e7b314c8d5ff99b927
+mcp.server.streamable_http_manager | Session 276f1c4ee356413497828beb7645d721 idle timeout
+mcp.server.streamable_http | Terminating session: 276f1c4ee356413497828beb7645d721
+mcp.server.streamable_http_manager | Session 96fc0ae1436148e7bf2ad931a570b34f idle timeout
+mcp.server.streamable_http | Terminating session: 96fc0ae1436148e7bf2ad931a570b34f
+mcp.server.streamable_http_manager | Session d58c04dd9e224121bb32e33190a9317c idle timeout
+mcp.server.streamable_http | Terminating session: d58c04dd9e224121bb32e33190a9317c
+mcp.server.streamable_http_manager | Session bf7ed737ed0046af858b54eb3c48aae5 idle timeout
+mcp.server.streamable_http | Terminating session: bf7ed737ed0046af858b54eb3c48aae5
+mcp.server.streamable_http_manager | Session 67f5e6ed47424132899123b3b494918e idle timeout
+mcp.server.streamable_http | Terminating session: 67f5e6ed47424132899123b3b494918e
+mcp.server.streamable_http_manager | Session 18a2c9a02ad64399a1186e13cfdc27e9 idle timeout
+mcp.server.streamable_http | Terminating session: 18a2c9a02ad64399a1186e13cfdc27e9
+mcp.server.streamable_http_manager | Session c2ba4ef9253148b69880c1dfc5722ed1 idle timeout
+mcp.server.streamable_http | Terminating session: c2ba4ef9253148b69880c1dfc5722ed1
+mcp.server.streamable_http_manager | Session d16a1e2e18d44ce8aa6517a09e59b4cc idle timeout
+mcp.server.streamable_http | Terminating session: d16a1e2e18d44ce8aa6517a09e59b4cc
+mcp.server.streamable_http_manager | Session 5cc7d68b7bc743d3a7773bbbd0ebfae0 idle timeout
+mcp.server.streamable_http | Terminating session: 5cc7d68b7bc743d3a7773bbbd0ebfae0
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+websockets.server | connection closed
+godot_ai.sessions.registry | Active session soul-gam disconnected; no active session until next register/activate
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 616a4d35572d4a55ab7bae623c57398c idle timeout
+mcp.server.streamable_http | Terminating session: 616a4d35572d4a55ab7bae623c57398c
+mcp.server.streamable_http_manager | Session 21d4a6e742c64f74ae9999f969294a4f idle timeout
+mcp.server.streamable_http | Terminating session: 21d4a6e742c64f74ae9999f969294a4f
+mcp.server.streamable_http_manager | Session 2a519d98064f49a992c4692ed5a8d41a idle timeout
+mcp.server.streamable_http | Terminating session: 2a519d98064f49a992c4692ed5a8d41a
+mcp.server.streamable_http_manager | Session 5e843537d6b44fcbb19e6f02e49680bf idle timeout
+mcp.server.streamable_http | Terminating session: 5e843537d6b44fcbb19e6f02e49680bf
+mcp.server.streamable_http_manager | Session 8432ee16b88140f28abef8151af40979 idle timeout
+mcp.server.streamable_http | Terminating session: 8432ee16b88140f28abef8151af40979
+mcp.server.streamable_http_manager | Session 75589e137e3a45bfb5b75a1f56f68d6a idle timeout
+mcp.server.streamable_http | Terminating session: 75589e137e3a45bfb5b75a1f56f68d6a
+mcp.server.streamable_http_manager | Session 637b5e5a69814ba290bc494bdf4d07b3 idle timeout
+mcp.server.streamable_http | Terminating session: 637b5e5a69814ba290bc494bdf4d07b3
+mcp.server.streamable_http_manager | Session ab64db29f5c74e5ab0a30d6a8c888787 idle timeout
+mcp.server.streamable_http | Terminating session: ab64db29f5c74e5ab0a30d6a8c888787
+mcp.server.streamable_http_manager | Created new transport with session ID: 3c43f81ff73d4131b6d7c5088f7c1e7c
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 3c43f81ff73d4131b6d7c5088f7c1e7c
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: bcf4f958a9ed47b7bd4d56328c06d6b2
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: bcf4f958a9ed47b7bd4d56328c06d6b2
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: bc2ec2f55a3d49c089f5605c53ded674
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: bc2ec2f55a3d49c089f5605c53ded674
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 0e79bfdd88364c6db90690528805876c
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 0e79bfdd88364c6db90690528805876c
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 00aaa0400d764c009636e01d690d5da4
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 00aaa0400d764c009636e01d690d5da4
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 791725de796040ceaa9ad58cfe75fc4b
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 791725de796040ceaa9ad58cfe75fc4b
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 5e163ac87e3c47428dcb7bbd09d8f89e
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 5e163ac87e3c47428dcb7bbd09d8f89e
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: c6f346217c4141a392a2f6e95c239a24
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: c6f346217c4141a392a2f6e95c239a24
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+websockets.server | connection open
+godot_ai.transport.websocket | Session connected: soul-game@679d (pid=15184, Godot 4.6.3-stable (official), C:/JUEGOs 3D/soul-game/)
+godot_ai.transport.websocket | Session soul-gam: custom tools -> 0 registered (0 enabled)
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+godot_ai.transport.websocket | Session soul-gam: readiness -> no_scene
+godot_ai.transport.websocket | Session soul-gam: scene changed to res://scenes/levels/ruins_boss_arena.tscn
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+mcp.server.streamable_http_manager | Created new transport with session ID: 6d459f31ec5f448ba5bd87c9824b80d2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e5b2a43488cb48a0a5dc0d7b8bf0c45f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 6d459f31ec5f448ba5bd87c9824b80d2 idle timeout
+mcp.server.streamable_http | Terminating session: 6d459f31ec5f448ba5bd87c9824b80d2
+mcp.server.streamable_http_manager | Session e5b2a43488cb48a0a5dc0d7b8bf0c45f idle timeout
+mcp.server.streamable_http | Terminating session: e5b2a43488cb48a0a5dc0d7b8bf0c45f
+mcp.server.streamable_http_manager | Created new transport with session ID: 6de31b7e44ff487181c9d883ed10d0d7
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 6de31b7e44ff487181c9d883ed10d0d7
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 72fbeb4a8d114162b70b82a9bbe56fef
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 72fbeb4a8d114162b70b82a9bbe56fef
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 25abaca40b014d10b827ccf282f07956
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 25abaca40b014d10b827ccf282f07956
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 5d460c63d4fd4523ace1b593cda98444
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: 5d460c63d4fd4523ace1b593cda98444
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: c9ee6f69ba0147b98128bbf281d81743
+mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+mcp.server.streamable_http | Terminating session: c9ee6f69ba0147b98128bbf281d81743
+mcp.server.streamable_http | Error in standalone SSE writer
+Traceback (most recent call last):
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\mcp\server\streamable_http.py", line 765, in standalone_sse_writer
+    async for event_message in standalone_stream_reader:
+    ...<7 lines>...
+        await sse_stream_writer.send(event_data)
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\abc\_streams.py", line 37, in __anext__
+    return await self.receive()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tkixi\AppData\Local\uv\cache\archive-v0\9ycC8l0n7tIDnL9M\Lib\site-packages\anyio\streams\memory.py", line 141, in receive
+    raise ClosedResourceError from None
+anyio.ClosedResourceError
+mcp.server.streamable_http_manager | Created new transport with session ID: 1b20ef5797384d9593c441eb92c4a12f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 952c1915bbb2490881b64541580823f9
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ba3ae3eec0034a51941f40b85cd0cbca
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> importing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3f11c0a2573d4f9a8d39512cd72d9d97
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 000005dfc7da442ba639e19c8fcf017b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a2260e5b1d724cddba3ca57b47042ddb
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 7c6ba6da98b64ed495a7a497b239aaa3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 46418d07ef0e409790098e258ed392dc
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 345bfc71a29648efbf5f7091b93bad8f
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: edee915d81764d5e96157cf7e0efe389
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 737f15455df94e0b8750d25bd8aafa7b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e33ca249a303467a850870dd8e8071c3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4a06960deb294e4fbf42e971b60cc722
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 58fb09d5cbad498686753830d44cd855
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a8dae7c7047d4827bc88acf8570b6863
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 0679c7eddd854f7b932c31b48e2d9636
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2ea965926f36418883ec680dc6af41c3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a39940b32fd84fc0b8df89c3ce6f5fb0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2a53a792978548bb8cfa48c35c81a68d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e7e2247ef7c44d8a9522663317bd71f5
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e686030e5739440e8ac8040e0e2dec86
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 6d20b23ca19341a8acfbb87ad77475d2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 23fb2779a12b4fd8906c763e229c627b
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 498ddbff41d3478d878eb49d2452fc0a
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: b4cb04960d6143e98281cace0fb3d4bb
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4601ddb1f27e4436aac9e9c6d1ae8af0
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 1cc5c2e31872417aa255c695a42f13d8
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 48bb790f393847ada5c4c0e3186ab4f3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 04d18f471e944f648405f4c622cf899c
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: a66dc9e290a4461ea4e53eee49deb660
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c11fbb9cdb2d47a8a5ebf781d83c9395
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 8e69a1ddf7684e12ba19ce30165377f3
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 33d32927903d475d870c4cdcbf5982c4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: ceeb6c4d1ea74a7b8b0a2145c8e06830
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e414a905bd1d4d11b9a2340c989d254d
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3b9f64ba22f5439485a5e8f4422afd03
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 2b3f2c7c6a814e7db9d4e72f7eaf4242
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: c2d286480fa34ce2a7382ce2b8b71265
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 5ef238411385481da11cb323466ed6e2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> stopped
+godot_ai.transport.websocket | Session soul-gam: readiness -> ready
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: b43ffdce6dd34dea817f1db085a108da
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+godot_ai.transport.websocket | Session soul-gam: play state -> playing
+godot_ai.transport.websocket | Session soul-gam: readiness -> playing
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e7a3fcd9102b4c06be901579ea4bfb29
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 4e78fb74f7d6434e87c4c848259586f1
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: 3a2280289af548b8a554011b7186cbf4
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Created new transport with session ID: e330c1182dda49478eed52c882866ad2
+mcp.server.lowlevel.server | Processing request of type CallToolRequest
+httpx | HTTP Request: POST https://godot-ai-telemetry-pudmurzsnq-uw.a.run.app/events "HTTP/1.1 404 Not Found"
+mcp.server.streamable_http_manager | Session 1b20ef5797384d9593c441eb92c4a12f idle timeout
+mcp.server.streamable_http | Terminating session: 1b20ef5797384d9593c441eb92c4a12f
+mcp.server.streamable_http_manager | Session 952c1915bbb2490881b64541580823f9 idle timeout
+mcp.server.streamable_http | Terminating session: 952c1915bbb2490881b64541580823f9
+mcp.server.streamable_http_manager | Session ba3ae3eec0034a51941f40b85cd0cbca idle timeout
+mcp.server.streamable_http | Terminating session: ba3ae3eec0034a51941f40b85cd0cbca
+mcp.server.streamable_http_manager | Session 3f11c0a2573d4f9a8d39512cd72d9d97 idle timeout
+mcp.server.streamable_http | Terminating session: 3f11c0a2573d4f9a8d39512cd72d9d97
+mcp.server.streamable_http_manager | Session 000005dfc7da442ba639e19c8fcf017b idle timeout
+mcp.server.streamable_http | Terminating session: 000005dfc7da442ba639e19c8fcf017b
+mcp.server.streamable_http_manager | Session a2260e5b1d724cddba3ca57b47042ddb idle timeout
+mcp.server.streamable_http | Terminating session: a2260e5b1d724cddba3ca57b47042ddb
+mcp.server.streamable_http_manager | Session 7c6ba6da98b64ed495a7a497b239aaa3 idle timeout
+mcp.server.streamable_http | Terminating session: 7c6ba6da98b64ed495a7a497b239aaa3
+mcp.server.streamable_http_manager | Session 46418d07ef0e409790098e258ed392dc idle timeout
+mcp.server.streamable_http | Terminating session: 46418d07ef0e409790098e258ed392dc
+mcp.server.streamable_http_manager | Session 345bfc71a29648efbf5f7091b93bad8f idle timeout
+mcp.server.streamable_http | Terminating session: 345bfc71a29648efbf5f7091b93bad8f
+mcp.server.streamable_http_manager | Session edee915d81764d5e96157cf7e0efe389 idle timeout
+mcp.server.streamable_http | Terminating session: edee915d81764d5e96157cf7e0efe389
+mcp.server.streamable_http_manager | Session 737f15455df94e0b8750d25bd8aafa7b idle timeout
+mcp.server.streamable_http | Terminating session: 737f15455df94e0b8750d25bd8aafa7b
+mcp.server.streamable_http_manager | Session e33ca249a303467a850870dd8e8071c3 idle timeout
+mcp.server.streamable_http | Terminating session: e33ca249a303467a850870dd8e8071c3
+mcp.server.streamable_http_manager | Session 4a06960deb294e4fbf42e971b60cc722 idle timeout
+mcp.server.streamable_http | Terminating session: 4a06960deb294e4fbf42e971b60cc722
+mcp.server.streamable_http_manager | Session 58fb09d5cbad498686753830d44cd855 idle timeout
+mcp.server.streamable_http | Terminating session: 58fb09d5cbad498686753830d44cd855
+mcp.server.streamable_http_manager | Session a8dae7c7047d4827bc88acf8570b6863 idle timeout
+mcp.server.streamable_http | Terminating session: a8dae7c7047d4827bc88acf8570b6863
+mcp.server.streamable_http_manager | Session 0679c7eddd854f7b932c31b48e2d9636 idle timeout
+mcp.server.streamable_http | Terminating session: 0679c7eddd854f7b932c31b48e2d9636
+mcp.server.streamable_http_manager | Session 2ea965926f36418883ec680dc6af41c3 idle timeout
+mcp.server.streamable_http | Terminating session: 2ea965926f36418883ec680dc6af41c3
+mcp.server.streamable_http_manager | Session a39940b32fd84fc0b8df89c3ce6f5fb0 idle timeout
+mcp.server.streamable_http | Terminating session: a39940b32fd84fc0b8df89c3ce6f5fb0
+mcp.server.streamable_http_manager | Session 2a53a792978548bb8cfa48c35c81a68d idle timeout
+mcp.server.streamable_http | Terminating session: 2a53a792978548bb8cfa48c35c81a68d
+mcp.server.streamable_http_manager | Session e7e2247ef7c44d8a9522663317bd71f5 idle timeout
+mcp.server.streamable_http | Terminating session: e7e2247ef7c44d8a9522663317bd71f5
+mcp.server.streamable_http_manager | Session e686030e5739440e8ac8040e0e2dec86 idle timeout
+mcp.server.streamable_http | Terminating session: e686030e5739440e8ac8040e0e2dec86
+mcp.server.streamable_http_manager | Session 6d20b23ca19341a8acfbb87ad77475d2 idle timeout
+mcp.server.streamable_http | Terminating session: 6d20b23ca19341a8acfbb87ad77475d2
+mcp.server.streamable_http_manager | Session 23fb2779a12b4fd8906c763e229c627b idle timeout
+mcp.server.streamable_http | Terminating session: 23fb2779a12b4fd8906c763e229c627b
+mcp.server.streamable_http_manager | Session 498ddbff41d3478d878eb49d2452fc0a idle timeout
+mcp.server.streamable_http | Terminating session: 498ddbff41d3478d878eb49d2452fc0a
+mcp.server.streamable_http_manager | Session b4cb04960d6143e98281cace0fb3d4bb idle timeout
+mcp.server.streamable_http | Terminating session: b4cb04960d6143e98281cace0fb3d4bb
+mcp.server.streamable_http_manager | Session 4601ddb1f27e4436aac9e9c6d1ae8af0 idle timeout
+mcp.server.streamable_http | Terminating session: 4601ddb1f27e4436aac9e9c6d1ae8af0
+mcp.server.streamable_http_manager | Session 1cc5c2e31872417aa255c695a42f13d8 idle timeout
+mcp.server.streamable_http | Terminating session: 1cc5c2e31872417aa255c695a42f13d8
+mcp.server.streamable_http_manager | Session 48bb790f393847ada5c4c0e3186ab4f3 idle timeout
+mcp.server.streamable_http | Terminating session: 48bb790f393847ada5c4c0e3186ab4f3
+mcp.server.streamable_http_manager | Session 04d18f471e944f648405f4c622cf899c idle timeout
+mcp.server.streamable_http | Terminating session: 04d18f471e944f648405f4c622cf899c
+mcp.server.streamable_http_manager | Session a66dc9e290a4461ea4e53eee49deb660 idle timeout
+mcp.server.streamable_http | Terminating session: a66dc9e290a4461ea4e53eee49deb660
+mcp.server.streamable_http_manager | Session c11fbb9cdb2d47a8a5ebf781d83c9395 idle timeout
+mcp.server.streamable_http | Terminating session: c11fbb9cdb2d47a8a5ebf781d83c9395
+mcp.server.streamable_http_manager | Session 8e69a1ddf7684e12ba19ce30165377f3 idle timeout
+mcp.server.streamable_http | Terminating session: 8e69a1ddf7684e12ba19ce30165377f3
+mcp.server.streamable_http_manager | Session 33d32927903d475d870c4cdcbf5982c4 idle timeout
+mcp.server.streamable_http | Terminating session: 33d32927903d475d870c4cdcbf5982c4
+mcp.server.streamable_http_manager | Session ceeb6c4d1ea74a7b8b0a2145c8e06830 idle timeout
+mcp.server.streamable_http | Terminating session: ceeb6c4d1ea74a7b8b0a2145c8e06830
+mcp.server.streamable_http_manager | Session e414a905bd1d4d11b9a2340c989d254d idle timeout
+mcp.server.streamable_http | Terminating session: e414a905bd1d4d11b9a2340c989d254d
+mcp.server.streamable_http_manager | Session 3b9f64ba22f5439485a5e8f4422afd03 idle timeout
+mcp.server.streamable_http | Terminating session: 3b9f64ba22f5439485a5e8f4422afd03
+mcp.server.streamable_http_manager | Session 2b3f2c7c6a814e7db9d4e72f7eaf4242 idle timeout
+mcp.server.streamable_http | Terminating session: 2b3f2c7c6a814e7db9d4e72f7eaf4242
+mcp.server.streamable_http_manager | Session c2d286480fa34ce2a7382ce2b8b71265 idle timeout
+mcp.server.streamable_http | Terminating session: c2d286480fa34ce2a7382ce2b8b71265
+mcp.server.streamable_http_manager | Session 5ef238411385481da11cb323466ed6e2 idle timeout
+mcp.server.streamable_http | Terminating session: 5ef238411385481da11cb323466ed6e2
+mcp.server.streamable_http_manager | Session b43ffdce6dd34dea817f1db085a108da idle timeout
+mcp.server.streamable_http | Terminating session: b43ffdce6dd34dea817f1db085a108da
+mcp.server.streamable_http_manager | Session e7a3fcd9102b4c06be901579ea4bfb29 idle timeout
+mcp.server.streamable_http | Terminating session: e7a3fcd9102b4c06be901579ea4bfb29
+mcp.server.streamable_http_manager | Session 4e78fb74f7d6434e87c4c848259586f1 idle timeout
+mcp.server.streamable_http | Terminating session: 4e78fb74f7d6434e87c4c848259586f1
+mcp.server.streamable_http_manager | Session 3a2280289af548b8a554011b7186cbf4 idle timeout
+mcp.server.streamable_http | Terminating session: 3a2280289af548b8a554011b7186cbf4
+mcp.server.streamable_http_manager | Session e330c1182dda49478eed52c882866ad2 idle timeout
+mcp.server.streamable_http | Terminating session: e330c1182dda49478eed52c882866ad2

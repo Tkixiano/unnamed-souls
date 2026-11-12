@@ -1,0 +1,2 @@
+var scene = get_tree().current_scene
+print("HOTFIX_F5 main=",scene.scene_file_path," screen=",get_tree().root.get_node("GameMenus").screen)

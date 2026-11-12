@@ -1,0 +1,62 @@
+{
+	"checks": {
+		"approach_east_can_retreat": true,
+		"approach_east_retains_ground": true,
+		"approach_west_can_retreat": true,
+		"approach_west_retains_ground": true,
+		"arena_landing_(-6.0, 0.5, -42.0)": true,
+		"arena_landing_(-8.0, 0.5, -48.0)": true,
+		"arena_landing_(0.0, 0.5, -56.0)": true,
+		"arena_landing_(8.0, 0.5, -48.0)": true,
+		"camera_tree_0": true,
+		"camera_tree_1": true,
+		"camera_tree_10": true,
+		"camera_tree_11": true,
+		"camera_tree_2": true,
+		"camera_tree_3": true,
+		"camera_tree_4": true,
+		"camera_tree_5": true,
+		"camera_tree_6": true,
+		"camera_tree_7": true,
+		"camera_tree_8": true,
+		"camera_tree_9": true,
+		"east_can_retreat": true,
+		"east_retains_ground": true,
+		"south_can_retreat": true,
+		"south_retains_ground": true,
+		"west_can_retreat": true,
+		"west_retains_ground": true
+	},
+	"failed": [],
+	"passed": 26,
+	"samples": [
+		{
+			"case": "west",
+			"final": "(-21.65722, 0.001, 12.0)",
+			"min_y": 0.000944505562074482
+		},
+		{
+			"case": "east",
+			"final": "(24.65722, 0.001, 10.0)",
+			"min_y": 0.000390626490116119
+		},
+		{
+			"case": "south",
+			"final": "(0.0, 0.001, 22.6575)",
+			"min_y": 0.000390626490116119
+		},
+		{
+			"case": "approach_east",
+			"final": "(1.158334, 0.001, -29.0)",
+			"min_y": 0.000390626490116119
+		},
+		{
+			"case": "approach_west",
+			"final": "(-1.158334, 0.001, -29.0)",
+			"min_y": 0.000390626490116119
+		}
+	],
+	"scope": "Fixed edge, retreat, landing and camera probes. Not exhaustive continuous-space QA.",
+	"status": "complete",
+	"total": 26
+}

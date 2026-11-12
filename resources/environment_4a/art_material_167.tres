@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_164.res" id="1_ideyu"]
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_166.res" id="2_ghsac"]
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_165.res" id="3_sb251"]
+
+[resource]
+resource_name = "material_0"
+cull_mode = 2
+albedo_texture = ExtResource("1_ideyu")
+metallic = 1.0
+metallic_texture = ExtResource("2_ghsac")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_ghsac")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_sb251")

@@ -1,0 +1,24 @@
+{
+  "all_logged_samples": 297,
+  "all_logged_range": [
+    15,
+    61
+  ],
+  "stationary_initial_forest_observed_samples": [
+    60,
+    60,
+    60,
+    59,
+    60,
+    60,
+    61,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    61
+  ],
+  "scope": "The listed 14 samples were read from the extracted Release log while stationary at the initial forest before pausing. Other log samples include menus/loading/pause; not a target-hardware benchmark or whole-game 60 FPS guarantee."
+}

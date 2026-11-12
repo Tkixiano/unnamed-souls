@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "name": "Unnamed Souls.exe",
+      "bytes": 400362880,
+      "sha256": "faf88819c6b00f10642650f96d33817b5e151bc973a80cb52541ae188c58ab2f"
+    },
+    {
+      "name": "README.txt",
+      "bytes": 4413,
+      "sha256": "6f72b9f6154f77a29f2ec6f493b0108e3400e9afa2ec2658f9aac41d12293d95"
+    },
+    {
+      "name": "Godot-License.txt",
+      "bytes": 105181,
+      "sha256": "a0bf4953ebc6289b6299f7081f6cbcc6699f5328207a2546bcd4ab54e3ef1f21"
+    }
+  ],
+  "pe_machine": "0x8664",
+  "imports": [
+    "api-ms-win-core-synch-l1-2-0.dll",
+    "combase.dll",
+    "kernel32.dll",
+    "ntdll.dll",
+    "oleaut32.dll",
+    "uiautomationcore.dll",
+    "user32.dll",
+    "ADVAPI32.dll",
+    "AVRT.dll",
+    "bcrypt.dll",
+    "CRYPT32.dll",
+    "dwmapi.dll",
+    "DWrite.dll",
+    "dxgi.dll",
+    "GDI32.dll",
+    "HID.DLL",
+    "IMM32.dll",
+    "IPHLPAPI.DLL",
+    "KERNEL32.dll",
+    "msvcrt.dll",
+    "ntdll.dll",
+    "ole32.dll",
+    "OLEAUT32.dll",
+    "SHCORE.dll",
+    "SHELL32.dll",
+    "SHLWAPI.dll",
+    "USER32.dll",
+    "WINMM.dll",
+    "WS2_32.dll",
+    "WSOCK32.dll"
+  ],
+  "embedded_pck": true,
+  "unsigned": true
+}

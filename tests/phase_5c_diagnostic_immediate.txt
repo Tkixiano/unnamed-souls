@@ -1,0 +1,28 @@
+var t=get_tree()
+var m=t.root.get_node("GameMenus")
+await m.new_game()
+for i in range(20): await t.physics_frame
+var a=t.root.get_node("AudioDirector")
+var cue=a.catalog.find(&"player_light")
+var wav=AudioStreamWAV.new()
+wav.format=AudioStreamWAV.FORMAT_16_BITS
+wav.mix_rate=8000
+var bytes=PackedByteArray()
+bytes.resize(128000)
+bytes.fill(0)
+wav.data=bytes
+cue.stream=wav
+a.play_event(&"player_light",t.current_scene.get_node("Player"),"immediate_pause")
+var v=a._spatial.filter(func(x):return x.playing)[0]
+m.open_pause()
+for i in range(4):await t.process_frame
+var before={"paused":v.stream_paused,"position":v.get_playback_position(),"can_process":v.can_process()}
+await t.create_timer(0.25,true).timeout
+var after={"paused":v.stream_paused,"position":v.get_playback_position(),"can_process":v.can_process()}
+m.request_resume()
+for i in range(2):await t.process_frame
+a.stop_effects()
+cue.stream=null
+var r={"before":before,"after":after}
+FileAccess.open("res://tests/phase_5c_immediate_pause_diagnostic.json",FileAccess.WRITE).store_string(JSON.stringify(r,"\t"))
+return r

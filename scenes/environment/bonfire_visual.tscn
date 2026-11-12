@@ -1,0 +1,12 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://resources/environment_4a/mesh_168.res" id="1_16ts2"]
+
+[node name="BonfireVisual" type="Node3D" unique_id=1360940246]
+metadata/source_asset = "res://assets/models/hoguera.glb"
+metadata/unit_scale = 0.7907447217122184
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1121803895]
+transform = Transform3D(0.7907447, 0, 0, 0, 0.7907447, 0, 0, 0, 0.7907447, 0.0017080187, 0.5165824, 0.0011576576)
+cast_shadow = 0
+mesh = ExtResource("1_16ts2")

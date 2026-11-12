@@ -1,0 +1,6 @@
+var s=get_tree().current_scene
+var p=s.get_node_or_null("Player")
+var enemies={}
+for e in get_tree().get_nodes_in_group("checkpoint_enemies"):
+	enemies[e.name]={"hp":e.attributes.current_health,"state":e.brain.state_name(),"position":str(e.position)}
+return {"scene":s.scene_file_path,"player":str(p.position) if p else "none","hp":p.attributes.current_health if p else -1,"enemies":enemies,"result":get_tree().root.get_meta("phase4b_result",{})}

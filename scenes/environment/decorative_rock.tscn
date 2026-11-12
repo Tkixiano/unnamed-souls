@@ -1,0 +1,12 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://resources/environment_4a/mesh_173.res" id="1_05x80"]
+
+[node name="DecorativeRock" type="Node3D" unique_id=508413800]
+metadata/source_asset = "res://assets/models/Roca_decorativa.glb"
+metadata/unit_scale = 0.7381066114429908
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=810736619]
+transform = Transform3D(0.7381066, 0, 0, 0, 0.7381066, 0, 0, 0, 0.7381066, 0.0015300876, 0.543431, 0.0017651946)
+cast_shadow = 0
+mesh = ExtResource("1_05x80")

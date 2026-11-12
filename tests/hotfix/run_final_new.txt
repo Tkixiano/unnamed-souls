@@ -1,0 +1,3 @@
+var runner = ResourceLoader.load("res://tests/hotfix/final_new.gd", "", ResourceLoader.CACHE_MODE_IGNORE).new()
+get_tree().root.set_meta("hotfix_runner",runner)
+runner.start(get_tree())

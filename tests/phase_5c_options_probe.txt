@@ -1,0 +1,2 @@
+get_tree().root.get_node("GameMenus").open_options()
+return "options visible"

@@ -1,0 +1,1003 @@
+{
+	"context": "Editor-capable engine in game mode loading the actual embedded Release PCK via --main-pack; NOT the Release executable or editor UI. External driver and test sources only.",
+	"current": "phase_3c_checks",
+	"environment": {
+		"engine_exe": "C:/godot 4.6/Godot_v4.6.3-stable_win64.exe",
+		"joypads": [],
+		"main": "res://scenes/ui/main_menu.tscn",
+		"mcp_helper": false,
+		"project_title": "Soul game",
+		"source_tests_available_in_pack": false
+	},
+	"failed": [
+		"phase_5c_checks:boss_death_and_victory_events_once"
+	],
+	"passed": 396,
+	"status": "complete",
+	"suites": {
+		"aggro_checks": {
+			"checks": {
+				"acquires_only_after_clear_sight": true,
+				"attack_resumes_after_obstacle_clears": true,
+				"blocked_attack_in_range": true,
+				"bonfire_rest_resets_aggro_without_duplicates": true,
+				"bonfire_rest_uses_real_interaction": true,
+				"can_reacquire_after_respawn": true,
+				"can_reacquire_after_rest": true,
+				"dead_player_is_not_pursued_or_attacked": true,
+				"destroyed_target_reference_cleared": true,
+				"detection_enters_alert": true,
+				"disposable_target_detected_normally": true,
+				"enemy_death_cancels_offense": true,
+				"enemy_death_clears_aggro": true,
+				"enemy_restore_clears_memory": true,
+				"explicit_brain_reset_clears_aggro": true,
+				"explicit_level_reload_clears_aggro": true,
+				"initial_valid_visual_detection": true,
+				"integrated_soldier_acquires_in_level": true,
+				"legacy_loss_radius_does_not_forget": true,
+				"new_game_clears_old_aggro_and_bindings": true,
+				"no_attack_through_occluding_wall": true,
+				"no_initial_acquisition_behind": true,
+				"no_initial_acquisition_out_of_range": true,
+				"no_initial_acquisition_through_wall": true,
+				"no_teleport_or_speed_change": true,
+				"normal_attack_damage_unchanged": true,
+				"pause_freezes_attack_and_physics": true,
+				"pause_preserves_aggro_reference": true,
+				"persistent_beyond_detection_radius": true,
+				"persistent_beyond_former_occlusion_timeout": true,
+				"persistent_beyond_old_actor_leash": true,
+				"persistent_beyond_old_target_leash": true,
+				"persistent_outside_field_of_view": true,
+				"persistent_when_player_moves_behind": true,
+				"real_respawn_resets_soldier_aggro": true,
+				"real_respawn_restores_player": true,
+				"resume_preserves_aggro": true,
+				"wall_collision_keeps_soldier_on_its_side": true
+			},
+			"failed": [],
+			"measurements": {
+				"maximum_wall_fixture_physics_step": 0.0
+			},
+			"passed": 38.0,
+			"physical_devices": [],
+			"scope": "Automated physics/contact and real lifecycle integration; no visual/physical-controller claims",
+			"status": "complete",
+			"total": 38.0
+		},
+		"phase_3c_checks": {
+			"checks": {
+				"active_armor_keeps_attack_commitment": true,
+				"active_orientation_committed": true,
+				"area_active_and_damage_once": true,
+				"area_can_be_escaped_by_walking": true,
+				"area_full_preparation_no_damage": true,
+				"area_no_duplicate_damage": true,
+				"area_only_phase_two_and_starts": true,
+				"area_roll_timing_evades_contact": true,
+				"area_warning_off_in_recovery": true,
+				"area_warning_precedes_damage": true,
+				"arena_boundary_resets_safely": true,
+				"autonomous_approach_and_pattern": true,
+				"backstab_policy_can_be_enabled_independently": true,
+				"bonfire_rest_after_victory": true,
+				"boss_area_real_contact_kills_player": true,
+				"boss_lockable": true,
+				"boss_slam_guard_break": true,
+				"checkpoint_retries_full_health_phase_one": true,
+				"combo_first_impact": true,
+				"combo_has_exactly_two_swings": true,
+				"combo_second_impact_separate_window": true,
+				"combo_second_separate_startup": true,
+				"compatible_boss_attack_blocks": true,
+				"cooldown_independently_prevents_repeat": true,
+				"death_cancels_attacks_ai_and_lock_target": true,
+				"death_has_absolute_priority": true,
+				"death_releases_player_lock": true,
+				"default_attack_rejects_parry_by_contact": true,
+				"default_boss_backstab_rejected": true,
+				"default_riposte_policy_off": true,
+				"defeated_boss_never_respawns_on_rest": true,
+				"entry_starts_real_encounter_intro": true,
+				"horizontal_active_damage_and_wide_shape": true,
+				"horizontal_starts": true,
+				"hud_initially_hidden": true,
+				"initial_boss_type_health_id": true,
+				"intro_rejects_attack_requests": true,
+				"main_scene_configuration_preserved": true,
+				"one_damage_per_window": true,
+				"parry_and_riposte_policy_future_opt_in": true,
+				"phase_one_has_three_patterns_no_area": true,
+				"phase_transition_after_committed_attack": true,
+				"phase_two_decision_more_aggressive": true,
+				"phase_two_legal_pattern_starts": true,
+				"phase_two_once_without_heal": true,
+				"phase_two_recovery_snapshot_reduced": true,
+				"player_normal_hitbox_damages_boss": true,
+				"post_attack_reposition_moves": true,
+				"recent_pattern_prevents_repeat": true,
+				"recovery_armor_keeps_commitment": true,
+				"recovery_hitbox_disabled": true,
+				"repeated_rest_no_boss_duplicates": true,
+				"retry_clears_hitboxes_transitions_hud": true,
+				"scene_reload_preserves_defeat_in_same_session": true,
+				"selection_rejects_outside_range": true,
+				"selection_rejects_solid_obstruction": true,
+				"selection_rejects_wrong_angle": true,
+				"session_defeat_recorded_by_stable_id": true,
+				"shared_attack_damage_and_physical_nodes": true,
+				"slam_hits_and_stamina_damage": true,
+				"slam_long_recovery": true,
+				"slam_long_startup": true,
+				"slash_phase_clock": true,
+				"stagger_recovers_owned_state": true,
+				"startup_has_no_offense": true,
+				"startup_stagger_rule": true,
+				"threshold_does_not_retrigger": true,
+				"threshold_queues_not_cancels_attack": true,
+				"transition_begins_after_whole_combo": true,
+				"transition_blocks_new_offense": true,
+				"transition_preserves_second_committed_combo_hit": true,
+				"victory_and_hud_end": true,
+				"weighted_selection_seed_reproducible": true
+			},
+			"failed": [],
+			"measurements": {
+				"seeded_pattern_samples": [
+					"HORIZONTAL_SLASH",
+					"HORIZONTAL_SLASH",
+					"VERTICAL_SLAM",
+					"TWO_HIT_COMBO",
+					"TWO_HIT_COMBO",
+					"TWO_HIT_COMBO",
+					"VERTICAL_SLAM",
+					"HORIZONTAL_SLASH",
+					"HORIZONTAL_SLASH",
+					"TWO_HIT_COMBO",
+					"HORIZONTAL_SLASH",
+					"HORIZONTAL_SLASH"
+				],
+				"slash_phase_events": [
+					[
+						1,
+						0.0
+					],
+					[
+						2,
+						0.700000000000001
+					],
+					[
+						3,
+						0.900000000000001
+					],
+					[
+						0,
+						1.7
+					]
+				]
+			},
+			"passed": 73,
+			"physical_devices": [],
+			"total": 73
+		},
+		"phase_4b_checks": {
+			"checks": {
+				"Soldier1_autonomous_hit_at_final_position": true,
+				"Soldier1_detects_at_final_position": true,
+				"Soldier1_pursues_at_final_position": true,
+				"Soldier2_autonomous_hit_at_final_position": true,
+				"Soldier2_detects_at_final_position": true,
+				"Soldier2_pursues_at_final_position": true,
+				"approach_ground_85_samples": true,
+				"approach_rails_both_sides": true,
+				"arena_ground_81_samples": true,
+				"boss_phase_two_during_real_hits": true,
+				"camera_distance_recovers": true,
+				"camera_keeps_physical_obstacle_mask": true,
+				"camera_wall_contraction": true,
+				"defeat_soldier1_through_player_hitbox": true,
+				"defeat_soldier2_through_player_hitbox": true,
+				"encounter_active_without_scene_change": true,
+				"environment_materials_assigned": true,
+				"f5_main_menu_with_integrated_level": true,
+				"f6_art_arena_available": true,
+				"forest_floor_625_samples": true,
+				"forest_lateral_boundaries_sampled": true,
+				"gate_bonfire_activates": true,
+				"initial_bonfire_interaction": true,
+				"no_plain_white_missing_environment_materials": true,
+				"reload_no_duplicate_actor": true,
+				"rock_collision_0": true,
+				"rock_collision_1": true,
+				"rock_collision_2": true,
+				"rock_collision_3": true,
+				"rock_retreat_no_trap_0": true,
+				"rock_retreat_no_trap_1": true,
+				"rock_retreat_no_trap_2": true,
+				"rock_retreat_no_trap_3": true,
+				"selector_keeps_three_destinations": true,
+				"south_forest_closed": true,
+				"tree_rock_ruin_world_proxies": true,
+				"victory_disables_offense_lock": true,
+				"victory_message_visible": true,
+				"victory_preserved_after_menu_reload": true,
+				"victory_through_player_hitboxes": true,
+				"walk_around_first_corpse": true,
+				"walk_around_second_corpse": true,
+				"walk_gate_to_encounter": true,
+				"walk_start_to_tutorial": true,
+				"walk_to_gate_checkpoint": true,
+				"walk_to_second_combat": true,
+				"walk_tutorial_to_first_combat": true
+			},
+			"failed": [],
+			"measurements": {
+				"Soldier1_ai": {
+					"player_hp": 80.0,
+					"position": "(-0.461401, 0.000391, 5.313231)",
+					"state": "RECOVERY"
+				},
+				"Soldier2_ai": {
+					"player_hp": 80.0,
+					"position": "(-0.461401, 0.000391, -9.686711)",
+					"state": "RECOVERY"
+				},
+				"material_audit": {
+					"meshes": 151.0,
+					"null_slots": [],
+					"white_untextured": []
+				},
+				"missing_forest_ground": [],
+				"performance": {
+					"adapter": "AMD Radeon(TM) Graphics",
+					"context": "Editor, stationary after automated combat route; not a target-hardware benchmark",
+					"memory": {
+						"available": 20623761408.0,
+						"free": 280432640.0,
+						"physical": 6323187712.0,
+						"stack": 8388608.0
+					},
+					"position": "(-0.116253, -0.007332, -47.21563)",
+					"processor": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+					"samples": [
+						{
+							"MEMORY_STATIC": 84955592.0,
+							"OBJECT_COUNT": 2720.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12764.0,
+							"RENDER_VIDEO_MEM_USED": 70765871.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.004019,
+							"TIME_PROCESS": 0.010674
+						},
+						{
+							"MEMORY_STATIC": 84957876.0,
+							"OBJECT_COUNT": 2720.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12764.0,
+							"RENDER_VIDEO_MEM_USED": 70765871.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.004019,
+							"TIME_PROCESS": 0.010674
+						},
+						{
+							"MEMORY_STATIC": 84957008.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12764.0,
+							"RENDER_VIDEO_MEM_USED": 70765871.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.004019,
+							"TIME_PROCESS": 0.010674
+						},
+						{
+							"MEMORY_STATIC": 84956200.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12762.0,
+							"RENDER_VIDEO_MEM_USED": 70765871.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.004019,
+							"TIME_PROCESS": 0.010674
+						},
+						{
+							"MEMORY_STATIC": 84957292.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12762.0,
+							"RENDER_VIDEO_MEM_USED": 70765871.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.002706,
+							"TIME_PROCESS": 0.010846
+						},
+						{
+							"MEMORY_STATIC": 84958336.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12762.0,
+							"RENDER_VIDEO_MEM_USED": 70765871.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.002706,
+							"TIME_PROCESS": 0.010846
+						},
+						{
+							"MEMORY_STATIC": 84959564.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12768.0,
+							"RENDER_VIDEO_MEM_USED": 70766199.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.002706,
+							"TIME_PROCESS": 0.010846
+						},
+						{
+							"MEMORY_STATIC": 84960744.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+							"RENDER_VIDEO_MEM_USED": 70766199.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.002706,
+							"TIME_PROCESS": 0.010846
+						},
+						{
+							"MEMORY_STATIC": 84961788.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+							"RENDER_VIDEO_MEM_USED": 70766199.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.003061,
+							"TIME_PROCESS": 0.011561
+						},
+						{
+							"MEMORY_STATIC": 84962928.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+							"RENDER_VIDEO_MEM_USED": 70766199.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.003061,
+							"TIME_PROCESS": 0.011561
+						},
+						{
+							"MEMORY_STATIC": 84963972.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+							"RENDER_VIDEO_MEM_USED": 70766199.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.003061,
+							"TIME_PROCESS": 0.011561
+						},
+						{
+							"MEMORY_STATIC": 84965016.0,
+							"OBJECT_COUNT": 2717.0,
+							"OBJECT_NODE_COUNT": 521.0,
+							"RENDER_TEXTURE_MEM_USED": 57266459.0,
+							"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+							"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+							"RENDER_VIDEO_MEM_USED": 70766199.0,
+							"TIME_FPS": 60.0,
+							"TIME_PHYSICS_PROCESS": 0.003061,
+							"TIME_PROCESS": 0.011561
+						}
+					],
+					"scene": "res://scenes/levels/main_level.tscn"
+				},
+				"proxy_categories": {
+					"rock": 4.0,
+					"ruin": 25.0,
+					"tree": 12.0
+				},
+				"route_fight_boss": {
+					"attack_requests_accepted": 14.0,
+					"initial_hp": 600.0,
+					"phase_two_seen": true,
+					"player_damage": 416.0,
+					"player_position": "(-0.116253, -0.007332, -47.21563)",
+					"remaining_hp": 0.0
+				},
+				"route_fight_soldier1": {
+					"attack_requests_accepted": 4.0,
+					"initial_hp": 180.0,
+					"phase_two_seen": false,
+					"player_damage": 40.0,
+					"player_position": "(0.0, 0.001, 4.345832)",
+					"remaining_hp": 0.0
+				},
+				"route_fight_soldier2": {
+					"attack_requests_accepted": 4.0,
+					"initial_hp": 180.0,
+					"phase_two_seen": false,
+					"player_damage": 40.0,
+					"player_position": "(-1.439688, 0.001, -10.94763)",
+					"remaining_hp": 0.0
+				}
+			},
+			"passed": 47.0,
+			"physical_devices": [],
+			"status": "complete",
+			"total": 47.0
+		},
+		"phase_4b_retry": {
+			"checks": {
+				"autonomous_boss_kills_normal_health_player": true,
+				"boss_reset_clean": true,
+				"first_attempt_walks_into_encounter": true,
+				"gate_rest_at_normal_attributes": true,
+				"respawn_restores_normal_vitals": true,
+				"respawn_retains_gate_id": true,
+				"retry_same_actor_instances": true,
+				"second_attempt_walks_into_encounter": true
+			},
+			"failed": [],
+			"passed": 8.0,
+			"player_position": "(0.500067, -0.046968, -43.05813)",
+			"scope": "One initial gate placement; real walks, autonomous death and automatic respawn. No expanded health or disabled components.",
+			"status": "complete",
+			"total": 8.0
+		},
+		"phase_5a_checks": {
+			"checks": {
+				"absent_bonfire_context_not_forced": true,
+				"actual_camera_rotation_completes": true,
+				"actual_delayed_healing_completes_estus": true,
+				"actual_movement_completes": true,
+				"all_40_panel_layouts_fit_and_avoid_bars": true,
+				"backstep_not_misreported_as_roll": true,
+				"backstep_starts": true,
+				"block_instruction_follows": true,
+				"bonfire_prompt_when_near": true,
+				"camera_follows_movement_in_order": true,
+				"checkpoint_event_completes_lesson": true,
+				"directional_roll_starts": true,
+				"disconnect_falls_back_keyboard": true,
+				"early_action_recorded_before_explanation": true,
+				"early_light_not_repeated": true,
+				"early_light_request_accepted": true,
+				"entry_real_encounter_event_completes": true,
+				"full_health_hides_estus_instruction": true,
+				"gate_context_without_nearby_targets": true,
+				"gate_instruction_not_shown_far_away": true,
+				"heavy_event_completes": true,
+				"heavy_request_accepted": true,
+				"idle_does_not_complete_by_time": true,
+				"initial_movement_context": true,
+				"keyboard_event_selects_keyboard_hints": true,
+				"lock_context_before_attacks": true,
+				"lock_event_completes": true,
+				"menu_reload_preserves_session_progress": true,
+				"no_pending_lesson_forces_combat_state": true,
+				"no_tutorial_autoload_or_disk_save": true,
+				"panel_hides_for_boss_hud": true,
+				"physical_equivalent_labels": true,
+				"playstation_mapping_metadata": true,
+				"preparation_does_not_complete_estus": true,
+				"real_estus_starts": true,
+				"real_lock_acquisition": true,
+				"real_respawn_keeps_completions": true,
+				"real_shield_raised_completes": true,
+				"rejected_estus_not_completed": true,
+				"requested_order": true,
+				"rest_real_checkpoint": true,
+				"roll_signal_completes": true,
+				"skip_current_supported": true,
+				"skip_is_not_claimed_as_action_completion": true,
+				"small_stick_drift_does_not_change_profile": true,
+				"ten_editable_lessons": true,
+				"tutorial_hidden_during_death": true,
+				"unknown_mapped_is_neutral": true,
+				"unknown_simulated_pad_uses_neutral": true,
+				"unmapped_even_named_xbox_is_neutral": true,
+				"walk_to_boss_with_pending_lessons": true,
+				"wounded_estus_context": true,
+				"xbox_mapping_metadata": true
+			},
+			"failed": [],
+			"measurements": {
+				"layouts": [
+					{
+						"id": "move",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "camera",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "bonfire",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "lock",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "light",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "heavy",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "block",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "dodge",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "estus",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "entry",
+						"profile": "keyboard",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "move",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "camera",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "bonfire",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "lock",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "light",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "heavy",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "block",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "dodge",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "estus",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "entry",
+						"profile": "xbox",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "move",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "camera",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "bonfire",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "lock",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "light",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "heavy",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "block",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "dodge",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "estus",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "entry",
+						"profile": "playstation",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "move",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "camera",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "bonfire",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "lock",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "light",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "heavy",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "block",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "dodge",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "estus",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					},
+					{
+						"id": "entry",
+						"profile": "generic",
+						"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+					}
+				],
+				"shown_instruction_ids": [
+					"camera",
+					"lock",
+					"",
+					"bonfire",
+					"",
+					"lock",
+					"heavy",
+					"block",
+					"dodge",
+					"",
+					"estus",
+					"",
+					"",
+					"entry",
+					""
+				]
+			},
+			"passed": 53.0,
+			"physical_devices": [],
+			"status": "complete",
+			"total": 53.0
+		},
+		"phase_5a_context_checks": {
+			"checks": {
+				"context_recovers_after_occlusion": true,
+				"defeated_boss_not_advertised_as_new_encounter": true,
+				"grip_switch_real_request": true,
+				"live_boss_gate_context": true,
+				"skip_button_wiring": true,
+				"two_hand_panel_fits": true,
+				"two_hand_shield_instruction_actionable": true,
+				"visible_target_context_available": true,
+				"wall_hides_combat_lesson_context": true,
+				"wall_hides_lock_lesson_context": true
+			},
+			"failed": [],
+			"passed": 10.0,
+			"status": "complete",
+			"total": 10.0
+		},
+		"phase_5b_checks": {
+			"checks": {
+				"attack_before_pause_starts": true,
+				"bootstrap_does_not_fake_bonfire_tutorial": true,
+				"camera_inversion_applied": true,
+				"camera_sensitivity_applied": true,
+				"cancel_does_not_roll_after_resume": true,
+				"cancel_restart_preserves_session_and_focus": true,
+				"config_contains_only_preferences": true,
+				"confirm_opens_options_once": true,
+				"confirmed_restart_replaces_scene_once": true,
+				"continue_preserves_tutorial": true,
+				"continue_restores_simulation": true,
+				"critical_fixture_reserves_real_component": true,
+				"dead_boss_cannot_attack": true,
+				"effects_volume_applied": true,
+				"eight_options_and_back": true,
+				"esc_pauses_scene_tree": true,
+				"f5_main_menu": true,
+				"f6_scene_kept": true,
+				"fresh_actions_and_critical_reservations": true,
+				"fullscreen_applied": true,
+				"healing_before_pause_starts": true,
+				"healing_finishes_once_after_continue": true,
+				"held_stick_does_not_repeat": true,
+				"keyboard_navigation": true,
+				"main_focus_new_game": true,
+				"main_has_no_live_world": true,
+				"main_has_three_choices": true,
+				"master_volume_applied": true,
+				"music_volume_applied": true,
+				"neutral_rearms_stick": true,
+				"new_after_victory_clears_metadata": true,
+				"new_after_victory_restores_boss": true,
+				"new_game_initial_checkpoint": true,
+				"new_game_loads_integrated_level": true,
+				"new_game_vitals_estus": true,
+				"new_game_waits_for_confirm_release": true,
+				"new_session_discards_old_critical_reservations": true,
+				"no_tutorial_or_player_on_main": true,
+				"options_back_restores_main_focus": true,
+				"options_during_pause_keep_world_frozen": true,
+				"options_return_keeps_pause": true,
+				"options_still_independent_of_session_reset": true,
+				"pause_focus_continue": true,
+				"pause_freezes_ai": true,
+				"pause_freezes_attack_clock": true,
+				"pause_freezes_attributes": true,
+				"pause_freezes_healing_and_charge_use": true,
+				"pause_freezes_movement": true,
+				"pause_freezes_tutorial": true,
+				"preferences_replace_existing_file": true,
+				"preferences_saved": true,
+				"preferences_survive_fresh_settings_instance": true,
+				"raising_volume_unmutes_bus": true,
+				"repeated_new_game_no_duplicates": true,
+				"restart_clean_offense": true,
+				"restart_keeps_options": true,
+				"restart_requires_confirmation": true,
+				"restart_resets_tutorial": true,
+				"restart_resets_vitals_estus_grip": true,
+				"restart_restores_enemies": true,
+				"return_to_main_unpauses_and_focuses": true,
+				"simulated_dpad_uses_existing_mapping": true,
+				"simulated_stick_navigation": true,
+				"single_player_after_double_confirm": true,
+				"slider_keyboard_adjustment": true,
+				"space_confirm_does_not_trigger_dodge": true,
+				"space_confirm_waits_release_before_play": true,
+				"three_audio_buses": true,
+				"tutorial_completes_real_move_before_pause": true,
+				"victory_focus_new_game": true,
+				"victory_screen_and_pause": true,
+				"window_mode_restored": true,
+				"zero_volume_mutes_bus": true
+			},
+			"failed": [],
+			"measurements": {
+				"audio_playback": "No audio streams; bus values verified numerically only",
+				"main_menu_rect": "1280x720 base; layouts verified by screenshots"
+			},
+			"passed": 73.0,
+			"physical_devices": [],
+			"status": "complete",
+			"total": 73.0
+		},
+		"phase_5c_checks": {
+			"available_artist_audio": 0.0,
+			"checks": {
+				"actor_reset_can_reuse_event_token": true,
+				"ambient_bus_and_loops": true,
+				"ambient_preference_loaded": true,
+				"ambient_preference_saved": true,
+				"ambient_zero_mutes": true,
+				"backstab_audio_once": true,
+				"bonfire_light_once_and_loop": true,
+				"bonfire_real_rest": true,
+				"bonfire_repeat_rest": true,
+				"boss_death_and_victory_events_once": false,
+				"boss_music_phase_one_and_event": true,
+				"bounded_initial_players": true,
+				"catalog_41_optional_cues": true,
+				"crossfade_settles_single_voice": true,
+				"death_sound_once_no_double_hurt": true,
+				"death_stops_music_context": true,
+				"dedup_even_missing_resource": true,
+				"duplicate_track_does_not_restart": true,
+				"effects_bus_assignment": true,
+				"enemy_death_once": true,
+				"enemy_detection_attack_events": true,
+				"enemy_hurt_and_stagger_events": true,
+				"enemy_manual_attack_fixture": true,
+				"estus_consumption_sound_once": true,
+				"estus_sound_waits_for_use_instant": true,
+				"forest_wind_two_ruin_sources": true,
+				"four_buses": true,
+				"gameplay_music_pauses": true,
+				"global_pool_capacity": true,
+				"grip_event_once_on_commit": true,
+				"heavy_attack_accepted": true,
+				"idle_no_repeated_footsteps": true,
+				"level_music_context": true,
+				"light_attack_accepted": true,
+				"loop_copy_preserves_original": true,
+				"master_zero_mutes_all_routing": true,
+				"menu_music_with_memory_fixture": true,
+				"missing_next_track_fades_previous_out": true,
+				"music_does_not_change_bus_volume": true,
+				"no_fake_asset_paths": true,
+				"no_swing_sound_in_startup": true,
+				"normal_boss_attack_audio_once": true,
+				"normal_boss_pattern_requested": true,
+				"one_heavy_sound": true,
+				"one_light_sound_per_active_swing": true,
+				"parry_audio_once_on_success": true,
+				"pause_stops_cadence_and_ambient": true,
+				"paused_gameplay_sound_rejected": true,
+				"phase_transition_audio_once": true,
+				"real_backstab_starts": true,
+				"real_block_audio_matches_contact_signals": true,
+				"real_encounter_starts": true,
+				"real_estus_use": true,
+				"real_grip_switch": true,
+				"real_parry_starts": true,
+				"real_pause_stops_level_music": true,
+				"real_pause_stops_sfx": true,
+				"real_phase_two_music": true,
+				"real_player_damage_sound": true,
+				"real_riposte_starts": true,
+				"real_roll_accepted": true,
+				"real_sword_contact_event": true,
+				"real_victory_music_while_ui_paused": true,
+				"rebinding_same_scene_idempotent": true,
+				"respawn_returns_level_music": true,
+				"rest_no_duplicate_fire_loop": true,
+				"restore_does_not_fake_grip_sound": true,
+				"riposte_audio_once": true,
+				"roll_event_once": true,
+				"routing_Ambient": true,
+				"routing_Music": true,
+				"routing_SFX": true,
+				"running_uses_own_steps": true,
+				"same_file_loop_policy_updates_without_restart": true,
+				"same_file_new_context_no_restart": true,
+				"same_track_position_advances": true,
+				"scene_has_one_bridge": true,
+				"second_simultaneous_attack_rejected": true,
+				"sfx_memory_pause_probe_started": true,
+				"sfx_resumes_without_restart": true,
+				"silent_menu_music_context": true,
+				"spatial_pool_capacity": true,
+				"spatial_pool_overflow_drops_without_allocating": true,
+				"spatial_source_position": true,
+				"special_active_impact_event": true,
+				"special_pattern_request": true,
+				"special_warning_event": true,
+				"stop_effects_clears_voices": true,
+				"unknown_music_key_is_safe": true,
+				"victory_music_allowed_while_paused": true,
+				"volume_Ambient": true,
+				"volume_Master": true,
+				"volume_Music": true,
+				"volume_SFX": true,
+				"walking_steps_from_cadence": true
+			},
+			"failed": [
+				"boss_death_and_victory_events_once"
+			],
+			"fixture": "Silent in-memory WAV only; no files or quality evaluation",
+			"measurements": {
+				"pool_nodes": 10.0,
+				"requested_events": {
+					"bonfire_light": 1.0,
+					"bonfire_rest": 2.0,
+					"boss_attack": 1.0,
+					"boss_death": 2.0,
+					"boss_encounter": 1.0,
+					"boss_phase_transition": 1.0,
+					"boss_special_impact": 1.0,
+					"boss_special_warning": 1.0,
+					"boss_stagger": 1.0,
+					"boss_victory": 5.0,
+					"enemy_alert": 1.0,
+					"enemy_attack": 2.0,
+					"enemy_death": 1.0,
+					"enemy_hurt": 2.0,
+					"enemy_stagger": 3.0,
+					"player_backstab": 1.0,
+					"player_block": 3.0,
+					"player_death": 1.0,
+					"player_estus": 2.0,
+					"player_grip": 1.0,
+					"player_heavy": 2.0,
+					"player_hurt": 3.0,
+					"player_light": 2.0,
+					"player_parry": 1.0,
+					"player_riposte": 1.0,
+					"player_roll": 1.0,
+					"player_run_step": 3.0,
+					"player_step": 4.0,
+					"sword_hit": 15.0
+				},
+				"sfx_pause": {
+					"can_process": false,
+					"position_after": 0.0,
+					"position_before": 0.0,
+					"stream_paused": false
+				},
+				"special_fixture": "Brain decisions suspended only for deterministic special request; real attack timing/hitbox and audio observer remain active.",
+				"synthetic_audio": "Silent PCM in memory, Master muted. Playback/loop/fade APIs tested; no artistic files or listening evaluation."
+			},
+			"passed": 94.0,
+			"physical_devices": [],
+			"status": "complete",
+			"total": 95.0
+		}
+	},
+	"total": 397
+}

@@ -1,0 +1,18 @@
+{
+	"checks": {
+		"autonomous_boss_kills_normal_health_player": true,
+		"boss_reset_clean": true,
+		"first_attempt_walks_into_encounter": true,
+		"gate_rest_at_normal_attributes": true,
+		"respawn_restores_normal_vitals": true,
+		"respawn_retains_gate_id": true,
+		"retry_same_actor_instances": true,
+		"second_attempt_walks_into_encounter": true
+	},
+	"failed": [],
+	"passed": 8,
+	"player_position": "(0.500067, -0.046968, -43.05813)",
+	"scope": "One initial gate placement; real walks, autonomous death and automatic respawn. No expanded health or disabled components.",
+	"status": "complete",
+	"total": 8
+}

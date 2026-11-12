@@ -1,0 +1,22 @@
+{
+	"checks": {
+		"450_fresh_vs_reused_and_default_query_comparisons": true,
+		"actor_rid_excluded": true,
+		"blocked_probe_agrees_with_original": true,
+		"moving_obstacle_clearance_seen_next_physics_tick": true,
+		"new_obstruction_seen_next_physics_tick": true,
+		"old_parameters_safe_in_new_world": true,
+		"physical_movement_still_advances": false,
+		"query_mask_preserved": true,
+		"resources_reused_not_results": true,
+		"restoration_keeps_safe_parameter_objects": true,
+		"speed_acceleration_and_attack_data_unchanged": true
+	},
+	"comparisons": 450,
+	"failed": [
+		"physical_movement_still_advances"
+	],
+	"passed": 10,
+	"scope": "Only query fixture disables decisions. Aggro/lifecycle regression separately runs real active soldiers.",
+	"total": 11
+}

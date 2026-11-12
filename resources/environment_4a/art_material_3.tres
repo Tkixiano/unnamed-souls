@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/models/escenario 1_dead_tree_3d_model_basecolor.jpg" id="1_jo7eb"]
+[ext_resource type="Texture2D" path="res://assets/models/escenario 1_dead_tree_3d_model_rm.jpg" id="2_tgrs6"]
+[ext_resource type="Texture2D" path="res://assets/models/escenario 1_dead_tree_3d_model_normal.jpg" id="3_36tsk"]
+
+[resource]
+resource_name = "tripo_mat_9a1f2a02-b8a7-42be-9dbe-b2b30acf202c.001"
+albedo_texture = ExtResource("1_jo7eb")
+metallic = 1.0
+metallic_texture = ExtResource("2_tgrs6")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_tgrs6")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_36tsk")

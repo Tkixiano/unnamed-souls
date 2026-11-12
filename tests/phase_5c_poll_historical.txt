@@ -1,0 +1,9 @@
+var t=get_tree()
+var r=t.root.get_meta("phase4b_regressions",{})
+var l=t.root.get_meta("legacy_regressions",{})
+var b=r.get("3c",{})
+var phases={}
+for k in l.get("results",{}):
+	var v=l.results[k]
+	phases[k]={"passed":v.get("passed"),"total":v.get("total"),"failed":v.get("failed",[])}
+return {"status":r.get("status"),"current":l.get("current","3C"),"boss_passed":b.get("passed"),"boss_failed":b.get("failed",[]),"phases":phases}

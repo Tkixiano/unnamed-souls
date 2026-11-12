@@ -1,0 +1,294 @@
+{
+	"arena_side_rays": [
+		{
+			"hit": "(10.10871, 1.0, -42.0)",
+			"z": -42
+		},
+		{
+			"hit": "(11.64814, 1.0, -45.0)",
+			"z": -45
+		},
+		{
+			"hit": "(11.58114, 1.0, -48.0)",
+			"z": -48
+		},
+		{
+			"hit": "(11.69789, 1.0, -51.0)",
+			"z": -51
+		},
+		{
+			"hit": "(9.95181, 1.0, -54.0)",
+			"z": -54
+		},
+		{
+			"hit": "(7.939391, 1.0, -57.0)",
+			"z": -57
+		},
+		{
+			"hit": "(1.226754, 1.0, -60.0)",
+			"z": -60
+		}
+	],
+	"bodies": [
+		{
+			"path": "ArenaCollision",
+			"position": "(0.0, 0.0, 0.0)"
+		},
+		{
+			"path": "Approach",
+			"position": "(0.0, -0.25, -32.0)"
+		},
+		{
+			"path": "ApproachLeft",
+			"position": "(-3.5, 0.8, -32.0)"
+		},
+		{
+			"path": "ApproachRight",
+			"position": "(3.5, 0.8, -32.0)"
+		},
+		{
+			"path": "Forest/Trunk0",
+			"position": "(7.424152, 1.6, -1.147801)"
+		},
+		{
+			"path": "Forest/Trunk1",
+			"position": "(7.62126, 1.6, 5.034181)"
+		},
+		{
+			"path": "Forest/Trunk2",
+			"position": "(13.02953, 1.6, -0.909151)"
+		},
+		{
+			"path": "Forest/Trunk3",
+			"position": "(-12.32731, 1.6, -8.936952)"
+		},
+		{
+			"path": "Forest/Trunk4",
+			"position": "(-10.2263, 1.6, -6.117847)"
+		},
+		{
+			"path": "Forest/Trunk5",
+			"position": "(-12.8943, 1.6, -4.267834)"
+		},
+		{
+			"path": "Forest/Trunk6",
+			"position": "(-14.17199, 1.6, 9.277666)"
+		},
+		{
+			"path": "Forest/Trunk7",
+			"position": "(-13.26095, 1.6, -1.393698)"
+		},
+		{
+			"path": "Forest/Trunk8",
+			"position": "(13.48323, 1.6, 8.70607)"
+		},
+		{
+			"path": "Forest/Trunk9",
+			"position": "(15.43251, 1.6, 9.663612)"
+		},
+		{
+			"path": "Forest/Trunk10",
+			"position": "(-13.24846, 1.6, 2.541883)"
+		},
+		{
+			"path": "Forest/Trunk11",
+			"position": "(-12.43709, 1.6, 15.15537)"
+		},
+		{
+			"path": "Forest/SolidRuin1",
+			"position": "(18.98526, 1.30662, -26.38711)"
+		},
+		{
+			"path": "Forest/SolidRuin2",
+			"position": "(17.10039, 3.450781, -25.06003)"
+		},
+		{
+			"path": "Forest/SolidRuin3",
+			"position": "(20.21137, 3.052681, -24.07533)"
+		},
+		{
+			"path": "Forest/SolidRuin4",
+			"position": "(18.17793, 2.13533, -23.46403)"
+		},
+		{
+			"path": "Forest/SolidRuin7",
+			"position": "(18.8723, 3.775384, -17.33207)"
+		},
+		{
+			"path": "Forest/SolidRuin22",
+			"position": "(17.06001, 0.366104, -25.87066)"
+		},
+		{
+			"path": "Forest/SolidRuin23",
+			"position": "(20.0097, -0.01127, -24.93713)"
+		},
+		{
+			"path": "Forest/SolidRuin24",
+			"position": "(18.78101, 2.388884, -25.3695)"
+		},
+		{
+			"path": "Forest/SolidRuin25",
+			"position": "(18.69064, 2.923512, -24.86782)"
+		},
+		{
+			"path": "Forest/SolidRuin26",
+			"position": "(17.1425, 2.721498, -25.47201)"
+		},
+		{
+			"path": "Forest/SolidRuin27",
+			"position": "(18.53766, 3.59946, -24.22738)"
+		},
+		{
+			"path": "Forest/SolidRuin28",
+			"position": "(18.4986, 3.681067, -24.14791)"
+		},
+		{
+			"path": "Forest/SolidRuin29",
+			"position": "(18.35894, 4.598096, -23.28059)"
+		},
+		{
+			"path": "Forest/SolidRuin31",
+			"position": "(18.35813, 4.512101, -23.3681)"
+		},
+		{
+			"path": "Forest/SolidRuin53",
+			"position": "(16.03585, 3.599419, -22.57224)"
+		},
+		{
+			"path": "Forest/SolidRuin54",
+			"position": "(19.53882, 3.142556, -21.45432)"
+		},
+		{
+			"path": "Forest/SolidRuin68",
+			"position": "(17.67837, 2.718657, -18.84431)"
+		},
+		{
+			"path": "Forest/SolidRuin69",
+			"position": "(20.72178, 2.96789, -18.21977)"
+		},
+		{
+			"path": "Forest/SolidRuin70",
+			"position": "(17.02209, 4.431747, -16.33018)"
+		},
+		{
+			"path": "Forest/SolidRuin71",
+			"position": "(20.06551, 4.68092, -15.70566)"
+		},
+		{
+			"path": "Forest/SolidRuin72",
+			"position": "(18.82865, 3.3611, -17.05152)"
+		},
+		{
+			"path": "Forest/SolidRuin73",
+			"position": "(18.86317, 3.988994, -17.47034)"
+		},
+		{
+			"path": "Forest/SolidRuin78",
+			"position": "(19.00619, 2.762752, -18.61871)"
+		},
+		{
+			"path": "Forest/SolidRuin79",
+			"position": "(19.40452, 2.794112, -18.5361)"
+		},
+		{
+			"path": "Forest/SolidRuin121",
+			"position": "(19.62, 0.865662, -17.25221)"
+		},
+		{
+			"path": "Forest/ForestGround",
+			"position": "(0.0, -0.25, 0.0)"
+		},
+		{
+			"path": "Forest/WestBoundary",
+			"position": "(-24.0, 2.0, 0.0)"
+		},
+		{
+			"path": "Forest/EastBoundary",
+			"position": "(27.0, 2.0, 0.0)"
+		},
+		{
+			"path": "Forest/SouthBoundary",
+			"position": "(1.0, 2.0, 25.0)"
+		},
+		{
+			"path": "Forest/NorthWest",
+			"position": "(-14.0, 2.0, -26.0)"
+		},
+		{
+			"path": "Forest/NorthEast",
+			"position": "(17.0, 2.0, -26.0)"
+		},
+		{
+			"path": "LinkFloor",
+			"position": "(0.0, -0.25, -27.0)"
+		},
+		{
+			"path": "TutorialDummy/Body",
+			"position": "(2.5, 0.0, 12.0)"
+		},
+		{
+			"path": "Rock0/SimpleCollision",
+			"position": "(-5.5, 0.2975, 16.0)"
+		},
+		{
+			"path": "Rock1/SimpleCollision",
+			"position": "(5.5, 0.35, 5.0)"
+		},
+		{
+			"path": "Rock2/SimpleCollision",
+			"position": "(-5.5, 0.385, -6.0)"
+		},
+		{
+			"path": "Rock3/SimpleCollision",
+			"position": "(5.5, 0.3325, -17.0)"
+		}
+	],
+	"ground_missing": [],
+	"link_side_rays": [
+		{
+			"body": "none",
+			"hit": "none",
+			"z": -25
+		},
+		{
+			"body": "ApproachRight:<StaticBody3D#74910271542>",
+			"hit": "(3.0, 0.7, -27.0)",
+			"z": -27
+		},
+		{
+			"body": "ApproachRight:<StaticBody3D#74910271542>",
+			"hit": "(3.0, 0.7, -29.0)",
+			"z": -29
+		},
+		{
+			"body": "ApproachRight:<StaticBody3D#74910271542>",
+			"hit": "(3.0, 0.7, -31.0)",
+			"z": -31
+		},
+		{
+			"body": "ApproachRight:<StaticBody3D#74910271542>",
+			"hit": "(3.0, 0.7, -33.0)",
+			"z": -33
+		},
+		{
+			"body": "ApproachRight:<StaticBody3D#74910271542>",
+			"hit": "(3.0, 0.7, -35.0)",
+			"z": -35
+		},
+		{
+			"body": "ArenaCollision:<StaticBody3D#74557949985>",
+			"hit": "(2.313987, 0.7, -37.0)",
+			"z": -37
+		},
+		{
+			"body": "ArenaCollision:<StaticBody3D#74557949985>",
+			"hit": "(3.313334, 0.7, -39.0)",
+			"z": -39
+		},
+		{
+			"body": "none",
+			"hit": "none",
+			"z": -41
+		}
+	]
+}

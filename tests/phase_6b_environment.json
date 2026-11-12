@@ -1,0 +1,25 @@
+{
+	"godot_executable": "C:/godot 4.6/Godot_v4.6.3-stable_win64.exe",
+	"logical_cpus": 8,
+	"main_scene": "res://scenes/ui/main_menu.tscn",
+	"memory": {
+		"available": 20623761408,
+		"free": 952352768,
+		"physical": 6323187712,
+		"stack": 8388608
+	},
+	"os": "Windows 10.0.26200",
+	"processor": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+	"rcedit": "",
+	"version": {
+		"build": "official",
+		"hash": "7d41c59c457bd5a245092b4e7eb2d833e3b3f8c3",
+		"hex": 263683,
+		"major": 4,
+		"minor": 6,
+		"patch": 3,
+		"status": "stable",
+		"string": "4.6.3-stable (official)",
+		"timestamp": 0
+	}
+}

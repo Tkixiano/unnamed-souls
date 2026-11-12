@@ -1,0 +1,790 @@
+{
+	"4a": {
+		"checks": {
+			"area_can_be_dodged_start": true,
+			"area_evaded_by_real_iframes": true,
+			"area_pattern_enabled": true,
+			"area_warning_visible_during_startup": true,
+			"bonfire_rest_uses_existing_manager": true,
+			"bonfire_restores_vitals_estus_one_hand": true,
+			"bonfire_visual_replaced_logic_preserved": true,
+			"boss_contact_causes_real_death": true,
+			"boss_reset_full_phase_one_no_hitbox": true,
+			"boss_victory_and_lock_invalidated": true,
+			"camera_collision_with_boundary": true,
+			"contact_parry_in_integrated_level": true,
+			"death_respawns_at_active_gate": true,
+			"direct_boss_f6_scene_exists": true,
+			"dodge_ground_and_free_recovered": true,
+			"dodge_starts": true,
+			"estus_heals_once_at_use_time": true,
+			"estus_not_instant": true,
+			"estus_recovery_and_hud": true,
+			"estus_uses_original_component": true,
+			"f5_main_menu_level_and_selector_preserved": true,
+			"five_assets_imported_in_godot": true,
+			"forest_portions_excluded_explicitly": true,
+			"free_movement_and_deceleration": true,
+			"gate_checkpoint_rest": true,
+			"iframes_query_active": true,
+			"initial_ground_collision": true,
+			"lethal_area_started": true,
+			"locked_strafe": true,
+			"locomotion_restored_after_attack": true,
+			"main_level_loaded": true,
+			"moderate_derived_geometry": true,
+			"no_definitive_actor_models": true,
+			"normal_attack_starts": true,
+			"normal_enemies_restore_same_instances": true,
+			"orbital_camera_independent": true,
+			"original_models_and_textures_unchanged": true,
+			"parry_starts": true,
+			"pattern_damage_once_HORIZONTAL_SLASH": true,
+			"pattern_damage_once_TWO_HIT_COMBO": true,
+			"pattern_damage_once_VERTICAL_SLAM": true,
+			"pattern_starts_HORIZONTAL_SLASH": true,
+			"pattern_starts_TWO_HIT_COMBO": true,
+			"pattern_starts_VERTICAL_SLAM": true,
+			"phase_two_transition_single_no_heal": true,
+			"real_hitbox_damage_single": true,
+			"rest_keeps_boss_dead": true,
+			"retained_forest_materials_valid": true,
+			"reusable_estus_scene": true,
+			"reusable_rock_four_instances": true,
+			"riposte_contextual": true,
+			"riposte_damage_once": true,
+			"route_and_boss_floor_continuous": true,
+			"same_player_and_checkpoint_in_arena": true,
+			"single_boss_no_respawn_duplicates": true,
+			"single_player_shared_scene": true,
+			"soldier_ai_real_attack_damages_player": true,
+			"soldier_manual_attack_uses_shared_executor": true,
+			"soldier_real_hit_can_be_blocked": true,
+			"source_audit_materials_and_dimensions": true,
+			"tutorial_lock_on": true,
+			"walk_through_arch_starts_boss": true,
+			"walk_tutorial_path_to_gate_without_teleport": true,
+			"world_boundary_solid": true
+		},
+		"failed": [],
+		"measurements": {
+			"floor_samples": [
+				{
+					"y": 0.0,
+					"z": 20.0
+				},
+				{
+					"y": 0.0,
+					"z": 14.0
+				},
+				{
+					"y": 0.0,
+					"z": 7.0
+				},
+				{
+					"y": 0.0,
+					"z": 0.0
+				},
+				{
+					"y": 0.0,
+					"z": -8.0
+				},
+				{
+					"y": 0.0,
+					"z": -18.0
+				},
+				{
+					"y": 0.0,
+					"z": -24.0
+				},
+				{
+					"y": 0.0,
+					"z": -28.0
+				},
+				{
+					"y": 0.0,
+					"z": -32.0
+				},
+				{
+					"y": 0.0,
+					"z": -35.0
+				},
+				{
+					"y": 0.0,
+					"z": -37.0
+				},
+				{
+					"y": -0.159764528274536,
+					"z": -39.0
+				},
+				{
+					"y": -0.0818150043487549,
+					"z": -41.0
+				},
+				{
+					"y": -0.0254101753234863,
+					"z": -45.0
+				},
+				{
+					"y": -0.00001358985900878,
+					"z": -48.0
+				},
+				{
+					"y": -0.00365114212036133,
+					"z": -55.0
+				}
+			],
+			"forest_triangles_in_scene": 48184.0,
+			"walk_to_gate_position": "(-2.5, 0.001, -33.22385)"
+		},
+		"passed": 64.0,
+		"status": "complete",
+		"total": 64.0
+	},
+	"4b_checks": {
+		"checks": {
+			"Soldier1_autonomous_hit_at_final_position": true,
+			"Soldier1_detects_at_final_position": true,
+			"Soldier1_pursues_at_final_position": true,
+			"Soldier2_autonomous_hit_at_final_position": true,
+			"Soldier2_detects_at_final_position": true,
+			"Soldier2_pursues_at_final_position": true,
+			"approach_ground_85_samples": true,
+			"approach_rails_both_sides": true,
+			"arena_ground_81_samples": true,
+			"boss_phase_two_during_real_hits": true,
+			"camera_distance_recovers": true,
+			"camera_keeps_physical_obstacle_mask": true,
+			"camera_wall_contraction": true,
+			"defeat_soldier1_through_player_hitbox": true,
+			"defeat_soldier2_through_player_hitbox": true,
+			"encounter_active_without_scene_change": true,
+			"environment_materials_assigned": true,
+			"f5_main_menu_with_integrated_level": true,
+			"f6_art_arena_available": true,
+			"forest_floor_625_samples": true,
+			"forest_lateral_boundaries_sampled": true,
+			"gate_bonfire_activates": true,
+			"initial_bonfire_interaction": true,
+			"no_plain_white_missing_environment_materials": true,
+			"reload_no_duplicate_actor": true,
+			"rock_collision_0": true,
+			"rock_collision_1": true,
+			"rock_collision_2": true,
+			"rock_collision_3": true,
+			"rock_retreat_no_trap_0": true,
+			"rock_retreat_no_trap_1": true,
+			"rock_retreat_no_trap_2": true,
+			"rock_retreat_no_trap_3": true,
+			"selector_keeps_three_destinations": true,
+			"south_forest_closed": true,
+			"tree_rock_ruin_world_proxies": true,
+			"victory_disables_offense_lock": true,
+			"victory_message_visible": true,
+			"victory_preserved_after_menu_reload": true,
+			"victory_through_player_hitboxes": true,
+			"walk_around_first_corpse": true,
+			"walk_around_second_corpse": true,
+			"walk_gate_to_encounter": true,
+			"walk_start_to_tutorial": true,
+			"walk_to_gate_checkpoint": true,
+			"walk_to_second_combat": true,
+			"walk_tutorial_to_first_combat": true
+		},
+		"failed": [],
+		"measurements": {
+			"Soldier1_ai": {
+				"player_hp": 80.0,
+				"position": "(-0.461401, 0.000391, 5.313231)",
+				"state": "RECOVERY"
+			},
+			"Soldier2_ai": {
+				"player_hp": 80.0,
+				"position": "(-0.461401, 0.000391, -9.686711)",
+				"state": "RECOVERY"
+			},
+			"material_audit": {
+				"meshes": 151.0,
+				"null_slots": [],
+				"white_untextured": []
+			},
+			"missing_forest_ground": [],
+			"performance": {
+				"adapter": "AMD Radeon(TM) Graphics",
+				"context": "Editor, stationary after automated combat route; not a target-hardware benchmark",
+				"memory": {
+					"available": 20646608896.0,
+					"free": 1058267136.0,
+					"physical": 6323187712.0,
+					"stack": 8388608.0
+				},
+				"position": "(-0.116253, -0.007332, -47.21563)",
+				"processor": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+				"samples": [
+					{
+						"MEMORY_STATIC": 103979804.0,
+						"OBJECT_COUNT": 2698.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12764.0,
+						"RENDER_VIDEO_MEM_USED": 73494667.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002972,
+						"TIME_PROCESS": 0.016334
+					},
+					{
+						"MEMORY_STATIC": 103982088.0,
+						"OBJECT_COUNT": 2698.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12764.0,
+						"RENDER_VIDEO_MEM_USED": 73494667.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002972,
+						"TIME_PROCESS": 0.016334
+					},
+					{
+						"MEMORY_STATIC": 103981220.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12764.0,
+						"RENDER_VIDEO_MEM_USED": 73494667.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.004548,
+						"TIME_PROCESS": 0.015936
+					},
+					{
+						"MEMORY_STATIC": 103980412.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12762.0,
+						"RENDER_VIDEO_MEM_USED": 73494667.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.004548,
+						"TIME_PROCESS": 0.015936
+					},
+					{
+						"MEMORY_STATIC": 103981504.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12762.0,
+						"RENDER_VIDEO_MEM_USED": 73494667.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.004548,
+						"TIME_PROCESS": 0.015936
+					},
+					{
+						"MEMORY_STATIC": 103982548.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12762.0,
+						"RENDER_VIDEO_MEM_USED": 73494667.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.004548,
+						"TIME_PROCESS": 0.015936
+					},
+					{
+						"MEMORY_STATIC": 103983776.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12768.0,
+						"RENDER_VIDEO_MEM_USED": 73494995.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002384,
+						"TIME_PROCESS": 0.016088
+					},
+					{
+						"MEMORY_STATIC": 103984956.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+						"RENDER_VIDEO_MEM_USED": 73494995.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002384,
+						"TIME_PROCESS": 0.016088
+					},
+					{
+						"MEMORY_STATIC": 103986000.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+						"RENDER_VIDEO_MEM_USED": 73494995.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002384,
+						"TIME_PROCESS": 0.016088
+					},
+					{
+						"MEMORY_STATIC": 103987140.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+						"RENDER_VIDEO_MEM_USED": 73494995.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002384,
+						"TIME_PROCESS": 0.016088
+					},
+					{
+						"MEMORY_STATIC": 103988184.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+						"RENDER_VIDEO_MEM_USED": 73494995.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002892,
+						"TIME_PROCESS": 0.016366
+					},
+					{
+						"MEMORY_STATIC": 103989228.0,
+						"OBJECT_COUNT": 2695.0,
+						"OBJECT_NODE_COUNT": 495.0,
+						"RENDER_TEXTURE_MEM_USED": 57864487.0,
+						"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+						"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12770.0,
+						"RENDER_VIDEO_MEM_USED": 73494995.0,
+						"TIME_FPS": 60.0,
+						"TIME_PHYSICS_PROCESS": 0.002892,
+						"TIME_PROCESS": 0.016366
+					}
+				],
+				"scene": "res://scenes/levels/main_level.tscn"
+			},
+			"proxy_categories": {
+				"rock": 4.0,
+				"ruin": 25.0,
+				"tree": 12.0
+			},
+			"route_fight_boss": {
+				"attack_requests_accepted": 14.0,
+				"initial_hp": 600.0,
+				"phase_two_seen": true,
+				"player_damage": 416.0,
+				"player_position": "(-0.116253, -0.007332, -47.21563)",
+				"remaining_hp": 0.0
+			},
+			"route_fight_soldier1": {
+				"attack_requests_accepted": 4.0,
+				"initial_hp": 180.0,
+				"phase_two_seen": false,
+				"player_damage": 40.0,
+				"player_position": "(0.0, 0.001, 4.345832)",
+				"remaining_hp": 0.0
+			},
+			"route_fight_soldier2": {
+				"attack_requests_accepted": 4.0,
+				"initial_hp": 180.0,
+				"phase_two_seen": false,
+				"player_damage": 40.0,
+				"player_position": "(-1.439688, 0.001, -10.94763)",
+				"remaining_hp": 0.0
+			}
+		},
+		"passed": 47.0,
+		"physical_devices": [],
+		"status": "complete",
+		"total": 47.0
+	},
+	"4b_retry": {
+		"checks": {
+			"autonomous_boss_kills_normal_health_player": true,
+			"boss_reset_clean": true,
+			"first_attempt_walks_into_encounter": true,
+			"gate_rest_at_normal_attributes": true,
+			"respawn_restores_normal_vitals": true,
+			"respawn_retains_gate_id": true,
+			"retry_same_actor_instances": true,
+			"second_attempt_walks_into_encounter": true
+		},
+		"failed": [],
+		"passed": 8.0,
+		"player_position": "(0.500067, -0.046968, -43.05813)",
+		"scope": "One initial gate placement; real walks, autonomous death and automatic respawn. No expanded health or disabled components.",
+		"status": "complete",
+		"total": 8.0
+	},
+	"4b_spatial": {
+		"checks": {
+			"approach_east_can_retreat": true,
+			"approach_east_retains_ground": true,
+			"approach_west_can_retreat": true,
+			"approach_west_retains_ground": true,
+			"arena_landing_(-6.0, 0.5, -42.0)": true,
+			"arena_landing_(-8.0, 0.5, -48.0)": true,
+			"arena_landing_(0.0, 0.5, -56.0)": true,
+			"arena_landing_(8.0, 0.5, -48.0)": true,
+			"camera_tree_0": true,
+			"camera_tree_1": true,
+			"camera_tree_10": true,
+			"camera_tree_11": true,
+			"camera_tree_2": true,
+			"camera_tree_3": true,
+			"camera_tree_4": true,
+			"camera_tree_5": true,
+			"camera_tree_6": true,
+			"camera_tree_7": true,
+			"camera_tree_8": true,
+			"camera_tree_9": true,
+			"east_can_retreat": true,
+			"east_retains_ground": true,
+			"south_can_retreat": true,
+			"south_retains_ground": true,
+			"west_can_retreat": true,
+			"west_retains_ground": true
+		},
+		"failed": [],
+		"passed": 26.0,
+		"samples": [
+			{
+				"case": "west",
+				"final": "(-21.65722, 0.001, 12.0)",
+				"min_y": 0.00094450556207448
+			},
+			{
+				"case": "east",
+				"final": "(24.65722, 0.001, 10.0)",
+				"min_y": 0.00039062649011611
+			},
+			{
+				"case": "south",
+				"final": "(0.0, 0.001, 22.6575)",
+				"min_y": 0.00039062649011611
+			},
+			{
+				"case": "approach_east",
+				"final": "(1.158334, 0.001, -29.0)",
+				"min_y": 0.00039062649011611
+			},
+			{
+				"case": "approach_west",
+				"final": "(-1.158334, 0.001, -29.0)",
+				"min_y": 0.00039062649011611
+			}
+		],
+		"scope": "Fixed edge, retreat, landing and camera probes. Not exhaustive continuous-space QA.",
+		"status": "complete",
+		"total": 26.0
+	},
+	"5a_checks": {
+		"checks": {
+			"absent_bonfire_context_not_forced": true,
+			"actual_camera_rotation_completes": true,
+			"actual_delayed_healing_completes_estus": true,
+			"actual_movement_completes": true,
+			"all_40_panel_layouts_fit_and_avoid_bars": true,
+			"backstep_not_misreported_as_roll": true,
+			"backstep_starts": true,
+			"block_instruction_follows": true,
+			"bonfire_prompt_when_near": true,
+			"camera_follows_movement_in_order": true,
+			"checkpoint_event_completes_lesson": true,
+			"directional_roll_starts": true,
+			"disconnect_falls_back_keyboard": true,
+			"early_action_recorded_before_explanation": true,
+			"early_light_not_repeated": true,
+			"early_light_request_accepted": true,
+			"entry_real_encounter_event_completes": true,
+			"full_health_hides_estus_instruction": true,
+			"gate_context_without_nearby_targets": true,
+			"gate_instruction_not_shown_far_away": true,
+			"heavy_event_completes": true,
+			"heavy_request_accepted": true,
+			"idle_does_not_complete_by_time": true,
+			"initial_movement_context": true,
+			"keyboard_event_selects_keyboard_hints": true,
+			"lock_context_before_attacks": true,
+			"lock_event_completes": true,
+			"menu_reload_preserves_session_progress": true,
+			"no_pending_lesson_forces_combat_state": true,
+			"no_tutorial_autoload_or_disk_save": true,
+			"panel_hides_for_boss_hud": true,
+			"physical_equivalent_labels": true,
+			"playstation_mapping_metadata": true,
+			"preparation_does_not_complete_estus": true,
+			"real_estus_starts": true,
+			"real_lock_acquisition": true,
+			"real_respawn_keeps_completions": true,
+			"real_shield_raised_completes": true,
+			"rejected_estus_not_completed": true,
+			"requested_order": true,
+			"rest_real_checkpoint": true,
+			"roll_signal_completes": true,
+			"skip_current_supported": true,
+			"skip_is_not_claimed_as_action_completion": true,
+			"small_stick_drift_does_not_change_profile": true,
+			"ten_editable_lessons": true,
+			"tutorial_hidden_during_death": true,
+			"unknown_mapped_is_neutral": true,
+			"unknown_simulated_pad_uses_neutral": true,
+			"unmapped_even_named_xbox_is_neutral": true,
+			"walk_to_boss_with_pending_lessons": true,
+			"wounded_estus_context": true,
+			"xbox_mapping_metadata": true
+		},
+		"failed": [],
+		"measurements": {
+			"layouts": [
+				{
+					"id": "move",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "camera",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "bonfire",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "lock",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "light",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "heavy",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "block",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "dodge",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "estus",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "entry",
+					"profile": "keyboard",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "move",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "camera",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "bonfire",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "lock",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "light",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "heavy",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "block",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "dodge",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "estus",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "entry",
+					"profile": "xbox",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "move",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "camera",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "bonfire",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "lock",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "light",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "heavy",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "block",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "dodge",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "estus",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "entry",
+					"profile": "playstation",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "move",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "camera",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "bonfire",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "lock",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "light",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "heavy",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "block",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "dodge",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "estus",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				},
+				{
+					"id": "entry",
+					"profile": "generic",
+					"rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+				}
+			],
+			"shown_instruction_ids": [
+				"camera",
+				"lock",
+				"",
+				"bonfire",
+				"",
+				"lock",
+				"heavy",
+				"block",
+				"dodge",
+				"",
+				"estus",
+				"",
+				"",
+				"entry",
+				""
+			]
+		},
+		"passed": 53.0,
+		"physical_devices": [],
+		"status": "complete",
+		"total": 53.0
+	},
+	"5a_context_checks": {
+		"checks": {
+			"context_recovers_after_occlusion": true,
+			"defeated_boss_not_advertised_as_new_encounter": true,
+			"grip_switch_real_request": true,
+			"live_boss_gate_context": true,
+			"skip_button_wiring": true,
+			"two_hand_panel_fits": true,
+			"two_hand_shield_instruction_actionable": true,
+			"visible_target_context_available": true,
+			"wall_hides_combat_lesson_context": true,
+			"wall_hides_lock_lesson_context": true
+		},
+		"failed": [],
+		"passed": 10.0,
+		"status": "complete",
+		"total": 10.0
+	},
+	"current": "5a",
+	"isolation": "Automatic victory overlay only, so historical physics clocks can continue after boss death. Core UI tested separately with it enabled. Existing historical actor/short-input/checkpoint fixtures remain documented.",
+	"status": "complete"
+}

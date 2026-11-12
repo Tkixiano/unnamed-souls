@@ -1,0 +1,18 @@
+{
+	"completed": {
+
+	},
+	"estus": 5,
+	"grounded": true,
+	"health": 100.0,
+	"instruction": "move",
+	"main": "res://scenes/levels/main_level.tscn",
+	"panel": "[P: (24.0, 288.0), S: (500.0, 240.0)]",
+	"physical_devices": [],
+	"profile": "keyboard",
+	"scene": "res://scenes/levels/main_level.tscn",
+	"skipped": {
+
+	},
+	"stamina": 100.0
+}

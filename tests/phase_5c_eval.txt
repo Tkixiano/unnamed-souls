@@ -1,0 +1,4 @@
+var a=get_tree().root.get_node("AudioDirector")
+var buses=[]
+for i in range(AudioServer.bus_count): buses.append(AudioServer.get_bus_name(i))
+return {"buses":buses,"music":a.music.current_id,"missing":a.catalog.missing_ids(),"voices":a._spatial.size()+a._global.size()+a.music.voices.size(),"options":get_tree().root.get_node("GameMenus").options.values}

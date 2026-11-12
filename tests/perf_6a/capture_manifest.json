@@ -1,0 +1,9 @@
+{
+  "baseline": "Original source snapshot; baseline_results/cpu.json",
+  "final": "Reuse-only implementation, measured in the first cache capture; reuse_only_results/cpu.json are exact copies of candidate_results/cpu.json",
+  "discarded": "Direct float equality checks measured in optimized_results/cpu.json and float_check_results/cpu.json; checks removed after precision_probe confirmed native real_t rounding",
+  "source_hashes": {
+    "scripts/enemies/soldier_ai.gd": "5d6f3975e2a95a64b5d396e7de080910d7677ab54b910e8a6945572a6481562a",
+    "scripts/enemies/enemy_world_queries.gd": "ec5a08a96d2e482199dc50cdebbe390363e036a7831ba9b8f6230644d3be57c1"
+  }
+}

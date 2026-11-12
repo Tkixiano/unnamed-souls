@@ -1,0 +1,19 @@
+var scene = get_tree().current_scene
+var p = scene.get_node("Player")
+var b = scene.get_node("Boss")
+var ai = b.brain
+var shape = scene.get_node("ArenaCollision").get_child(0)
+var points = shape.shape.get_faces()
+var bounds = AABB(shape.global_transform * points[0],Vector3.ZERO)
+for v in points: bounds = bounds.expand(shape.global_transform * v)
+print("ARTISTIC_BOUNDS ",bounds," LOGIC ",ai.arena_center," / ",ai.arena_half_extents)
+p.global_position = Vector3(0,0,7)
+b.global_position = Vector3(0,0,0)
+ai._restart_delay = 0.0
+print("START ",ai.start_encounter())
+b.attributes.apply_damage(50.0)
+print("BEFORE ",ai.state_name()," hp=",b.attributes.current_health," pos=",b.global_position," active=",ai.encounter_active)
+p.global_position = Vector3(0,0,-10)
+await get_tree().physics_frame
+await get_tree().physics_frame
+print("AFTER ",ai.state_name()," hp=",b.attributes.current_health," pos=",b.global_position," active=",ai.encounter_active)

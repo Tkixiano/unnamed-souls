@@ -1,0 +1,51 @@
+{
+	"checks": {
+		"boss_attacks_without_fog_reentry": true,
+		"boss_diagonal_ground_encounter": true,
+		"boss_diagonal_started": true,
+		"boss_encounter_pause_freezes": true,
+		"boss_encounter_resume": true,
+		"boss_far_end_real_walk": true,
+		"boss_fog_starts": true,
+		"boss_phase_two_keeps_hp": true,
+		"boss_retry": true,
+		"boss_retry_no_residual_offense": true,
+		"boss_second_attempt": true,
+		"boss_victory": true,
+		"boss_victory_session_preserved": true,
+		"forest_death_respawn": true,
+		"forest_diagonal_physical": true,
+		"forest_diagonal_started": true,
+		"forest_dodge_pause_freezes": true,
+		"forest_dodge_resume": true,
+		"locked_combat_pause_freezes": true,
+		"locked_combat_resume": true,
+		"locked_run_pause_freezes": true,
+		"locked_run_resume": true,
+		"new_game_clears_tutorial": true,
+		"new_game_resets_boss": true,
+		"respawn_lock_and_buffers": true,
+		"soldier_acquired": true,
+		"soldier_aggro_resets": true,
+		"soldier_diagonal_lock": true,
+		"soldier_diagonal_started": true,
+		"soldier_run_locked": true,
+		"tutorial_diagonal_event": true,
+		"tutorial_lock_not_undone": true,
+		"tutorial_survives_death": true
+	},
+	"failed": [],
+	"measurements": {
+		"boss_after_far_walk": {
+			"boss_position": "(1.422716, 0.001337, -3.841997)",
+			"phase_two": true,
+			"player_health": 76.0,
+			"swing_id": 1
+		}
+	},
+	"method": "Active production AI, actors, combat, camera, tutorial, pause and checkpoints. Controlled placements isolate locations; actual physics walk/roll and normal attack decisions. Direct damage triggers phase/death/victory; historical route additionally uses player hitboxes. Automatic victory overlay isolated only, covered by native menu regression.",
+	"passed": 33,
+	"physical_devices": [],
+	"status": "complete",
+	"total": 33
+}

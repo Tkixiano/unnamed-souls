@@ -1,0 +1,26 @@
+{
+  "directory": "C:\\Users\\tkixi\\AppData\\Local\\Temp\\UnnamedSouls_Preview6B_kc178wd9",
+  "files": [
+    {
+      "name": "Godot-License.txt",
+      "bytes": 105181,
+      "sha256": "a0bf4953ebc6289b6299f7081f6cbcc6699f5328207a2546bcd4ab54e3ef1f21"
+    },
+    {
+      "name": "README.txt",
+      "bytes": 4413,
+      "sha256": "6f72b9f6154f77a29f2ec6f493b0108e3400e9afa2ec2658f9aac41d12293d95"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 248,
+      "sha256": "e0b169e61cce632ae7897a49590ffd48380418e359ba821c037ac1e3d2fee482"
+    },
+    {
+      "name": "Unnamed Souls.exe",
+      "bytes": 400362880,
+      "sha256": "faf88819c6b00f10642650f96d33817b5e151bc973a80cb52541ae188c58ab2f"
+    }
+  ],
+  "rar_exit": 0
+}

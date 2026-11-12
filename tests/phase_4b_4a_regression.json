@@ -1,0 +1,142 @@
+{
+	"checks": {
+		"area_can_be_dodged_start": true,
+		"area_evaded_by_real_iframes": true,
+		"area_pattern_enabled": true,
+		"area_warning_visible_during_startup": true,
+		"bonfire_rest_uses_existing_manager": true,
+		"bonfire_restores_vitals_estus_one_hand": true,
+		"bonfire_visual_replaced_logic_preserved": true,
+		"boss_contact_causes_real_death": true,
+		"boss_reset_full_phase_one_no_hitbox": true,
+		"boss_victory_and_lock_invalidated": true,
+		"camera_collision_with_boundary": true,
+		"contact_parry_in_integrated_level": true,
+		"death_respawns_at_active_gate": true,
+		"direct_boss_f6_scene_exists": true,
+		"dodge_ground_and_free_recovered": true,
+		"dodge_starts": true,
+		"estus_heals_once_at_use_time": true,
+		"estus_not_instant": true,
+		"estus_recovery_and_hud": true,
+		"estus_uses_original_component": true,
+		"f5_integrated_level_and_selector_preserved": true,
+		"five_assets_imported_in_godot": true,
+		"forest_portions_excluded_explicitly": true,
+		"free_movement_and_deceleration": true,
+		"gate_checkpoint_rest": true,
+		"iframes_query_active": true,
+		"initial_ground_collision": true,
+		"lethal_area_started": true,
+		"locked_strafe": true,
+		"locomotion_restored_after_attack": true,
+		"main_level_loaded": true,
+		"moderate_derived_geometry": true,
+		"no_definitive_actor_models": true,
+		"normal_attack_starts": true,
+		"normal_enemies_restore_same_instances": true,
+		"orbital_camera_independent": true,
+		"original_models_and_textures_unchanged": true,
+		"parry_starts": true,
+		"pattern_damage_once_HORIZONTAL_SLASH": true,
+		"pattern_damage_once_TWO_HIT_COMBO": true,
+		"pattern_damage_once_VERTICAL_SLAM": true,
+		"pattern_starts_HORIZONTAL_SLASH": true,
+		"pattern_starts_TWO_HIT_COMBO": true,
+		"pattern_starts_VERTICAL_SLAM": true,
+		"phase_two_transition_single_no_heal": true,
+		"real_hitbox_damage_single": true,
+		"rest_keeps_boss_dead": true,
+		"retained_forest_materials_valid": true,
+		"reusable_estus_scene": true,
+		"reusable_rock_four_instances": true,
+		"riposte_contextual": true,
+		"riposte_damage_once": true,
+		"route_and_boss_floor_continuous": true,
+		"same_player_and_checkpoint_in_arena": true,
+		"single_boss_no_respawn_duplicates": true,
+		"single_player_shared_scene": true,
+		"soldier_ai_real_attack_damages_player": true,
+		"soldier_manual_attack_uses_shared_executor": true,
+		"soldier_real_hit_can_be_blocked": true,
+		"source_audit_materials_and_dimensions": true,
+		"tutorial_lock_on": true,
+		"walk_through_arch_starts_boss": true,
+		"walk_tutorial_path_to_gate_without_teleport": true,
+		"world_boundary_solid": true
+	},
+	"failed": [],
+	"measurements": {
+		"floor_samples": [
+			{
+				"y": 0.0,
+				"z": 20
+			},
+			{
+				"y": 0.0,
+				"z": 14
+			},
+			{
+				"y": 0.0,
+				"z": 7
+			},
+			{
+				"y": 0.0,
+				"z": 0
+			},
+			{
+				"y": 0.0,
+				"z": -8
+			},
+			{
+				"y": 0.0,
+				"z": -18
+			},
+			{
+				"y": 0.0,
+				"z": -24
+			},
+			{
+				"y": 0.0,
+				"z": -28
+			},
+			{
+				"y": 0.0,
+				"z": -32
+			},
+			{
+				"y": 0.0,
+				"z": -35
+			},
+			{
+				"y": 0.0,
+				"z": -37
+			},
+			{
+				"y": -0.159764528274536,
+				"z": -39
+			},
+			{
+				"y": -0.0818150043487549,
+				"z": -41
+			},
+			{
+				"y": -0.0254101753234863,
+				"z": -45
+			},
+			{
+				"y": -0.0000135898590087891,
+				"z": -48
+			},
+			{
+				"y": -0.00365114212036133,
+				"z": -55
+			}
+		],
+		"forest_triangles_in_scene": 48184,
+		"walk_to_gate_position": "(-2.5, 0.001, -33.22385)"
+	},
+	"passed": 64,
+	"status": "complete",
+	"total": 64
+}

@@ -1,0 +1,4 @@
+var s=load("res://tests/aggro_checks.gd").new()
+get_tree().root.set_meta("aggro_runner",s)
+s.start(get_tree())
+return "aggro checks started"

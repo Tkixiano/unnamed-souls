@@ -1,0 +1,4 @@
+var d=load("res://tests/perf_6a/detection_probe.gd").new()
+get_tree().root.set_meta("perf6a_detection_runner",d)
+d.start(get_tree())
+return "detection timing started"

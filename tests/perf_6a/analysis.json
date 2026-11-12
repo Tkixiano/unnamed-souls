@@ -1,0 +1,570 @@
+{
+  "baseline": {
+    "capture_prefix": "baseline",
+    "hardware": {
+      "processor": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+      "logical_cpus": 8,
+      "physical_memory_bytes": 6323187712
+    },
+    "scenarios": {
+      "0_chase": {
+        "cpu_one_core_percent_median": 66.70165607758936,
+        "cpu_machine_percent_median": 8.33770700969867,
+        "cpu_one_core_range": [
+          62.61113714607545,
+          71.92971899278247
+        ],
+        "cpu_trials": [
+          71.92971899278247,
+          66.70165607758936,
+          62.61113714607545
+        ],
+        "ai_total_us_per_tick_median": 73.63865546218487,
+        "detection_us_per_tick_median": 17.647058823529413,
+        "travel_us_per_tick_median": 0.0,
+        "actor_total_us_per_tick_median": 152.61344537815125,
+        "move_and_slide_us_per_tick_median": 50.747899159663866,
+        "query_calls_per_tick": {
+          "shape": 0.0,
+          "cast": 0.0,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 0.0,
+          "cast": 0.0,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 0.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          34.0,
+          60.0
+        ],
+        "physics_ms_median": 2.159,
+        "physics_ms_range": [
+          1.543,
+          24.871
+        ],
+        "process_ms_median": 3.1675,
+        "process_ms_range": [
+          2.792,
+          433.598
+        ],
+        "objects_median": 2601.0,
+        "objects_range": [
+          2601.0,
+          2601.0
+        ],
+        "memory_static_median": 82278267.0,
+        "memory_static_range": [
+          82142505.0,
+          82343929.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "1_chase": {
+        "cpu_one_core_percent_median": 68.97788703259577,
+        "cpu_machine_percent_median": 8.622235879074472,
+        "cpu_one_core_range": [
+          57.341022511240226,
+          84.46531364312848
+        ],
+        "cpu_trials": [
+          68.97788703259577,
+          84.46531364312848,
+          57.341022511240226
+        ],
+        "ai_total_us_per_tick_median": 247.5966386554622,
+        "detection_us_per_tick_median": 6.6722689075630255,
+        "travel_us_per_tick_median": 162.53781512605042,
+        "actor_total_us_per_tick_median": 148.96638655462183,
+        "move_and_slide_us_per_tick_median": 61.81512605042017,
+        "query_calls_per_tick": {
+          "shape": 1.0,
+          "cast": 1.0,
+          "ground": 1.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 12.210084033613445,
+          "cast": 4.957983193277311,
+          "ground": 15.61344537815126,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 180.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          33.0,
+          61.0
+        ],
+        "physics_ms_median": 2.83,
+        "physics_ms_range": [
+          1.373,
+          38.094
+        ],
+        "process_ms_median": 3.746,
+        "process_ms_range": [
+          1.825,
+          467.641
+        ],
+        "objects_median": 2601.0,
+        "objects_range": [
+          2601.0,
+          2601.0
+        ],
+        "memory_static_median": 82219499.0,
+        "memory_static_range": [
+          82157341.0,
+          82357533.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "2_chase": {
+        "cpu_one_core_percent_median": 74.30777894172981,
+        "cpu_machine_percent_median": 9.288472367716226,
+        "cpu_one_core_range": [
+          64.24886884917397,
+          77.99209659237142
+        ],
+        "cpu_trials": [
+          64.24886884917397,
+          74.30777894172981,
+          77.99209659237142
+        ],
+        "ai_total_us_per_tick_median": 292.9159663865546,
+        "detection_us_per_tick_median": 0.0,
+        "travel_us_per_tick_median": 208.61344537815125,
+        "actor_total_us_per_tick_median": 132.30252100840337,
+        "move_and_slide_us_per_tick_median": 61.81512605042017,
+        "query_calls_per_tick": {
+          "shape": 2.0,
+          "cast": 2.0,
+          "ground": 2.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 14.756302521008404,
+          "cast": 6.0588235294117645,
+          "ground": 19.605042016806724,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 360.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          27.0,
+          61.0
+        ],
+        "physics_ms_median": 2.891,
+        "physics_ms_range": [
+          1.744,
+          26.812
+        ],
+        "process_ms_median": 3.443,
+        "process_ms_range": [
+          2.037,
+          540.773
+        ],
+        "objects_median": 2601.0,
+        "objects_range": [
+          2601.0,
+          2601.0
+        ],
+        "memory_static_median": 82234699.0,
+        "memory_static_range": [
+          82172553.0,
+          82296797.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "2_blocked": {
+        "cpu_one_core_percent_median": 69.06318137787261,
+        "cpu_machine_percent_median": 8.632897672234076,
+        "cpu_one_core_range": [
+          61.37166207774126,
+          77.58175552794077
+        ],
+        "cpu_trials": [
+          61.37166207774126,
+          69.06318137787261,
+          77.58175552794077
+        ],
+        "ai_total_us_per_tick_median": 292.16806722689074,
+        "detection_us_per_tick_median": 0.0,
+        "travel_us_per_tick_median": 194.64705882352942,
+        "actor_total_us_per_tick_median": 126.02521008403362,
+        "move_and_slide_us_per_tick_median": 41.285714285714285,
+        "query_calls_per_tick": {
+          "shape": 2.0,
+          "cast": 2.0,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 17.294117647058822,
+          "cast": 27.084033613445378,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 240.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          60.0,
+          60.0
+        ],
+        "physics_ms_median": 2.515,
+        "physics_ms_range": [
+          1.87,
+          3.687
+        ],
+        "process_ms_median": 3.0985,
+        "process_ms_range": [
+          2.228,
+          4.448
+        ],
+        "objects_median": 2607.0,
+        "objects_range": [
+          2607.0,
+          2607.0
+        ],
+        "memory_static_median": 82276451.0,
+        "memory_static_range": [
+          82214945.0,
+          82338713.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "optimized": {
+    "capture_prefix": "reuse_only",
+    "hardware": {
+      "processor": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+      "logical_cpus": 8,
+      "physical_memory_bytes": 6323187712
+    },
+    "scenarios": {
+      "0_chase": {
+        "cpu_one_core_percent_median": 68.16523543896176,
+        "cpu_machine_percent_median": 8.52065442987022,
+        "cpu_one_core_range": [
+          63.014953444392674,
+          78.65509383123342
+        ],
+        "cpu_trials": [
+          68.16523543896176,
+          63.014953444392674,
+          78.65509383123342
+        ],
+        "ai_total_us_per_tick_median": 66.46218487394958,
+        "detection_us_per_tick_median": 16.554621848739497,
+        "travel_us_per_tick_median": 0.0,
+        "actor_total_us_per_tick_median": 128.0,
+        "move_and_slide_us_per_tick_median": 42.554621848739494,
+        "query_calls_per_tick": {
+          "shape": 0.0,
+          "cast": 0.0,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 0.0,
+          "cast": 0.0,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 0.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          15.0,
+          60.0
+        ],
+        "physics_ms_median": 2.458,
+        "physics_ms_range": [
+          1.388,
+          28.165
+        ],
+        "process_ms_median": 3.852,
+        "process_ms_range": [
+          1.983,
+          463.823
+        ],
+        "objects_median": 2611.0,
+        "objects_range": [
+          2611.0,
+          2611.0
+        ],
+        "memory_static_median": 82314960.0,
+        "memory_static_range": [
+          82179686.0,
+          82377118.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "1_chase": {
+        "cpu_one_core_percent_median": 76.65937935753021,
+        "cpu_machine_percent_median": 9.582422419691277,
+        "cpu_one_core_range": [
+          70.73647921137757,
+          100.64567512158973
+        ],
+        "cpu_trials": [
+          70.73647921137757,
+          76.65937935753021,
+          100.64567512158973
+        ],
+        "ai_total_us_per_tick_median": 218.32773109243698,
+        "detection_us_per_tick_median": 6.184873949579832,
+        "travel_us_per_tick_median": 132.31932773109244,
+        "actor_total_us_per_tick_median": 146.46218487394958,
+        "move_and_slide_us_per_tick_median": 59.95798319327731,
+        "query_calls_per_tick": {
+          "shape": 1.0,
+          "cast": 1.0,
+          "ground": 1.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 11.445378151260504,
+          "cast": 5.605042016806722,
+          "ground": 15.915966386554622,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 0.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          26.0,
+          60.0
+        ],
+        "physics_ms_median": 2.325,
+        "physics_ms_range": [
+          1.503,
+          34.9
+        ],
+        "process_ms_median": 3.555,
+        "process_ms_range": [
+          2.119,
+          450.837
+        ],
+        "objects_median": 2611.0,
+        "objects_range": [
+          2611.0,
+          2612.0
+        ],
+        "memory_static_median": 82257168.0,
+        "memory_static_range": [
+          82195010.0,
+          82393042.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "2_chase": {
+        "cpu_one_core_percent_median": 77.54002774438106,
+        "cpu_machine_percent_median": 9.692503468047633,
+        "cpu_one_core_range": [
+          54.687525560830004,
+          88.11202498864736
+        ],
+        "cpu_trials": [
+          54.687525560830004,
+          77.54002774438106,
+          88.11202498864736
+        ],
+        "ai_total_us_per_tick_median": 286.07563025210084,
+        "detection_us_per_tick_median": 0.0,
+        "travel_us_per_tick_median": 190.18487394957984,
+        "actor_total_us_per_tick_median": 166.19327731092437,
+        "move_and_slide_us_per_tick_median": 77.10924369747899,
+        "query_calls_per_tick": {
+          "shape": 2.0,
+          "cast": 2.0,
+          "ground": 2.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 15.521008403361344,
+          "cast": 7.092436974789916,
+          "ground": 24.462184873949578,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 0.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          32.0,
+          60.0
+        ],
+        "physics_ms_median": 2.6799999999999997,
+        "physics_ms_range": [
+          1.73,
+          19.465
+        ],
+        "process_ms_median": 3.799,
+        "process_ms_range": [
+          2.125,
+          482.73
+        ],
+        "objects_median": 2611.0,
+        "objects_range": [
+          2611.0,
+          2611.0
+        ],
+        "memory_static_median": 82273344.0,
+        "memory_static_range": [
+          82211198.0,
+          82335442.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "2_blocked": {
+        "cpu_one_core_percent_median": 76.07582436810121,
+        "cpu_machine_percent_median": 9.509478046012651,
+        "cpu_one_core_range": [
+          67.06954657678321,
+          77.88314910064132
+        ],
+        "cpu_trials": [
+          76.07582436810121,
+          77.88314910064132,
+          67.06954657678321
+        ],
+        "ai_total_us_per_tick_median": 304.1848739495798,
+        "detection_us_per_tick_median": 0.0,
+        "travel_us_per_tick_median": 188.15126050420167,
+        "actor_total_us_per_tick_median": 165.63025210084032,
+        "move_and_slide_us_per_tick_median": 52.53781512605042,
+        "query_calls_per_tick": {
+          "shape": 2.0,
+          "cast": 2.0,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "query_us_per_tick": {
+          "shape": 17.974789915966387,
+          "cast": 33.63025210084034,
+          "ground": 0.0,
+          "los": 0.0
+        },
+        "parameter_allocations_per_physics_second": 0.0,
+        "fps_median": 60.0,
+        "fps_range": [
+          52.0,
+          61.0
+        ],
+        "physics_ms_median": 2.463,
+        "physics_ms_range": [
+          1.655,
+          3.08
+        ],
+        "process_ms_median": 3.565,
+        "process_ms_range": [
+          2.278,
+          22.396
+        ],
+        "objects_median": 2617.0,
+        "objects_range": [
+          2617.0,
+          2617.0
+        ],
+        "memory_static_median": 82314176.0,
+        "memory_static_range": [
+          82252670.0,
+          82376438.0
+        ],
+        "physics_pairs_median": 0.0,
+        "physics_pairs_range": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "travel_micro": {
+    "False": {
+      "old_median": 47.27166666666665,
+      "new_median": 34.72833333333335,
+      "old_range": [
+        38.0766666666667,
+        57.07
+      ],
+      "new_range": [
+        26.1866666666667,
+        43.2366666666667
+      ],
+      "ratio_percent": -26.534569685858266,
+      "batches": 10
+    },
+    "True": {
+      "old_median": 46.53,
+      "new_median": 36.45833333333335,
+      "old_range": [
+        39.1633333333333,
+        59.6833333333333
+      ],
+      "new_range": [
+        27.4066666666667,
+        45.4966666666667
+      ],
+      "ratio_percent": -21.645533347660972,
+      "batches": 10
+    }
+  },
+  "detection_micro": {
+    "False": {
+      "old_median": 41.51666666666665,
+      "new_median": 39.80166666666665,
+      "old_range": [
+        34.7833333333333,
+        55.76
+      ],
+      "new_range": [
+        33.3833333333333,
+        49.21
+      ],
+      "ratio_percent": -4.130871136089931,
+      "batches": 10
+    },
+    "True": {
+      "old_median": 50.849999999999994,
+      "new_median": 51.00166666666665,
+      "old_range": [
+        42.3766666666667,
+        56.5066666666667
+      ],
+      "new_range": [
+        45.57,
+        54.9866666666667
+      ],
+      "ratio_percent": 0.2982628646345242,
+      "batches": 10
+    }
+  }
+}

@@ -1,8 +1,8 @@
-# Soul game — Fase 3C
+# Soul game — Fase 5C
 
-**F5** abre el selector temporal de arenas, también usado al iniciar una exportación.
-Elegí Arena de pruebas o Arena del jefe. **Escape / Menu / Options** o el botón
-Menú regresa al selector desde ambas arenas. No pausa ni conserva el combate al salir.
+**F5** abre el menú principal: **Nueva partida**, **Opciones** y **Salir**.
+**Escape / Start / Menu / Options** abre pausa en el nivel: continuar, reiniciar con confirmación, opciones o menú principal.
+Nueva partida reinicia tutorial, checkpoints, enemigos y jefe; las preferencias se conservan. No hay guardado de progreso.
 Para probar una arena directamente, abrila y pulsá **F6**.
 En el jefe, avanzá desde la hoguera hacia la entrada.
 
@@ -44,8 +44,8 @@ daño, parry, riposte y backstab. La hoguera permite descansar y reaparecer al m
 | Estus | E |
 | Una/dos manos | R |
 | Interactuar | F: encender / descansar cerca de la hoguera |
-| Confirmar / cancelar menú | Enter / A / Cruz para confirmar en el selector |
-| Pausa | Escape / Menu / Options: volver al selector (no es pausa) |
+| Confirmar / cancelar menú | Enter / Espacio / A / Cruz para confirmar; Retroceso / B / Círculo para cancelar |
+| Pausa | Escape / Menu / Options: detener el juego y abrir pausa |
 | Pantalla completa | F11 |
 | Ataques técnicos | F1 frontal, F2 no parryable, F3 trasero, F4 rompeguardia |
 | Reiniciar prueba | F5 desde el editor de Godot |
@@ -756,17 +756,74 @@ siguen disponibles. La derrota/victoria y los reintentos usan los checkpoints.
 
 ## Selector temporal de desarrollo
 
-`scenes/ui/arena_selector.tscn` es la escena principal actual. Tiene guía de
+`scenes/ui/arena_selector.tscn` se conserva como selector histórico de depuración, abriéndolo manualmente con F6 (fue escena principal hasta 4A). Esc ahora abre pausa. Tiene guía de
 controles, selección con mouse/teclado/mando y salida del juego. Referencia las
 arenas mediante PackedScene exportadas para incluir sus dependencias al exportar.
 Los mandos genéricos requieren mapeo reconocido.
 
-El selector es independiente: para reemplazarlo después basta cambiar la escena
-principal en Proyecto > Ajustes del proyecto > Aplicación > Ejecutar. Las arenas
-se siguen ejecutando por separado. `ArenaMenuLink` es una instancia opcional
+El selector histórico se conserva para depuración y regresiones; no es parte del flujo de exposición desde 5B. Las arenas se siguen ejecutando por separado con F6. `ArenaMenuLink` es una instancia opcional
 en cada arena; se puede quitar o cambiar su ruta de menú sin tocar el combate.
-No se agregó ningún autoload ni se modificó InputMap. Volver al selector descarga
+Ese selector no añadía autoload ni cambiaba InputMap; GameMenus se incorpora en 5B. Volver al selector descarga
 la arena; entrar otra vez inicia una prueba nueva, excepto la derrota del jefe
 que sigue conservándose durante la misma ejecución. Cerrar el juego la reinicia.
 
 Validación del selector: [resultado](tests/arena_selector_results.md).
+
+
+## Fase 4A — Nivel integrado
+
+Desde 4B, F5 abre directamente `scenes/levels/main_level.tscn` (el selector conserva **Nivel integrado · Fase 4A**):
+hoguera inicial → tutorial → dos soldados → hoguera de acceso → arco → jefe.
+Todo ocurre en la misma escena, con un protagonista y el checkpoint conservado.
+Esc / Menu / Options vuelve al selector. La victoria del jefe persiste durante la ejecución;
+cerrá y abrí el juego para repetir una victoria desde cero.
+
+**Jefe · Escenario integrado** abre la arena artística independiente. Para depuración,
+abrí `scenes/levels/ruins_boss_arena.tscn` y pulsá F6. Las arenas técnicas originales
+`test_arena.tscn` y `boss_arena.tscn` permanecen disponibles sin modificaciones.
+
+Los GLB originales se conservan. El mapa usa un subconjunto aprovechable con correcciones
+de escala/orientación, materiales provisionales compartidos y mallas/texturas derivadas.
+Partes desplazadas del mapa, montañas y cielos duplicados se excluyen explícitamente.
+El frasco artístico está preparado como escena; no se integra todavía a la animación
+ni se cambian los modelos provisionales de los actores.
+
+Informe, clasificación, archivos, límites y mediciones: [Fase 4A](tests/phase_4a_results.md).
+Pruebas nuevas 64/64; regresiones 1A–3B 590/590; suite 3C 72/73 con la expectativa histórica
+de escena principal reportada como incompatible con el selector, sin cambiar el check.
+No se valida aún duración de 15–25 minutos ni rendimiento en la PC escolar de 4 GB.
+
+
+## Fase 4B — Validación integral
+
+F5 inicia directamente el nivel integrado. Esc/Menu/Options conserva el selector con controles y tres destinos. Para F6 abrí `scenes/levels/ruins_boss_arena.tscn`.
+
+Recorrido automatizado con combate y victoria, reintento con vida normal y pruebas espaciales. Expectativas de arranque históricas actualizadas con justificación, sin reescribir resultados antiguos.
+Informe y límites de validación: [Fase 4B](tests/phase_4b_results.md).
+
+
+## Fase 5A — Tutorial contextual
+
+F5 abre el nivel integrado con diez consejos progresivos: movimiento, cámara, hoguera, lock-on, ligero, fuerte, escudo, rodada, Estus y entrada al jefe. Las acciones anticipadas cuentan; morir o volver desde el selector conserva el progreso durante la ejecución. Cerrar/reiniciar el juego lo reinicia.
+
+Los textos usan teclado/mouse o distribución de mando anunciada por Godot; los dispositivos desconocidos reciben nombres neutrales. No se verificó un joystick físico. Botón **Omitir consejo** o **F8** técnico; avanzar no requiere completar el tutorial. Desde 5B, Esc/Menu/Options abre pausa; el selector con guía se conserva para depuración. F6: abrir `scenes/levels/ruins_boss_arena.tscn`.
+
+Recursos editables: `resources/tutorial/intro_lessons.tres`. No se modificaron combate, IA ni tiempos. [Informe, pruebas y límites](tests/phase_5a_results.md).
+
+
+## Fase 5B — Menús de exposición
+
+Menú principal de F5, pausa real de SceneTree, opciones persistentes y pantalla final. Reiniciar desde pausa pide confirmación; nueva partida después de ganar restaura también al jefe. GameMenus coordina la interfaz; CheckpointManager y SessionProgress conservan sus responsabilidades.
+
+Opciones de volumen Master/Music/SFX (sin audio aún), cámara, inversión y pantalla completa. Solo preferencias en `user://preferences.cfg`, sin progreso. La ventana incrustada del editor no admite pantalla completa: esta opción se verificó en una ventana nativa lanzada mediante Godot AI MCP.
+
+F6: abrir `scenes/levels/ruins_boss_arena.tscn`. Teclado, cruceta y stick con acciones existentes; mandos genéricos necesitan mapeo reconocido. Sin pruebas físicas de mando. [Informe, pruebas e incidencias](tests/phase_5b_results.md).
+
+
+## Fase 5C — Audio modular
+
+Master, Music, SFX y Ambient integrados con las preferencias. AudioDirector reutiliza señales del juego, música de menú/nivel/jefe 1–2/victoria, pool limitado de efectos y ambientes posicionales. F5/F6 conservan sus accesos.
+
+**Todavía no hay audio artístico**: 41 cues con stream sin asignar, funcionamiento silencioso sin rutas rotas. Los PCM de prueba solo existen en memoria y no se entregan como sonidos. Asignar archivos reales en `resources/audio/game_audio_catalog.tres`; guía en [assets/audio](assets/audio/README.md).
+
+Pasos con cadencia provisional de 0,50/0,32 s; las futuras animaciones podrán reemplazarla por contactos de pie. Sin cambios de combate/IA/animaciones. [Informe, catálogo de pendientes y pruebas](tests/phase_5c_results.md).

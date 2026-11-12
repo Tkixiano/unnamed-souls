@@ -12,5 +12,5 @@ offset_top = 20.0
 offset_right = -24.0
 offset_bottom = 55.0
 grow_horizontal = 0
-text = "Menú · Esc / Menu"
+text = "Pausa · Esc / Menu"
 focus_mode = 0

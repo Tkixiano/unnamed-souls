@@ -1,0 +1,5 @@
+var r=get_tree().root.get_meta("aggro_integration",{})
+var phases={}
+for k in r:
+	if r[k] is Dictionary: phases[k]={"passed":r[k].get("passed"),"total":r[k].get("total"),"failed":r[k].get("failed",[])}
+return {"status":r.get("status"),"current":r.get("current"),"phases":phases}

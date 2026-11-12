@@ -1,0 +1,6 @@
+{
+  "exit_button": "Salir",
+  "game_stopped": true,
+  "editor_still_ready": true,
+  "open_scene": "res://scenes/levels/ruins_boss_arena.tscn"
+}

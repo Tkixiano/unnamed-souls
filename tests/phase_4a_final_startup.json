@@ -1,0 +1,17 @@
+{
+	"bonfire_registered": 1,
+	"boss_health": 600.0,
+	"boss_phase_two": false,
+	"boss_physics": true,
+	"boss_state": "IDLE",
+	"brain_physics": true,
+	"estus": 5,
+	"grounded": true,
+	"main_scene": "res://scenes/ui/arena_selector.tscn",
+	"offensive_hitbox": false,
+	"physical_devices": [],
+	"player_health": 100.0,
+	"player_stamina": 100.0,
+	"position": "(0.0, 0.000278, 15.0)",
+	"scene": "res://scenes/levels/ruins_boss_arena.tscn"
+}

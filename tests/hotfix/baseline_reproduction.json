@@ -1,0 +1,51 @@
+{
+  "method": "Godot AI MCP game_eval, original controller; controlled position change, not visual gameplay reproduction",
+  "collision_world_aabb": {
+    "min": [
+      -13.96183,
+      -0.949293,
+      -13.99168
+    ],
+    "size": [
+      27.93735,
+      11.3594,
+      27.99039
+    ]
+  },
+  "old_logical_half_extents": [
+    9,
+    9
+  ],
+  "before": {
+    "player": [
+      0,
+      0,
+      7
+    ],
+    "boss": [
+      0,
+      0,
+      0
+    ],
+    "state": "INTRO",
+    "health": 550,
+    "encounter_active": true
+  },
+  "trigger": {
+    "player": [
+      0,
+      0,
+      -10
+    ]
+  },
+  "after_two_physics_frames": {
+    "boss": [
+      0,
+      0.000391,
+      -3
+    ],
+    "state": "IDLE",
+    "health": 600,
+    "encounter_active": false
+  }
+}

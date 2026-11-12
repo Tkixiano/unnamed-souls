@@ -1,0 +1,7 @@
+{
+	"estus": 5,
+	"health": 100.0,
+	"mode": "main (F5 equivalent)",
+	"scene": "res://scenes/levels/main_level.tscn",
+	"single_player": true
+}

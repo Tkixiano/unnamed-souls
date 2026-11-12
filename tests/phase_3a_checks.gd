@@ -160,22 +160,24 @@ func run(tree: SceneTree) -> Dictionary:
 	await _step(40)
 	_p.position = Vector3(0,0,9.0)
 	await _step(3)
-	_checks["leash_enters_returning"] = _ai.state == 7 and not _e.attack_controller.is_active()
+	# Persistent-aggro adjustment: leaving the former leash must retain pursuit.
+	_checks["beyond_former_leash_keeps_aggro"] = _ai.has_aggro() and _ai.state == 2 and _ai.target == _p
+	var pursuit_start: Vector3 = _e.position
 	var previous: Vector3 = _e.position
 	var maximum_step: float = 0.0
 	for frame in range(180):
 		await _step(1)
 		maximum_step = maxf(maximum_step,_e.position.distance_to(previous))
 		previous = _e.position
-	_measurements["return_maximum_observed_step"] = maximum_step
-	_checks["returns_home_without_teleport"] = _e.position.distance_to(_ai.origin) < 0.2 and _ai.state == 0 and maximum_step < 0.1
+	_measurements["persistent_pursuit_maximum_observed_step"] = maximum_step
+	_checks["pursues_without_teleport_beyond_former_leash"] = _ai.has_aggro() and _e.position.z > pursuit_start.z+1.0 and maximum_step < 0.1
 	await _reset(Vector3(0,0,-3))
 	await _step(35)
 	wall = _wall(Vector3(0,1,-1.5))
 	await _step(10)
 	_checks["brief_occlusion_keeps_target"] = _ai.state != 7
 	await _step(70)
-	_checks["extended_occlusion_returns_home"] = _ai.state == 7 or _ai.state == 0
+	_checks["extended_occlusion_keeps_aggro"] = _ai.has_aggro() and _ai.target == _p and _ai.state != 7 and not _e.attack_controller.is_active()
 	wall.queue_free()
 	await _step(2)
 	await _reset(Vector3(0,0,-1.65),100.0)

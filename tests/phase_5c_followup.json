@@ -1,0 +1,12 @@
+{
+	"checks": {
+		"dodge_recovers_normally": true,
+		"heavy_dodge_has_motion": true,
+		"heavy_dodge_started": true,
+		"no_footstep_during_committed_dodge": true,
+		"technical_attacker_without_ai_binds_safely": true
+	},
+	"failed": [],
+	"passed": 5,
+	"total": 5
+}

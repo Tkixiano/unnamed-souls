@@ -1,0 +1,163 @@
+{
+  "new": {
+    "passed": 362,
+    "total": 362,
+    "failed": 0
+  },
+  "regressions": {
+    "passed": 1096,
+    "total": 1096,
+    "failed": 0
+  },
+  "breakdown": [
+    {
+      "suite": "Fase 1A",
+      "passed": 16,
+      "total": 16,
+      "failed": []
+    },
+    {
+      "suite": "Fase 1B",
+      "passed": 44,
+      "total": 44,
+      "failed": []
+    },
+    {
+      "suite": "Fase 1C",
+      "passed": 38,
+      "total": 38,
+      "failed": []
+    },
+    {
+      "suite": "Fase 1D",
+      "passed": 47,
+      "total": 47,
+      "failed": []
+    },
+    {
+      "suite": "Fase 2A",
+      "passed": 59,
+      "total": 59,
+      "failed": []
+    },
+    {
+      "suite": "Fase 2B",
+      "passed": 63,
+      "total": 63,
+      "failed": []
+    },
+    {
+      "suite": "Fase 2C",
+      "passed": 60,
+      "total": 60,
+      "failed": []
+    },
+    {
+      "suite": "Fase 2D",
+      "passed": 63,
+      "total": 63,
+      "failed": []
+    },
+    {
+      "suite": "Fase 2E",
+      "passed": 77,
+      "total": 77,
+      "failed": []
+    },
+    {
+      "suite": "Fase 3A",
+      "passed": 61,
+      "total": 61,
+      "failed": []
+    },
+    {
+      "suite": "Fase 3B",
+      "passed": 62,
+      "total": 62,
+      "failed": []
+    },
+    {
+      "suite": "Fase 3C",
+      "passed": 74,
+      "total": 74,
+      "failed": []
+    },
+    {
+      "suite": "Fase 4A",
+      "passed": 64,
+      "total": 64,
+      "failed": []
+    },
+    {
+      "suite": "Fase 4B recorrido",
+      "passed": 47,
+      "total": 47,
+      "failed": []
+    },
+    {
+      "suite": "Fase 4B espacial",
+      "passed": 26,
+      "total": 26,
+      "failed": []
+    },
+    {
+      "suite": "Fase 4B reintento",
+      "passed": 8,
+      "total": 8,
+      "failed": []
+    },
+    {
+      "suite": "Fase 5A",
+      "passed": 53,
+      "total": 53,
+      "failed": []
+    },
+    {
+      "suite": "Fase 5A contexto",
+      "passed": 10,
+      "total": 10,
+      "failed": []
+    },
+    {
+      "suite": "aggro_checks.gd",
+      "passed": 38,
+      "total": 38,
+      "failed": []
+    },
+    {
+      "suite": "phase_5b_checks.gd",
+      "passed": 73,
+      "total": 73,
+      "failed": []
+    },
+    {
+      "suite": "phase_5c_checks.gd",
+      "passed": 95,
+      "total": 95,
+      "failed": []
+    },
+    {
+      "suite": "phase_5c_followup.gd",
+      "passed": 5,
+      "total": 5,
+      "failed": []
+    },
+    {
+      "suite": "query_results.json",
+      "passed": 11,
+      "total": 11,
+      "failed": []
+    },
+    {
+      "suite": "detection_results.json",
+      "passed": 2,
+      "total": 2,
+      "failed": []
+    }
+  ],
+  "f5": "main_menu",
+  "f6": "ruins_boss_arena",
+  "physical_gamepad_tested": false,
+  "export_modified": false,
+  "editor_preexisting_warnings": 10
+}

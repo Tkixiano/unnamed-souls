@@ -12,6 +12,11 @@ func _unhandled_input(event: InputEvent) -> void:
 		_return_to_menu()
 
 func _return_to_menu() -> void:
+	# The existing level adapter now opens pause; removal still leaves levels usable.
+	var menus := get_node_or_null("/root/GameMenus")
+	if menus != null:
+		menus.open_pause()
+		return
 	if _leaving: return
 	_leaving = true
 	_change_scene.call_deferred()

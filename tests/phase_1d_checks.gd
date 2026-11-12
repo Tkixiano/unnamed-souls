@@ -206,9 +206,9 @@ func run(tree: SceneTree) -> Dictionary:
 	_checks["short_press_keeps_lock_and_release"] = _lock.is_locked() and releases.size() == 1 and not releases[0][1]
 	Input.action_press("sprint_dodge")
 	await _step(40)
-	_checks["long_hold_unlocks_and_runs"] = not _lock.is_locked() and _lock.last_release_reason == &"sprint" \
+	_checks["long_hold_keeps_lock_and_runs"] = _lock.is_locked() and _lock.current_target == _center \
 		and _player.locomotion_state == 2 and absf(_player.horizontal_speed - _player.run_speed) < 0.03
-	_checks["sprint_restores_free_orientation"] = _player.orient_to_movement and _rig.control_mode == 0
+	_checks["sprint_preserves_locked_orientation"] = not _player.orient_to_movement and _rig.control_mode == 1
 	Input.action_release("sprint_dodge")
 	await _step(2)
 	_checks["long_release_preserved"] = releases.size() == 2 and releases[1][1]

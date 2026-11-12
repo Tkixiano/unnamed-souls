@@ -1,0 +1,12 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://resources/environment_4a/mesh_163.res" id="1_atkfu"]
+
+[node name="RuinsArena" type="Node3D" unique_id=1365796142]
+metadata/source_asset = "res://assets/models/Arena_del_jefe.glb"
+metadata/unit_scale = 14.733336984033581
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1870042443]
+transform = Transform3D(14.733337, 0, 0, 0, 14.733337, 0, 0, 0, 14.733337, 0.029982662, 5.7290287, 0.020052256)
+cast_shadow = 0
+mesh = ExtResource("1_atkfu")

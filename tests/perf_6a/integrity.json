@@ -1,0 +1,8 @@
+{
+  "checked": 515,
+  "changed": [
+    "scripts/enemies/enemy_world_queries.gd",
+    "scripts/enemies/soldier_ai.gd"
+  ],
+  "unchanged": 513
+}

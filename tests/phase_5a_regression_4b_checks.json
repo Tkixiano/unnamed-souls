@@ -1,0 +1,262 @@
+{
+	"checks": {
+		"Soldier1_autonomous_hit_at_final_position": true,
+		"Soldier1_detects_at_final_position": true,
+		"Soldier1_pursues_at_final_position": true,
+		"Soldier2_autonomous_hit_at_final_position": true,
+		"Soldier2_detects_at_final_position": true,
+		"Soldier2_pursues_at_final_position": true,
+		"approach_ground_85_samples": true,
+		"approach_rails_both_sides": true,
+		"arena_ground_81_samples": true,
+		"boss_phase_two_during_real_hits": true,
+		"camera_distance_recovers": true,
+		"camera_keeps_physical_obstacle_mask": true,
+		"camera_wall_contraction": true,
+		"defeat_soldier1_through_player_hitbox": true,
+		"defeat_soldier2_through_player_hitbox": true,
+		"encounter_active_without_scene_change": true,
+		"environment_materials_assigned": true,
+		"f5_direct_integrated_level": true,
+		"f6_art_arena_available": true,
+		"forest_floor_625_samples": true,
+		"forest_lateral_boundaries_sampled": true,
+		"gate_bonfire_activates": true,
+		"initial_bonfire_interaction": true,
+		"no_plain_white_missing_environment_materials": true,
+		"reload_no_duplicate_actor": true,
+		"rock_collision_0": true,
+		"rock_collision_1": true,
+		"rock_collision_2": true,
+		"rock_collision_3": true,
+		"rock_retreat_no_trap_0": true,
+		"rock_retreat_no_trap_1": true,
+		"rock_retreat_no_trap_2": true,
+		"rock_retreat_no_trap_3": true,
+		"selector_keeps_three_destinations": true,
+		"south_forest_closed": true,
+		"tree_rock_ruin_world_proxies": true,
+		"victory_disables_offense_lock": true,
+		"victory_message_visible": true,
+		"victory_preserved_after_menu_reload": true,
+		"victory_through_player_hitboxes": true,
+		"walk_around_first_corpse": true,
+		"walk_around_second_corpse": true,
+		"walk_gate_to_encounter": true,
+		"walk_start_to_tutorial": true,
+		"walk_to_gate_checkpoint": true,
+		"walk_to_second_combat": true,
+		"walk_tutorial_to_first_combat": true
+	},
+	"failed": [],
+	"measurements": {
+		"Soldier1_ai": {
+			"player_hp": 80.0,
+			"position": "(-0.461401, 0.000391, 5.313231)",
+			"state": "RECOVERY"
+		},
+		"Soldier2_ai": {
+			"player_hp": 80.0,
+			"position": "(-0.461401, 0.000391, -9.686711)",
+			"state": "RECOVERY"
+		},
+		"material_audit": {
+			"meshes": 151,
+			"null_slots": [],
+			"white_untextured": []
+		},
+		"missing_forest_ground": [],
+		"performance": {
+			"adapter": "AMD Radeon(TM) Graphics",
+			"context": "Editor, stationary after automated combat route; not a target-hardware benchmark",
+			"memory": {
+				"available": 20646608896,
+				"free": 679550976,
+				"physical": 6323187712,
+				"stack": 8388608
+			},
+			"position": "(-0.116253, -0.007332, -47.21563)",
+			"processor": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+			"samples": [
+				{
+					"MEMORY_STATIC": 98965027.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12790.0,
+					"RENDER_VIDEO_MEM_USED": 69426871.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004692,
+					"TIME_PROCESS": 0.016121
+				},
+				{
+					"MEMORY_STATIC": 98967311.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12790.0,
+					"RENDER_VIDEO_MEM_USED": 69426871.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004832,
+					"TIME_PROCESS": 0.018038
+				},
+				{
+					"MEMORY_STATIC": 98968227.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 35.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12790.0,
+					"RENDER_VIDEO_MEM_USED": 69426871.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004832,
+					"TIME_PROCESS": 0.018038
+				},
+				{
+					"MEMORY_STATIC": 98967419.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12788.0,
+					"RENDER_VIDEO_MEM_USED": 69426871.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004832,
+					"TIME_PROCESS": 0.018038
+				},
+				{
+					"MEMORY_STATIC": 98968511.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12788.0,
+					"RENDER_VIDEO_MEM_USED": 69426871.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004832,
+					"TIME_PROCESS": 0.018038
+				},
+				{
+					"MEMORY_STATIC": 98969555.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 36.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12788.0,
+					"RENDER_VIDEO_MEM_USED": 69426871.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.002722,
+					"TIME_PROCESS": 0.015362
+				},
+				{
+					"MEMORY_STATIC": 98970783.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12794.0,
+					"RENDER_VIDEO_MEM_USED": 69427199.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.002722,
+					"TIME_PROCESS": 0.015362
+				},
+				{
+					"MEMORY_STATIC": 98971963.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12796.0,
+					"RENDER_VIDEO_MEM_USED": 69427199.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.002722,
+					"TIME_PROCESS": 0.015362
+				},
+				{
+					"MEMORY_STATIC": 98973007.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12796.0,
+					"RENDER_VIDEO_MEM_USED": 69427199.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.002722,
+					"TIME_PROCESS": 0.015362
+				},
+				{
+					"MEMORY_STATIC": 98974147.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12796.0,
+					"RENDER_VIDEO_MEM_USED": 69427199.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004206,
+					"TIME_PROCESS": 0.016145
+				},
+				{
+					"MEMORY_STATIC": 98975191.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12796.0,
+					"RENDER_VIDEO_MEM_USED": 69427199.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004206,
+					"TIME_PROCESS": 0.016145
+				},
+				{
+					"MEMORY_STATIC": 98976235.0,
+					"OBJECT_COUNT": 2506.0,
+					"OBJECT_NODE_COUNT": 455.0,
+					"RENDER_TEXTURE_MEM_USED": 55942099.0,
+					"RENDER_TOTAL_DRAW_CALLS_IN_FRAME": 37.0,
+					"RENDER_TOTAL_PRIMITIVES_IN_FRAME": 12796.0,
+					"RENDER_VIDEO_MEM_USED": 69427199.0,
+					"TIME_FPS": 60.0,
+					"TIME_PHYSICS_PROCESS": 0.004206,
+					"TIME_PROCESS": 0.016145
+				}
+			],
+			"scene": "res://scenes/levels/main_level.tscn"
+		},
+		"proxy_categories": {
+			"rock": 4,
+			"ruin": 25,
+			"tree": 12
+		},
+		"route_fight_boss": {
+			"attack_requests_accepted": 14,
+			"initial_hp": 600.0,
+			"phase_two_seen": true,
+			"player_damage": 416.0,
+			"player_position": "(-0.116253, -0.007332, -47.21563)",
+			"remaining_hp": 0.0
+		},
+		"route_fight_soldier1": {
+			"attack_requests_accepted": 4,
+			"initial_hp": 180.0,
+			"phase_two_seen": false,
+			"player_damage": 40.0,
+			"player_position": "(0.0, 0.001, 4.345832)",
+			"remaining_hp": 0.0
+		},
+		"route_fight_soldier2": {
+			"attack_requests_accepted": 4,
+			"initial_hp": 180.0,
+			"phase_two_seen": false,
+			"player_damage": 40.0,
+			"player_position": "(-1.439688, 0.001, -10.94763)",
+			"remaining_hp": 0.0
+		}
+	},
+	"passed": 47,
+	"physical_devices": [],
+	"status": "complete",
+	"total": 47
+}

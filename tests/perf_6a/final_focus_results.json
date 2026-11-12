@@ -1,0 +1,733 @@
+{
+	"3a_3b": {
+		"current": "3b",
+		"results": {
+			"3a": {
+				"attack_input_enabled": true,
+				"automatic_checkpoint_lifecycle_isolated": true,
+				"autonomous_soldier_isolated": false,
+				"backstab_acquisition_isolated": false,
+				"checks": {
+					"active_direction_committed": true,
+					"active_hitbox_and_damage": true,
+					"alert_is_readable_pause": true,
+					"alert_to_chase_and_approach": true,
+					"all_player_components_and_ai_enabled": true,
+					"autonomous_attack_reached": true,
+					"backstab_against_live_ai_actor": true,
+					"backstab_damage_once": true,
+					"backstab_restores_enemy_action_state": true,
+					"below_threshold_damage_no_stagger": true,
+					"beyond_former_leash_keeps_aggro": true,
+					"brief_occlusion_keeps_target": true,
+					"complete_attack_then_decision_pause": true,
+					"contact_parry_interrupts_enemy": true,
+					"critical_death_fixture_starts_backstab": true,
+					"critical_reservation_released": true,
+					"critical_test_lethal_damage_applied": true,
+					"damage_interrupts_startup_into_stagger": true,
+					"damage_stagger_recovers": true,
+					"death_disables_ai_hitbox_and_target": true,
+					"death_during_critical_releases_reservation": true,
+					"detection_enters_alert": true,
+					"enemy_dies_via_shared_hurtbox": true,
+					"enemy_lockable": true,
+					"extended_occlusion_keeps_aggro": true,
+					"guard_stamina_cost_exact": true,
+					"lock_released_after_enemy_death": true,
+					"no_ai_attack_against_dead_player": true,
+					"no_damage_before_startup_end": true,
+					"no_postmortem_attack_damage": true,
+					"normal_player_attack_starts_frontally": true,
+					"parried_enemy_vulnerable_and_incapacitated": true,
+					"parry_starts_against_ai_attack": true,
+					"phase_durations_quantized_to_physics": true,
+					"progressive_facing_toward_player": true,
+					"pursues_without_teleport_beyond_former_leash": true,
+					"real_attack_respects_dodge_iframes": true,
+					"real_enemy_guard_break": true,
+					"real_enemy_hit_blocked": true,
+					"real_hitbox_damage_to_enemy": true,
+					"recovery_hitbox_off": true,
+					"riposte_on_ai_enemy": true,
+					"riposte_single_damage_to_enemy": true,
+					"single_damage_per_attack": true,
+					"startup_has_no_hitbox_or_damage": true,
+					"stops_in_attack_range": true,
+					"target_death_interrupts_existing_startup": true
+				},
+				"component_checks": {
+					"attack_resource_parameters": true,
+					"body_width_probe_rejects_obstacle": true,
+					"bounded_attack_burst_has_extended_pause": true,
+					"clear_short_path_remains_valid": true,
+					"dead_player_not_detected": true,
+					"distance_rejects_outside_radius": true,
+					"edge_ground_probe_rejects_void": true,
+					"idle_initial": true,
+					"line_of_sight_rejects_solid_wall": true,
+					"perception_in_distance_and_cone": true,
+					"scene_required_nodes_and_shared_attack_script": true,
+					"seeded_wait_reproducible": true,
+					"vision_rejects_behind": true,
+					"wait_variation_bounded": true
+				},
+				"defense_input_enabled": true,
+				"estus_input_enabled": true,
+				"failed": [],
+				"grip_input_enabled": true,
+				"measurements": {
+					"attack_phase_events": [
+						[
+							1,
+							0.0
+						],
+						[
+							2,
+							0.55
+						],
+						[
+							3,
+							0.733333333333334
+						],
+						[
+							0,
+							1.48333333333333
+						]
+					],
+					"persistent_pursuit_maximum_observed_step": 0.033333420753479
+				},
+				"passed": 61,
+				"physical_devices": [],
+				"short_release_listener_isolated": false,
+				"total": 61
+			},
+			"3b": {
+				"attack_input_enabled": true,
+				"automatic_checkpoint_lifecycle_isolated": false,
+				"autonomous_soldier_isolated": false,
+				"backstab_acquisition_isolated": false,
+				"checks": {
+					"all_offensive_hitboxes_off_after_restore": true,
+					"all_real_components_enabled": true,
+					"attack_buffer_fixture_valid": true,
+					"block_death_fixture_valid": true,
+					"bonfire_registered_once": true,
+					"boss_remains_dead_across_rests": true,
+					"boss_simulation_records_session_defeat": true,
+					"busy_interaction_rejected": true,
+					"camera_frozen_during_death": true,
+					"camera_restored": true,
+					"checkpoint_spawn_registered": true,
+					"critical_fixture_valid": true,
+					"dead_actions_rejected": true,
+					"dead_cancels_attack_hitbox_and_buffer": true,
+					"dead_interaction_rejected": true,
+					"death_before_activation_uses_initial_spawn": true,
+					"death_cancels_block": true,
+					"death_cancels_dodge_iframes": true,
+					"death_cancels_estus": true,
+					"death_cancels_parry": true,
+					"death_enters_dead_and_delay": true,
+					"death_releases_lock_and_critical_reservation": true,
+					"defeated_boss_simulation_not_respawned": true,
+					"direct_api_also_rejected_while_guarded": true,
+					"dodge_not_replayed_on_respawn": true,
+					"duplicate_checkpoint_id_rejected": true,
+					"enemy_brain_memory_and_stagger_reset": true,
+					"enemy_hit_hurt_and_lock_restored": true,
+					"estus_has_no_delayed_consumption_after_respawn": true,
+					"fresh_attack_works_after_respawn": true,
+					"held_block_not_raised_after_respawn": true,
+					"held_inputs_blocked_after_respawn": true,
+					"held_interact_not_repeated": true,
+					"initial_fire_unlit_and_fallback_spawn": true,
+					"initial_visual_and_camera_face_spawn_direction": true,
+					"integrated_combat_death_respawn": true,
+					"interact_activates_checkpoint": true,
+					"lock_fixture_valid": true,
+					"multiple_death_cycles": true,
+					"multiple_rests_no_enemy_duplicates": true,
+					"no_instant_restore": true,
+					"no_old_attack_or_combo_after_release": true,
+					"normal_enemy_fully_restored": true,
+					"normal_type_restores_same_instance_again": true,
+					"normalized_pad_interaction_works": true,
+					"outside_area_rejected": true,
+					"overlay_control_signal_order": true,
+					"physics_not_paused": true,
+					"real_ai_contact_kills_player": true,
+					"release_restores_control": true,
+					"respawn_position_and_free": true,
+					"respawn_visual_and_camera_face_spawn_direction": true,
+					"respawn_vitals_estus_and_mode": true,
+					"rest_restores_estus_and_one_handed": true,
+					"rest_restores_health_stamina": true,
+					"rest_resurrects_same_enemy_instance": true,
+					"screen_hides_before_revival": true,
+					"screen_holds_configured_interval": true,
+					"starts_near_interaction_area": true,
+					"technical_attacker_also_quiesced_on_rest": true,
+					"technical_restore_cancels_obsolete_death_sequence": true,
+					"you_died_shown_after_delay": true
+				},
+				"defense_input_enabled": true,
+				"estus_input_enabled": true,
+				"failed": [],
+				"grip_input_enabled": true,
+				"measurements": {
+
+				},
+				"passed": 62,
+				"physical_devices": [],
+				"short_release_listener_isolated": false,
+				"timing_fixture": {
+					"death_delay": 0.1,
+					"death_screen": 0.2
+				},
+				"total": 62
+			}
+		},
+		"status": "complete"
+	},
+	"3c": {
+		"checks": {
+			"active_armor_keeps_attack_commitment": true,
+			"active_orientation_committed": true,
+			"area_active_and_damage_once": true,
+			"area_can_be_escaped_by_walking": true,
+			"area_full_preparation_no_damage": true,
+			"area_no_duplicate_damage": true,
+			"area_only_phase_two_and_starts": true,
+			"area_roll_timing_evades_contact": true,
+			"area_warning_off_in_recovery": true,
+			"area_warning_precedes_damage": true,
+			"arena_boundary_resets_safely": true,
+			"autonomous_approach_and_pattern": true,
+			"backstab_policy_can_be_enabled_independently": true,
+			"bonfire_rest_after_victory": true,
+			"boss_area_real_contact_kills_player": true,
+			"boss_lockable": true,
+			"boss_slam_guard_break": true,
+			"checkpoint_retries_full_health_phase_one": true,
+			"combo_first_impact": true,
+			"combo_has_exactly_two_swings": true,
+			"combo_second_impact_separate_window": true,
+			"combo_second_separate_startup": true,
+			"compatible_boss_attack_blocks": true,
+			"cooldown_independently_prevents_repeat": true,
+			"death_cancels_attacks_ai_and_lock_target": true,
+			"death_has_absolute_priority": true,
+			"death_releases_player_lock": true,
+			"default_attack_rejects_parry_by_contact": true,
+			"default_boss_backstab_rejected": true,
+			"default_riposte_policy_off": true,
+			"defeated_boss_never_respawns_on_rest": true,
+			"entry_starts_real_encounter_intro": true,
+			"horizontal_active_damage_and_wide_shape": true,
+			"horizontal_starts": true,
+			"hud_initially_hidden": true,
+			"initial_boss_type_health_id": true,
+			"intro_rejects_attack_requests": true,
+			"main_scene_configuration_preserved": true,
+			"one_damage_per_window": true,
+			"parry_and_riposte_policy_future_opt_in": true,
+			"phase_one_has_three_patterns_no_area": true,
+			"phase_transition_after_committed_attack": true,
+			"phase_two_decision_more_aggressive": true,
+			"phase_two_legal_pattern_starts": true,
+			"phase_two_once_without_heal": true,
+			"phase_two_recovery_snapshot_reduced": true,
+			"player_normal_hitbox_damages_boss": true,
+			"post_attack_reposition_moves": true,
+			"recent_pattern_prevents_repeat": true,
+			"recovery_armor_keeps_commitment": true,
+			"recovery_hitbox_disabled": true,
+			"repeated_rest_no_boss_duplicates": true,
+			"retry_clears_hitboxes_transitions_hud": true,
+			"scene_reload_preserves_defeat_in_same_session": true,
+			"selection_rejects_outside_range": true,
+			"selection_rejects_solid_obstruction": true,
+			"selection_rejects_wrong_angle": true,
+			"session_defeat_recorded_by_stable_id": true,
+			"shared_attack_damage_and_physical_nodes": true,
+			"slam_hits_and_stamina_damage": true,
+			"slam_long_recovery": true,
+			"slam_long_startup": true,
+			"slash_phase_clock": true,
+			"stagger_recovers_owned_state": true,
+			"startup_has_no_offense": true,
+			"startup_stagger_rule": true,
+			"threshold_does_not_retrigger": true,
+			"threshold_queues_not_cancels_attack": true,
+			"transition_begins_after_whole_combo": true,
+			"transition_blocks_new_offense": true,
+			"transition_preserves_second_committed_combo_hit": true,
+			"victory_and_hud_end": true,
+			"weighted_selection_seed_reproducible": true
+		},
+		"failed": [],
+		"measurements": {
+			"seeded_pattern_samples": [
+				"HORIZONTAL_SLASH",
+				"HORIZONTAL_SLASH",
+				"VERTICAL_SLAM",
+				"TWO_HIT_COMBO",
+				"TWO_HIT_COMBO",
+				"TWO_HIT_COMBO",
+				"VERTICAL_SLAM",
+				"HORIZONTAL_SLASH",
+				"HORIZONTAL_SLASH",
+				"TWO_HIT_COMBO",
+				"HORIZONTAL_SLASH",
+				"HORIZONTAL_SLASH"
+			],
+			"slash_phase_events": [
+				[
+					1,
+					0.0
+				],
+				[
+					2,
+					0.700000000000001
+				],
+				[
+					3,
+					0.900000000000001
+				],
+				[
+					0,
+					1.7
+				]
+			]
+		},
+		"passed": 73,
+		"physical_devices": [],
+		"total": 73
+	},
+	"aggro": {
+		"checks": {
+			"acquires_only_after_clear_sight": true,
+			"attack_resumes_after_obstacle_clears": true,
+			"blocked_attack_in_range": true,
+			"bonfire_rest_resets_aggro_without_duplicates": true,
+			"bonfire_rest_uses_real_interaction": true,
+			"can_reacquire_after_respawn": true,
+			"can_reacquire_after_rest": true,
+			"dead_player_is_not_pursued_or_attacked": true,
+			"destroyed_target_reference_cleared": true,
+			"detection_enters_alert": true,
+			"disposable_target_detected_normally": true,
+			"enemy_death_cancels_offense": true,
+			"enemy_death_clears_aggro": true,
+			"enemy_restore_clears_memory": true,
+			"explicit_brain_reset_clears_aggro": true,
+			"explicit_level_reload_clears_aggro": true,
+			"initial_valid_visual_detection": true,
+			"integrated_soldier_acquires_in_level": true,
+			"legacy_loss_radius_does_not_forget": true,
+			"new_game_clears_old_aggro_and_bindings": true,
+			"no_attack_through_occluding_wall": true,
+			"no_initial_acquisition_behind": true,
+			"no_initial_acquisition_out_of_range": true,
+			"no_initial_acquisition_through_wall": true,
+			"no_teleport_or_speed_change": true,
+			"normal_attack_damage_unchanged": true,
+			"pause_freezes_attack_and_physics": true,
+			"pause_preserves_aggro_reference": true,
+			"persistent_beyond_detection_radius": true,
+			"persistent_beyond_former_occlusion_timeout": true,
+			"persistent_beyond_old_actor_leash": true,
+			"persistent_beyond_old_target_leash": true,
+			"persistent_outside_field_of_view": true,
+			"persistent_when_player_moves_behind": true,
+			"real_respawn_resets_soldier_aggro": true,
+			"real_respawn_restores_player": true,
+			"resume_preserves_aggro": true,
+			"wall_collision_keeps_soldier_on_its_side": true
+		},
+		"failed": [],
+		"measurements": {
+			"maximum_wall_fixture_physics_step": 0.0
+		},
+		"passed": 38.0,
+		"physical_devices": [],
+		"scope": "Automated physics/contact and real lifecycle integration; no visual/physical-controller claims",
+		"status": "complete",
+		"total": 38.0
+	},
+	"detection": {
+		"checks": {
+			"all_20_detection_batches_agree": true,
+			"unaware_query_fixture_does_not_acquire": true
+		},
+		"passed": 2,
+		"samples": [
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 52.07,
+					"old_us_per_call": 51.78
+				},
+				"trial": 0
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 54.9866666666667,
+					"old_us_per_call": 48.44
+				},
+				"trial": 1
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 54.2033333333333,
+					"old_us_per_call": 54.7466666666667
+				},
+				"trial": 2
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 49.9333333333333,
+					"old_us_per_call": 50.0766666666667
+				},
+				"trial": 3
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 54.12,
+					"old_us_per_call": 50.65
+				},
+				"trial": 4
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 49.2066666666667,
+					"old_us_per_call": 56.5066666666667
+				},
+				"trial": 5
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 48.6066666666667,
+					"old_us_per_call": 52.2066666666667
+				},
+				"trial": 6
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 45.57,
+					"old_us_per_call": 42.3766666666667
+				},
+				"trial": 7
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 54.8233333333333,
+					"old_us_per_call": 51.05
+				},
+				"trial": 8
+			},
+			{
+				"blocked": true,
+				"same": true,
+				"times": {
+					"new_us_per_call": 49.8533333333333,
+					"old_us_per_call": 50.5933333333333
+				},
+				"trial": 9
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 48.47,
+					"old_us_per_call": 42.0766666666667
+				},
+				"trial": 0
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 48.8766666666667,
+					"old_us_per_call": 51.11
+				},
+				"trial": 1
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 49.21,
+					"old_us_per_call": 55.76
+				},
+				"trial": 2
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 42.17,
+					"old_us_per_call": 40.97
+				},
+				"trial": 3
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 35.15,
+					"old_us_per_call": 37.97
+				},
+				"trial": 4
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 37.0766666666667,
+					"old_us_per_call": 44.33
+				},
+				"trial": 5
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 42.2633333333333,
+					"old_us_per_call": 42.0633333333333
+				},
+				"trial": 6
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 33.3833333333333,
+					"old_us_per_call": 36.8533333333333
+				},
+				"trial": 7
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 37.4333333333333,
+					"old_us_per_call": 34.7833333333333
+				},
+				"trial": 8
+			},
+			{
+				"blocked": false,
+				"same": true,
+				"times": {
+					"new_us_per_call": 35.2033333333333,
+					"old_us_per_call": 36.4266666666667
+				},
+				"trial": 9
+			}
+		],
+		"scope": "Paired uninstrumented detection calls in actual main-level world, 300 calls per batch, isolated AI only; includes in-range LOS ray",
+		"total": 2
+	},
+	"queries": {
+		"checks": {
+			"450_fresh_vs_reused_and_default_query_comparisons": true,
+			"actor_rid_excluded": true,
+			"blocked_probe_agrees_with_original": true,
+			"moving_obstacle_clearance_seen_next_physics_tick": true,
+			"new_obstruction_seen_next_physics_tick": true,
+			"old_parameters_safe_in_new_world": true,
+			"physical_movement_still_advances": true,
+			"query_mask_preserved": true,
+			"resources_reused_not_results": true,
+			"restoration_keeps_safe_parameter_objects": true,
+			"speed_acceleration_and_attack_data_unchanged": true
+		},
+		"comparisons": 450,
+		"failed": [],
+		"microbenchmark": [
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 35.4266666666667,
+					"old_us_per_call": 46.3733333333333
+				},
+				"trial": 0
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 44.23,
+					"old_us_per_call": 48.53
+				},
+				"trial": 1
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 45.4966666666667,
+					"old_us_per_call": 45.2933333333333
+				},
+				"trial": 2
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 32.41,
+					"old_us_per_call": 46.6866666666667
+				},
+				"trial": 3
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 42.51,
+					"old_us_per_call": 59.6833333333333
+				},
+				"trial": 4
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 37.49,
+					"old_us_per_call": 43.7166666666667
+				},
+				"trial": 5
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 31.0666666666667,
+					"old_us_per_call": 49.4866666666667
+				},
+				"trial": 6
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 44.1866666666667,
+					"old_us_per_call": 52.6066666666667
+				},
+				"trial": 7
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 27.4066666666667,
+					"old_us_per_call": 43.3966666666667
+				},
+				"trial": 8
+			},
+			{
+				"blocked": true,
+				"times": {
+					"new_us_per_call": 27.98,
+					"old_us_per_call": 39.1633333333333
+				},
+				"trial": 9
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 43.2366666666667,
+					"old_us_per_call": 57.07
+				},
+				"trial": 0
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 38.2466666666667,
+					"old_us_per_call": 51.5933333333333
+				},
+				"trial": 1
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 42.43,
+					"old_us_per_call": 55.6166666666667
+				},
+				"trial": 2
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 37.9966666666667,
+					"old_us_per_call": 48.4166666666667
+				},
+				"trial": 3
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 33.4566666666667,
+					"old_us_per_call": 48.2433333333333
+				},
+				"trial": 4
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 26.1866666666667,
+					"old_us_per_call": 38.0833333333333
+				},
+				"trial": 5
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 30.3766666666667,
+					"old_us_per_call": 43.3433333333333
+				},
+				"trial": 6
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 31.68,
+					"old_us_per_call": 38.0766666666667
+				},
+				"trial": 7
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 31.9833333333333,
+					"old_us_per_call": 42.8433333333333
+				},
+				"trial": 8
+			},
+			{
+				"blocked": false,
+				"times": {
+					"new_us_per_call": 36.0,
+					"old_us_per_call": 46.3
+				},
+				"trial": 9
+			}
+		],
+		"passed": 11,
+		"scope": "Only query fixture disables decisions. Aggro/lifecycle regression separately runs real active soldiers.",
+		"total": 11
+	},
+	"status": "complete"
+}

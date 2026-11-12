@@ -1,0 +1,17 @@
+{
+	"automatic_victory": true,
+	"focus": "new_game",
+	"no_player": true,
+	"options": {
+		"effects": 100.0,
+		"fullscreen": false,
+		"horizontal": 150.0,
+		"invert_y": false,
+		"master": 100.0,
+		"music": 100.0,
+		"vertical": 110.0
+	},
+	"paused": false,
+	"physical_devices": [],
+	"scene": "res://scenes/ui/main_menu.tscn"
+}

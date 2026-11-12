@@ -95,11 +95,8 @@ func try_dodge(input_vector: Vector2) -> bool:
 
 func _resolve_request(input_vector: Vector2) -> Dictionary:
 	var backstep := input_vector.is_zero_approx()
-	var vector := input_vector
-	if not backstep and player.has_movement_reference():
-		# Equal diagonals choose the longitudinal (forward/backward) axis.
-		vector = Vector2(signf(vector.x), 0.0) if absf(vector.x) > absf(vector.y) else Vector2(0.0, signf(vector.y))
-	var world_direction: Vector3 = player.visual.global_basis.z if backstep else player.resolve_movement_direction(vector)
+	# Preserve the full analog angle in camera space, including while locked on.
+	var world_direction: Vector3 = player.visual.global_basis.z if backstep else player.camera_relative_direction(input_vector)
 	world_direction.y = 0.0
 	return {"direction": world_direction.normalized(), "backstep": backstep}
 

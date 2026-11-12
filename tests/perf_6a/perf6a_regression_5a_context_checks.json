@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "context_recovers_after_occlusion": true,
+    "defeated_boss_not_advertised_as_new_encounter": true,
+    "grip_switch_real_request": true,
+    "live_boss_gate_context": true,
+    "skip_button_wiring": true,
+    "two_hand_panel_fits": true,
+    "two_hand_shield_instruction_actionable": true,
+    "visible_target_context_available": true,
+    "wall_hides_combat_lesson_context": true,
+    "wall_hides_lock_lesson_context": true
+  },
+  "failed": [],
+  "passed": 10,
+  "status": "complete",
+  "total": 10
+}

@@ -61,6 +61,17 @@ func get_active_bonfire() -> Node3D:
 func get_bonfire_count() -> int:
 	return _bonfires.size()
 
+func establish_initial_checkpoint() -> bool:
+	# New-session bootstrap: register the respawn point without pretending that
+	# the player interacted. The unlit bonfire can still teach its tutorial step.
+	if phase != Phase.NONE or not is_instance_valid(initial_spawn): return false
+	for bonfire in _bonfires.values():
+		if is_instance_valid(bonfire) and bonfire.respawn_point == initial_spawn:
+			active_id = bonfire.bonfire_id
+			_active_spawn = bonfire.get_spawn_transform()
+			return true
+	return false
+
 func get_respawn_transform() -> Transform3D:
 	var bonfire := get_active_bonfire()
 	if is_instance_valid(bonfire): return bonfire.get_spawn_transform()

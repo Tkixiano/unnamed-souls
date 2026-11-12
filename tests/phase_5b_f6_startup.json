@@ -1,0 +1,11 @@
+{
+	"automatic_victory": true,
+	"boss_health": 600.0,
+	"estus": 5,
+	"grounded": true,
+	"main": "res://scenes/ui/main_menu.tscn",
+	"paused": false,
+	"phase_two": false,
+	"player_health": 100.0,
+	"scene": "res://scenes/levels/ruins_boss_arena.tscn"
+}

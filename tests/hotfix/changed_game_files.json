@@ -1,0 +1,7 @@
+[
+  "scripts\\bosses\\guardian_brain.gd",
+  "scripts\\player\\dodge_controller.gd",
+  "scripts\\player\\lock_on_controller.gd",
+  "scenes\\levels\\main_level.tscn",
+  "scenes\\levels\\ruins_boss_arena.tscn"
+]

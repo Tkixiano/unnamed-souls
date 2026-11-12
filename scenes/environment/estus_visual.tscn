@@ -1,0 +1,12 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://resources/environment_4a/mesh_178.res" id="1_ug7ka"]
+
+[node name="EstusVisual" type="Node3D" unique_id=1930399295]
+metadata/source_asset = "res://assets/models/Frasco_Estus.glb"
+metadata/unit_scale = 0.13171842463369293
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1816191083]
+transform = Transform3D(0.13171843, 0, 0, 0, 0.13171843, 0, 0, 0, 0.13171843, 0.0008814587, 0.1252301, 0.00030960146)
+cast_shadow = 0
+mesh = ExtResource("1_ug7ka")

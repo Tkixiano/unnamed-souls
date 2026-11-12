@@ -123,9 +123,7 @@ func _physics_process(delta: float) -> void:
 	if not target_alive():
 		_end_encounter(&"player_dead")
 		return
-	if not inside_arena(target.global_position) or not inside_arena(actor.global_position):
-		actor.restore_at_checkpoint()
-		return
+	# Encounter lifetime belongs to death/checkpoint/session events, never proximity.
 	for id in _cooldowns: _cooldowns[id] = maxf(float(_cooldowns[id])-delta,0.0)
 	if state == State.PHASE_TRANSITION:
 		elapsed += delta

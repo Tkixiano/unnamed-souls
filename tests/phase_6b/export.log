@@ -1,0 +1,635 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Inicialización del proyecto (5 steps)
+[   0% ] first_scan_filesystem | Escaneando la estructura del archivo...
+[  16% ] first_scan_filesystem | Cargando nombres de clases globales...
+[  33% ] first_scan_filesystem | Verificando GDExtensions...
+[  50% ] first_scan_filesystem | Creando scripts de carga automática...
+[  66% ] first_scan_filesystem | Inicializando plugins...
+MCP | plugin disabled in headless mode
+[  83% ] first_scan_filesystem | Iniciando escaneo de archivos...
+[ DONE ] first_scan_filesystem
+
+[   0% ] update_scripts_classes | Started Registrando clases globales... (16 steps)
+[   0% ] update_scripts_classes | 
+[   5% ] update_scripts_classes | 
+[  11% ] update_scripts_classes | 
+[  17% ] update_scripts_classes | 
+[  23% ] update_scripts_classes | 
+[  29% ] update_scripts_classes | 
+[  35% ] update_scripts_classes | 
+[  41% ] update_scripts_classes | 
+[  47% ] update_scripts_classes | 
+[  52% ] update_scripts_classes | 
+[  58% ] update_scripts_classes | 
+[  64% ] update_scripts_classes | 
+[  70% ] update_scripts_classes | 
+[  76% ] update_scripts_classes | 
+[  82% ] update_scripts_classes | 
+[  88% ] update_scripts_classes | 
+[ DONE ] update_scripts_classes
+
+MCP | export: stripping autoload/_mcp_game_helper from the exported pack (restored in the editor after export)
+[   0% ] savepack | Started Empaquetando (102 steps)
+[   1% ] savepack | Almacenando Archivo: res://scripts/player/lock_on_controller.gdc
+[   1% ] savepack | Almacenando Archivo: res://scripts/player/player_controller.gdc
+[   1% ] savepack | Almacenando Archivo: res://scripts/player/sprint_dodge_input.gdc
+[   1% ] savepack | Almacenando Archivo: res://scripts/systems/actor_attributes.gdc
+[   2% ] savepack | Almacenando Archivo: res://scripts/systems/arena_menu_link.gdc
+[   2% ] savepack | Almacenando Archivo: res://scripts/systems/arena_selector.gdc
+[   2% ] savepack | Almacenando Archivo: res://scripts/systems/bonfire.gdc
+[   2% ] savepack | Almacenando Archivo: res://scripts/systems/camera_spring_arm.gdc
+[   3% ] savepack | Almacenando Archivo: res://scripts/systems/checkpoint_manager.gdc
+[   3% ] savepack | Almacenando Archivo: res://scripts/systems/checkpoint_status.gdc
+[   3% ] savepack | Almacenando Archivo: res://scripts/systems/controller_registry.gdc
+[   3% ] savepack | Almacenando Archivo: res://scripts/systems/death_screen.gdc
+[   4% ] savepack | Almacenando Archivo: res://scripts/bosses/ruins_guardian.gdc
+[   4% ] savepack | Almacenando Archivo: res://scripts/combat/action_debug.gdc
+[   4% ] savepack | Almacenando Archivo: res://scripts/combat/attack_data.gdc
+[   4% ] savepack | Almacenando Archivo: res://scripts/combat/attack_debug.gdc
+[   5% ] savepack | Almacenando Archivo: res://scripts/combat/attack_hitbox.gdc
+[   5% ] savepack | Almacenando Archivo: res://scripts/combat/attack_variant.gdc
+[   5% ] savepack | Almacenando Archivo: res://scripts/combat/combat_debug_geometry.gdc
+[   5% ] savepack | Almacenando Archivo: res://scripts/combat/critical_vulnerability.gdc
+[   6% ] savepack | Almacenando Archivo: res://scripts/combat/defense_controller.gdc
+[   6% ] savepack | Almacenando Archivo: res://scripts/combat/defense_debug.gdc
+[   6% ] savepack | Almacenando Archivo: res://scripts/combat/defense_test_attacker.gdc
+[   6% ] savepack | Almacenando Archivo: res://scripts/combat/hurtbox.gdc
+[   7% ] savepack | Almacenando Archivo: res://scripts/combat/riposte_controller.gdc
+[   7% ] savepack | Almacenando Archivo: res://scripts/combat/training_dummy.gdc
+[   7% ] savepack | Almacenando Archivo: res://scripts/enemies/enemy_world_queries.gdc
+[   7% ] savepack | Almacenando Archivo: res://scripts/enemies/soldier_actor.gdc
+[   8% ] savepack | Almacenando Archivo: res://scripts/enemies/soldier_ai.gdc
+[   8% ] savepack | Almacenando Archivo: res://scripts/player/action_state.gdc
+[   8% ] savepack | Almacenando Archivo: res://scripts/player/attack_controller.gdc
+[   9% ] savepack | Almacenando Archivo: res://scripts/player/defense_controller.gdc
+[   9% ] savepack | Almacenando Archivo: res://scripts/player/dodge_controller.gdc
+[   9% ] savepack | Almacenando Archivo: res://scripts/player/dodge_profile.gdc
+[   9% ] savepack | Almacenando Archivo: res://scripts/player/estus_controller.gdc
+[  10% ] savepack | Almacenando Archivo: res://scripts/player/grip_controller.gdc
+[  10% ] savepack | Almacenando Archivo: res://scripts/systems/dodge_debug.gdc
+[  10% ] savepack | Almacenando Archivo: res://scripts/systems/estus_hud.gdc
+[  10% ] savepack | Almacenando Archivo: res://scripts/systems/game_menus.gdc
+[  11% ] savepack | Almacenando Archivo: res://scripts/systems/game_options.gdc
+[  11% ] savepack | Almacenando Archivo: res://scripts/systems/integrated_level.gdc
+[  11% ] savepack | Almacenando Archivo: res://scripts/systems/lockable_target.gdc
+[  11% ] savepack | Almacenando Archivo: res://scripts/systems/lock_on_indicator.gdc
+[  12% ] savepack | Almacenando Archivo: res://scripts/systems/main_menu.gdc
+[  12% ] savepack | Almacenando Archivo: res://scripts/systems/menu_screen.gdc
+[  12% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-f0e0a100bfc6fc03d29c03222a12aa35-bonfire_visual.scn
+[  12% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-7b3a0d8469c933657bd1d1dd6663f777-soldier.scn
+[  13% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-3e6b013f97bab4edbcc1a5e9aab9576f-ruins_guardian.scn
+[  13% ] savepack | Almacenando Archivo: res://scripts/systems/options_panel.gdc
+[  13% ] savepack | Almacenando Archivo: res://scripts/systems/orbit_camera.gdc
+[  13% ] savepack | Almacenando Archivo: res://scripts/systems/player_vitals_hud.gdc
+[  14% ] savepack | Almacenando Archivo: res://scripts/systems/session_progress.gdc
+[  14% ] savepack | Almacenando Archivo: res://scripts/systems/test_arena.gdc
+[  14% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_catalog.gdc
+[  14% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_controller.gdc
+[  15% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_input_hints.gdc
+[  15% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_lesson.gdc
+[  15% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_panel.gdc
+[  16% ] savepack | Almacenando Archivo: res://scripts/audio/audio_cue.gdc
+[  16% ] savepack | Almacenando Archivo: res://scripts/audio/audio_catalog.gdc
+[  16% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-962377e71f02a7adf08fbb97121b0120-tutorial_panel.scn
+[  16% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-3b4eb71bfa0a57472c85a787f140c2d0-player_vitals.scn
+[  17% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-f0e56965f710ade160c4f0edb381c23e-options_panel.scn
+[  17% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-650adcf694d647f777c900e45232c78b-menu_screen.scn
+[  17% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-79dd3ab530fc0aed4f9ba21f09ab2efd-main_menu.scn
+[  17% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9ce6fcd714c434c452a43a83efcec2db-game_menus.scn
+[  18% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-158f1a314ebaeaeb7eb8e6264951c279-estus_hud.scn
+[  18% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-be141c6a00f314be906c0495b1235c9a-death_screen.scn
+[  18% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-4ed30383aa4480b00fbe7def6d611882-boss_hud.scn
+[  18% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-d923e664a405252bdad5c9bcd82d9f8b-arena_selector.scn
+[  19% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-86bb94e857b7dd28d661d62244f34f6f-arena_menu_link.scn
+[  19% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-0f561bf2a6669308133cafbf4cabda70-training_dummy.scn
+[  19% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-56a42ca5276d07435ca33d0035dd164d-lockable_dummy.scn
+[  19% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-d2c56aa0cb505c07a5b4e8ffae1b66b0-camera_rig.scn
+[  20% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-d5a570fe45bd268b301a7d5b35834437-bonfire.scn
+[  20% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-c2c62cb8c73458cd122faf659769dc80-player.scn
+[  20% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-7fd734a016776d159ba9ce2dc2f962e1-test_arena.scn
+[  20% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-c5664385e52fffabe3a11665ed839c8f-ruins_boss_arena.scn
+[  21% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-6a0b1fb42d0a672073c438ddb0c08369-main_level.scn
+[  21% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9c1b988747dab526d2911a460870ec48-boss_arena.scn
+[  21% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-0f2c47f027f267d4e1eaecc649ee3925-ruins_arena.scn
+[  21% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-0bff255ec2fdea4ebd703967268573ad-rock_prop.scn
+[  22% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-89641023176e79f5cf5207450c2c85eb-integrated_bonfire.scn
+[  22% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-281d667da6bbf0fcfb18a2d53733c6e5-estus_visual.scn
+[  22% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-2c4eb088ae20bf0cf40b36942b4175af-dry_forest.scn
+[  23% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-129c6c5935fe645328f0815dfd984151-decorative_rock.scn
+[  23% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-047db83e43b4837b3ce2cdc75c017b0f-audio_director.scn
+[  23% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-744d74261e2d83adea14da7957fad1e4-menu_theme.res
+[  23% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-bd87be5be93b7583bd55bb71720dd277-intro_lessons.res
+[  24% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-82c111b8ce83bb4a8e4171856d5ea492-wood.res
+[  24% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_176.res
+[  24% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_175.res
+[  24% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_174.res
+[  25% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_172.res
+[  25% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_171.res
+[  25% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_170.res
+[  25% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_169.res
+[  26% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_167.res
+[  26% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_166.res
+[  26% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_165.res
+[  26% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_164.res
+[  27% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_162.res
+[  27% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_161.res
+[  27% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_160.res
+[  27% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_159.res
+[  28% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_157.res
+[  28% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_156.res
+[  28% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_155.res
+[  28% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_6.res
+[  29% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_5.res
+[  29% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_4.res
+[  29% ] savepack | Almacenando Archivo: res://resources/environment_4a/texture_1.res
+[  30% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9956715e4dc8c9c3fe9354b670980f90-stone.res
+[  30% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-65e4fe4ec94af71620660a811aad33c6-sand.res
+[  30% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-c6a115903ed3ee99064c0aff5bd1d2e7-rust.res
+[  30% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-71a9b8599f1f3202987b7d57a78a097d-ruins.res
+[  31% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-f33836d7b6673adf1fe57ff7a7d05fbe-mountain.res
+[  31% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_178.res
+[  31% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_174.res
+[  31% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_173.res
+[  32% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_169.res
+[  32% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_168.res
+[  32% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_164.res
+[  32% ] savepack | Almacenando Archivo: res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex
+[  32% ] savepack | Almacenando Archivo: res://icon.svg.import
+[  33% ] savepack | Almacenando Archivo: res://scripts/audio/audio_director.gdc
+[  33% ] savepack | Almacenando Archivo: res://scripts/audio/audio_routing.gdc
+[  33% ] savepack | Almacenando Archivo: res://scripts/audio/music_controller.gdc
+[  33% ] savepack | Almacenando Archivo: res://scripts/audio/scene_audio_bridge.gdc
+[  33% ] savepack | Almacenando Archivo: res://scripts/bosses/boss_hud.gdc
+[  33% ] savepack | Almacenando Archivo: res://scripts/bosses/boss_pattern.gdc
+[  33% ] savepack | Almacenando Archivo: res://scripts/bosses/encounter_entry.gdc
+[  33% ] savepack | Almacenando Archivo: res://scripts/bosses/guardian_brain.gdc
+[  34% ] savepack | Almacenando Archivo: res://.godot/imported/Arena_del_jefe.glb-3346bc2024957e36845c25ce979c37ad.scn
+[  34% ] savepack | Almacenando Archivo: res://assets/models/Arena_del_jefe.glb.import
+[  34% ] savepack | Almacenando Archivo: res://.godot/imported/Arena_del_jefe_0.jpg-89d14c48b8fd226e1729e599ff98bc5e.s3tc.ctex
+[  34% ] savepack | Almacenando Archivo: res://assets/models/Arena_del_jefe_0.jpg.import
+[  34% ] savepack | Almacenando Archivo: res://.godot/imported/Arena_del_jefe_1.jpg-5fc01b984fef63ae85632144de1f66cc.s3tc.ctex
+[  34% ] savepack | Almacenando Archivo: res://assets/models/Arena_del_jefe_1.jpg.import
+[  34% ] savepack | Almacenando Archivo: res://.godot/imported/Arena_del_jefe_2.jpg-c4aa836bd3521c51d0e6ce330522e0a5.s3tc.ctex
+[  34% ] savepack | Almacenando Archivo: res://assets/models/Arena_del_jefe_2.jpg.import
+[  35% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1.glb-16e76a42c3c2bb8eb632f0acc5a8317b.scn
+[  35% ] savepack | Almacenando Archivo: res://assets/models/escenario 1.glb.import
+[  35% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_dead_tree_3d_model_basecolor.jpg-810f527cfebc0f8b4b87f9aa5f707044.s3tc.ctex
+[  35% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_dead_tree_3d_model_basecolor.jpg.import
+[  35% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_dead_tree_3d_model_normal.jpg-8561aa9e8a96385804463a78e6e5a3b5.s3tc.ctex
+[  35% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_dead_tree_3d_model_normal.jpg.import
+[  36% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_dead_tree_3d_model_rm.jpg-77cc9ac101362585eb5c2c66558bb739.s3tc.ctex
+[  36% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_dead_tree_3d_model_rm.jpg.import
+[  36% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_0.jpg-d95a90d7cc7ca277e35874f00f02107f.s3tc.ctex
+[  36% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_0.jpg.import
+[  36% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_0_11.jpg-e1e12bdf093eb519d5a066e6712adf34.s3tc.ctex
+[  36% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_0_11.jpg.import
+[  36% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_1.jpg-1c4e9d2b3fb23beeca95d3423774a323.s3tc.ctex
+[  36% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_1.jpg.import
+[  37% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_2.jpg-93917fa9063699beecef5c0f3a6da74f.s3tc.ctex
+[  37% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_2.jpg.import
+[  37% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_3.png-a1ca9e95f55d7d94a909f2d99e4dd66f.s3tc.ctex
+[  37% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_3.png.import
+[  37% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_4.png-fa8ea8f5940d1847f79c02469c27f39e.s3tc.ctex
+[  37% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_4.png.import
+[  37% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_10.jpg-cfa8c1a687b064be3cc115874ef17fd6.s3tc.ctex
+[  37% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_10.jpg.import
+[  38% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_11.jpg-66fe7d33016327e930cd7c55b5b200e7.s3tc.ctex
+[  38% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_11.jpg.import
+[  38% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_13.jpg-a05a8bec84457bcd603122903eddf31c.s3tc.ctex
+[  38% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_13.jpg.import
+[  38% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_15.jpg-968ad84b3ea861dfdc7c99cd41cf807d.s3tc.ctex
+[  38% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_15.jpg.import
+[  38% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_16.jpg-4574622bb67c1c2f906393481eeeff76.s3tc.ctex
+[  38% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_16.jpg.import
+[  39% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_21.jpg-54d46ff1fdb727289c3080cd53ea7832.s3tc.ctex
+[  39% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_21.jpg.import
+[  39% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_22.jpg-61917fbf2dff0230defeb937c0cbc988.s3tc.ctex
+[  39% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_22.jpg.import
+[  39% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_26.jpg-477c2b7bc8c4baa8ed471a3a9970623a.s3tc.ctex
+[  39% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_26.jpg.import
+[  39% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_30.jpg-919f17f46e519a2f88e3f2cb1d3005a0.s3tc.ctex
+[  39% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_30.jpg.import
+[  40% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_33.jpg-efed6f82960af34142a6544b0ce3b086.s3tc.ctex
+[  40% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_33.jpg.import
+[  40% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_37.jpg-0fcc44cd931f248d3fa70d3b6c65276c.s3tc.ctex
+[  40% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_37.jpg.import
+[  40% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_39.jpg-100a72daf038581262f7c231340d9c2b.s3tc.ctex
+[  40% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_39.jpg.import
+[  40% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_51.jpg-2ff47143e56d7d4fd5aa274bb015d62d.s3tc.ctex
+[  40% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_51.jpg.import
+[  41% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_55.jpg-08793edf5dac25cfb5b3cac306617a2c.s3tc.ctex
+[  41% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_55.jpg.import
+[  41% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_63.jpg-d6938301ff258fa8cfa2293a83f1427d.s3tc.ctex
+[  41% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_63.jpg.import
+[  41% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_66.jpg-05143af64b1a8f5219c239834dded664.s3tc.ctex
+[  41% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_66.jpg.import
+[  41% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_67.jpg-ad974fb1e08cbb737381c1a196b031b0.s3tc.ctex
+[  41% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_67.jpg.import
+[  42% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_68.png-0aac6b648a7d0d99ccaef3c617274173.s3tc.ctex
+[  42% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_68.png.import
+[  42% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_76.jpg-6570f663cbf3b502f179e10721af4816.s3tc.ctex
+[  42% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_76.jpg.import
+[  42% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_79.jpg-bdc33da928e180f247ec9934fa041bbc.s3tc.ctex
+[  42% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_79.jpg.import
+[  43% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_80.jpg-ecb2e8c5c897e643dc339659623eca51.s3tc.ctex
+[  43% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_80.jpg.import
+[  43% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_82.jpg-0c865a803fb773d07c5da7d871537b26.s3tc.ctex
+[  43% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_82.jpg.import
+[  43% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_83.jpg-7442e0471861fe6162e578dd52ec1467.s3tc.ctex
+[  43% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_83.jpg.import
+[  43% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_85.jpg-2d833441e2f1122279d19597d98b962d.s3tc.ctex
+[  43% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_85.jpg.import
+[  44% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_88.jpg-22602c093e4e9917f6067f3ac330a8da.s3tc.ctex
+[  44% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_88.jpg.import
+[  44% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_89.png-db738e2827564391e4659bec99040f81.s3tc.ctex
+[  44% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_89.png.import
+[  44% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_90.jpg-69dbfdc64cb9b70f81df1e69ea7e7b82.s3tc.ctex
+[  44% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_90.jpg.import
+[  44% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_Image_98.png-20b56f307ddda26b2d9f8ee009ebf3fa.s3tc.ctex
+[  44% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_Image_98.png.import
+[  45% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_rock_3d_model_basecolor.jpg-b2f42a8e39b21b749d1292a8e7645f26.s3tc.ctex
+[  45% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_rock_3d_model_basecolor.jpg.import
+[  45% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_rock_3d_model_normal.jpg-4c70a2dfe96febeb97343794f3daebae.s3tc.ctex
+[  45% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_rock_3d_model_normal.jpg.import
+[  45% ] savepack | Almacenando Archivo: res://.godot/imported/escenario 1_rock_3d_model_rm.jpg-e2b4c43d0a499d8482d826a6670b1209.s3tc.ctex
+[  45% ] savepack | Almacenando Archivo: res://assets/models/escenario 1_rock_3d_model_rm.jpg.import
+[  45% ] savepack | Almacenando Archivo: res://.godot/imported/Frasco_Estus.glb-1472a24f81aff8dd7d58bcbbf0c4d8a5.scn
+[  45% ] savepack | Almacenando Archivo: res://assets/models/Frasco_Estus.glb.import
+[  46% ] savepack | Almacenando Archivo: res://.godot/imported/Frasco_Estus_0.jpg-a6f1b4ddb79465bb74aa60f3bb274f14.s3tc.ctex
+[  46% ] savepack | Almacenando Archivo: res://assets/models/Frasco_Estus_0.jpg.import
+[  46% ] savepack | Almacenando Archivo: res://.godot/imported/Frasco_Estus_1.jpg-19726b9dad13067709caf3e4fdd8102d.s3tc.ctex
+[  46% ] savepack | Almacenando Archivo: res://assets/models/Frasco_Estus_1.jpg.import
+[  46% ] savepack | Almacenando Archivo: res://.godot/imported/Frasco_Estus_2.jpg-9490a94f22abad648e56bd2e72c0b402.s3tc.ctex
+[  46% ] savepack | Almacenando Archivo: res://assets/models/Frasco_Estus_2.jpg.import
+[  46% ] savepack | Almacenando Archivo: res://.godot/imported/hoguera.glb-189950ab2dd69f8fd198cec979d7f83d.scn
+[  46% ] savepack | Almacenando Archivo: res://assets/models/hoguera.glb.import
+[  47% ] savepack | Almacenando Archivo: res://.godot/imported/hoguera_0.jpg-2e585d7f58bb67e33c154bbb84c32621.s3tc.ctex
+[  47% ] savepack | Almacenando Archivo: res://assets/models/hoguera_0.jpg.import
+[  47% ] savepack | Almacenando Archivo: res://.godot/imported/hoguera_1.jpg-c233c9c8136dedbed6a8e9d9abee0bc7.s3tc.ctex
+[  47% ] savepack | Almacenando Archivo: res://assets/models/hoguera_1.jpg.import
+[  47% ] savepack | Almacenando Archivo: res://.godot/imported/hoguera_2.jpg-81e24eec2e933c4748540e777976e20d.s3tc.ctex
+[  47% ] savepack | Almacenando Archivo: res://assets/models/hoguera_2.jpg.import
+[  47% ] savepack | Almacenando Archivo: res://.godot/imported/Roca_decorativa.glb-67ea2c7e4dedbe2efcebeab8d5fee55f.scn
+[  47% ] savepack | Almacenando Archivo: res://assets/models/Roca_decorativa.glb.import
+[  48% ] savepack | Almacenando Archivo: res://.godot/imported/Roca_decorativa_0.jpg-67c492fab506ca8b20359c726da281d9.s3tc.ctex
+[  48% ] savepack | Almacenando Archivo: res://assets/models/Roca_decorativa_0.jpg.import
+[  48% ] savepack | Almacenando Archivo: res://.godot/imported/Roca_decorativa_1.jpg-9da644b1cef58f1b2cd1dad530057ee8.s3tc.ctex
+[  48% ] savepack | Almacenando Archivo: res://assets/models/Roca_decorativa_1.jpg.import
+[  48% ] savepack | Almacenando Archivo: res://.godot/imported/Roca_decorativa_2.jpg-4df3dd161de2ba90c0c2ff4e56233f9e.s3tc.ctex
+[  48% ] savepack | Almacenando Archivo: res://assets/models/Roca_decorativa_2.jpg.import
+[  48% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-e99e3a8caa60e123cbd2824f5c3c0fce-combo_first.res
+[  49% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-54dc7b58f9c25315f9643d55ff0c5eab-combo_second.res
+[  49% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-e9a99bf8deef7e948dc5fd786d7a51d3-horizontal_slash.res
+[  49% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-725ac4cc5e704168055345435ffb937c-ruin_burst.res
+[  50% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-b143bf6d9ff44123395ec25e3d3a47f1-vertical_slam.res
+[  50% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-40eca3d05813eb4e9eda5222dd9b64c3-heavy_1.res
+[  50% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-d23ee36951e138b497e36e0e02fbfcbd-light_1.res
+[  50% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-ddfb4d6cd69b9063ecf3e44424431b21-light_2.res
+[  51% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-fa429099c02cd30158d9668398f264e8-soldier_light.res
+[  51% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-17046bc53eed4dbaface5525c16dc3c8-two_hand_heavy_1.res
+[  51% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-98582920be0ecd995cbdf171b5c3f965-two_hand_light_1.res
+[  51% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-0b0b49111ebb1dfff5b27a83e20b9c98-two_hand_light_2.res
+[  52% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-c61c0399c433f8c234794421da78443a-game_audio_catalog.res
+[  52% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-520d1a9e0b01e6388af46cc98321eba8-horizontal_slash.res
+[  52% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-cfcdc469d0c0c9670b5d7f15f0adbaf6-ruin_burst.res
+[  52% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-75e3e4b6206060820f35d7c5c1e51f70-two_hit_combo.res
+[  53% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-2932a4fe3022b972b233f3ecc8fff364-vertical_slam.res
+[  53% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-75e5c545712e85bd301d1a5aa0cb14e8-backstep.res
+[  53% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-98aa0ee9c730332e5df52cd6c0e64dc9-fast.res
+[  53% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-b6bca2b71e61b5df227215b449a61148-heavy.res
+[  54% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-43a1f59329778f98e4346b4d032b366b-medium.res
+[  54% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-92b05afaca765467468c3b54be602579-art_material_1.res
+[  54% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-4da217b1bb58ea7de9bf7be56eac2ebe-art_material_2.res
+[  54% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-41ffa9177ddde256198fb443375bb273-art_material_3.res
+[  55% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-0cefd5ca19b185785ef5982176586f34-art_material_5.res
+[  55% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-6b857485ffe926a6df00ea45514116ea-art_material_7.res
+[  55% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-51e430b9df9778ae1b39d18bd81dda54-art_material_9.res
+[  55% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9cb9b588b0222a6e608fd411ca1fffbd-art_material_11.res
+[  56% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9d3fe2deb864c8b62331d04533096764-art_material_13.res
+[  56% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-8ada45d29643a503b2d88c08f00e4b0c-art_material_15.res
+[  56% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-8e81b9a3e3f07c4d06943b35355ef635-art_material_17.res
+[  56% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-06d0b00501eb5f80ce031825563cada0-art_material_19.res
+[  57% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-8db0094743e58719fde0f9a75c0e3205-art_material_21.res
+[  57% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9ca94d6622f1121311a06a0ab44e0269-art_material_23.res
+[  57% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-1986fd80b2de961b9874408778c027f6-art_material_25.res
+[  58% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9e2077d9f47058bdf67ae7f7bbf80793-art_material_27.res
+[  58% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-9fd94f20108f1dd40b473fd40edcd4e6-art_material_29.res
+[  58% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-5208761c265bb8946107d63342b67db8-art_material_158.res
+[  58% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-d1211a7d1332856a1fa6205a85169e07-art_material_162.res
+[  59% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-e8f9666a5d44fbfeecdb8dd523eb0b0b-art_material_163.res
+[  59% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-829774f2bb53ef9c48d0978882001c13-art_material_167.res
+[  59% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-40532035cc65d9268de72a345b2ba52d-art_material_168.res
+[  59% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-ac590ccdbba7e6ec627fcb973c513d80-art_material_172.res
+[  60% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-ae56d967251a96f26b1a920e6b91a173-art_material_173.res
+[  60% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-c9a9dfbad8acea5fed4e470cbcd1b6ed-art_material_177.res
+[  60% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-6ca8a32b50047ffdcfb87eeeb69c1484-ash.res
+[  60% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-4ba84ba3978a246add2859d5b0e04e2b-bark.res
+[  61% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-6d49fa402b22689f1924dd1eff53b638-dark.res
+[  61% ] savepack | Almacenando Archivo: res://.godot/exported/133200997/export-5902be8f5fe9c17def4d83516defd6d8-earth.res
+[  61% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_2.res
+[  61% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_3.res
+[  62% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_4.res
+[  62% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_6.res
+[  62% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_8.res
+[  62% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_10.res
+[  63% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_12.res
+[  63% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_14.res
+[  63% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_16.res
+[  63% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_18.res
+[  64% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_20.res
+[  64% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_22.res
+[  64% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_24.res
+[  65% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_26.res
+[  65% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_27.res
+[  65% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_28.res
+[  65% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_29.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_30.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_31.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_32.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_33.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_34.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_35.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_36.res
+[  66% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_37.res
+[  67% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_38.res
+[  67% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_39.res
+[  67% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_40.res
+[  67% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_41.res
+[  68% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_42.res
+[  68% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_43.res
+[  68% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_44.res
+[  68% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_45.res
+[  69% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_46.res
+[  69% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_47.res
+[  69% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_48.res
+[  69% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_49.res
+[  70% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_50.res
+[  70% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_51.res
+[  70% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_52.res
+[  71% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_53.res
+[  71% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_54.res
+[  71% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_55.res
+[  71% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_56.res
+[  72% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_57.res
+[  72% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_58.res
+[  72% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_59.res
+[  72% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_60.res
+[  73% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_61.res
+[  73% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_62.res
+[  73% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_63.res
+[  73% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_64.res
+[  74% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_65.res
+[  74% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_66.res
+[  74% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_67.res
+[  74% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_68.res
+[  75% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_69.res
+[  75% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_70.res
+[  75% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_71.res
+[  75% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_72.res
+[  76% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_73.res
+[  76% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_74.res
+[  76% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_75.res
+[  76% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_76.res
+[  77% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_77.res
+[  77% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_78.res
+[  77% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_79.res
+[  78% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_80.res
+[  78% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_81.res
+[  78% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_82.res
+[  78% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_83.res
+[  79% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_84.res
+[  79% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_85.res
+[  79% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_86.res
+[  79% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_87.res
+[  80% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_88.res
+[  80% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_89.res
+[  80% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_90.res
+[  80% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_91.res
+[  81% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_92.res
+[  81% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_93.res
+[  81% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_94.res
+[  81% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_95.res
+[  82% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_96.res
+[  82% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_97.res
+[  82% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_98.res
+[  82% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_99.res
+[  83% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_100.res
+[  83% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_101.res
+[  83% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_102.res
+[  83% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_103.res
+[  84% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_104.res
+[  84% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_105.res
+[  84% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_106.res
+[  85% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_107.res
+[  85% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_108.res
+[  85% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_109.res
+[  85% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_110.res
+[  86% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_111.res
+[  86% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_112.res
+[  86% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_113.res
+[  86% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_114.res
+[  87% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_115.res
+[  87% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_116.res
+[  87% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_117.res
+[  87% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_118.res
+[  88% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_119.res
+[  88% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_120.res
+[  88% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_121.res
+[  88% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_122.res
+[  89% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_123.res
+[  89% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_124.res
+[  89% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_125.res
+[  89% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_126.res
+[  90% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_127.res
+[  90% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_128.res
+[  90% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_129.res
+[  90% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_130.res
+[  91% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_131.res
+[  91% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_132.res
+[  91% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_133.res
+[  92% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_134.res
+[  92% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_135.res
+[  92% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_136.res
+[  92% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_137.res
+[  93% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_138.res
+[  93% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_139.res
+[  93% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_140.res
+[  93% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_141.res
+[  94% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_142.res
+[  94% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_143.res
+[  94% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_144.res
+[  94% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_145.res
+[  95% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_146.res
+[  95% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_147.res
+[  95% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_148.res
+[  95% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_149.res
+[  96% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_150.res
+[  96% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_151.res
+[  96% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_152.res
+[  96% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_153.res
+[  97% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_154.res
+[  97% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_155.res
+[  97% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_156.res
+[  97% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_157.res
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_158.res
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_159.res
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/mesh_163.res
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/lock_on_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/player_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/sprint_dodge_input.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/actor_attributes.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/arena_menu_link.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/arena_selector.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/bonfire.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/camera_spring_arm.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/checkpoint_manager.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/checkpoint_status.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/controller_registry.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/death_screen.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/bosses/ruins_guardian.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/action_debug.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/attack_data.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/attack_debug.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/attack_hitbox.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/attack_variant.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/combat_debug_geometry.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/critical_vulnerability.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/defense_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/defense_debug.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/defense_test_attacker.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/hurtbox.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/riposte_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/combat/training_dummy.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/enemies/enemy_world_queries.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/enemies/soldier_actor.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/enemies/soldier_ai.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/action_state.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/attack_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/defense_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/dodge_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/dodge_profile.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/estus_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/player/grip_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/dodge_debug.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/estus_hud.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/game_menus.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/game_options.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/integrated_level.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/lockable_target.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/lock_on_indicator.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/main_menu.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/menu_screen.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/environment/bonfire_visual.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/enemies/soldier.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/bosses/ruins_guardian.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/options_panel.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/orbit_camera.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/player_vitals_hud.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/session_progress.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/test_arena.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_catalog.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_input_hints.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_lesson.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/systems/tutorial_panel.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/audio/audio_cue.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/audio/audio_catalog.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/tutorial_panel.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/player_vitals.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/options_panel.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/menu_screen.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/main_menu.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/game_menus.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/estus_hud.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/death_screen.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/boss_hud.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/arena_selector.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/ui/arena_menu_link.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/props/training_dummy.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/props/lockable_dummy.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/props/camera_rig.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/props/bonfire.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/player/player.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/levels/test_arena.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/levels/ruins_boss_arena.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/levels/main_level.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/levels/boss_arena.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/environment/ruins_arena.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/environment/rock_prop.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/environment/integrated_bonfire.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/environment/estus_visual.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/environment/dry_forest.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/environment/decorative_rock.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://scenes/audio/audio_director.tscn.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/ui/menu_theme.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/tutorial/intro_lessons.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/wood.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/stone.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/sand.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/rust.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/ruins.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/mountain.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/audio/audio_director.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/audio/audio_routing.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/audio/music_controller.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/audio/scene_audio_bridge.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/bosses/boss_hud.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/bosses/boss_pattern.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/bosses/encounter_entry.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://scripts/bosses/guardian_brain.gd.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/boss/combo_first.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/boss/combo_second.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/boss/horizontal_slash.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/boss/ruin_burst.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/boss/vertical_slam.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/heavy_1.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/light_1.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/light_2.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/soldier_light.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/two_hand_heavy_1.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/two_hand_light_1.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/attacks/two_hand_light_2.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/audio/game_audio_catalog.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/bosses/horizontal_slash.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/bosses/ruin_burst.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/bosses/two_hit_combo.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/bosses/vertical_slam.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/dodges/backstep.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/dodges/fast.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/dodges/heavy.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/dodges/medium.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_1.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_2.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_3.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_5.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_7.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_9.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_11.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_13.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_15.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_17.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_19.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_21.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_23.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_25.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_27.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_29.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_158.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_162.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_163.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_167.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_168.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_172.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_173.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/art_material_177.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/ash.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/bark.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/dark.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://resources/environment_4a/earth.tres.remap
+[  98% ] savepack | Almacenando Archivo: res://.godot/global_script_class_cache.cfg
+[  98% ] savepack | Almacenando Archivo: res://icon.svg
+[  98% ] savepack | Almacenando Archivo: res://.godot/uid_cache.bin
+[  98% ] savepack | Almacenando Archivo: res://project.binary
+[ DONE ] savepack
+

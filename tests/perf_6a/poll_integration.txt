@@ -1,0 +1,5 @@
+var r=get_tree().root.get_meta("perf6a_integration",{})
+var done={}
+for k in ["4b_checks","4b_spatial","4b_retry","4a","5a_checks","5a_context_checks"]:
+	if r.has(k): done[k]={"passed":r[k].passed,"total":r[k].total,"failed":r[k].failed}
+return {"status":r.get("status"),"current":r.get("current"),"done":done}

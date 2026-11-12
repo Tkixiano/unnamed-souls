@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="" load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/tutorial_catalog.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/systems/tutorial_lesson.gd" id="2"]
+
+[sub_resource type="Resource" id="move"]
+script = ExtResource("2")
+id = &"move"
+title = "01 · Movete"
+text = "Usá {move} para caminar. La inclinación del stick regula la velocidad. Avanzá unos pasos."
+context = "always"
+completion_event = &"move"
+
+[sub_resource type="Resource" id="camera"]
+script = ExtResource("2")
+id = &"camera"
+title = "02 · Mirá alrededor"
+text = "Mové la cámara con {camera}. Adelante siempre sigue su orientación horizontal."
+context = "always"
+completion_event = &"camera"
+
+[sub_resource type="Resource" id="bonfire"]
+script = ExtResource("2")
+id = &"bonfire"
+title = "03 · Encendé la hoguera"
+text = "Acercate a la hoguera y pulsá {interact}: fija el punto de reaparición y restaura vida, stamina y Estus."
+context = "bonfire"
+completion_event = &"bonfire"
+
+[sub_resource type="Resource" id="lock"]
+script = ExtResource("2")
+id = &"lock"
+title = "04 · Fijá un objetivo"
+text = "Con un objetivo cercano y visible, pulsá {lock}. Podés practicar con el muñeco; volvé a pulsar para liberar."
+context = "target"
+completion_event = &"lock"
+
+[sub_resource type="Resource" id="light"]
+script = ExtResource("2")
+id = &"light"
+title = "05 · Ataque ligero"
+text = "Pulsá {light}. Esperá la recuperación: cada golpe consume stamina. Podés practicar junto al muñeco."
+context = "combat"
+completion_event = &"light"
+
+[sub_resource type="Resource" id="heavy"]
+script = ExtResource("2")
+id = &"heavy"
+title = "06 · Ataque fuerte"
+text = "Pulsá {heavy}. Hace más daño, pero tarda más y gasta más stamina. Soltá el botón entre golpes."
+context = "combat"
+completion_event = &"heavy"
+
+[sub_resource type="Resource" id="block"]
+script = ExtResource("2")
+id = &"block"
+title = "07 · Protegete"
+text = "Usá {block} mirando al rival. Soltá para recuperar stamina más rápido. Si se agota al recibir un golpe, rompe tu guardia."
+context = "combat"
+completion_event = &"block"
+
+[sub_resource type="Resource" id="dodge"]
+script = ExtResource("2")
+id = &"dodge"
+title = "08 · Rodá a tiempo"
+text = "Usá {dodge}. Gasta stamina: toque y soltar para rodar; mantener con dirección para correr. Esperá a recuperar."
+context = "combat"
+completion_event = &"dodge"
+
+[sub_resource type="Resource" id="estus"]
+script = ExtResource("2")
+id = &"estus"
+title = "09 · Recuperá vida"
+text = "Estás herido: pulsá {estus} para beber. Tenés cargas limitadas; la curación tarda y te deja expuesto hasta terminar."
+context = "wounded"
+completion_event = &"estus"
+
+[sub_resource type="Resource" id="entry"]
+script = ExtResource("2")
+id = &"entry"
+title = "10 · Prepará el encuentro"
+text = "Descansá en la hoguera con {interact}. Luego cruzá el arco hacia el Guardián. Podés entrar aunque queden consejos pendientes."
+context = "gate"
+completion_event = &"entry"
+
+[resource]
+script = ExtResource("1")
+lessons = Array[ExtResource("2")]([SubResource("move"), SubResource("camera"), SubResource("bonfire"), SubResource("lock"), SubResource("light"), SubResource("heavy"), SubResource("block"), SubResource("dodge"), SubResource("estus"), SubResource("entry")])

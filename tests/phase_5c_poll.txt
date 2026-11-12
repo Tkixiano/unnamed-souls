@@ -1,0 +1,6 @@
+var r=get_tree().root.get_meta("phase5c_result",{})
+var c=r.get("checks",{})
+var failed=[]
+for k in c:
+	if not c[k]: failed.append(k)
+return {"status":r.get("status"),"count":c.size(),"failed":failed,"paused":get_tree().paused}

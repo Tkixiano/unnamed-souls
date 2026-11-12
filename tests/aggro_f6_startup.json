@@ -1,0 +1,48 @@
+{
+	"automatic_victory": true,
+	"boss_health": 600.0,
+	"buses": [
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "Master"
+		},
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "Music"
+		},
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "SFX"
+		},
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "Ambient"
+		}
+	],
+	"estus": 5,
+	"grounded": true,
+	"main": "res://scenes/ui/main_menu.tscn",
+	"missing_audio": 41,
+	"music_context": "music_level",
+	"music_playing": false,
+	"options": {
+		"ambient": 100.0,
+		"effects": 100.0,
+		"fullscreen": false,
+		"horizontal": 150.0,
+		"invert_y": false,
+		"master": 100.0,
+		"music": 100.0,
+		"vertical": 110.0
+	},
+	"paused": false,
+	"phase_two": false,
+	"physical_devices": [],
+	"player_health": 100.0,
+	"reserved_sfx_voices": 10,
+	"scene": "res://scenes/levels/ruins_boss_arena.tscn"
+}

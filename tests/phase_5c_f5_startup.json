@@ -1,0 +1,44 @@
+{
+	"automatic_victory": true,
+	"buses": [
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "Master"
+		},
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "Music"
+		},
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "SFX"
+		},
+		{
+			"db": 0.0,
+			"muted": false,
+			"name": "Ambient"
+		}
+	],
+	"focus": "new_game",
+	"main": "res://scenes/ui/main_menu.tscn",
+	"missing_audio": 41,
+	"music_context": "music_menu",
+	"music_playing": false,
+	"options": {
+		"ambient": 100.0,
+		"effects": 100.0,
+		"fullscreen": false,
+		"horizontal": 150.0,
+		"invert_y": false,
+		"master": 100.0,
+		"music": 100.0,
+		"vertical": 110.0
+	},
+	"paused": false,
+	"physical_devices": [],
+	"reserved_sfx_voices": 10,
+	"scene": "res://scenes/ui/main_menu.tscn"
+}

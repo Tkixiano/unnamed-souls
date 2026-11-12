@@ -1,0 +1,4 @@
+var s=load("res://tests/phase_5c_regressions.gd").new()
+get_tree().root.set_meta("phase5c_runner",s)
+s.historical(get_tree())
+return "1A-3C regressions started with audio active"

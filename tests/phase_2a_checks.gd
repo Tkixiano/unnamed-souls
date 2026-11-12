@@ -119,7 +119,7 @@ func run(tree: SceneTree) -> Dictionary:
 		and _player.attributes.current_stamina == 100.0 and _lock.is_locked()
 	Input.action_press("sprint_dodge")
 	await _step(35)
-	_checks["stamina_sprint_still_unlocks"] = not _lock.is_locked() and _lock.last_release_reason == &"sprint" \
+	_checks["stamina_sprint_preserves_lock"] = _lock.is_locked() \
 		and _player.is_sprinting and _player.attributes.current_stamina < 100.0
 	Input.action_release("sprint_dodge")
 	await _step(2)

@@ -1,0 +1,283 @@
+{
+  "checks": {
+    "absent_bonfire_context_not_forced": true,
+    "actual_camera_rotation_completes": true,
+    "actual_delayed_healing_completes_estus": true,
+    "actual_movement_completes": true,
+    "all_40_panel_layouts_fit_and_avoid_bars": true,
+    "backstep_not_misreported_as_roll": true,
+    "backstep_starts": true,
+    "block_instruction_follows": true,
+    "bonfire_prompt_when_near": true,
+    "camera_follows_movement_in_order": true,
+    "checkpoint_event_completes_lesson": true,
+    "directional_roll_starts": true,
+    "disconnect_falls_back_keyboard": true,
+    "early_action_recorded_before_explanation": true,
+    "early_light_not_repeated": true,
+    "early_light_request_accepted": true,
+    "entry_real_encounter_event_completes": true,
+    "full_health_hides_estus_instruction": true,
+    "gate_context_without_nearby_targets": true,
+    "gate_instruction_not_shown_far_away": true,
+    "heavy_event_completes": true,
+    "heavy_request_accepted": true,
+    "idle_does_not_complete_by_time": true,
+    "initial_movement_context": true,
+    "keyboard_event_selects_keyboard_hints": true,
+    "lock_context_before_attacks": true,
+    "lock_event_completes": true,
+    "menu_reload_preserves_session_progress": true,
+    "no_pending_lesson_forces_combat_state": true,
+    "no_tutorial_autoload_or_disk_save": true,
+    "panel_hides_for_boss_hud": true,
+    "physical_equivalent_labels": true,
+    "playstation_mapping_metadata": true,
+    "preparation_does_not_complete_estus": true,
+    "real_estus_starts": true,
+    "real_lock_acquisition": true,
+    "real_respawn_keeps_completions": true,
+    "real_shield_raised_completes": true,
+    "rejected_estus_not_completed": true,
+    "requested_order": true,
+    "rest_real_checkpoint": true,
+    "roll_signal_completes": true,
+    "skip_current_supported": true,
+    "skip_is_not_claimed_as_action_completion": true,
+    "small_stick_drift_does_not_change_profile": true,
+    "ten_editable_lessons": true,
+    "tutorial_hidden_during_death": true,
+    "unknown_mapped_is_neutral": true,
+    "unknown_simulated_pad_uses_neutral": true,
+    "unmapped_even_named_xbox_is_neutral": true,
+    "walk_to_boss_with_pending_lessons": true,
+    "wounded_estus_context": true,
+    "xbox_mapping_metadata": true
+  },
+  "failed": [],
+  "measurements": {
+    "layouts": [
+      {
+        "id": "move",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "camera",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "bonfire",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "lock",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "light",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "heavy",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "block",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "dodge",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "estus",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "entry",
+        "profile": "keyboard",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "move",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "camera",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "bonfire",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "lock",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "light",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "heavy",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "block",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "dodge",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "estus",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "entry",
+        "profile": "xbox",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "move",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "camera",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "bonfire",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "lock",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "light",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "heavy",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "block",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "dodge",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "estus",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "entry",
+        "profile": "playstation",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "move",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "camera",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "bonfire",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "lock",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "light",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "heavy",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "block",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "dodge",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "estus",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      },
+      {
+        "id": "entry",
+        "profile": "generic",
+        "rect": "[P: (24.0, 288.0), S: (500.0, 240.0)]"
+      }
+    ],
+    "shown_instruction_ids": [
+      "camera",
+      "lock",
+      "",
+      "bonfire",
+      "",
+      "lock",
+      "heavy",
+      "block",
+      "dodge",
+      "",
+      "estus",
+      "",
+      "",
+      "entry",
+      ""
+    ]
+  },
+  "passed": 53,
+  "physical_devices": [],
+  "status": "complete",
+  "total": 53
+}

@@ -1,0 +1,4 @@
+var s=load("res://tests/perf_6a/final_focus.gd").new()
+get_tree().root.set_meta("perf6a_focus_runner",s)
+s.start(get_tree())
+return "final query, aggro, soldier/checkpoint and boss checks started"

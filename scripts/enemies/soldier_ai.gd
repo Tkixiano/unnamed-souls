@@ -10,6 +10,8 @@ signal state_changed(previous: State, current: State)
 @export_group("Percepción")
 @export var detection_radius: float = 7.0
 @export_range(1,360,1) var vision_angle: float = 130.0
+# Legacy serialized tuning kept for scene/test compatibility. Persistent aggro
+# no longer uses distance or an unseen timeout to forget a living target.
 @export var loss_radius: float = 12.0
 @export var unseen_tolerance: float = 1.2
 @export var maximum_pursuit_distance: float = 8.0
@@ -33,12 +35,12 @@ var origin: Vector3
 var origin_yaw: float = 0.0
 var decision_remaining: float = 0.0
 var _elapsed: float = 0.0
-var _unseen: float = 0.0
 var _acquired: bool = false
 var _consecutive: int = 0
 var _reposition: float = 0.0
 var _stagger_remaining: float = 0.0
 var _rng := RandomNumberGenerator.new()
+var _step_probe := Queries.StepProbe.new()
 
 func initialize() -> void:
 	origin = actor.global_position
@@ -52,7 +54,6 @@ func initialize() -> void:
 func reset_brain() -> void:
 	_rng.seed = random_seed
 	_acquired = false
-	_unseen = 0.0
 	_consecutive = 0
 	_reposition = 0.0
 	_stagger_remaining = 0.0
@@ -62,6 +63,9 @@ func reset_brain() -> void:
 
 func state_name() -> String:
 	return State.keys()[state]
+
+func has_aggro() -> bool:
+	return _acquired and target_alive()
 
 func target_alive() -> bool:
 	return is_instance_valid(target) and not target.is_queued_for_deletion() and target.is_inside_tree() \
@@ -86,6 +90,13 @@ func _physics_process(delta: float) -> void:
 	actor.set_move_intent(Vector3.ZERO)
 	if not enabled or state == State.DEAD: return
 	decision_remaining = maxf(decision_remaining-delta,0.0)
+	# A dead/removed protagonist cannot be pursued or attacked, even while this
+	# soldier is staggered. The checkpoint restores the authored target in place.
+	if not is_instance_valid(target): target = null
+	if not target_alive():
+		_acquired = false
+		if actor.attack_controller.is_active(): actor.attack_controller.interrupt_for_parry()
+		if state != State.IDLE and state != State.STAGGERED: _change(State.RETURNING)
 	if actor.action_states.current_state == Actions.State.STAGGERED:
 		_change(State.STAGGERED)
 		if _stagger_remaining > 0.0:
@@ -96,10 +107,6 @@ func _physics_process(delta: float) -> void:
 	if state == State.STAGGERED:
 		decision_remaining = _next_wait()
 		_change(State.RECOVERY if _acquired else State.RETURNING)
-	if not target_alive():
-		if actor.attack_controller.is_active(): actor.attack_controller.interrupt_for_parry()
-		_acquired = false
-		if state != State.IDLE: _change(State.RETURNING)
 	if actor.attack_controller.is_active():
 		_change(State.RECOVERY if actor.attack_controller.phase == 3 else State.ATTACK)
 		return
@@ -110,18 +117,12 @@ func _physics_process(delta: float) -> void:
 	if state == State.IDLE:
 		if decision_remaining <= 0.0 and can_detect():
 			_acquired = true
-			_unseen = 0.0
 			_change(State.ALERT)
 		return
 	if not _acquired: return
 	var distance: float = actor.global_position.distance_to(target.global_position)
-	_unseen = 0.0 if has_line_of_sight() else _unseen+delta
-	if distance > loss_radius or _unseen >= unseen_tolerance \
-		or actor.global_position.distance_to(origin) > maximum_pursuit_distance \
-		or target.global_position.distance_to(origin) > maximum_pursuit_distance:
-		_acquired = false
-		_change(State.RETURNING)
-		return
+	# Acquisition is visual; retention is persistent until lifecycle reset.
+	# Travel probes and the attack LOS check below remain mandatory.
 	var toward := direction_to_target()
 	actor.face_direction(toward,delta)
 	if state == State.ALERT:
@@ -161,7 +162,7 @@ func _try_travel(direction: Vector3) -> void:
 	if can_travel(direction): actor.set_move_intent(direction)
 
 func can_travel(direction: Vector3) -> bool:
-	return Queries.can_step(actor,direction)
+	return Queries.can_step(actor,direction,0.35,1.6,0.95,_step_probe)
 
 func _next_wait() -> float:
 	return maxf(0.1,decision_time+_rng.randf_range(-decision_variation,decision_variation))

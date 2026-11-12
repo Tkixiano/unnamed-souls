@@ -1,0 +1,204 @@
+[gd_resource type="Resource" load_steps=44 format=3]
+
+[ext_resource type="Script" path="res://scripts/audio/audio_catalog.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/audio/audio_cue.gd" id="2"]
+
+[sub_resource type="Resource" id="music_menu"]
+script = ExtResource("2")
+id = &"music_menu"
+spatial = false
+gain_db = -12.0
+loop = true
+play_when_paused = true
+
+[sub_resource type="Resource" id="music_level"]
+script = ExtResource("2")
+id = &"music_level"
+spatial = false
+gain_db = -12.0
+loop = true
+
+[sub_resource type="Resource" id="music_boss_1"]
+script = ExtResource("2")
+id = &"music_boss_1"
+spatial = false
+gain_db = -12.0
+loop = true
+
+[sub_resource type="Resource" id="music_boss_2"]
+script = ExtResource("2")
+id = &"music_boss_2"
+spatial = false
+gain_db = -12.0
+loop = true
+
+[sub_resource type="Resource" id="music_victory"]
+script = ExtResource("2")
+id = &"music_victory"
+spatial = false
+gain_db = -12.0
+play_when_paused = true
+
+[sub_resource type="Resource" id="ambient_forest"]
+script = ExtResource("2")
+id = &"ambient_forest"
+loop = true
+gain_db = -20.0
+max_distance = 24.0
+
+[sub_resource type="Resource" id="ambient_wind"]
+script = ExtResource("2")
+id = &"ambient_wind"
+loop = true
+gain_db = -20.0
+max_distance = 24.0
+
+[sub_resource type="Resource" id="ambient_ruins"]
+script = ExtResource("2")
+id = &"ambient_ruins"
+loop = true
+gain_db = -20.0
+max_distance = 24.0
+
+[sub_resource type="Resource" id="ambient_bonfire"]
+script = ExtResource("2")
+id = &"ambient_bonfire"
+loop = true
+gain_db = -20.0
+max_distance = 24.0
+
+[sub_resource type="Resource" id="player_step"]
+script = ExtResource("2")
+id = &"player_step"
+
+[sub_resource type="Resource" id="player_run_step"]
+script = ExtResource("2")
+id = &"player_run_step"
+
+[sub_resource type="Resource" id="player_roll"]
+script = ExtResource("2")
+id = &"player_roll"
+
+[sub_resource type="Resource" id="player_backstep"]
+script = ExtResource("2")
+id = &"player_backstep"
+
+[sub_resource type="Resource" id="player_light"]
+script = ExtResource("2")
+id = &"player_light"
+
+[sub_resource type="Resource" id="player_heavy"]
+script = ExtResource("2")
+id = &"player_heavy"
+
+[sub_resource type="Resource" id="sword_hit"]
+script = ExtResource("2")
+id = &"sword_hit"
+
+[sub_resource type="Resource" id="player_block"]
+script = ExtResource("2")
+id = &"player_block"
+
+[sub_resource type="Resource" id="player_parry"]
+script = ExtResource("2")
+id = &"player_parry"
+
+[sub_resource type="Resource" id="player_guard_break"]
+script = ExtResource("2")
+id = &"player_guard_break"
+
+[sub_resource type="Resource" id="player_riposte"]
+script = ExtResource("2")
+id = &"player_riposte"
+
+[sub_resource type="Resource" id="player_backstab"]
+script = ExtResource("2")
+id = &"player_backstab"
+
+[sub_resource type="Resource" id="player_hurt"]
+script = ExtResource("2")
+id = &"player_hurt"
+
+[sub_resource type="Resource" id="player_death"]
+script = ExtResource("2")
+id = &"player_death"
+
+[sub_resource type="Resource" id="player_estus"]
+script = ExtResource("2")
+id = &"player_estus"
+
+[sub_resource type="Resource" id="player_grip"]
+script = ExtResource("2")
+id = &"player_grip"
+
+[sub_resource type="Resource" id="enemy_alert"]
+script = ExtResource("2")
+id = &"enemy_alert"
+
+[sub_resource type="Resource" id="enemy_attack"]
+script = ExtResource("2")
+id = &"enemy_attack"
+
+[sub_resource type="Resource" id="enemy_hurt"]
+script = ExtResource("2")
+id = &"enemy_hurt"
+
+[sub_resource type="Resource" id="enemy_stagger"]
+script = ExtResource("2")
+id = &"enemy_stagger"
+
+[sub_resource type="Resource" id="enemy_death"]
+script = ExtResource("2")
+id = &"enemy_death"
+
+[sub_resource type="Resource" id="boss_encounter"]
+script = ExtResource("2")
+id = &"boss_encounter"
+spatial = false
+
+[sub_resource type="Resource" id="boss_attack"]
+script = ExtResource("2")
+id = &"boss_attack"
+
+[sub_resource type="Resource" id="boss_hurt"]
+script = ExtResource("2")
+id = &"boss_hurt"
+
+[sub_resource type="Resource" id="boss_stagger"]
+script = ExtResource("2")
+id = &"boss_stagger"
+
+[sub_resource type="Resource" id="boss_phase_transition"]
+script = ExtResource("2")
+id = &"boss_phase_transition"
+
+[sub_resource type="Resource" id="boss_special_warning"]
+script = ExtResource("2")
+id = &"boss_special_warning"
+
+[sub_resource type="Resource" id="boss_special_impact"]
+script = ExtResource("2")
+id = &"boss_special_impact"
+
+[sub_resource type="Resource" id="boss_death"]
+script = ExtResource("2")
+id = &"boss_death"
+play_when_paused = true
+
+[sub_resource type="Resource" id="boss_victory"]
+script = ExtResource("2")
+id = &"boss_victory"
+spatial = false
+play_when_paused = true
+
+[sub_resource type="Resource" id="bonfire_light"]
+script = ExtResource("2")
+id = &"bonfire_light"
+
+[sub_resource type="Resource" id="bonfire_rest"]
+script = ExtResource("2")
+id = &"bonfire_rest"
+
+[resource]
+script = ExtResource("1")
+cues = Array[ExtResource("2")]([SubResource("music_menu"), SubResource("music_level"), SubResource("music_boss_1"), SubResource("music_boss_2"), SubResource("music_victory"), SubResource("ambient_forest"), SubResource("ambient_wind"), SubResource("ambient_ruins"), SubResource("ambient_bonfire"), SubResource("player_step"), SubResource("player_run_step"), SubResource("player_roll"), SubResource("player_backstep"), SubResource("player_light"), SubResource("player_heavy"), SubResource("sword_hit"), SubResource("player_block"), SubResource("player_parry"), SubResource("player_guard_break"), SubResource("player_riposte"), SubResource("player_backstab"), SubResource("player_hurt"), SubResource("player_death"), SubResource("player_estus"), SubResource("player_grip"), SubResource("enemy_alert"), SubResource("enemy_attack"), SubResource("enemy_hurt"), SubResource("enemy_stagger"), SubResource("enemy_death"), SubResource("boss_encounter"), SubResource("boss_attack"), SubResource("boss_hurt"), SubResource("boss_stagger"), SubResource("boss_phase_transition"), SubResource("boss_special_warning"), SubResource("boss_special_impact"), SubResource("boss_death"), SubResource("boss_victory"), SubResource("bonfire_light"), SubResource("bonfire_rest")])

@@ -1,0 +1,12 @@
+{
+	"after": {
+		"can_process": false,
+		"paused": false,
+		"position": 0.0
+	},
+	"before": {
+		"can_process": false,
+		"paused": false,
+		"position": 0.0
+	}
+}

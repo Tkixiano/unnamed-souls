@@ -1,0 +1,15 @@
+{
+	"bonfires": 1,
+	"boss_health": 600.0,
+	"boss_state": "IDLE",
+	"estus": 5,
+	"grounded": true,
+	"health": 100.0,
+	"main": "res://scenes/levels/main_level.tscn",
+	"offensive_hitbox": false,
+	"phase_two": false,
+	"physical_devices": [],
+	"player_position": "(0.0, 0.000278, 15.0)",
+	"scene": "res://scenes/levels/ruins_boss_arena.tscn",
+	"stamina": 100.0
+}

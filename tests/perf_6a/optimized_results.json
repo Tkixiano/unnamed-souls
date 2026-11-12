@@ -1,0 +1,3686 @@
+{
+	"cap": 60,
+	"failures": [],
+	"godot": {
+		"build": "official",
+		"hash": "7d41c59c457bd5a245092b4e7eb2d833e3b3f8c3",
+		"hex": 263683,
+		"major": 4,
+		"minor": 6,
+		"patch": 3,
+		"status": "stable",
+		"string": "4.6.3-stable (official)",
+		"timestamp": 0
+	},
+	"instrumented_cpu_excluded": true,
+	"logical_cpus": 8,
+	"processor": "AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx",
+	"resolution": "1280x720",
+	"samples": [
+		{
+			"aggro_count": 0,
+			"blocked": false,
+			"label": "cpu_0_chase_0",
+			"monitors": [
+				{
+					"fps": 27.0,
+					"memory_static": 82181146.0,
+					"objects": 2611.0,
+					"physics_ms": 2.121,
+					"physics_pairs": 0.0,
+					"process_ms": 18.777
+				},
+				{
+					"fps": 27.0,
+					"memory_static": 82182014.0,
+					"objects": 2611.0,
+					"physics_ms": 2.121,
+					"physics_pairs": 0.0,
+					"process_ms": 18.777
+				},
+				{
+					"fps": 27.0,
+					"memory_static": 82182802.0,
+					"objects": 2611.0,
+					"physics_ms": 2.121,
+					"physics_pairs": 0.0,
+					"process_ms": 18.777
+				},
+				{
+					"fps": 27.0,
+					"memory_static": 82183614.0,
+					"objects": 2611.0,
+					"physics_ms": 2.121,
+					"physics_pairs": 0.0,
+					"process_ms": 18.777
+				},
+				{
+					"fps": 27.0,
+					"memory_static": 82184450.0,
+					"objects": 2611.0,
+					"physics_ms": 2.121,
+					"physics_pairs": 0.0,
+					"process_ms": 18.777
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82185238.0,
+					"objects": 2611.0,
+					"physics_ms": 2.518,
+					"physics_pairs": 0.0,
+					"process_ms": 4.693
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82186098.0,
+					"objects": 2611.0,
+					"physics_ms": 2.518,
+					"physics_pairs": 0.0,
+					"process_ms": 4.693
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82186886.0,
+					"objects": 2611.0,
+					"physics_ms": 2.518,
+					"physics_pairs": 0.0,
+					"process_ms": 4.693
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82187674.0,
+					"objects": 2611.0,
+					"physics_ms": 2.518,
+					"physics_pairs": 0.0,
+					"process_ms": 4.693
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82188558.0,
+					"objects": 2611.0,
+					"physics_ms": 2.518,
+					"physics_pairs": 0.0,
+					"process_ms": 4.693
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82189346.0,
+					"objects": 2611.0,
+					"physics_ms": 2.008,
+					"physics_pairs": 0.0,
+					"process_ms": 3.289
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82190134.0,
+					"objects": 2611.0,
+					"physics_ms": 2.008,
+					"physics_pairs": 0.0,
+					"process_ms": 3.289
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82190922.0,
+					"objects": 2611.0,
+					"physics_ms": 2.008,
+					"physics_pairs": 0.0,
+					"process_ms": 3.289
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82191854.0,
+					"objects": 2611.0,
+					"physics_ms": 2.008,
+					"physics_pairs": 0.0,
+					"process_ms": 3.289
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82192642.0,
+					"objects": 2611.0,
+					"physics_ms": 2.008,
+					"physics_pairs": 0.0,
+					"process_ms": 3.289
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82193430.0,
+					"objects": 2611.0,
+					"physics_ms": 1.982,
+					"physics_pairs": 0.0,
+					"process_ms": 4.008
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82194218.0,
+					"objects": 2611.0,
+					"physics_ms": 1.982,
+					"physics_pairs": 0.0,
+					"process_ms": 4.008
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82195006.0,
+					"objects": 2611.0,
+					"physics_ms": 1.982,
+					"physics_pairs": 0.0,
+					"process_ms": 4.008
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82195794.0,
+					"objects": 2611.0,
+					"physics_ms": 1.982,
+					"physics_pairs": 0.0,
+					"process_ms": 4.008
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82196798.0,
+					"objects": 2611.0,
+					"physics_ms": 1.982,
+					"physics_pairs": 0.0,
+					"process_ms": 4.008
+				}
+			],
+			"profiled": false,
+			"states": {
+				"IDLE": 480
+			},
+			"ticks": 240,
+			"trial": 0,
+			"wall_seconds": 3.996968
+		},
+		{
+			"aggro_count": 1,
+			"blocked": false,
+			"label": "cpu_1_chase_0",
+			"monitors": [
+				{
+					"fps": 34.0,
+					"memory_static": 82196358.0,
+					"objects": 2611.0,
+					"physics_ms": 21.609,
+					"physics_pairs": 0.0,
+					"process_ms": 416.834
+				},
+				{
+					"fps": 34.0,
+					"memory_static": 82197226.0,
+					"objects": 2611.0,
+					"physics_ms": 21.609,
+					"physics_pairs": 0.0,
+					"process_ms": 416.834
+				},
+				{
+					"fps": 34.0,
+					"memory_static": 82198014.0,
+					"objects": 2611.0,
+					"physics_ms": 21.609,
+					"physics_pairs": 0.0,
+					"process_ms": 416.834
+				},
+				{
+					"fps": 34.0,
+					"memory_static": 82198826.0,
+					"objects": 2611.0,
+					"physics_ms": 21.609,
+					"physics_pairs": 0.0,
+					"process_ms": 416.834
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82199662.0,
+					"objects": 2611.0,
+					"physics_ms": 3.346,
+					"physics_pairs": 0.0,
+					"process_ms": 5.034
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82200450.0,
+					"objects": 2611.0,
+					"physics_ms": 3.346,
+					"physics_pairs": 0.0,
+					"process_ms": 5.034
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82201310.0,
+					"objects": 2611.0,
+					"physics_ms": 3.346,
+					"physics_pairs": 0.0,
+					"process_ms": 5.034
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82202098.0,
+					"objects": 2611.0,
+					"physics_ms": 3.346,
+					"physics_pairs": 0.0,
+					"process_ms": 5.034
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82202886.0,
+					"objects": 2611.0,
+					"physics_ms": 3.346,
+					"physics_pairs": 0.0,
+					"process_ms": 5.034
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82203770.0,
+					"objects": 2611.0,
+					"physics_ms": 2.275,
+					"physics_pairs": 0.0,
+					"process_ms": 3.255
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82204558.0,
+					"objects": 2611.0,
+					"physics_ms": 2.275,
+					"physics_pairs": 0.0,
+					"process_ms": 3.255
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82205346.0,
+					"objects": 2611.0,
+					"physics_ms": 2.275,
+					"physics_pairs": 0.0,
+					"process_ms": 3.255
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82206134.0,
+					"objects": 2611.0,
+					"physics_ms": 2.275,
+					"physics_pairs": 0.0,
+					"process_ms": 3.255
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82207066.0,
+					"objects": 2611.0,
+					"physics_ms": 2.275,
+					"physics_pairs": 0.0,
+					"process_ms": 3.255
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82207854.0,
+					"objects": 2611.0,
+					"physics_ms": 1.725,
+					"physics_pairs": 0.0,
+					"process_ms": 2.483
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82208642.0,
+					"objects": 2611.0,
+					"physics_ms": 1.725,
+					"physics_pairs": 0.0,
+					"process_ms": 2.483
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82209430.0,
+					"objects": 2611.0,
+					"physics_ms": 1.725,
+					"physics_pairs": 0.0,
+					"process_ms": 2.483
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82210218.0,
+					"objects": 2611.0,
+					"physics_ms": 1.725,
+					"physics_pairs": 0.0,
+					"process_ms": 2.483
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82211006.0,
+					"objects": 2611.0,
+					"physics_ms": 1.725,
+					"physics_pairs": 0.0,
+					"process_ms": 2.483
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82212010.0,
+					"objects": 2611.0,
+					"physics_ms": 1.464,
+					"physics_pairs": 0.0,
+					"process_ms": 1.628
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 240,
+				"IDLE": 240
+			},
+			"ticks": 240,
+			"trial": 0,
+			"wall_seconds": 3.996742
+		},
+		{
+			"aggro_count": 2,
+			"blocked": false,
+			"label": "cpu_2_chase_0",
+			"monitors": [
+				{
+					"fps": 35.0,
+					"memory_static": 82212770.0,
+					"objects": 2611.0,
+					"physics_ms": 17.131,
+					"physics_pairs": 0.0,
+					"process_ms": 421.588
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82213638.0,
+					"objects": 2611.0,
+					"physics_ms": 17.131,
+					"physics_pairs": 0.0,
+					"process_ms": 421.588
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82214426.0,
+					"objects": 2611.0,
+					"physics_ms": 17.131,
+					"physics_pairs": 0.0,
+					"process_ms": 421.588
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82215238.0,
+					"objects": 2611.0,
+					"physics_ms": 1.901,
+					"physics_pairs": 0.0,
+					"process_ms": 3.236
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82216074.0,
+					"objects": 2611.0,
+					"physics_ms": 1.901,
+					"physics_pairs": 0.0,
+					"process_ms": 3.236
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82216862.0,
+					"objects": 2611.0,
+					"physics_ms": 1.901,
+					"physics_pairs": 0.0,
+					"process_ms": 3.236
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82217722.0,
+					"objects": 2611.0,
+					"physics_ms": 1.901,
+					"physics_pairs": 0.0,
+					"process_ms": 3.236
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82218510.0,
+					"objects": 2611.0,
+					"physics_ms": 1.901,
+					"physics_pairs": 0.0,
+					"process_ms": 3.236
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82219298.0,
+					"objects": 2611.0,
+					"physics_ms": 3.647,
+					"physics_pairs": 0.0,
+					"process_ms": 5.322
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82220182.0,
+					"objects": 2611.0,
+					"physics_ms": 3.647,
+					"physics_pairs": 0.0,
+					"process_ms": 5.322
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82220970.0,
+					"objects": 2611.0,
+					"physics_ms": 3.647,
+					"physics_pairs": 0.0,
+					"process_ms": 5.322
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82221758.0,
+					"objects": 2611.0,
+					"physics_ms": 3.647,
+					"physics_pairs": 0.0,
+					"process_ms": 5.322
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82222546.0,
+					"objects": 2611.0,
+					"physics_ms": 3.647,
+					"physics_pairs": 0.0,
+					"process_ms": 5.322
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82223478.0,
+					"objects": 2611.0,
+					"physics_ms": 2.491,
+					"physics_pairs": 0.0,
+					"process_ms": 3.738
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82224266.0,
+					"objects": 2611.0,
+					"physics_ms": 2.491,
+					"physics_pairs": 0.0,
+					"process_ms": 3.738
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82225054.0,
+					"objects": 2611.0,
+					"physics_ms": 2.491,
+					"physics_pairs": 0.0,
+					"process_ms": 3.738
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82225842.0,
+					"objects": 2611.0,
+					"physics_ms": 2.491,
+					"physics_pairs": 0.0,
+					"process_ms": 3.738
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82226630.0,
+					"objects": 2611.0,
+					"physics_ms": 2.491,
+					"physics_pairs": 0.0,
+					"process_ms": 3.738
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82227418.0,
+					"objects": 2611.0,
+					"physics_ms": 2.948,
+					"physics_pairs": 0.0,
+					"process_ms": 4.07
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82228422.0,
+					"objects": 2611.0,
+					"physics_ms": 2.948,
+					"physics_pairs": 0.0,
+					"process_ms": 4.07
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 480
+			},
+			"ticks": 240,
+			"trial": 0,
+			"wall_seconds": 3.997347
+		},
+		{
+			"aggro_count": 2,
+			"blocked": true,
+			"label": "cpu_2_blocked_0",
+			"monitors": [
+				{
+					"fps": 60.0,
+					"memory_static": 82254242.0,
+					"objects": 2617.0,
+					"physics_ms": 2.479,
+					"physics_pairs": 0.0,
+					"process_ms": 3.831
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82255110.0,
+					"objects": 2617.0,
+					"physics_ms": 2.479,
+					"physics_pairs": 0.0,
+					"process_ms": 3.831
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82255898.0,
+					"objects": 2617.0,
+					"physics_ms": 2.486,
+					"physics_pairs": 0.0,
+					"process_ms": 3.13
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82256710.0,
+					"objects": 2617.0,
+					"physics_ms": 2.486,
+					"physics_pairs": 0.0,
+					"process_ms": 3.13
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82257546.0,
+					"objects": 2617.0,
+					"physics_ms": 2.486,
+					"physics_pairs": 0.0,
+					"process_ms": 3.13
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82258334.0,
+					"objects": 2617.0,
+					"physics_ms": 2.486,
+					"physics_pairs": 0.0,
+					"process_ms": 3.13
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82259194.0,
+					"objects": 2617.0,
+					"physics_ms": 2.486,
+					"physics_pairs": 0.0,
+					"process_ms": 3.13
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82259982.0,
+					"objects": 2617.0,
+					"physics_ms": 1.721,
+					"physics_pairs": 0.0,
+					"process_ms": 2.044
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82260770.0,
+					"objects": 2617.0,
+					"physics_ms": 1.721,
+					"physics_pairs": 0.0,
+					"process_ms": 2.044
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82261654.0,
+					"objects": 2617.0,
+					"physics_ms": 1.721,
+					"physics_pairs": 0.0,
+					"process_ms": 2.044
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82262442.0,
+					"objects": 2617.0,
+					"physics_ms": 1.721,
+					"physics_pairs": 0.0,
+					"process_ms": 2.044
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82263230.0,
+					"objects": 2617.0,
+					"physics_ms": 1.721,
+					"physics_pairs": 0.0,
+					"process_ms": 2.044
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82264018.0,
+					"objects": 2617.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 2.939
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82264950.0,
+					"objects": 2617.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 2.939
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82265738.0,
+					"objects": 2617.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 2.939
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82266526.0,
+					"objects": 2617.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 2.939
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82267314.0,
+					"objects": 2617.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 2.939
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82268102.0,
+					"objects": 2617.0,
+					"physics_ms": 2.024,
+					"physics_pairs": 0.0,
+					"process_ms": 3.156
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82268890.0,
+					"objects": 2617.0,
+					"physics_ms": 2.024,
+					"physics_pairs": 0.0,
+					"process_ms": 3.156
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82269894.0,
+					"objects": 2617.0,
+					"physics_ms": 2.024,
+					"physics_pairs": 0.0,
+					"process_ms": 3.156
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 480
+			},
+			"ticks": 240,
+			"trial": 0,
+			"wall_seconds": 3.997936
+		},
+		{
+			"aggro_count": 1,
+			"blocked": false,
+			"label": "cpu_1_chase_1",
+			"monitors": [
+				{
+					"fps": 39.0,
+					"memory_static": 82250934.0,
+					"objects": 2611.0,
+					"physics_ms": 29.179,
+					"physics_pairs": 0.0,
+					"process_ms": 431.975
+				},
+				{
+					"fps": 39.0,
+					"memory_static": 82251802.0,
+					"objects": 2611.0,
+					"physics_ms": 29.179,
+					"physics_pairs": 0.0,
+					"process_ms": 431.975
+				},
+				{
+					"fps": 56.0,
+					"memory_static": 82252590.0,
+					"objects": 2611.0,
+					"physics_ms": 2.089,
+					"physics_pairs": 0.0,
+					"process_ms": 23.123
+				},
+				{
+					"fps": 56.0,
+					"memory_static": 82253402.0,
+					"objects": 2611.0,
+					"physics_ms": 2.089,
+					"physics_pairs": 0.0,
+					"process_ms": 23.123
+				},
+				{
+					"fps": 56.0,
+					"memory_static": 82254238.0,
+					"objects": 2611.0,
+					"physics_ms": 2.089,
+					"physics_pairs": 0.0,
+					"process_ms": 23.123
+				},
+				{
+					"fps": 56.0,
+					"memory_static": 82255026.0,
+					"objects": 2611.0,
+					"physics_ms": 2.089,
+					"physics_pairs": 0.0,
+					"process_ms": 23.123
+				},
+				{
+					"fps": 56.0,
+					"memory_static": 82255886.0,
+					"objects": 2611.0,
+					"physics_ms": 2.089,
+					"physics_pairs": 0.0,
+					"process_ms": 23.123
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82256674.0,
+					"objects": 2611.0,
+					"physics_ms": 2.279,
+					"physics_pairs": 0.0,
+					"process_ms": 3.092
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82257462.0,
+					"objects": 2611.0,
+					"physics_ms": 2.279,
+					"physics_pairs": 0.0,
+					"process_ms": 3.092
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82258346.0,
+					"objects": 2611.0,
+					"physics_ms": 2.279,
+					"physics_pairs": 0.0,
+					"process_ms": 3.092
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82259134.0,
+					"objects": 2611.0,
+					"physics_ms": 2.279,
+					"physics_pairs": 0.0,
+					"process_ms": 3.092
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82259922.0,
+					"objects": 2611.0,
+					"physics_ms": 2.279,
+					"physics_pairs": 0.0,
+					"process_ms": 3.092
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82260710.0,
+					"objects": 2611.0,
+					"physics_ms": 2.104,
+					"physics_pairs": 0.0,
+					"process_ms": 2.737
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82261642.0,
+					"objects": 2611.0,
+					"physics_ms": 2.104,
+					"physics_pairs": 0.0,
+					"process_ms": 2.737
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82262430.0,
+					"objects": 2611.0,
+					"physics_ms": 2.104,
+					"physics_pairs": 0.0,
+					"process_ms": 2.737
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82263218.0,
+					"objects": 2611.0,
+					"physics_ms": 2.104,
+					"physics_pairs": 0.0,
+					"process_ms": 2.737
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82264006.0,
+					"objects": 2611.0,
+					"physics_ms": 2.104,
+					"physics_pairs": 0.0,
+					"process_ms": 2.737
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82264794.0,
+					"objects": 2611.0,
+					"physics_ms": 1.461,
+					"physics_pairs": 0.0,
+					"process_ms": 1.548
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82265582.0,
+					"objects": 2611.0,
+					"physics_ms": 1.461,
+					"physics_pairs": 0.0,
+					"process_ms": 1.548
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82266586.0,
+					"objects": 2611.0,
+					"physics_ms": 1.461,
+					"physics_pairs": 0.0,
+					"process_ms": 1.548
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 240,
+				"IDLE": 240
+			},
+			"ticks": 240,
+			"trial": 1,
+			"wall_seconds": 3.997474
+		},
+		{
+			"aggro_count": 2,
+			"blocked": false,
+			"label": "cpu_2_chase_1",
+			"monitors": [
+				{
+					"fps": 46.0,
+					"memory_static": 82267110.0,
+					"objects": 2611.0,
+					"physics_ms": 19.678,
+					"physics_pairs": 0.0,
+					"process_ms": 442.02
+				},
+				{
+					"fps": 48.0,
+					"memory_static": 82267978.0,
+					"objects": 2611.0,
+					"physics_ms": 3.051,
+					"physics_pairs": 0.0,
+					"process_ms": 29.973
+				},
+				{
+					"fps": 48.0,
+					"memory_static": 82268766.0,
+					"objects": 2611.0,
+					"physics_ms": 3.051,
+					"physics_pairs": 0.0,
+					"process_ms": 29.973
+				},
+				{
+					"fps": 48.0,
+					"memory_static": 82269578.0,
+					"objects": 2611.0,
+					"physics_ms": 3.051,
+					"physics_pairs": 0.0,
+					"process_ms": 29.973
+				},
+				{
+					"fps": 48.0,
+					"memory_static": 82270414.0,
+					"objects": 2611.0,
+					"physics_ms": 3.051,
+					"physics_pairs": 0.0,
+					"process_ms": 29.973
+				},
+				{
+					"fps": 48.0,
+					"memory_static": 82271202.0,
+					"objects": 2611.0,
+					"physics_ms": 3.051,
+					"physics_pairs": 0.0,
+					"process_ms": 29.973
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82272062.0,
+					"objects": 2611.0,
+					"physics_ms": 2.405,
+					"physics_pairs": 0.0,
+					"process_ms": 3.559
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82272850.0,
+					"objects": 2611.0,
+					"physics_ms": 2.405,
+					"physics_pairs": 0.0,
+					"process_ms": 3.559
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82273638.0,
+					"objects": 2611.0,
+					"physics_ms": 2.405,
+					"physics_pairs": 0.0,
+					"process_ms": 3.559
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82274522.0,
+					"objects": 2611.0,
+					"physics_ms": 2.405,
+					"physics_pairs": 0.0,
+					"process_ms": 3.559
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82275310.0,
+					"objects": 2611.0,
+					"physics_ms": 2.405,
+					"physics_pairs": 0.0,
+					"process_ms": 3.559
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82276098.0,
+					"objects": 2611.0,
+					"physics_ms": 3.805,
+					"physics_pairs": 0.0,
+					"process_ms": 3.816
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82276886.0,
+					"objects": 2611.0,
+					"physics_ms": 3.805,
+					"physics_pairs": 0.0,
+					"process_ms": 3.816
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82277818.0,
+					"objects": 2611.0,
+					"physics_ms": 3.805,
+					"physics_pairs": 0.0,
+					"process_ms": 3.816
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82278606.0,
+					"objects": 2611.0,
+					"physics_ms": 3.805,
+					"physics_pairs": 0.0,
+					"process_ms": 3.816
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82279394.0,
+					"objects": 2611.0,
+					"physics_ms": 3.805,
+					"physics_pairs": 0.0,
+					"process_ms": 3.816
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82280182.0,
+					"objects": 2611.0,
+					"physics_ms": 2.94,
+					"physics_pairs": 0.0,
+					"process_ms": 2.968
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82280970.0,
+					"objects": 2611.0,
+					"physics_ms": 2.94,
+					"physics_pairs": 0.0,
+					"process_ms": 2.968
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82281758.0,
+					"objects": 2611.0,
+					"physics_ms": 2.94,
+					"physics_pairs": 0.0,
+					"process_ms": 2.968
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82282762.0,
+					"objects": 2611.0,
+					"physics_ms": 2.94,
+					"physics_pairs": 0.0,
+					"process_ms": 2.968
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 480
+			},
+			"ticks": 240,
+			"trial": 1,
+			"wall_seconds": 3.997843
+		},
+		{
+			"aggro_count": 2,
+			"blocked": true,
+			"label": "cpu_2_blocked_1",
+			"monitors": [
+				{
+					"fps": 60.0,
+					"memory_static": 82307942.0,
+					"objects": 2617.0,
+					"physics_ms": 1.909,
+					"physics_pairs": 0.0,
+					"process_ms": 3.398
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82308810.0,
+					"objects": 2617.0,
+					"physics_ms": 1.909,
+					"physics_pairs": 0.0,
+					"process_ms": 3.398
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82309598.0,
+					"objects": 2617.0,
+					"physics_ms": 1.909,
+					"physics_pairs": 0.0,
+					"process_ms": 3.398
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82310410.0,
+					"objects": 2617.0,
+					"physics_ms": 2.972,
+					"physics_pairs": 0.0,
+					"process_ms": 3.505
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82311246.0,
+					"objects": 2617.0,
+					"physics_ms": 2.972,
+					"physics_pairs": 0.0,
+					"process_ms": 3.505
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82312034.0,
+					"objects": 2617.0,
+					"physics_ms": 2.972,
+					"physics_pairs": 0.0,
+					"process_ms": 3.505
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82312894.0,
+					"objects": 2617.0,
+					"physics_ms": 2.972,
+					"physics_pairs": 0.0,
+					"process_ms": 3.505
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82313682.0,
+					"objects": 2617.0,
+					"physics_ms": 2.972,
+					"physics_pairs": 0.0,
+					"process_ms": 3.505
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82314470.0,
+					"objects": 2617.0,
+					"physics_ms": 2.86,
+					"physics_pairs": 0.0,
+					"process_ms": 3.098
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82315354.0,
+					"objects": 2617.0,
+					"physics_ms": 2.86,
+					"physics_pairs": 0.0,
+					"process_ms": 3.098
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82316142.0,
+					"objects": 2617.0,
+					"physics_ms": 2.86,
+					"physics_pairs": 0.0,
+					"process_ms": 3.098
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82316930.0,
+					"objects": 2617.0,
+					"physics_ms": 2.86,
+					"physics_pairs": 0.0,
+					"process_ms": 3.098
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82317718.0,
+					"objects": 2617.0,
+					"physics_ms": 2.86,
+					"physics_pairs": 0.0,
+					"process_ms": 3.098
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82318650.0,
+					"objects": 2617.0,
+					"physics_ms": 2.282,
+					"physics_pairs": 0.0,
+					"process_ms": 3.135
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82319438.0,
+					"objects": 2617.0,
+					"physics_ms": 2.282,
+					"physics_pairs": 0.0,
+					"process_ms": 3.135
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82320226.0,
+					"objects": 2617.0,
+					"physics_ms": 2.282,
+					"physics_pairs": 0.0,
+					"process_ms": 3.135
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82321014.0,
+					"objects": 2617.0,
+					"physics_ms": 2.282,
+					"physics_pairs": 0.0,
+					"process_ms": 3.135
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82321802.0,
+					"objects": 2617.0,
+					"physics_ms": 2.282,
+					"physics_pairs": 0.0,
+					"process_ms": 3.135
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82322590.0,
+					"objects": 2617.0,
+					"physics_ms": 2.327,
+					"physics_pairs": 0.0,
+					"process_ms": 2.787
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82323594.0,
+					"objects": 2617.0,
+					"physics_ms": 2.327,
+					"physics_pairs": 0.0,
+					"process_ms": 2.787
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 480
+			},
+			"ticks": 240,
+			"trial": 1,
+			"wall_seconds": 3.996487
+		},
+		{
+			"aggro_count": 0,
+			"blocked": false,
+			"label": "cpu_0_chase_1",
+			"monitors": [
+				{
+					"fps": 35.0,
+					"memory_static": 82308726.0,
+					"objects": 2611.0,
+					"physics_ms": 31.354,
+					"physics_pairs": 0.0,
+					"process_ms": 416.071
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82309594.0,
+					"objects": 2611.0,
+					"physics_ms": 31.354,
+					"physics_pairs": 0.0,
+					"process_ms": 416.071
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82310382.0,
+					"objects": 2611.0,
+					"physics_ms": 31.354,
+					"physics_pairs": 0.0,
+					"process_ms": 416.071
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82311194.0,
+					"objects": 2611.0,
+					"physics_ms": 2.936,
+					"physics_pairs": 0.0,
+					"process_ms": 4.574
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82312030.0,
+					"objects": 2611.0,
+					"physics_ms": 2.936,
+					"physics_pairs": 0.0,
+					"process_ms": 4.574
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82312818.0,
+					"objects": 2611.0,
+					"physics_ms": 2.936,
+					"physics_pairs": 0.0,
+					"process_ms": 4.574
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82313678.0,
+					"objects": 2611.0,
+					"physics_ms": 2.936,
+					"physics_pairs": 0.0,
+					"process_ms": 4.574
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82314466.0,
+					"objects": 2611.0,
+					"physics_ms": 2.936,
+					"physics_pairs": 0.0,
+					"process_ms": 4.574
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82315254.0,
+					"objects": 2611.0,
+					"physics_ms": 2.806,
+					"physics_pairs": 0.0,
+					"process_ms": 3.996
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82316138.0,
+					"objects": 2611.0,
+					"physics_ms": 2.806,
+					"physics_pairs": 0.0,
+					"process_ms": 3.996
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82316926.0,
+					"objects": 2611.0,
+					"physics_ms": 2.806,
+					"physics_pairs": 0.0,
+					"process_ms": 3.996
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82317714.0,
+					"objects": 2611.0,
+					"physics_ms": 2.806,
+					"physics_pairs": 0.0,
+					"process_ms": 3.996
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82318502.0,
+					"objects": 2611.0,
+					"physics_ms": 2.806,
+					"physics_pairs": 0.0,
+					"process_ms": 3.996
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82319434.0,
+					"objects": 2611.0,
+					"physics_ms": 2.082,
+					"physics_pairs": 0.0,
+					"process_ms": 3.415
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82320222.0,
+					"objects": 2611.0,
+					"physics_ms": 2.082,
+					"physics_pairs": 0.0,
+					"process_ms": 3.415
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82321010.0,
+					"objects": 2611.0,
+					"physics_ms": 2.082,
+					"physics_pairs": 0.0,
+					"process_ms": 3.415
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82321798.0,
+					"objects": 2611.0,
+					"physics_ms": 2.082,
+					"physics_pairs": 0.0,
+					"process_ms": 3.415
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82322586.0,
+					"objects": 2611.0,
+					"physics_ms": 2.082,
+					"physics_pairs": 0.0,
+					"process_ms": 3.415
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82323374.0,
+					"objects": 2611.0,
+					"physics_ms": 2.028,
+					"physics_pairs": 0.0,
+					"process_ms": 3.151
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82324378.0,
+					"objects": 2611.0,
+					"physics_ms": 2.028,
+					"physics_pairs": 0.0,
+					"process_ms": 3.151
+				}
+			],
+			"profiled": false,
+			"states": {
+				"IDLE": 480
+			},
+			"ticks": 240,
+			"trial": 1,
+			"wall_seconds": 3.996767
+		},
+		{
+			"aggro_count": 2,
+			"blocked": false,
+			"label": "cpu_2_chase_2",
+			"monitors": [
+				{
+					"fps": 34.0,
+					"memory_static": 82321362.0,
+					"objects": 2611.0,
+					"physics_ms": 32.211,
+					"physics_pairs": 0.0,
+					"process_ms": 418.9
+				},
+				{
+					"fps": 34.0,
+					"memory_static": 82322230.0,
+					"objects": 2611.0,
+					"physics_ms": 32.211,
+					"physics_pairs": 0.0,
+					"process_ms": 418.9
+				},
+				{
+					"fps": 61.0,
+					"memory_static": 82323018.0,
+					"objects": 2611.0,
+					"physics_ms": 2.526,
+					"physics_pairs": 0.0,
+					"process_ms": 25.517
+				},
+				{
+					"fps": 61.0,
+					"memory_static": 82323830.0,
+					"objects": 2611.0,
+					"physics_ms": 2.526,
+					"physics_pairs": 0.0,
+					"process_ms": 25.517
+				},
+				{
+					"fps": 61.0,
+					"memory_static": 82324666.0,
+					"objects": 2611.0,
+					"physics_ms": 2.526,
+					"physics_pairs": 0.0,
+					"process_ms": 25.517
+				},
+				{
+					"fps": 61.0,
+					"memory_static": 82325454.0,
+					"objects": 2611.0,
+					"physics_ms": 2.526,
+					"physics_pairs": 0.0,
+					"process_ms": 25.517
+				},
+				{
+					"fps": 61.0,
+					"memory_static": 82326314.0,
+					"objects": 2611.0,
+					"physics_ms": 2.526,
+					"physics_pairs": 0.0,
+					"process_ms": 25.517
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82327102.0,
+					"objects": 2611.0,
+					"physics_ms": 2.173,
+					"physics_pairs": 0.0,
+					"process_ms": 3.815
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82327890.0,
+					"objects": 2611.0,
+					"physics_ms": 2.173,
+					"physics_pairs": 0.0,
+					"process_ms": 3.815
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82328774.0,
+					"objects": 2611.0,
+					"physics_ms": 2.173,
+					"physics_pairs": 0.0,
+					"process_ms": 3.815
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82329562.0,
+					"objects": 2611.0,
+					"physics_ms": 2.173,
+					"physics_pairs": 0.0,
+					"process_ms": 3.815
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82330350.0,
+					"objects": 2611.0,
+					"physics_ms": 2.173,
+					"physics_pairs": 0.0,
+					"process_ms": 3.815
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82331138.0,
+					"objects": 2611.0,
+					"physics_ms": 2.556,
+					"physics_pairs": 0.0,
+					"process_ms": 3.935
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82332070.0,
+					"objects": 2611.0,
+					"physics_ms": 2.556,
+					"physics_pairs": 0.0,
+					"process_ms": 3.935
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82332858.0,
+					"objects": 2611.0,
+					"physics_ms": 2.556,
+					"physics_pairs": 0.0,
+					"process_ms": 3.935
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82333646.0,
+					"objects": 2611.0,
+					"physics_ms": 2.556,
+					"physics_pairs": 0.0,
+					"process_ms": 3.935
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82334434.0,
+					"objects": 2611.0,
+					"physics_ms": 2.556,
+					"physics_pairs": 0.0,
+					"process_ms": 3.935
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82335222.0,
+					"objects": 2611.0,
+					"physics_ms": 2.876,
+					"physics_pairs": 0.0,
+					"process_ms": 3.729
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82336010.0,
+					"objects": 2611.0,
+					"physics_ms": 2.876,
+					"physics_pairs": 0.0,
+					"process_ms": 3.729
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82337014.0,
+					"objects": 2611.0,
+					"physics_ms": 2.876,
+					"physics_pairs": 0.0,
+					"process_ms": 3.729
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 480
+			},
+			"ticks": 240,
+			"trial": 2,
+			"wall_seconds": 3.996437
+		},
+		{
+			"aggro_count": 2,
+			"blocked": true,
+			"label": "cpu_2_blocked_2",
+			"monitors": [
+				{
+					"fps": 52.0,
+					"memory_static": 82362358.0,
+					"objects": 2617.0,
+					"physics_ms": 2.801,
+					"physics_pairs": 0.0,
+					"process_ms": 33.802
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82363226.0,
+					"objects": 2617.0,
+					"physics_ms": 2.337,
+					"physics_pairs": 0.0,
+					"process_ms": 2.68
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82364014.0,
+					"objects": 2617.0,
+					"physics_ms": 2.337,
+					"physics_pairs": 0.0,
+					"process_ms": 2.68
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82364826.0,
+					"objects": 2617.0,
+					"physics_ms": 2.337,
+					"physics_pairs": 0.0,
+					"process_ms": 2.68
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82365662.0,
+					"objects": 2617.0,
+					"physics_ms": 2.337,
+					"physics_pairs": 0.0,
+					"process_ms": 2.68
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82366450.0,
+					"objects": 2617.0,
+					"physics_ms": 2.337,
+					"physics_pairs": 0.0,
+					"process_ms": 2.68
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82367310.0,
+					"objects": 2617.0,
+					"physics_ms": 2.25,
+					"physics_pairs": 0.0,
+					"process_ms": 3.946
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82368098.0,
+					"objects": 2617.0,
+					"physics_ms": 2.25,
+					"physics_pairs": 0.0,
+					"process_ms": 3.946
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82368886.0,
+					"objects": 2617.0,
+					"physics_ms": 2.25,
+					"physics_pairs": 0.0,
+					"process_ms": 3.946
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82369770.0,
+					"objects": 2617.0,
+					"physics_ms": 2.25,
+					"physics_pairs": 0.0,
+					"process_ms": 3.946
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82370558.0,
+					"objects": 2617.0,
+					"physics_ms": 2.25,
+					"physics_pairs": 0.0,
+					"process_ms": 3.946
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82371346.0,
+					"objects": 2617.0,
+					"physics_ms": 2.196,
+					"physics_pairs": 0.0,
+					"process_ms": 4.031
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82372134.0,
+					"objects": 2617.0,
+					"physics_ms": 2.196,
+					"physics_pairs": 0.0,
+					"process_ms": 4.031
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82373066.0,
+					"objects": 2617.0,
+					"physics_ms": 2.196,
+					"physics_pairs": 0.0,
+					"process_ms": 4.031
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82373854.0,
+					"objects": 2617.0,
+					"physics_ms": 2.196,
+					"physics_pairs": 0.0,
+					"process_ms": 4.031
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82374642.0,
+					"objects": 2617.0,
+					"physics_ms": 2.196,
+					"physics_pairs": 0.0,
+					"process_ms": 4.031
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82375430.0,
+					"objects": 2617.0,
+					"physics_ms": 2.326,
+					"physics_pairs": 0.0,
+					"process_ms": 3.002
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82376218.0,
+					"objects": 2617.0,
+					"physics_ms": 2.326,
+					"physics_pairs": 0.0,
+					"process_ms": 3.002
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82377006.0,
+					"objects": 2617.0,
+					"physics_ms": 2.326,
+					"physics_pairs": 0.0,
+					"process_ms": 3.002
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82378010.0,
+					"objects": 2617.0,
+					"physics_ms": 2.326,
+					"physics_pairs": 0.0,
+					"process_ms": 3.002
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 480
+			},
+			"ticks": 240,
+			"trial": 2,
+			"wall_seconds": 3.998215
+		},
+		{
+			"aggro_count": 0,
+			"blocked": false,
+			"label": "cpu_0_chase_2",
+			"monitors": [
+				{
+					"fps": 35.0,
+					"memory_static": 82363038.0,
+					"objects": 2611.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 25.958
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82363906.0,
+					"objects": 2611.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 25.958
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82364694.0,
+					"objects": 2611.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 25.958
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82365506.0,
+					"objects": 2611.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 25.958
+				},
+				{
+					"fps": 35.0,
+					"memory_static": 82366342.0,
+					"objects": 2611.0,
+					"physics_ms": 2.117,
+					"physics_pairs": 0.0,
+					"process_ms": 25.958
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82367130.0,
+					"objects": 2611.0,
+					"physics_ms": 2.057,
+					"physics_pairs": 0.0,
+					"process_ms": 4.544
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82367990.0,
+					"objects": 2611.0,
+					"physics_ms": 2.057,
+					"physics_pairs": 0.0,
+					"process_ms": 4.544
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82368778.0,
+					"objects": 2611.0,
+					"physics_ms": 2.057,
+					"physics_pairs": 0.0,
+					"process_ms": 4.544
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82369566.0,
+					"objects": 2611.0,
+					"physics_ms": 2.057,
+					"physics_pairs": 0.0,
+					"process_ms": 4.544
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82370450.0,
+					"objects": 2611.0,
+					"physics_ms": 2.057,
+					"physics_pairs": 0.0,
+					"process_ms": 4.544
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82371238.0,
+					"objects": 2611.0,
+					"physics_ms": 1.91,
+					"physics_pairs": 0.0,
+					"process_ms": 3.917
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82372026.0,
+					"objects": 2611.0,
+					"physics_ms": 1.91,
+					"physics_pairs": 0.0,
+					"process_ms": 3.917
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82372814.0,
+					"objects": 2611.0,
+					"physics_ms": 1.91,
+					"physics_pairs": 0.0,
+					"process_ms": 3.917
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82373746.0,
+					"objects": 2611.0,
+					"physics_ms": 1.91,
+					"physics_pairs": 0.0,
+					"process_ms": 3.917
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82374534.0,
+					"objects": 2611.0,
+					"physics_ms": 1.91,
+					"physics_pairs": 0.0,
+					"process_ms": 3.917
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82375322.0,
+					"objects": 2611.0,
+					"physics_ms": 2.929,
+					"physics_pairs": 0.0,
+					"process_ms": 3.724
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82376110.0,
+					"objects": 2611.0,
+					"physics_ms": 2.929,
+					"physics_pairs": 0.0,
+					"process_ms": 3.724
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82376898.0,
+					"objects": 2611.0,
+					"physics_ms": 2.929,
+					"physics_pairs": 0.0,
+					"process_ms": 3.724
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82377686.0,
+					"objects": 2611.0,
+					"physics_ms": 2.929,
+					"physics_pairs": 0.0,
+					"process_ms": 3.724
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82378690.0,
+					"objects": 2611.0,
+					"physics_ms": 2.929,
+					"physics_pairs": 0.0,
+					"process_ms": 3.724
+				}
+			],
+			"profiled": false,
+			"states": {
+				"IDLE": 480
+			},
+			"ticks": 240,
+			"trial": 2,
+			"wall_seconds": 3.997022
+		},
+		{
+			"aggro_count": 1,
+			"blocked": false,
+			"label": "cpu_1_chase_2",
+			"monitors": [
+				{
+					"fps": 30.0,
+					"memory_static": 82377618.0,
+					"objects": 2611.0,
+					"physics_ms": 22.038,
+					"physics_pairs": 0.0,
+					"process_ms": 514.459
+				},
+				{
+					"fps": 30.0,
+					"memory_static": 82378486.0,
+					"objects": 2611.0,
+					"physics_ms": 22.038,
+					"physics_pairs": 0.0,
+					"process_ms": 514.459
+				},
+				{
+					"fps": 30.0,
+					"memory_static": 82379274.0,
+					"objects": 2611.0,
+					"physics_ms": 22.038,
+					"physics_pairs": 0.0,
+					"process_ms": 514.459
+				},
+				{
+					"fps": 30.0,
+					"memory_static": 82380086.0,
+					"objects": 2611.0,
+					"physics_ms": 22.038,
+					"physics_pairs": 0.0,
+					"process_ms": 514.459
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82380922.0,
+					"objects": 2611.0,
+					"physics_ms": 2.12,
+					"physics_pairs": 0.0,
+					"process_ms": 3.394
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82381710.0,
+					"objects": 2611.0,
+					"physics_ms": 2.12,
+					"physics_pairs": 0.0,
+					"process_ms": 3.394
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82382570.0,
+					"objects": 2611.0,
+					"physics_ms": 2.12,
+					"physics_pairs": 0.0,
+					"process_ms": 3.394
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82383358.0,
+					"objects": 2611.0,
+					"physics_ms": 2.12,
+					"physics_pairs": 0.0,
+					"process_ms": 3.394
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82384146.0,
+					"objects": 2611.0,
+					"physics_ms": 2.12,
+					"physics_pairs": 0.0,
+					"process_ms": 3.394
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82385030.0,
+					"objects": 2611.0,
+					"physics_ms": 2.31,
+					"physics_pairs": 0.0,
+					"process_ms": 3.247
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82385818.0,
+					"objects": 2611.0,
+					"physics_ms": 2.31,
+					"physics_pairs": 0.0,
+					"process_ms": 3.247
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82386606.0,
+					"objects": 2611.0,
+					"physics_ms": 2.31,
+					"physics_pairs": 0.0,
+					"process_ms": 3.247
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82387394.0,
+					"objects": 2611.0,
+					"physics_ms": 2.31,
+					"physics_pairs": 0.0,
+					"process_ms": 3.247
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82388326.0,
+					"objects": 2611.0,
+					"physics_ms": 2.31,
+					"physics_pairs": 0.0,
+					"process_ms": 3.247
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82389114.0,
+					"objects": 2611.0,
+					"physics_ms": 1.59,
+					"physics_pairs": 0.0,
+					"process_ms": 2.196
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82389902.0,
+					"objects": 2611.0,
+					"physics_ms": 1.59,
+					"physics_pairs": 0.0,
+					"process_ms": 2.196
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82390690.0,
+					"objects": 2611.0,
+					"physics_ms": 1.59,
+					"physics_pairs": 0.0,
+					"process_ms": 2.196
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82391478.0,
+					"objects": 2611.0,
+					"physics_ms": 1.59,
+					"physics_pairs": 0.0,
+					"process_ms": 2.196
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82392266.0,
+					"objects": 2611.0,
+					"physics_ms": 1.59,
+					"physics_pairs": 0.0,
+					"process_ms": 2.196
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82393270.0,
+					"objects": 2611.0,
+					"physics_ms": 1.931,
+					"physics_pairs": 0.0,
+					"process_ms": 2.61
+				}
+			],
+			"profiled": false,
+			"states": {
+				"CHASE": 240,
+				"IDLE": 240
+			},
+			"ticks": 240,
+			"trial": 2,
+			"wall_seconds": 3.997009
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 11003,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3393
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 6474,
+						"can_detect_calls": 105,
+						"can_detect_us": 1675
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 8947,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3080
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 2686,
+						"can_detect_calls": 105,
+						"can_detect_us": 712
+					}
+				}
+			],
+			"aggro_count": 0,
+			"blocked": false,
+			"label": "profile_0_chase_0",
+			"monitors": [
+				{
+					"fps": 29.0,
+					"memory_static": 82730380.0,
+					"objects": 2615.0,
+					"physics_ms": 20.198,
+					"physics_pairs": 0.0,
+					"process_ms": 515.371
+				},
+				{
+					"fps": 29.0,
+					"memory_static": 82732016.0,
+					"objects": 2615.0,
+					"physics_ms": 20.198,
+					"physics_pairs": 0.0,
+					"process_ms": 515.371
+				},
+				{
+					"fps": 29.0,
+					"memory_static": 82733060.0,
+					"objects": 2615.0,
+					"physics_ms": 20.198,
+					"physics_pairs": 0.0,
+					"process_ms": 515.371
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82733872.0,
+					"objects": 2615.0,
+					"physics_ms": 2.111,
+					"physics_pairs": 0.0,
+					"process_ms": 3.7
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82734708.0,
+					"objects": 2615.0,
+					"physics_ms": 2.111,
+					"physics_pairs": 0.0,
+					"process_ms": 3.7
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82735496.0,
+					"objects": 2615.0,
+					"physics_ms": 2.111,
+					"physics_pairs": 0.0,
+					"process_ms": 3.7
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82736356.0,
+					"objects": 2615.0,
+					"physics_ms": 2.111,
+					"physics_pairs": 0.0,
+					"process_ms": 3.7
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82737144.0,
+					"objects": 2615.0,
+					"physics_ms": 2.111,
+					"physics_pairs": 0.0,
+					"process_ms": 3.7
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82737932.0,
+					"objects": 2615.0,
+					"physics_ms": 2.462,
+					"physics_pairs": 0.0,
+					"process_ms": 3.901
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82738816.0,
+					"objects": 2615.0,
+					"physics_ms": 2.462,
+					"physics_pairs": 0.0,
+					"process_ms": 3.901
+				}
+			],
+			"profiled": true,
+			"queries": {
+
+			},
+			"states": {
+				"IDLE": 240
+			},
+			"ticks": 120,
+			"trial": 0,
+			"wall_seconds": 1.997808
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 14216,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 6252
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 28648,
+						"can_travel_calls": 119,
+						"can_travel_us": 19573
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 8622,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3058
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 3239,
+						"can_detect_calls": 108,
+						"can_detect_us": 917
+					}
+				}
+			],
+			"aggro_count": 1,
+			"blocked": false,
+			"label": "profile_1_chase_0",
+			"monitors": [
+				{
+					"fps": 32.0,
+					"memory_static": 82741268.0,
+					"objects": 2615.0,
+					"physics_ms": 30.622,
+					"physics_pairs": 0.0,
+					"process_ms": 478.268
+				},
+				{
+					"fps": 32.0,
+					"memory_static": 82743708.0,
+					"objects": 2615.0,
+					"physics_ms": 30.622,
+					"physics_pairs": 0.0,
+					"process_ms": 478.268
+				},
+				{
+					"fps": 32.0,
+					"memory_static": 82744496.0,
+					"objects": 2615.0,
+					"physics_ms": 30.622,
+					"physics_pairs": 0.0,
+					"process_ms": 478.268
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82745308.0,
+					"objects": 2615.0,
+					"physics_ms": 2.785,
+					"physics_pairs": 0.0,
+					"process_ms": 3.824
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82746144.0,
+					"objects": 2615.0,
+					"physics_ms": 2.785,
+					"physics_pairs": 0.0,
+					"process_ms": 3.824
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82746932.0,
+					"objects": 2615.0,
+					"physics_ms": 2.785,
+					"physics_pairs": 0.0,
+					"process_ms": 3.824
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82747792.0,
+					"objects": 2615.0,
+					"physics_ms": 2.785,
+					"physics_pairs": 0.0,
+					"process_ms": 3.824
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82748580.0,
+					"objects": 2615.0,
+					"physics_ms": 2.785,
+					"physics_pairs": 0.0,
+					"process_ms": 3.824
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82749368.0,
+					"objects": 2615.0,
+					"physics_ms": 2.732,
+					"physics_pairs": 0.0,
+					"process_ms": 3.357
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82750252.0,
+					"objects": 2615.0,
+					"physics_ms": 2.732,
+					"physics_pairs": 0.0,
+					"process_ms": 3.357
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 119,
+				"cast_us": 789,
+				"ground_calls": 119,
+				"ground_us": 2298,
+				"shape_calls": 119,
+				"shape_us": 1664
+			},
+			"states": {
+				"CHASE": 120,
+				"IDLE": 120
+			},
+			"ticks": 120,
+			"trial": 0,
+			"wall_seconds": 1.997943
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 13531,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 5974
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 29544,
+						"can_travel_calls": 119,
+						"can_travel_us": 19956
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 10829,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 5265
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 14260,
+						"can_travel_calls": 119,
+						"can_travel_us": 9269
+					}
+				}
+			],
+			"aggro_count": 2,
+			"blocked": false,
+			"label": "profile_2_chase_0",
+			"monitors": [
+				{
+					"fps": 36.0,
+					"memory_static": 82754132.0,
+					"objects": 2615.0,
+					"physics_ms": 24.226,
+					"physics_pairs": 0.0,
+					"process_ms": 548.688
+				},
+				{
+					"fps": 51.0,
+					"memory_static": 82756572.0,
+					"objects": 2615.0,
+					"physics_ms": 3.189,
+					"physics_pairs": 0.0,
+					"process_ms": 26.806
+				},
+				{
+					"fps": 51.0,
+					"memory_static": 82757360.0,
+					"objects": 2615.0,
+					"physics_ms": 3.189,
+					"physics_pairs": 0.0,
+					"process_ms": 26.806
+				},
+				{
+					"fps": 51.0,
+					"memory_static": 82758172.0,
+					"objects": 2615.0,
+					"physics_ms": 3.189,
+					"physics_pairs": 0.0,
+					"process_ms": 26.806
+				},
+				{
+					"fps": 51.0,
+					"memory_static": 82759008.0,
+					"objects": 2615.0,
+					"physics_ms": 3.189,
+					"physics_pairs": 0.0,
+					"process_ms": 26.806
+				},
+				{
+					"fps": 51.0,
+					"memory_static": 82759796.0,
+					"objects": 2615.0,
+					"physics_ms": 3.189,
+					"physics_pairs": 0.0,
+					"process_ms": 26.806
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82760656.0,
+					"objects": 2615.0,
+					"physics_ms": 3.232,
+					"physics_pairs": 0.0,
+					"process_ms": 3.627
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82761444.0,
+					"objects": 2615.0,
+					"physics_ms": 3.232,
+					"physics_pairs": 0.0,
+					"process_ms": 3.627
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82762232.0,
+					"objects": 2615.0,
+					"physics_ms": 3.232,
+					"physics_pairs": 0.0,
+					"process_ms": 3.627
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82763116.0,
+					"objects": 2615.0,
+					"physics_ms": 3.232,
+					"physics_pairs": 0.0,
+					"process_ms": 3.627
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 238,
+				"cast_us": 1047,
+				"ground_calls": 238,
+				"ground_us": 3446,
+				"shape_calls": 238,
+				"shape_us": 2269
+			},
+			"states": {
+				"CHASE": 240
+			},
+			"ticks": 120,
+			"trial": 0,
+			"wall_seconds": 1.996437
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 10185,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3196
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 22656,
+						"can_travel_calls": 119,
+						"can_travel_us": 14579
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 7980,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2741
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 11654,
+						"can_travel_calls": 119,
+						"can_travel_us": 6873
+					}
+				}
+			],
+			"aggro_count": 2,
+			"blocked": true,
+			"label": "profile_2_blocked_0",
+			"monitors": [
+				{
+					"fps": 60.0,
+					"memory_static": 82792300.0,
+					"objects": 2621.0,
+					"physics_ms": 2.516,
+					"physics_pairs": 0.0,
+					"process_ms": 3.266
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82794448.0,
+					"objects": 2621.0,
+					"physics_ms": 2.516,
+					"physics_pairs": 0.0,
+					"process_ms": 3.266
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82795236.0,
+					"objects": 2621.0,
+					"physics_ms": 2.516,
+					"physics_pairs": 0.0,
+					"process_ms": 3.266
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82796048.0,
+					"objects": 2621.0,
+					"physics_ms": 2.516,
+					"physics_pairs": 0.0,
+					"process_ms": 3.266
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82796884.0,
+					"objects": 2621.0,
+					"physics_ms": 2.516,
+					"physics_pairs": 0.0,
+					"process_ms": 3.266
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82797672.0,
+					"objects": 2621.0,
+					"physics_ms": 2.801,
+					"physics_pairs": 0.0,
+					"process_ms": 3.221
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82798532.0,
+					"objects": 2621.0,
+					"physics_ms": 2.801,
+					"physics_pairs": 0.0,
+					"process_ms": 3.221
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82799320.0,
+					"objects": 2621.0,
+					"physics_ms": 2.801,
+					"physics_pairs": 0.0,
+					"process_ms": 3.221
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82800108.0,
+					"objects": 2621.0,
+					"physics_ms": 2.801,
+					"physics_pairs": 0.0,
+					"process_ms": 3.221
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82800992.0,
+					"objects": 2621.0,
+					"physics_ms": 2.801,
+					"physics_pairs": 0.0,
+					"process_ms": 3.221
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 238,
+				"cast_us": 3860,
+				"shape_calls": 238,
+				"shape_us": 2129
+			},
+			"states": {
+				"CHASE": 240
+			},
+			"ticks": 120,
+			"trial": 0,
+			"wall_seconds": 1.997813
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 12105,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 5433
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 24447,
+						"can_travel_calls": 119,
+						"can_travel_us": 16511
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 7318,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2611
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 2971,
+						"can_detect_calls": 108,
+						"can_detect_us": 842
+					}
+				}
+			],
+			"aggro_count": 1,
+			"blocked": false,
+			"label": "profile_1_chase_1",
+			"monitors": [
+				{
+					"fps": 33.0,
+					"memory_static": 82785308.0,
+					"objects": 2615.0,
+					"physics_ms": 18.109,
+					"physics_pairs": 0.0,
+					"process_ms": 460.448
+				},
+				{
+					"fps": 33.0,
+					"memory_static": 82787748.0,
+					"objects": 2615.0,
+					"physics_ms": 18.109,
+					"physics_pairs": 0.0,
+					"process_ms": 460.448
+				},
+				{
+					"fps": 33.0,
+					"memory_static": 82788536.0,
+					"objects": 2615.0,
+					"physics_ms": 18.109,
+					"physics_pairs": 0.0,
+					"process_ms": 460.448
+				},
+				{
+					"fps": 33.0,
+					"memory_static": 82789348.0,
+					"objects": 2615.0,
+					"physics_ms": 18.109,
+					"physics_pairs": 0.0,
+					"process_ms": 460.448
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82790184.0,
+					"objects": 2615.0,
+					"physics_ms": 2.0,
+					"physics_pairs": 0.0,
+					"process_ms": 2.686
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82790972.0,
+					"objects": 2615.0,
+					"physics_ms": 2.0,
+					"physics_pairs": 0.0,
+					"process_ms": 2.686
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82791832.0,
+					"objects": 2615.0,
+					"physics_ms": 2.0,
+					"physics_pairs": 0.0,
+					"process_ms": 2.686
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82792620.0,
+					"objects": 2615.0,
+					"physics_ms": 2.0,
+					"physics_pairs": 0.0,
+					"process_ms": 2.686
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82793408.0,
+					"objects": 2615.0,
+					"physics_ms": 2.0,
+					"physics_pairs": 0.0,
+					"process_ms": 2.686
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82794292.0,
+					"objects": 2615.0,
+					"physics_ms": 2.347,
+					"physics_pairs": 0.0,
+					"process_ms": 3.279
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 119,
+				"cast_us": 624,
+				"ground_calls": 119,
+				"ground_us": 2034,
+				"shape_calls": 119,
+				"shape_us": 1436
+			},
+			"states": {
+				"CHASE": 120,
+				"IDLE": 120
+			},
+			"ticks": 120,
+			"trial": 1,
+			"wall_seconds": 1.99797
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 10227,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 4616
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 21509,
+						"can_travel_calls": 119,
+						"can_travel_us": 14767
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 7801,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3808
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 10370,
+						"can_travel_calls": 119,
+						"can_travel_us": 6706
+					}
+				}
+			],
+			"aggro_count": 2,
+			"blocked": false,
+			"label": "profile_2_chase_1",
+			"monitors": [
+				{
+					"fps": 31.0,
+					"memory_static": 82798172.0,
+					"objects": 2615.0,
+					"physics_ms": 32.305,
+					"physics_pairs": 0.0,
+					"process_ms": 487.18
+				},
+				{
+					"fps": 31.0,
+					"memory_static": 82800612.0,
+					"objects": 2615.0,
+					"physics_ms": 32.305,
+					"physics_pairs": 0.0,
+					"process_ms": 487.18
+				},
+				{
+					"fps": 31.0,
+					"memory_static": 82801400.0,
+					"objects": 2615.0,
+					"physics_ms": 32.305,
+					"physics_pairs": 0.0,
+					"process_ms": 487.18
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82802212.0,
+					"objects": 2615.0,
+					"physics_ms": 2.53,
+					"physics_pairs": 0.0,
+					"process_ms": 4.263
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82803048.0,
+					"objects": 2615.0,
+					"physics_ms": 2.53,
+					"physics_pairs": 0.0,
+					"process_ms": 4.263
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82803836.0,
+					"objects": 2615.0,
+					"physics_ms": 2.53,
+					"physics_pairs": 0.0,
+					"process_ms": 4.263
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82804696.0,
+					"objects": 2615.0,
+					"physics_ms": 2.53,
+					"physics_pairs": 0.0,
+					"process_ms": 4.263
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82805484.0,
+					"objects": 2615.0,
+					"physics_ms": 2.53,
+					"physics_pairs": 0.0,
+					"process_ms": 4.263
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82806272.0,
+					"objects": 2615.0,
+					"physics_ms": 2.43,
+					"physics_pairs": 0.0,
+					"process_ms": 3.325
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82807156.0,
+					"objects": 2615.0,
+					"physics_ms": 2.43,
+					"physics_pairs": 0.0,
+					"process_ms": 3.325
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 238,
+				"cast_us": 800,
+				"ground_calls": 238,
+				"ground_us": 2671,
+				"shape_calls": 238,
+				"shape_us": 1689
+			},
+			"states": {
+				"CHASE": 240
+			},
+			"ticks": 120,
+			"trial": 1,
+			"wall_seconds": 1.996034
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 9678,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3013
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 22158,
+						"can_travel_calls": 119,
+						"can_travel_us": 14165
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 7613,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2623
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 10790,
+						"can_travel_calls": 119,
+						"can_travel_us": 6308
+					}
+				}
+			],
+			"aggro_count": 2,
+			"blocked": true,
+			"label": "profile_2_blocked_1",
+			"monitors": [
+				{
+					"fps": 60.0,
+					"memory_static": 82836340.0,
+					"objects": 2621.0,
+					"physics_ms": 2.175,
+					"physics_pairs": 0.0,
+					"process_ms": 3.027
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82838488.0,
+					"objects": 2621.0,
+					"physics_ms": 2.175,
+					"physics_pairs": 0.0,
+					"process_ms": 3.027
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82839276.0,
+					"objects": 2621.0,
+					"physics_ms": 2.38,
+					"physics_pairs": 0.0,
+					"process_ms": 4.513
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82840088.0,
+					"objects": 2621.0,
+					"physics_ms": 2.38,
+					"physics_pairs": 0.0,
+					"process_ms": 4.513
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82840924.0,
+					"objects": 2621.0,
+					"physics_ms": 2.38,
+					"physics_pairs": 0.0,
+					"process_ms": 4.513
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82841712.0,
+					"objects": 2621.0,
+					"physics_ms": 2.38,
+					"physics_pairs": 0.0,
+					"process_ms": 4.513
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82842572.0,
+					"objects": 2621.0,
+					"physics_ms": 2.38,
+					"physics_pairs": 0.0,
+					"process_ms": 4.513
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82843360.0,
+					"objects": 2621.0,
+					"physics_ms": 2.205,
+					"physics_pairs": 0.0,
+					"process_ms": 3.039
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82844148.0,
+					"objects": 2621.0,
+					"physics_ms": 2.205,
+					"physics_pairs": 0.0,
+					"process_ms": 3.039
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82845032.0,
+					"objects": 2621.0,
+					"physics_ms": 2.205,
+					"physics_pairs": 0.0,
+					"process_ms": 3.039
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 238,
+				"cast_us": 3620,
+				"shape_calls": 238,
+				"shape_us": 1986
+			},
+			"states": {
+				"CHASE": 240
+			},
+			"ticks": 120,
+			"trial": 1,
+			"wall_seconds": 1.996894
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 8897,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2865
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 5611,
+						"can_detect_calls": 105,
+						"can_detect_us": 1382
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 6871,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2452
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 2209,
+						"can_detect_calls": 105,
+						"can_detect_us": 587
+					}
+				}
+			],
+			"aggro_count": 0,
+			"blocked": false,
+			"label": "profile_0_chase_1",
+			"monitors": [
+				{
+					"fps": 44.0,
+					"memory_static": 82833040.0,
+					"objects": 2615.0,
+					"physics_ms": 24.689,
+					"physics_pairs": 0.0,
+					"process_ms": 462.1
+				},
+				{
+					"fps": 49.0,
+					"memory_static": 82834676.0,
+					"objects": 2615.0,
+					"physics_ms": 2.197,
+					"physics_pairs": 0.0,
+					"process_ms": 24.508
+				},
+				{
+					"fps": 49.0,
+					"memory_static": 82835720.0,
+					"objects": 2615.0,
+					"physics_ms": 2.197,
+					"physics_pairs": 0.0,
+					"process_ms": 24.508
+				},
+				{
+					"fps": 49.0,
+					"memory_static": 82836532.0,
+					"objects": 2615.0,
+					"physics_ms": 2.197,
+					"physics_pairs": 0.0,
+					"process_ms": 24.508
+				},
+				{
+					"fps": 49.0,
+					"memory_static": 82837368.0,
+					"objects": 2615.0,
+					"physics_ms": 2.197,
+					"physics_pairs": 0.0,
+					"process_ms": 24.508
+				},
+				{
+					"fps": 49.0,
+					"memory_static": 82838156.0,
+					"objects": 2615.0,
+					"physics_ms": 2.197,
+					"physics_pairs": 0.0,
+					"process_ms": 24.508
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82839016.0,
+					"objects": 2615.0,
+					"physics_ms": 2.126,
+					"physics_pairs": 0.0,
+					"process_ms": 3.087
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82839804.0,
+					"objects": 2615.0,
+					"physics_ms": 2.126,
+					"physics_pairs": 0.0,
+					"process_ms": 3.087
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82840592.0,
+					"objects": 2615.0,
+					"physics_ms": 2.126,
+					"physics_pairs": 0.0,
+					"process_ms": 3.087
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82841476.0,
+					"objects": 2615.0,
+					"physics_ms": 2.126,
+					"physics_pairs": 0.0,
+					"process_ms": 3.087
+				}
+			],
+			"profiled": true,
+			"queries": {
+
+			},
+			"states": {
+				"IDLE": 240
+			},
+			"ticks": 120,
+			"trial": 1,
+			"wall_seconds": 1.99835
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 11725,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 5238
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 23326,
+						"can_travel_calls": 119,
+						"can_travel_us": 15845
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 9475,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 4614
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 12328,
+						"can_travel_calls": 119,
+						"can_travel_us": 8015
+					}
+				}
+			],
+			"aggro_count": 2,
+			"blocked": false,
+			"label": "profile_2_chase_2",
+			"monitors": [
+				{
+					"fps": 41.0,
+					"memory_static": 82841540.0,
+					"objects": 2615.0,
+					"physics_ms": 1.682,
+					"physics_pairs": 0.0,
+					"process_ms": 26.166
+				},
+				{
+					"fps": 41.0,
+					"memory_static": 82843980.0,
+					"objects": 2615.0,
+					"physics_ms": 1.682,
+					"physics_pairs": 0.0,
+					"process_ms": 26.166
+				},
+				{
+					"fps": 41.0,
+					"memory_static": 82844768.0,
+					"objects": 2615.0,
+					"physics_ms": 1.682,
+					"physics_pairs": 0.0,
+					"process_ms": 26.166
+				},
+				{
+					"fps": 41.0,
+					"memory_static": 82845580.0,
+					"objects": 2615.0,
+					"physics_ms": 1.682,
+					"physics_pairs": 0.0,
+					"process_ms": 26.166
+				},
+				{
+					"fps": 41.0,
+					"memory_static": 82846416.0,
+					"objects": 2615.0,
+					"physics_ms": 1.682,
+					"physics_pairs": 0.0,
+					"process_ms": 26.166
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82847204.0,
+					"objects": 2615.0,
+					"physics_ms": 1.923,
+					"physics_pairs": 0.0,
+					"process_ms": 3.227
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82848064.0,
+					"objects": 2615.0,
+					"physics_ms": 1.923,
+					"physics_pairs": 0.0,
+					"process_ms": 3.227
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82848852.0,
+					"objects": 2615.0,
+					"physics_ms": 1.923,
+					"physics_pairs": 0.0,
+					"process_ms": 3.227
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82849640.0,
+					"objects": 2615.0,
+					"physics_ms": 1.923,
+					"physics_pairs": 0.0,
+					"process_ms": 3.227
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82850524.0,
+					"objects": 2615.0,
+					"physics_ms": 1.923,
+					"physics_pairs": 0.0,
+					"process_ms": 3.227
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 238,
+				"cast_us": 870,
+				"ground_calls": 238,
+				"ground_us": 2916,
+				"shape_calls": 238,
+				"shape_us": 1860
+			},
+			"states": {
+				"CHASE": 240
+			},
+			"ticks": 120,
+			"trial": 2,
+			"wall_seconds": 1.997659
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 10788,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3303
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 22913,
+						"can_travel_calls": 119,
+						"can_travel_us": 14614
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 8551,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2984
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 11716,
+						"can_travel_calls": 119,
+						"can_travel_us": 6794
+					}
+				}
+			],
+			"aggro_count": 2,
+			"blocked": true,
+			"label": "profile_2_blocked_2",
+			"monitors": [
+				{
+					"fps": 60.0,
+					"memory_static": 82879708.0,
+					"objects": 2621.0,
+					"physics_ms": 2.004,
+					"physics_pairs": 0.0,
+					"process_ms": 2.538
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82881856.0,
+					"objects": 2621.0,
+					"physics_ms": 2.004,
+					"physics_pairs": 0.0,
+					"process_ms": 2.538
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82882644.0,
+					"objects": 2621.0,
+					"physics_ms": 2.004,
+					"physics_pairs": 0.0,
+					"process_ms": 2.538
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82883456.0,
+					"objects": 2621.0,
+					"physics_ms": 2.004,
+					"physics_pairs": 0.0,
+					"process_ms": 2.538
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82884292.0,
+					"objects": 2621.0,
+					"physics_ms": 2.354,
+					"physics_pairs": 0.0,
+					"process_ms": 5.491
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82885080.0,
+					"objects": 2621.0,
+					"physics_ms": 2.354,
+					"physics_pairs": 0.0,
+					"process_ms": 5.491
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82885940.0,
+					"objects": 2621.0,
+					"physics_ms": 2.354,
+					"physics_pairs": 0.0,
+					"process_ms": 5.491
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82886728.0,
+					"objects": 2621.0,
+					"physics_ms": 2.354,
+					"physics_pairs": 0.0,
+					"process_ms": 5.491
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82887516.0,
+					"objects": 2621.0,
+					"physics_ms": 2.354,
+					"physics_pairs": 0.0,
+					"process_ms": 5.491
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82888400.0,
+					"objects": 2621.0,
+					"physics_ms": 2.609,
+					"physics_pairs": 0.0,
+					"process_ms": 3.516
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 238,
+				"cast_us": 3745,
+				"shape_calls": 238,
+				"shape_us": 2132
+			},
+			"states": {
+				"CHASE": 240
+			},
+			"ticks": 120,
+			"trial": 2,
+			"wall_seconds": 1.996579
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 10048,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 3100
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 6168,
+						"can_detect_calls": 105,
+						"can_detect_us": 1524
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 7385,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2631
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 2495,
+						"can_detect_calls": 105,
+						"can_detect_us": 559
+					}
+				}
+			],
+			"aggro_count": 0,
+			"blocked": false,
+			"label": "profile_0_chase_2",
+			"monitors": [
+				{
+					"fps": 34.0,
+					"memory_static": 82876204.0,
+					"objects": 2615.0,
+					"physics_ms": 18.229,
+					"physics_pairs": 0.0,
+					"process_ms": 452.918
+				},
+				{
+					"fps": 34.0,
+					"memory_static": 82877840.0,
+					"objects": 2615.0,
+					"physics_ms": 18.229,
+					"physics_pairs": 0.0,
+					"process_ms": 452.918
+				},
+				{
+					"fps": 34.0,
+					"memory_static": 82878884.0,
+					"objects": 2615.0,
+					"physics_ms": 18.229,
+					"physics_pairs": 0.0,
+					"process_ms": 452.918
+				},
+				{
+					"fps": 34.0,
+					"memory_static": 82879696.0,
+					"objects": 2615.0,
+					"physics_ms": 18.229,
+					"physics_pairs": 0.0,
+					"process_ms": 452.918
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82880532.0,
+					"objects": 2615.0,
+					"physics_ms": 2.297,
+					"physics_pairs": 0.0,
+					"process_ms": 3.998
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82881320.0,
+					"objects": 2615.0,
+					"physics_ms": 2.297,
+					"physics_pairs": 0.0,
+					"process_ms": 3.998
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82882180.0,
+					"objects": 2615.0,
+					"physics_ms": 2.297,
+					"physics_pairs": 0.0,
+					"process_ms": 3.998
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82882968.0,
+					"objects": 2615.0,
+					"physics_ms": 2.297,
+					"physics_pairs": 0.0,
+					"process_ms": 3.998
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82883756.0,
+					"objects": 2615.0,
+					"physics_ms": 2.297,
+					"physics_pairs": 0.0,
+					"process_ms": 3.998
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82884640.0,
+					"objects": 2615.0,
+					"physics_ms": 2.295,
+					"physics_pairs": 0.0,
+					"process_ms": 4.039
+				}
+			],
+			"profiled": true,
+			"queries": {
+
+			},
+			"states": {
+				"IDLE": 240
+			},
+			"ticks": 120,
+			"trial": 2,
+			"wall_seconds": 1.997184
+		},
+		{
+			"actors": [
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 12740,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 5640
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 28022,
+						"can_travel_calls": 119,
+						"can_travel_us": 19014
+					}
+				},
+				{
+					"actor": {
+						"actor_physics_calls": 119,
+						"actor_physics_us": 7467,
+						"move_and_slide_calls": 119,
+						"move_and_slide_us": 2672
+					},
+					"ai": {
+						"_physics_process_calls": 119,
+						"_physics_process_us": 2950,
+						"can_detect_calls": 108,
+						"can_detect_us": 843
+					}
+				}
+			],
+			"aggro_count": 1,
+			"blocked": false,
+			"label": "profile_1_chase_2",
+			"monitors": [
+				{
+					"fps": 30.0,
+					"memory_static": 82886648.0,
+					"objects": 2615.0,
+					"physics_ms": 22.22,
+					"physics_pairs": 0.0,
+					"process_ms": 501.034
+				},
+				{
+					"fps": 30.0,
+					"memory_static": 82889088.0,
+					"objects": 2615.0,
+					"physics_ms": 22.22,
+					"physics_pairs": 0.0,
+					"process_ms": 501.034
+				},
+				{
+					"fps": 30.0,
+					"memory_static": 82889876.0,
+					"objects": 2615.0,
+					"physics_ms": 22.22,
+					"physics_pairs": 0.0,
+					"process_ms": 501.034
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82890688.0,
+					"objects": 2615.0,
+					"physics_ms": 3.0,
+					"physics_pairs": 0.0,
+					"process_ms": 5.76
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82891524.0,
+					"objects": 2615.0,
+					"physics_ms": 3.0,
+					"physics_pairs": 0.0,
+					"process_ms": 5.76
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82892312.0,
+					"objects": 2615.0,
+					"physics_ms": 3.0,
+					"physics_pairs": 0.0,
+					"process_ms": 5.76
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82893172.0,
+					"objects": 2615.0,
+					"physics_ms": 3.0,
+					"physics_pairs": 0.0,
+					"process_ms": 5.76
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82893960.0,
+					"objects": 2615.0,
+					"physics_ms": 3.0,
+					"physics_pairs": 0.0,
+					"process_ms": 5.76
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82894748.0,
+					"objects": 2615.0,
+					"physics_ms": 2.981,
+					"physics_pairs": 0.0,
+					"process_ms": 3.839
+				},
+				{
+					"fps": 60.0,
+					"memory_static": 82895632.0,
+					"objects": 2615.0,
+					"physics_ms": 2.981,
+					"physics_pairs": 0.0,
+					"process_ms": 3.839
+				}
+			],
+			"profiled": true,
+			"queries": {
+				"cast_calls": 119,
+				"cast_us": 700,
+				"ground_calls": 119,
+				"ground_us": 2205,
+				"shape_calls": 119,
+				"shape_us": 1999
+			},
+			"states": {
+				"CHASE": 120,
+				"IDLE": 120
+			},
+			"ticks": 120,
+			"trial": 2,
+			"wall_seconds": 1.994735
+		}
+	],
+	"soldiers": 2,
+	"system_memory": {
+		"available": 20646608896,
+		"free": 573898752,
+		"physical": 6323187712,
+		"stack": 8388608
+	},
+	"variant": "optimized"
+}

@@ -1,0 +1,191 @@
+{
+	"checks": {
+		"all_20_detection_batches_agree": true,
+		"unaware_query_fixture_does_not_acquire": true
+	},
+	"passed": 2,
+	"samples": [
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 27.6633333333333,
+				"old_us_per_call": 27.9566666666667
+			},
+			"trial": 0
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 23.93,
+				"old_us_per_call": 23.6433333333333
+			},
+			"trial": 1
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 21.8166666666667,
+				"old_us_per_call": 20.6266666666667
+			},
+			"trial": 2
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 26.4466666666667,
+				"old_us_per_call": 21.3966666666667
+			},
+			"trial": 3
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 24.15,
+				"old_us_per_call": 26.05
+			},
+			"trial": 4
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 17.6933333333333,
+				"old_us_per_call": 17.15
+			},
+			"trial": 5
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 16.83,
+				"old_us_per_call": 16.5833333333333
+			},
+			"trial": 6
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 16.9,
+				"old_us_per_call": 19.35
+			},
+			"trial": 7
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 19.4133333333333,
+				"old_us_per_call": 19.49
+			},
+			"trial": 8
+		},
+		{
+			"blocked": true,
+			"same": true,
+			"times": {
+				"new_us_per_call": 16.13,
+				"old_us_per_call": 18.9933333333333
+			},
+			"trial": 9
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 17.21,
+				"old_us_per_call": 17.6766666666667
+			},
+			"trial": 0
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 17.1166666666667,
+				"old_us_per_call": 19.6166666666667
+			},
+			"trial": 1
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 16.4666666666667,
+				"old_us_per_call": 19.3666666666667
+			},
+			"trial": 2
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 16.7633333333333,
+				"old_us_per_call": 16.4666666666667
+			},
+			"trial": 3
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 14.7666666666667,
+				"old_us_per_call": 16.87
+			},
+			"trial": 4
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 12.7966666666667,
+				"old_us_per_call": 12.75
+			},
+			"trial": 5
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 16.4466666666667,
+				"old_us_per_call": 12.88
+			},
+			"trial": 6
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 19.7,
+				"old_us_per_call": 16.3233333333333
+			},
+			"trial": 7
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 13.0833333333333,
+				"old_us_per_call": 12.7333333333333
+			},
+			"trial": 8
+		},
+		{
+			"blocked": false,
+			"same": true,
+			"times": {
+				"new_us_per_call": 12.8266666666667,
+				"old_us_per_call": 16.19
+			},
+			"trial": 9
+		}
+	],
+	"scope": "Paired uninstrumented detection calls in actual main-level world, 300 calls per batch, isolated AI only; includes in-range LOS ray",
+	"total": 2
+}

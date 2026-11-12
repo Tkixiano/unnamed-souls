@@ -1,0 +1,4207 @@
+{
+  "version": 3,
+  "embedded_start": 104559616,
+  "embedded_size": 295803252,
+  "files": [
+    {
+      "path": ".godot/exported/133200997/export-047db83e43b4837b3ce2cdc75c017b0f-audio_director.scn",
+      "bytes": 836,
+      "offset": 1415600,
+      "md5": "3236efa65c35842e4c9255544d01d7ef",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-06d0b00501eb5f80ce031825563cada0-art_material_19.res",
+      "bytes": 3314,
+      "offset": 292439312,
+      "md5": "8c27565d3931205e1ba5bc369159d04b",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-0b0b49111ebb1dfff5b27a83e20b9c98-two_hand_light_2.res",
+      "bytes": 553,
+      "offset": 292395328,
+      "md5": "32e9dc2899f446972a4a70b7f59d8eaa",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-0bff255ec2fdea4ebd703967268573ad-rock_prop.scn",
+      "bytes": 1381,
+      "offset": 1362560,
+      "md5": "e9fbb164e62bc348e8ecd4e5c531556c",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-0cefd5ca19b185785ef5982176586f34-art_material_5.res",
+      "bytes": 3363,
+      "offset": 292415968,
+      "md5": "8fe22104d140ac4020a30c80bb524663",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-0f2c47f027f267d4e1eaecc649ee3925-ruins_arena.scn",
+      "bytes": 997,
+      "offset": 1361552,
+      "md5": "5054b721f7d454f92683e7371c786bd8",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-0f561bf2a6669308133cafbf4cabda70-training_dummy.scn",
+      "bytes": 5708,
+      "offset": 537648,
+      "md5": "c1c5c6da9fdd94367f41c4d008b6f3d9",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-129c6c5935fe645328f0815dfd984151-decorative_rock.scn",
+      "bytes": 1002,
+      "offset": 1414592,
+      "md5": "cd104dfdb4c0792f4e9b364ea6355f97",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-158f1a314ebaeaeb7eb8e6264951c279-estus_hud.scn",
+      "bytes": 1321,
+      "offset": 525296,
+      "md5": "5bc9683143a69640047ebef32543f21e",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-17046bc53eed4dbaface5525c16dc3c8-two_hand_heavy_1.res",
+      "bytes": 585,
+      "offset": 292394208,
+      "md5": "740c6bdcf3a299956b9bccc351ec8d27",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-1986fd80b2de961b9874408778c027f6-art_material_25.res",
+      "bytes": 3314,
+      "offset": 292449296,
+      "md5": "c5f75398eed304e882aa8a1f24efe48c",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-281d667da6bbf0fcfb18a2d53733c6e5-estus_visual.scn",
+      "bytes": 996,
+      "offset": 1370032,
+      "md5": "f7e5ef548351ac94ca0e9e9abd7a798a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-2932a4fe3022b972b233f3ecc8fff364-vertical_slam.res",
+      "bytes": 655,
+      "offset": 292403408,
+      "md5": "02885ee7b06f444eac7f910a5001abec",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-2c4eb088ae20bf0cf40b36942b4175af-dry_forest.scn",
+      "bytes": 43546,
+      "offset": 1371040,
+      "md5": "77c7633da9154325633edc2a5a2bbf9f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-3b4eb71bfa0a57472c85a787f140c2d0-player_vitals.scn",
+      "bytes": 2497,
+      "offset": 516448,
+      "md5": "ff0a0b36a7880beb996918cc6c6b9406",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-3e6b013f97bab4edbcc1a5e9aab9576f-ruins_guardian.scn",
+      "bytes": 7901,
+      "offset": 437760,
+      "md5": "fc7cfa606f4dfec775f161b7a937d569",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-40532035cc65d9268de72a345b2ba52d-art_material_168.res",
+      "bytes": 3293,
+      "offset": 292472464,
+      "md5": "f2feacfce5a0cab46469669e2169866f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-40eca3d05813eb4e9eda5222dd9b64c3-heavy_1.res",
+      "bytes": 728,
+      "offset": 292391344,
+      "md5": "c3b83bc2e5fd0064b5e32845538d9a75",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-41ffa9177ddde256198fb443375bb273-art_material_3.res",
+      "bytes": 3363,
+      "offset": 292412592,
+      "md5": "25f401caf665a7ddb1f6762cc6a2ccc6",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-43a1f59329778f98e4346b4d032b366b-medium.res",
+      "bytes": 548,
+      "offset": 292405632,
+      "md5": "44f676819a6bc9ae98681eb2c958bc65",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-4ba84ba3978a246add2859d5b0e04e2b-bark.res",
+      "bytes": 2980,
+      "offset": 292488640,
+      "md5": "434edbe71f916a6196d67afae5cc398d",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-4da217b1bb58ea7de9bf7be56eac2ebe-art_material_2.res",
+      "bytes": 3229,
+      "offset": 292409360,
+      "md5": "196a0e81333e9d4c0046c244dc2f2a42",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-4ed30383aa4480b00fbe7def6d611882-boss_hud.scn",
+      "bytes": 2747,
+      "offset": 528048,
+      "md5": "b86e7f70d7f7e8848baa49423245b0d3",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-51e430b9df9778ae1b39d18bd81dda54-art_material_9.res",
+      "bytes": 3313,
+      "offset": 292422672,
+      "md5": "e966b56bf013d65cf903b618fdeab8a6",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-5208761c265bb8946107d63342b67db8-art_material_158.res",
+      "bytes": 3293,
+      "offset": 292459280,
+      "md5": "12c7e09f45b06c1ff3b35bc6678791f3",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-520d1a9e0b01e6388af46cc98321eba8-horizontal_slash.res",
+      "bytes": 624,
+      "offset": 292401408,
+      "md5": "3ca65a85548f9a1d57abdd35930c7608",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-54dc7b58f9c25315f9643d55ff0c5eab-combo_second.res",
+      "bytes": 907,
+      "offset": 292387680,
+      "md5": "e54e19912c1b46d40d038e1c4568b55f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-56a42ca5276d07435ca33d0035dd164d-lockable_dummy.scn",
+      "bytes": 4368,
+      "offset": 543360,
+      "md5": "ed1e05a5b1b1b8423dbc3e44834f50a4",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-5902be8f5fe9c17def4d83516defd6d8-earth.res",
+      "bytes": 2982,
+      "offset": 292494624,
+      "md5": "f54179c4f951d0cea378485a18c25054",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-650adcf694d647f777c900e45232c78b-menu_screen.scn",
+      "bytes": 2195,
+      "offset": 520800,
+      "md5": "b7f57413c0bfb9e58146398e573cdc07",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-65e4fe4ec94af71620660a811aad33c6-sand.res",
+      "bytes": 2980,
+      "offset": 92314992,
+      "md5": "4d494d0829941502db494a20d88c04b3",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-6a0b1fb42d0a672073c438ddb0c08369-main_level.scn",
+      "bytes": 384904,
+      "offset": 961040,
+      "md5": "558cc73dc8c234cb824233489e1cad7a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-6b857485ffe926a6df00ea45514116ea-art_material_7.res",
+      "bytes": 3313,
+      "offset": 292419344,
+      "md5": "1aabaa3c43819511965ef9daa929e2a9",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-6ca8a32b50047ffdcfb87eeeb69c1484-ash.res",
+      "bytes": 2978,
+      "offset": 292485648,
+      "md5": "2f7ea7f7cb6a6f7dca74e661af184927",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-6d49fa402b22689f1924dd1eff53b638-dark.res",
+      "bytes": 2980,
+      "offset": 292491632,
+      "md5": "be4c23a70855097b1887a2f0aad73dd2",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-71a9b8599f1f3202987b7d57a78a097d-ruins.res",
+      "bytes": 2982,
+      "offset": 92320976,
+      "md5": "89f6352221ba28949d3d685979d8db67",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-725ac4cc5e704168055345435ffb937c-ruin_burst.res",
+      "bytes": 895,
+      "offset": 292389520,
+      "md5": "c745bdce4845da63d546c4fd59df57a2",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-744d74261e2d83adea14da7957fad1e4-menu_theme.res",
+      "bytes": 2194,
+      "offset": 1416448,
+      "md5": "ecb445210894af3c75c5942711b6abe5",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-75e3e4b6206060820f35d7c5c1e51f70-two_hit_combo.res",
+      "bytes": 721,
+      "offset": 292402672,
+      "md5": "c2b7f1ec3726c715dbd8a9d6f29e2e05",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-75e5c545712e85bd301d1a5aa0cb14e8-backstep.res",
+      "bytes": 560,
+      "offset": 292404064,
+      "md5": "3b5cccedcd56756541cd547b4784f3a8",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-79dd3ab530fc0aed4f9ba21f09ab2efd-main_menu.scn",
+      "bytes": 1024,
+      "offset": 523008,
+      "md5": "743626cb129a22d7e5f87ef5da2605bd",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-7b3a0d8469c933657bd1d1dd6663f777-soldier.scn",
+      "bytes": 7501,
+      "offset": 430256,
+      "md5": "aac21f091140d257acc9e22bdc08feac",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-7fd734a016776d159ba9ce2dc2f962e1-test_arena.scn",
+      "bytes": 16309,
+      "offset": 564880,
+      "md5": "bd18f57052240e5e5ebfc673e7f0423b",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-829774f2bb53ef9c48d0978882001c13-art_material_167.res",
+      "bytes": 3293,
+      "offset": 292469168,
+      "md5": "0d2250d25e6e2990b26198dbafe9f8f9",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-82c111b8ce83bb4a8e4171856d5ea492-wood.res",
+      "bytes": 2980,
+      "offset": 1421920,
+      "md5": "07cfb5cad817cd0a8ee8465ad8a5b840",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-86bb94e857b7dd28d661d62244f34f6f-arena_menu_link.scn",
+      "bytes": 1114,
+      "offset": 536528,
+      "md5": "dd74bca6502cb2efe0dc81d10072607c",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-89641023176e79f5cf5207450c2c85eb-integrated_bonfire.scn",
+      "bytes": 6080,
+      "offset": 1363952,
+      "md5": "5ae3282f13c52d865d142850665ba7b1",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-8ada45d29643a503b2d88c08f00e4b0c-art_material_15.res",
+      "bytes": 3314,
+      "offset": 292432656,
+      "md5": "e31298de806c6eb3215b188ccdbba704",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-8db0094743e58719fde0f9a75c0e3205-art_material_21.res",
+      "bytes": 3314,
+      "offset": 292442640,
+      "md5": "bee121a6e77bf5ea48e97fe53ddcb72a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-8e81b9a3e3f07c4d06943b35355ef635-art_material_17.res",
+      "bytes": 3314,
+      "offset": 292435984,
+      "md5": "a3925a9f098ce22cd05c81dde24ecbfe",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-92b05afaca765467468c3b54be602579-art_material_1.res",
+      "bytes": 3158,
+      "offset": 292406192,
+      "md5": "0254f2cecb2d527600d76b916d5ca826",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-962377e71f02a7adf08fbb97121b0120-tutorial_panel.scn",
+      "bytes": 2610,
+      "offset": 513824,
+      "md5": "d2795bf10e1f7584cc283e4cf5b59830",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-98582920be0ecd995cbdf171b5c3f965-two_hand_light_1.res",
+      "bytes": 524,
+      "offset": 292394800,
+      "md5": "7208cd63ab6065ff87b5562ffb16e1b6",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-98aa0ee9c730332e5df52cd6c0e64dc9-fast.res",
+      "bytes": 447,
+      "offset": 292404624,
+      "md5": "1b0ce357daf74713e4b1c233b441750b",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9956715e4dc8c9c3fe9354b670980f90-stone.res",
+      "bytes": 2982,
+      "offset": 92312000,
+      "md5": "5b361d544cc939d275f0e66d39b83995",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9c1b988747dab526d2911a460870ec48-boss_arena.scn",
+      "bytes": 15589,
+      "offset": 1345952,
+      "md5": "0821aca8846bba0112676658936e6fcf",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9ca94d6622f1121311a06a0ab44e0269-art_material_23.res",
+      "bytes": 3314,
+      "offset": 292445968,
+      "md5": "816a831aeb7ebe8a40ac2053f84c083f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9cb9b588b0222a6e608fd411ca1fffbd-art_material_11.res",
+      "bytes": 3314,
+      "offset": 292426000,
+      "md5": "08725921241650622001ccce16ec52a9",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9ce6fcd714c434c452a43a83efcec2db-game_menus.scn",
+      "bytes": 1254,
+      "offset": 524032,
+      "md5": "cde5b4fda8155e5903f1786ac7467aa1",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9d3fe2deb864c8b62331d04533096764-art_material_13.res",
+      "bytes": 3314,
+      "offset": 292429328,
+      "md5": "e814838fcba11c0b067bbcced4d2cfc8",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9e2077d9f47058bdf67ae7f7bbf80793-art_material_27.res",
+      "bytes": 3314,
+      "offset": 292452624,
+      "md5": "22f8483e59aee9370a65d754bbb208ba",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-9fd94f20108f1dd40b473fd40edcd4e6-art_material_29.res",
+      "bytes": 3314,
+      "offset": 292455952,
+      "md5": "1c511a9c37c8a1cd6e71f133d48219ec",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-ac590ccdbba7e6ec627fcb973c513d80-art_material_172.res",
+      "bytes": 3293,
+      "offset": 292475760,
+      "md5": "8e7935859abead0d01dca479012588c6",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-ae56d967251a96f26b1a920e6b91a173-art_material_173.res",
+      "bytes": 3293,
+      "offset": 292479056,
+      "md5": "f3b9d83b761e7e9ed8269bb013ede46f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-b143bf6d9ff44123395ec25e3d3a47f1-vertical_slam.res",
+      "bytes": 913,
+      "offset": 292390416,
+      "md5": "b7938c30abc75515b797985296d1aaaf",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-b6bca2b71e61b5df227215b449a61148-heavy.res",
+      "bytes": 558,
+      "offset": 292405072,
+      "md5": "b63d84173cceb02a1ec0f7e75feb1ca2",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-bd87be5be93b7583bd55bb71720dd277-intro_lessons.res",
+      "bytes": 3258,
+      "offset": 1418656,
+      "md5": "95b6f35969080220def3c711d6b0d04b",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-be141c6a00f314be906c0495b1235c9a-death_screen.scn",
+      "bytes": 1421,
+      "offset": 526624,
+      "md5": "9bdd7a75b83c622939896e84ed279a39",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-c2c62cb8c73458cd122faf659769dc80-player.scn",
+      "bytes": 9716,
+      "offset": 555152,
+      "md5": "9087e08d5053b3875185af917a820342",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-c5664385e52fffabe3a11665ed839c8f-ruins_boss_arena.scn",
+      "bytes": 379835,
+      "offset": 581200,
+      "md5": "a915c7420193602c84477b98ec78964c",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-c61c0399c433f8c234794421da78443a-game_audio_catalog.res",
+      "bytes": 5520,
+      "offset": 292395888,
+      "md5": "e7487d9cd1980825732495ee5128fd74",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-c6a115903ed3ee99064c0aff5bd1d2e7-rust.res",
+      "bytes": 2992,
+      "offset": 92317984,
+      "md5": "df43ae55495eebef74e07ef71d2ae99c",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-c9a9dfbad8acea5fed4e470cbcd1b6ed-art_material_177.res",
+      "bytes": 3293,
+      "offset": 292482352,
+      "md5": "6c4dcfd4714029ef9dcc51b4099414d9",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-cfcdc469d0c0c9670b5d7f15f0adbaf6-ruin_burst.res",
+      "bytes": 626,
+      "offset": 292402032,
+      "md5": "c45d829ec061640c7f5070d43ea80788",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-d1211a7d1332856a1fa6205a85169e07-art_material_162.res",
+      "bytes": 3293,
+      "offset": 292462576,
+      "md5": "59376d4e05050a9985633c38f064b128",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-d23ee36951e138b497e36e0e02fbfcbd-light_1.res",
+      "bytes": 624,
+      "offset": 292392080,
+      "md5": "55b20993a5fc48858190162241426dfa",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-d2c56aa0cb505c07a5b4e8ffae1b66b0-camera_rig.scn",
+      "bytes": 1489,
+      "offset": 547728,
+      "md5": "3c1db26305114f74336d617c77e9a1ae",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-d5a570fe45bd268b301a7d5b35834437-bonfire.scn",
+      "bytes": 5913,
+      "offset": 549232,
+      "md5": "35d3258da2b11c1a739a046153a29349",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-d923e664a405252bdad5c9bcd82d9f8b-arena_selector.scn",
+      "bytes": 5715,
+      "offset": 530800,
+      "md5": "aaa50ded8a373b87a59153b92f564e2e",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-ddfb4d6cd69b9063ecf3e44424431b21-light_2.res",
+      "bytes": 724,
+      "offset": 292392704,
+      "md5": "e19936e5dde151e840fdd8db7d996e67",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-e8f9666a5d44fbfeecdb8dd523eb0b0b-art_material_163.res",
+      "bytes": 3293,
+      "offset": 292465872,
+      "md5": "5e2ae3823e0b4e16edc6bdae5c42c002",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-e99e3a8caa60e123cbd2824f5c3c0fce-combo_first.res",
+      "bytes": 881,
+      "offset": 292386784,
+      "md5": "b792cee6aca2f49f035b120690949ec8",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-e9a99bf8deef7e948dc5fd786d7a51d3-horizontal_slash.res",
+      "bytes": 919,
+      "offset": 292388592,
+      "md5": "b1a382ccd807ec8e1237c73af3d70a2d",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-f0e0a100bfc6fc03d29c03222a12aa35-bonfire_visual.scn",
+      "bytes": 993,
+      "offset": 429248,
+      "md5": "150b6c2b219ab0797aa6bbd3a9a5e89f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-f0e56965f710ade160c4f0edb381c23e-options_panel.scn",
+      "bytes": 1825,
+      "offset": 518960,
+      "md5": "ced6fd2365cf0fc3d1cce416ef04e260",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-f33836d7b6673adf1fe57ff7a7d05fbe-mountain.res",
+      "bytes": 2988,
+      "offset": 92323968,
+      "md5": "681ec0200cb7a100541aa8b273af625a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/exported/133200997/export-fa429099c02cd30158d9668398f264e8-soldier_light.res",
+      "bytes": 760,
+      "offset": 292393440,
+      "md5": "6b5d0b54b6999c726874778e737bea9a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/global_script_class_cache.cfg",
+      "bytes": 9942,
+      "offset": 295702944,
+      "md5": "3c4706ce72495172c94eead205942b1b",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Arena_del_jefe.glb-3346bc2024957e36845c25ce979c37ad.scn",
+      "bytes": 9088363,
+      "offset": 92960048,
+      "md5": "ad25acf01756b2c5269754f36bbdf384",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Arena_del_jefe_0.jpg-89d14c48b8fd226e1729e599ff98bc5e.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 102048592,
+      "md5": "942c54c7bbee9d7b44736042330c9b77",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Arena_del_jefe_1.jpg-5fc01b984fef63ae85632144de1f66cc.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 104845184,
+      "md5": "19087c536dcdec2708e679479fc2cf2f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Arena_del_jefe_2.jpg-c4aa836bd3521c51d0e6ce330522e0a5.s3tc.ctex",
+      "bytes": 5592484,
+      "offset": 107641776,
+      "md5": "c6e73e2e619bd9aae2498a4d96c8bc51",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Frasco_Estus.glb-1472a24f81aff8dd7d58bcbbf0c4d8a5.scn",
+      "bytes": 3719839,
+      "offset": 242160944,
+      "md5": "e5a205342ea2704686b04cbac4777305",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Frasco_Estus_0.jpg-a6f1b4ddb79465bb74aa60f3bb274f14.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 245880960,
+      "md5": "b117b2df5f110170d4ec5db90c14da9f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Frasco_Estus_1.jpg-19726b9dad13067709caf3e4fdd8102d.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 248677552,
+      "md5": "903cb6ffa1b386925db26060951f4d63",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Frasco_Estus_2.jpg-9490a94f22abad648e56bd2e72c0b402.s3tc.ctex",
+      "bytes": 5592484,
+      "offset": 251474144,
+      "md5": "048190117787581dac1590e83b057f19",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Roca_decorativa.glb-67ea2c7e4dedbe2efcebeab8d5fee55f.scn",
+      "bytes": 2902208,
+      "offset": 278298384,
+      "md5": "208564cc7305f5e94bb6fd5370e836ff",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Roca_decorativa_0.jpg-67c492fab506ca8b20359c726da281d9.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 281200784,
+      "md5": "1b4163091ac15415dd37a16b9c5638e5",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Roca_decorativa_1.jpg-9da644b1cef58f1b2cd1dad530057ee8.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 283997376,
+      "md5": "ac89471822051c3d1d29792b31b013f0",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/Roca_decorativa_2.jpg-4df3dd161de2ba90c0c2ff4e56233f9e.s3tc.ctex",
+      "bytes": 5592484,
+      "offset": 286793968,
+      "md5": "b2659fb1d3f526222dd914cfc435a0d7",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1.glb-16e76a42c3c2bb8eb632f0acc5a8317b.scn",
+      "bytes": 96491814,
+      "offset": 113234592,
+      "md5": "80c25e882fd4f97587bdf0f257ef23e6",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_0.jpg-d95a90d7cc7ca277e35874f00f02107f.s3tc.ctex",
+      "bytes": 349596,
+      "offset": 210426912,
+      "md5": "b570fcab89670fc7fd579914df43e5db",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_0_11.jpg-e1e12bdf093eb519d5a066e6712adf34.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 210776832,
+      "md5": "79e4cb4bdacaab3578868a68be9d369a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_1.jpg-1c4e9d2b3fb23beeca95d3423774a323.s3tc.ctex",
+      "bytes": 87452,
+      "offset": 211476288,
+      "md5": "e4b75dfe848e6991ccf3d643354c247b",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_10.jpg-cfa8c1a687b064be3cc115874ef17fd6.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 220652912,
+      "md5": "a70e10455c551c47775db2a4d998ff35",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_11.jpg-66fe7d33016327e930cd7c55b5b200e7.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 221352352,
+      "md5": "9e41f7784184b7b899a7a314dbf33aef",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_13.jpg-a05a8bec84457bcd603122903eddf31c.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 222051792,
+      "md5": "a9a7d616b085a05c427fa1658284c3ab",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_15.jpg-968ad84b3ea861dfdc7c99cd41cf807d.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 222751232,
+      "md5": "c31febc762d4dc55515ad20c0dd31ed5",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_16.jpg-4574622bb67c1c2f906393481eeeff76.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 223450672,
+      "md5": "aec7205a75ab49a3bee70b30e9d9ddc3",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_2.jpg-93917fa9063699beecef5c0f3a6da74f.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 211564064,
+      "md5": "e8df5dc6d9c722b48d53c3e8f47bc04d",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_21.jpg-54d46ff1fdb727289c3080cd53ea7832.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 224150112,
+      "md5": "0014c657feb3d9e2d39b2d06d7a87deb",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_22.jpg-61917fbf2dff0230defeb937c0cbc988.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 224849552,
+      "md5": "64a0fb853b7e164a051df53796249e03",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_26.jpg-477c2b7bc8c4baa8ed471a3a9970623a.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 225548992,
+      "md5": "a15887b3735ef001120ab29adf5e3021",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_3.png-a1ca9e95f55d7d94a909f2d99e4dd66f.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 212263504,
+      "md5": "ad6aa2a329aa9b9d139b38b55b48f6ef",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_30.jpg-919f17f46e519a2f88e3f2cb1d3005a0.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 226248432,
+      "md5": "53a7d8b0ebcac1b047b6644944e4d05f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_33.jpg-efed6f82960af34142a6544b0ce3b086.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 226947872,
+      "md5": "2cc304e2875793c4cf1ec94c9488d297",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_37.jpg-0fcc44cd931f248d3fa70d3b6c65276c.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 227647312,
+      "md5": "96b4b1233f1205dc4249aa826480f1c5",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_39.jpg-100a72daf038581262f7c231340d9c2b.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 228346752,
+      "md5": "002adb63f5e76a25957020ff28266f52",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_4.png-fa8ea8f5940d1847f79c02469c27f39e.s3tc.ctex",
+      "bytes": 5592484,
+      "offset": 215060096,
+      "md5": "237775a8212edfdaf7347ca57c6630af",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_51.jpg-2ff47143e56d7d4fd5aa274bb015d62d.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 229046192,
+      "md5": "324dd6adc15b24151408232bc3ddfc85",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_55.jpg-08793edf5dac25cfb5b3cac306617a2c.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 229745632,
+      "md5": "458c0f34fbe25025cf4bfddc5dc108f9",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_63.jpg-d6938301ff258fa8cfa2293a83f1427d.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 230445072,
+      "md5": "836d5cac569526e228d722aac28b4de8",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_66.jpg-05143af64b1a8f5219c239834dded664.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 231144512,
+      "md5": "43b17963199f88666a518344a2a84379",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_67.jpg-ad974fb1e08cbb737381c1a196b031b0.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 231843952,
+      "md5": "72f35b90805a537a57130d06bb9ea03f",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_68.png-0aac6b648a7d0d99ccaef3c617274173.s3tc.ctex",
+      "bytes": 1398180,
+      "offset": 232543392,
+      "md5": "9be2bff68e8ff0baec1ac9eebeab1337",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_76.jpg-6570f663cbf3b502f179e10721af4816.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 233941904,
+      "md5": "becd3cbd93002c07bd896cc48324b516",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_79.jpg-bdc33da928e180f247ec9934fa041bbc.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 234641344,
+      "md5": "163e5cd3038ec3ceb597bf3577219ca0",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_80.jpg-ecb2e8c5c897e643dc339659623eca51.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 235340784,
+      "md5": "7e99b0630fa5ab7301a3a833f5fb9c1a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_82.jpg-0c865a803fb773d07c5da7d871537b26.s3tc.ctex",
+      "bytes": 349596,
+      "offset": 236040224,
+      "md5": "321676451f77e56267254a9743c1908c",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_83.jpg-7442e0471861fe6162e578dd52ec1467.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 236390144,
+      "md5": "8947821d1a4ceb20b48945a87464185a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_85.jpg-2d833441e2f1122279d19597d98b962d.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 237089584,
+      "md5": "c7cf33e51e98ad9d4f2011527c06643d",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_88.jpg-22602c093e4e9917f6067f3ac330a8da.s3tc.ctex",
+      "bytes": 174844,
+      "offset": 237789024,
+      "md5": "1443b99f4a44bb2f2ac5ab9658d03597",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_89.png-db738e2827564391e4659bec99040f81.s3tc.ctex",
+      "bytes": 1398180,
+      "offset": 237964192,
+      "md5": "4f673afb408003569f58edee857d1b48",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_90.jpg-69dbfdc64cb9b70f81df1e69ea7e7b82.s3tc.ctex",
+      "bytes": 699116,
+      "offset": 239362704,
+      "md5": "e84e05a555d74cbf30c519da8c78a2b5",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_Image_98.png-20b56f307ddda26b2d9f8ee009ebf3fa.s3tc.ctex",
+      "bytes": 1398180,
+      "offset": 240062144,
+      "md5": "743aa5b213002d9ede5126f5d111fa42",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_dead_tree_3d_model_basecolor.jpg-810f527cfebc0f8b4b87f9aa5f707044.s3tc.ctex",
+      "bytes": 174828,
+      "offset": 209726592,
+      "md5": "9b095e01fda925b1c9ed00eda41e7465",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_dead_tree_3d_model_normal.jpg-8561aa9e8a96385804463a78e6e5a3b5.s3tc.ctex",
+      "bytes": 349604,
+      "offset": 209901776,
+      "md5": "5d33789d9853672b5fd1c02452f3890e",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_dead_tree_3d_model_rm.jpg-77cc9ac101362585eb5c2c66558bb739.s3tc.ctex",
+      "bytes": 174828,
+      "offset": 210251744,
+      "md5": "864bf6936cb55aba45b392acbf26ad4a",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_rock_3d_model_basecolor.jpg-b2f42a8e39b21b749d1292a8e7645f26.s3tc.ctex",
+      "bytes": 174828,
+      "offset": 241460656,
+      "md5": "2bacd6790924d1978f7ababa366560e7",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_rock_3d_model_normal.jpg-4c70a2dfe96febeb97343794f3daebae.s3tc.ctex",
+      "bytes": 349604,
+      "offset": 241635824,
+      "md5": "ecb19dee79b62bf13deb4bbdbcb05e1c",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/escenario 1_rock_3d_model_rm.jpg-e2b4c43d0a499d8482d826a6670b1209.s3tc.ctex",
+      "bytes": 174828,
+      "offset": 241985776,
+      "md5": "439f8053e9e13d48a52bc27d0e8ec259",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/hoguera.glb-189950ab2dd69f8fd198cec979d7f83d.scn",
+      "bytes": 10045233,
+      "offset": 257066960,
+      "md5": "24d4e758ddb8def6549345bb17cd5a91",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/hoguera_0.jpg-2e585d7f58bb67e33c154bbb84c32621.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 267112384,
+      "md5": "689d2851e486bfca9f838743e96429ff",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/hoguera_1.jpg-c233c9c8136dedbed6a8e9d9abee0bc7.s3tc.ctex",
+      "bytes": 2796268,
+      "offset": 269908976,
+      "md5": "e1d9050648bd3607051499266b142e6b",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/hoguera_2.jpg-81e24eec2e933c4748540e777976e20d.s3tc.ctex",
+      "bytes": 5592484,
+      "offset": 272705568,
+      "md5": "410441acf777b1520bb59510f6f02208",
+      "flags": 0
+    },
+    {
+      "path": ".godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex",
+      "bytes": 3430,
+      "offset": 92868880,
+      "md5": "b48bef1f2eefdd190e0a3e60a6188d75",
+      "flags": 0
+    },
+    {
+      "path": ".godot/uid_cache.bin",
+      "bytes": 17201,
+      "offset": 295713904,
+      "md5": "1efa69133dd554af7c8eed0f5efa76b9",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Arena_del_jefe.glb.import",
+      "bytes": 175,
+      "offset": 102048416,
+      "md5": "4c553f2fa5511f6eed87a88b49342ed7",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Arena_del_jefe_0.jpg.import",
+      "bytes": 315,
+      "offset": 104844864,
+      "md5": "5f9f42048c97b0f2fec11dff7b1ee1b5",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Arena_del_jefe_1.jpg.import",
+      "bytes": 316,
+      "offset": 107641456,
+      "md5": "cbccfe0708cedb1f885934dbaf64925d",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Arena_del_jefe_2.jpg.import",
+      "bytes": 316,
+      "offset": 113234272,
+      "md5": "2e122e86be8d10a41f17a07953d4b84d",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Frasco_Estus.glb.import",
+      "bytes": 174,
+      "offset": 245880784,
+      "md5": "e8c821776a5767efc01b59aba58be395",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Frasco_Estus_0.jpg.import",
+      "bytes": 314,
+      "offset": 248677232,
+      "md5": "3ea2c4de8d75feb0eb5761699da677e4",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Frasco_Estus_1.jpg.import",
+      "bytes": 314,
+      "offset": 251473824,
+      "md5": "92a732dcdced18eac085621e09645ac7",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Frasco_Estus_2.jpg.import",
+      "bytes": 314,
+      "offset": 257066640,
+      "md5": "aeb447d79d98018115769fa5787a380d",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Roca_decorativa.glb.import",
+      "bytes": 177,
+      "offset": 281200592,
+      "md5": "abaa9bf6d92ed4ae09c98a1a228e7c0c",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Roca_decorativa_0.jpg.import",
+      "bytes": 317,
+      "offset": 283997056,
+      "md5": "c188457d7f5b9493a8dc9fab874e1db9",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Roca_decorativa_1.jpg.import",
+      "bytes": 317,
+      "offset": 286793648,
+      "md5": "7c1609c4370cc2f343da1a2a2acd1834",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/Roca_decorativa_2.jpg.import",
+      "bytes": 317,
+      "offset": 292386464,
+      "md5": "e23c1d3a403e1bab2553d09025a40a09",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1.glb.import",
+      "bytes": 173,
+      "offset": 209726416,
+      "md5": "fb5b56c88736e1c9b493e338f38f32d8",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_0.jpg.import",
+      "bytes": 318,
+      "offset": 210776512,
+      "md5": "7a0abf94b7254ca66a29269a0074f914",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_0_11.jpg.import",
+      "bytes": 322,
+      "offset": 211475952,
+      "md5": "dfa28703d6f594efe90454e0812d6e79",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_1.jpg.import",
+      "bytes": 319,
+      "offset": 211563744,
+      "md5": "263f486c6c73fdf7d72d9e9e151e5bb3",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_10.jpg.import",
+      "bytes": 320,
+      "offset": 221352032,
+      "md5": "432c6a3eaf285af3693296a348e17f69",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_11.jpg.import",
+      "bytes": 320,
+      "offset": 222051472,
+      "md5": "ca98bf08275a07b4e36ae524479b76b1",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_13.jpg.import",
+      "bytes": 319,
+      "offset": 222750912,
+      "md5": "aae343cf72c8bb3f0db3e232fa2bf9dc",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_15.jpg.import",
+      "bytes": 319,
+      "offset": 223450352,
+      "md5": "0c20522e19021412deba7f7d790d1c3d",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_16.jpg.import",
+      "bytes": 319,
+      "offset": 224149792,
+      "md5": "a07864e60733472051da4efb7fe8e591",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_2.jpg.import",
+      "bytes": 319,
+      "offset": 212263184,
+      "md5": "7c9e6d4631787d1972f1261aa26bfa7c",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_21.jpg.import",
+      "bytes": 320,
+      "offset": 224849232,
+      "md5": "ce936d96f7517c6a051324752d0b69a2",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_22.jpg.import",
+      "bytes": 320,
+      "offset": 225548672,
+      "md5": "8e24a4ae75c08fb00173383b8cdb43a0",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_26.jpg.import",
+      "bytes": 319,
+      "offset": 226248112,
+      "md5": "0d482b10552e1d584c847a051b0d2b5a",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_3.png.import",
+      "bytes": 319,
+      "offset": 215059776,
+      "md5": "7ecc4cf13fa8e92c8b725d0bc647bec0",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_30.jpg.import",
+      "bytes": 320,
+      "offset": 226947552,
+      "md5": "e247660d54a1dbbc11a8d16e8c393c42",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_33.jpg.import",
+      "bytes": 320,
+      "offset": 227646992,
+      "md5": "1d4c5983e8bc7f4d228f37928290d849",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_37.jpg.import",
+      "bytes": 320,
+      "offset": 228346432,
+      "md5": "a1838f58a6239d28afbeac10de0a7928",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_39.jpg.import",
+      "bytes": 320,
+      "offset": 229045872,
+      "md5": "903261cbbfb641594df6552c7c509a51",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_4.png.import",
+      "bytes": 319,
+      "offset": 220652592,
+      "md5": "91baf9681ecf0dcac9f8c0ad66044b25",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_51.jpg.import",
+      "bytes": 320,
+      "offset": 229745312,
+      "md5": "9fb696c5d7f22e8210fe060efae298b5",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_55.jpg.import",
+      "bytes": 320,
+      "offset": 230444752,
+      "md5": "4f9c9d9e47689fb87c3f5a0e01c8748b",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_63.jpg.import",
+      "bytes": 319,
+      "offset": 231144192,
+      "md5": "ecbcf6f8a65e6f0c5acfa40ceec2cb2f",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_66.jpg.import",
+      "bytes": 319,
+      "offset": 231843632,
+      "md5": "0f51f8942c339dd1a8a98668d923b55e",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_67.jpg.import",
+      "bytes": 320,
+      "offset": 232543072,
+      "md5": "c8f3d73a70af40d0e6d5047e660596e2",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_68.png.import",
+      "bytes": 320,
+      "offset": 233941584,
+      "md5": "eb8fc502ccc49a61b7cc02860407c41b",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_76.jpg.import",
+      "bytes": 319,
+      "offset": 234641024,
+      "md5": "be8aaefda77a7104bc35ae47a3f7f356",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_79.jpg.import",
+      "bytes": 320,
+      "offset": 235340464,
+      "md5": "a4ea1e85e424c43d332228e6e919ce7c",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_80.jpg.import",
+      "bytes": 319,
+      "offset": 236039904,
+      "md5": "772ba5d8acdeba9fa932c7ac1aefb6cc",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_82.jpg.import",
+      "bytes": 320,
+      "offset": 236389824,
+      "md5": "eb63fe43b642b5f0c7ea2950a551de0b",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_83.jpg.import",
+      "bytes": 320,
+      "offset": 237089264,
+      "md5": "4141a9f0d7ae0a8604bd6ac0a07ce83b",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_85.jpg.import",
+      "bytes": 320,
+      "offset": 237788704,
+      "md5": "1415273b31dd3336377b18782acf7adf",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_88.jpg.import",
+      "bytes": 318,
+      "offset": 237963872,
+      "md5": "87b11759e3ba461984ffe10eb289a8c7",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_89.png.import",
+      "bytes": 320,
+      "offset": 239362384,
+      "md5": "83e278ac3cc99395a16e5f2dd914fb4a",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_90.jpg.import",
+      "bytes": 319,
+      "offset": 240061824,
+      "md5": "8f46b5597062da1843a878ee7f72af11",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_Image_98.png.import",
+      "bytes": 320,
+      "offset": 241460336,
+      "md5": "e9ad437c1f1ff5071b3ab960ba3ea7f4",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_dead_tree_3d_model_basecolor.jpg.import",
+      "bytes": 340,
+      "offset": 209901424,
+      "md5": "8e3acda0b0b5b2fb4cf0a140db514cb8",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_dead_tree_3d_model_normal.jpg.import",
+      "bytes": 337,
+      "offset": 210251392,
+      "md5": "0de5f127eb781e41032b1f1308caeb10",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_dead_tree_3d_model_rm.jpg.import",
+      "bytes": 333,
+      "offset": 210426576,
+      "md5": "d08ee4e22a2bc1402cee04a237d0c764",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_rock_3d_model_basecolor.jpg.import",
+      "bytes": 334,
+      "offset": 241635488,
+      "md5": "81c033068d1fc58fdc4d1f68d09a92be",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_rock_3d_model_normal.jpg.import",
+      "bytes": 332,
+      "offset": 241985440,
+      "md5": "ec8385f0d48eace19db94e70b38e9906",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/escenario 1_rock_3d_model_rm.jpg.import",
+      "bytes": 328,
+      "offset": 242160608,
+      "md5": "207eaad2efae3ec4cc76405ee4e60c16",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/hoguera.glb.import",
+      "bytes": 167,
+      "offset": 267112208,
+      "md5": "1cfb5a37a2bbbdefe0d4bb3e92b1af58",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/hoguera_0.jpg.import",
+      "bytes": 309,
+      "offset": 269908656,
+      "md5": "f47e556a74900966008e540d205540bf",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/hoguera_1.jpg.import",
+      "bytes": 309,
+      "offset": 272705248,
+      "md5": "9637a202849abcaf318a48506dd6742f",
+      "flags": 0
+    },
+    {
+      "path": "assets/models/hoguera_2.jpg.import",
+      "bytes": 309,
+      "offset": 278298064,
+      "md5": "595b3aab8151f8d2cd6429f6db51cf9b",
+      "flags": 0
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 995,
+      "offset": 295712896,
+      "md5": "a16f2eed1b4496c4abf03d329708ba09",
+      "flags": 0
+    },
+    {
+      "path": "icon.svg.import",
+      "bytes": 192,
+      "offset": 92872320,
+      "md5": "e9fa069a8798c80ad590f4a9ee637143",
+      "flags": 0
+    },
+    {
+      "path": "project.binary",
+      "bytes": 17828,
+      "offset": 295731120,
+      "md5": "984ef9bfbe2de76fc518194fa05767a2",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/boss/combo_first.tres.remap",
+      "bytes": 104,
+      "offset": 295697472,
+      "md5": "1db5c648df35d3357235b92af75c350d",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/boss/combo_second.tres.remap",
+      "bytes": 105,
+      "offset": 295697584,
+      "md5": "6508a447e242aae37153c0ed04c1b73c",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/boss/horizontal_slash.tres.remap",
+      "bytes": 109,
+      "offset": 295697696,
+      "md5": "c89b73b790b113f9c964fedfdbf3df4d",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/boss/ruin_burst.tres.remap",
+      "bytes": 103,
+      "offset": 295697808,
+      "md5": "86b8d1cbf7512fc766a20379fc63ebaf",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/boss/vertical_slam.tres.remap",
+      "bytes": 106,
+      "offset": 295697920,
+      "md5": "6e9566dd1572ff981a9f12ae68780ca0",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/heavy_1.tres.remap",
+      "bytes": 100,
+      "offset": 295698032,
+      "md5": "35b7f81c2634652b0b73529980cafd1a",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/light_1.tres.remap",
+      "bytes": 100,
+      "offset": 295698144,
+      "md5": "9bfb1f52eb01567fba8ac0cb7fbda6b1",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/light_2.tres.remap",
+      "bytes": 100,
+      "offset": 295698256,
+      "md5": "5620571b7bccc470dac9fff4debd34d2",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/soldier_light.tres.remap",
+      "bytes": 106,
+      "offset": 295698368,
+      "md5": "a75e3d68a8bc0f976316912cdd520b71",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/two_hand_heavy_1.tres.remap",
+      "bytes": 109,
+      "offset": 295698480,
+      "md5": "04c98df28b77f3e2ce0b26378a113cbf",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/two_hand_light_1.tres.remap",
+      "bytes": 109,
+      "offset": 295698592,
+      "md5": "127548d324291d6048c594ec85e98b39",
+      "flags": 0
+    },
+    {
+      "path": "resources/attacks/two_hand_light_2.tres.remap",
+      "bytes": 109,
+      "offset": 295698704,
+      "md5": "cf56b7239ac2a921bf10c357044cef89",
+      "flags": 0
+    },
+    {
+      "path": "resources/audio/game_audio_catalog.tres.remap",
+      "bytes": 111,
+      "offset": 295698816,
+      "md5": "99344f1f8bf1a20934c624ec1ca817a2",
+      "flags": 0
+    },
+    {
+      "path": "resources/bosses/horizontal_slash.tres.remap",
+      "bytes": 109,
+      "offset": 295698928,
+      "md5": "7b4f661541568524e4559ba7c9362c39",
+      "flags": 0
+    },
+    {
+      "path": "resources/bosses/ruin_burst.tres.remap",
+      "bytes": 103,
+      "offset": 295699040,
+      "md5": "ad27720f0716af39564a4bd989cec390",
+      "flags": 0
+    },
+    {
+      "path": "resources/bosses/two_hit_combo.tres.remap",
+      "bytes": 106,
+      "offset": 295699152,
+      "md5": "9799c6daea4f2fd7936564870ad00365",
+      "flags": 0
+    },
+    {
+      "path": "resources/bosses/vertical_slam.tres.remap",
+      "bytes": 106,
+      "offset": 295699264,
+      "md5": "d04e02f076e01273bee85c9bb6047e41",
+      "flags": 0
+    },
+    {
+      "path": "resources/dodges/backstep.tres.remap",
+      "bytes": 101,
+      "offset": 295699376,
+      "md5": "d5ac80398ac584214bcc59917ad9ff26",
+      "flags": 0
+    },
+    {
+      "path": "resources/dodges/fast.tres.remap",
+      "bytes": 97,
+      "offset": 295699488,
+      "md5": "7abf90ff4ea99f961e63157be02e960a",
+      "flags": 0
+    },
+    {
+      "path": "resources/dodges/heavy.tres.remap",
+      "bytes": 98,
+      "offset": 295699600,
+      "md5": "56369772faa3561c1b1d1831b29afb97",
+      "flags": 0
+    },
+    {
+      "path": "resources/dodges/medium.tres.remap",
+      "bytes": 99,
+      "offset": 295699712,
+      "md5": "28983aee65d094fa91216d61df09793b",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_1.tres.remap",
+      "bytes": 107,
+      "offset": 295699824,
+      "md5": "71d4ee8bb655a61bcb200479dcb3ce4a",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_11.tres.remap",
+      "bytes": 108,
+      "offset": 295700496,
+      "md5": "ee5f7a422ee706b2daaa12edebd6acda",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_13.tres.remap",
+      "bytes": 108,
+      "offset": 295700608,
+      "md5": "3d00fb6b5a082d3e0870a6f97917ab95",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_15.tres.remap",
+      "bytes": 108,
+      "offset": 295700720,
+      "md5": "6c77bbb2dff927262ac5bb47ba51b76e",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_158.tres.remap",
+      "bytes": 109,
+      "offset": 295701616,
+      "md5": "14acc94cf032054297e5eb4a8323d8ab",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_162.tres.remap",
+      "bytes": 109,
+      "offset": 295701728,
+      "md5": "e4c5f9204201efb5d890bde7803044b8",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_163.tres.remap",
+      "bytes": 109,
+      "offset": 295701840,
+      "md5": "90472e7d3265692eb2a4c76e0829f973",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_167.tres.remap",
+      "bytes": 109,
+      "offset": 295701952,
+      "md5": "4a54cd9b8272cec2f0924e1018e90a6c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_168.tres.remap",
+      "bytes": 109,
+      "offset": 295702064,
+      "md5": "d173d9392dbd73db47ed675e9cbf9803",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_17.tres.remap",
+      "bytes": 108,
+      "offset": 295700832,
+      "md5": "4991f5866d03de0825d23167824b663c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_172.tres.remap",
+      "bytes": 109,
+      "offset": 295702176,
+      "md5": "f8955f1098f40337db4f3fc249a023a5",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_173.tres.remap",
+      "bytes": 109,
+      "offset": 295702288,
+      "md5": "e0527f785f675d12600413f3696060cb",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_177.tres.remap",
+      "bytes": 109,
+      "offset": 295702400,
+      "md5": "b62ec9dac714be456735d9e4337ab261",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_19.tres.remap",
+      "bytes": 108,
+      "offset": 295700944,
+      "md5": "8e19d9c812c931f13985ee082c063aa4",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_2.tres.remap",
+      "bytes": 107,
+      "offset": 295699936,
+      "md5": "d42c4fc72a93ab0ec9b75d834fb16db4",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_21.tres.remap",
+      "bytes": 108,
+      "offset": 295701056,
+      "md5": "b2b0ab509e4a604cf24663bf900b7428",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_23.tres.remap",
+      "bytes": 108,
+      "offset": 295701168,
+      "md5": "52fa223f4fa966efb530a91045c97f50",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_25.tres.remap",
+      "bytes": 108,
+      "offset": 295701280,
+      "md5": "6a7a2ee077baf43ad86b6fccaf094b29",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_27.tres.remap",
+      "bytes": 108,
+      "offset": 295701392,
+      "md5": "7686d3509d2719ba2a3862687dd83071",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_29.tres.remap",
+      "bytes": 108,
+      "offset": 295701504,
+      "md5": "fa5d4b2548423dcd0aa60e98165dd5ea",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_3.tres.remap",
+      "bytes": 107,
+      "offset": 295700048,
+      "md5": "eacef805a243e8e8d14e32a5bd512224",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_5.tres.remap",
+      "bytes": 107,
+      "offset": 295700160,
+      "md5": "83fd5c5b281ffa0d52252b25afab01f3",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_7.tres.remap",
+      "bytes": 107,
+      "offset": 295700272,
+      "md5": "a4d8fef89da09f7bc43bc5cc8b1a45e1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/art_material_9.tres.remap",
+      "bytes": 107,
+      "offset": 295700384,
+      "md5": "348a6d23fa54cbe5a28bf42d3416534e",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/ash.tres.remap",
+      "bytes": 96,
+      "offset": 295702512,
+      "md5": "0fd8ae1cc285664ada350e89e678684a",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/bark.tres.remap",
+      "bytes": 97,
+      "offset": 295702608,
+      "md5": "659c2aa818baa2969d879411fb85b75b",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/dark.tres.remap",
+      "bytes": 97,
+      "offset": 295702720,
+      "md5": "5b5a9c13b74894bc95b90fbfff344c51",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/earth.tres.remap",
+      "bytes": 98,
+      "offset": 295702832,
+      "md5": "a28c98273b4b1065814f213784924831",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_10.res",
+      "bytes": 105009,
+      "offset": 292816720,
+      "md5": "f74c0cf2d85fe613458546afcdbfc095",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_100.res",
+      "bytes": 36452,
+      "offset": 294537648,
+      "md5": "dc5cfb6b7044e871e1eb066a090d7cb1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_101.res",
+      "bytes": 36452,
+      "offset": 294574112,
+      "md5": "6d306a590aeb73c914469453259f1692",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_102.res",
+      "bytes": 1484,
+      "offset": 294610576,
+      "md5": "a854613cd9cae910a704c92f5e92ee1c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_103.res",
+      "bytes": 1484,
+      "offset": 294612064,
+      "md5": "b5f48454eda95c654c79b577079893cd",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_104.res",
+      "bytes": 1484,
+      "offset": 294613552,
+      "md5": "096af81d37e479f578acd0265cf93e78",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_105.res",
+      "bytes": 1484,
+      "offset": 294615040,
+      "md5": "8d575a2e7cae54e976387aaa0c4aa82f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_106.res",
+      "bytes": 4460,
+      "offset": 294616528,
+      "md5": "fac8ee29505ebc2a86d51bcab56d539d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_107.res",
+      "bytes": 4460,
+      "offset": 294620992,
+      "md5": "b5cea18b7d5b8cdb4f8109d9e2b80cbc",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_108.res",
+      "bytes": 4460,
+      "offset": 294625456,
+      "md5": "4939b781095bf1e02d98a9ac90893406",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_109.res",
+      "bytes": 4460,
+      "offset": 294629920,
+      "md5": "b70b6b2f89b13e5d1b09d9bbacdab046",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_110.res",
+      "bytes": 1484,
+      "offset": 294634384,
+      "md5": "a91f152a4e35cd63aee0565780b903bc",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_111.res",
+      "bytes": 1484,
+      "offset": 294635872,
+      "md5": "bffcc5ca07ca25bd993c8694cac01d05",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_112.res",
+      "bytes": 3460,
+      "offset": 294637360,
+      "md5": "e634eec0d67eef18dc09d7cb8aa49464",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_113.res",
+      "bytes": 9519,
+      "offset": 294640832,
+      "md5": "4096e5697f653a329971a13fbbe83a42",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_114.res",
+      "bytes": 1484,
+      "offset": 294650352,
+      "md5": "c713ff40d4d7350bcdbb0cb571424ec8",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_115.res",
+      "bytes": 1484,
+      "offset": 294651840,
+      "md5": "8193bf7b01a538d8ca14fe4549a1f1f1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_116.res",
+      "bytes": 1484,
+      "offset": 294653328,
+      "md5": "bec01ea96e9e1bd42917ef369e6654ef",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_117.res",
+      "bytes": 4460,
+      "offset": 294654816,
+      "md5": "4b9f12837d93a1fd76bdbebdbfd9d255",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_118.res",
+      "bytes": 4460,
+      "offset": 294659280,
+      "md5": "6de2f3374c92c51ee3b46854491cd8b4",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_119.res",
+      "bytes": 4460,
+      "offset": 294663744,
+      "md5": "404d5b62753b0a747a27712057eb7780",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_12.res",
+      "bytes": 105010,
+      "offset": 292921744,
+      "md5": "a97cf8096650072790b2a87dcbf0516b",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_120.res",
+      "bytes": 4460,
+      "offset": 294668208,
+      "md5": "e70a055cba6d16127d27b5b99f6289dd",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_121.res",
+      "bytes": 4460,
+      "offset": 294672672,
+      "md5": "1579e8e0140330dfef4aa7fb3de5eb9d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_122.res",
+      "bytes": 4460,
+      "offset": 294677136,
+      "md5": "937265ed752999949cf87d3f8a1d52bb",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_123.res",
+      "bytes": 4460,
+      "offset": 294681600,
+      "md5": "7aef4c452e234cfe4138fdc6794bcec4",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_124.res",
+      "bytes": 9519,
+      "offset": 294686064,
+      "md5": "76bfab235edf7a74f8c467ed999220c4",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_125.res",
+      "bytes": 4460,
+      "offset": 294695584,
+      "md5": "7a9cf2c24a200ab1d20755103a9256af",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_126.res",
+      "bytes": 4460,
+      "offset": 294700048,
+      "md5": "9014a8a6177bffb56a9ffaac755309b5",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_127.res",
+      "bytes": 9519,
+      "offset": 294704512,
+      "md5": "119c5e8331e094ea21c7207692c6d223",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_128.res",
+      "bytes": 9519,
+      "offset": 294714032,
+      "md5": "411189462d23227b7a518ef0efea8f72",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_129.res",
+      "bytes": 9519,
+      "offset": 294723552,
+      "md5": "7e0a911d8d4c09965f2661735fc4b140",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_130.res",
+      "bytes": 4460,
+      "offset": 294733072,
+      "md5": "67a78bbc432a716e55075fc9b72eebe8",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_131.res",
+      "bytes": 4460,
+      "offset": 294737536,
+      "md5": "6607130fee6f05d6c2c15f044853fe82",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_132.res",
+      "bytes": 9519,
+      "offset": 294742000,
+      "md5": "c2df2edf474374fd260e1661cd30b260",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_133.res",
+      "bytes": 9519,
+      "offset": 294751520,
+      "md5": "6161c3d43164eab9efe5309c346d2773",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_134.res",
+      "bytes": 16364,
+      "offset": 294761040,
+      "md5": "4714942c26dc0e4ceb0a6a5dccd3ed65",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_135.res",
+      "bytes": 16364,
+      "offset": 294777408,
+      "md5": "3ed4f04b8312f25c5361bed30e412182",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_136.res",
+      "bytes": 16364,
+      "offset": 294793776,
+      "md5": "0f7a65b25a14d4c82fb524ae65358353",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_137.res",
+      "bytes": 16364,
+      "offset": 294810144,
+      "md5": "f6d3cdf6efb59516db4e1c70e01ac91d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_138.res",
+      "bytes": 2500,
+      "offset": 294826512,
+      "md5": "955aba7011b668db9530f8f50974333e",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_139.res",
+      "bytes": 1484,
+      "offset": 294829024,
+      "md5": "5139a59d521c41785b52157a950928c8",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_14.res",
+      "bytes": 105010,
+      "offset": 293026768,
+      "md5": "99d903101de05082843d75e071487990",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_140.res",
+      "bytes": 1484,
+      "offset": 294830512,
+      "md5": "d0a2cec3d5cd4a59f260828cfcd4bf08",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_141.res",
+      "bytes": 1484,
+      "offset": 294832000,
+      "md5": "d36fb8e39fb733e3741d281f0aa67412",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_142.res",
+      "bytes": 1484,
+      "offset": 294833488,
+      "md5": "550009e7e5c2032079e8af60c333822f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_143.res",
+      "bytes": 5252,
+      "offset": 294834976,
+      "md5": "b83930b86fbfedf057bd1c1abc2e9613",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_144.res",
+      "bytes": 5252,
+      "offset": 294840240,
+      "md5": "afe0f53d3a109e5fdd5316f86738e8b1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_145.res",
+      "bytes": 5252,
+      "offset": 294845504,
+      "md5": "8f812df48dea2ebee6020197ff13ba9e",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_146.res",
+      "bytes": 5252,
+      "offset": 294850768,
+      "md5": "c5f7b482a598949352abc6735fd98aea",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_147.res",
+      "bytes": 8180,
+      "offset": 294856032,
+      "md5": "f9b1646990ad16f3168ad86c5b40c378",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_148.res",
+      "bytes": 8180,
+      "offset": 294864224,
+      "md5": "96cca3369540f1aa5681d3326a9dc74c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_149.res",
+      "bytes": 8180,
+      "offset": 294872416,
+      "md5": "dda14a4c272332f99b55cc4537bba0b4",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_150.res",
+      "bytes": 8180,
+      "offset": 294880608,
+      "md5": "b71f6780b3805e5d22a6ec9018b8759b",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_151.res",
+      "bytes": 9692,
+      "offset": 294888800,
+      "md5": "332486b102aa32a7eef83bf0973c162a",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_152.res",
+      "bytes": 2972,
+      "offset": 294898496,
+      "md5": "15e301ad9ab5e6789c6f789da79de939",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_153.res",
+      "bytes": 5948,
+      "offset": 294901472,
+      "md5": "f06b9694912769acb3a2b90c1e18d48f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_154.res",
+      "bytes": 6716,
+      "offset": 294907424,
+      "md5": "61638e5fae7cb73ca9b4685804321628",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_155.res",
+      "bytes": 6716,
+      "offset": 294914144,
+      "md5": "25d8dc61b3a90cca750898bc74fac17e",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_156.res",
+      "bytes": 2972,
+      "offset": 294920864,
+      "md5": "9eca44b86766a78958d42b6d23c79c05",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_157.res",
+      "bytes": 5948,
+      "offset": 294923840,
+      "md5": "bdcafd11605a84f3ae8adf32d1d8ed53",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_158.res",
+      "bytes": 6716,
+      "offset": 294929792,
+      "md5": "c5b49228e5f2fceb790c20b0cf05616d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_159.res",
+      "bytes": 376267,
+      "offset": 294936512,
+      "md5": "b20d83b2e03d0be1561db0cc423e2d0f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_16.res",
+      "bytes": 105010,
+      "offset": 293131792,
+      "md5": "fffb7f29ed8ce5ea0b64e715a6efa18d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_163.res",
+      "bytes": 376267,
+      "offset": 295312784,
+      "md5": "023731016288085d301ccb7b4291144c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_164.res",
+      "bytes": 150091,
+      "offset": 92718784,
+      "md5": "868f0679e10ab1ed5e736a12c640601d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_168.res",
+      "bytes": 150091,
+      "offset": 92568688,
+      "md5": "3685ba6bdc0ea86aaeebddc87ff9eaa1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_169.res",
+      "bytes": 49119,
+      "offset": 92519568,
+      "md5": "d4851a3b10ad0af251194c3e8883f00a",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_173.res",
+      "bytes": 49119,
+      "offset": 92470448,
+      "md5": "4f5ca1928fc8ec846e42f5b731480b6d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_174.res",
+      "bytes": 71735,
+      "offset": 92398704,
+      "md5": "c26b4316d20257fc9c52c3d029b42c29",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_178.res",
+      "bytes": 71735,
+      "offset": 92326960,
+      "md5": "9a6c0c7f664899ac1cff61464db96281",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_18.res",
+      "bytes": 105010,
+      "offset": 293236816,
+      "md5": "874c86ef9e225b26fd62a6698f3e534a",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_2.res",
+      "bytes": 2001,
+      "offset": 292497616,
+      "md5": "a5342111bde281095298e9574633d6cf",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_20.res",
+      "bytes": 105010,
+      "offset": 293341840,
+      "md5": "d2e5ae09040292e0e54fd562e525f950",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_22.res",
+      "bytes": 105010,
+      "offset": 293446864,
+      "md5": "b5fd02f571e126b787f942eee229feed",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_24.res",
+      "bytes": 105010,
+      "offset": 293551888,
+      "md5": "700a5d2c08abd9bb63373c31a8ecc7a7",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_26.res",
+      "bytes": 105010,
+      "offset": 293656912,
+      "md5": "d5a535fab2b203092db647fea7d0cfd9",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_27.res",
+      "bytes": 7744,
+      "offset": 293761936,
+      "md5": "d6c266827e9062401895725a76e7f4b6",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_28.res",
+      "bytes": 105010,
+      "offset": 293769680,
+      "md5": "a17043c7f61b1774ceb695e0bd6d5dd1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_29.res",
+      "bytes": 8700,
+      "offset": 293874704,
+      "md5": "e2cba46560bc2747bff9f987ea8a5e0c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_3.res",
+      "bytes": 2001,
+      "offset": 292499632,
+      "md5": "b0fc96f19acac9303789940e6e30cc03",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_30.res",
+      "bytes": 105010,
+      "offset": 293883408,
+      "md5": "8c6cb7e3080e93c0c30a5966fea4652f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_31.res",
+      "bytes": 7744,
+      "offset": 293988432,
+      "md5": "3adb72d2f7a3f78e741862a28e3bd5b1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_32.res",
+      "bytes": 8700,
+      "offset": 293996176,
+      "md5": "f65e2c6b4fd113b0e9ebf5f8b3427e88",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_33.res",
+      "bytes": 8700,
+      "offset": 294004880,
+      "md5": "c985ea86fe48b54870d6d012ae288166",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_34.res",
+      "bytes": 8700,
+      "offset": 294013584,
+      "md5": "381a33dd3251390171f032fbabcebb70",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_35.res",
+      "bytes": 3124,
+      "offset": 294022288,
+      "md5": "f39cc4dc645f6e8dad293641e372bc58",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_36.res",
+      "bytes": 3124,
+      "offset": 294025424,
+      "md5": "83e29fbc7ca38a2956b45e457223c2c8",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_37.res",
+      "bytes": 7744,
+      "offset": 294028560,
+      "md5": "d6b6e48192d5abeec87f8475a39c8994",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_38.res",
+      "bytes": 8700,
+      "offset": 294036304,
+      "md5": "954c09ee9fa8eaca455e04be6022bcfd",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_39.res",
+      "bytes": 8700,
+      "offset": 294045008,
+      "md5": "e1dcba422da5cd4e06d59eca6395430d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_4.res",
+      "bytes": 105009,
+      "offset": 292501648,
+      "md5": "83d6a344ac5708bbe7dd5e893ded68fd",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_40.res",
+      "bytes": 8700,
+      "offset": 294053712,
+      "md5": "9eb675b9508547b5b64d79ee154d41f2",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_41.res",
+      "bytes": 8700,
+      "offset": 294062416,
+      "md5": "37a34cd65aae687efbd7a1b30cb4a5a5",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_42.res",
+      "bytes": 6940,
+      "offset": 294071120,
+      "md5": "2f4de8b8b5bd263fa8538dc1f7ef976b",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_43.res",
+      "bytes": 6940,
+      "offset": 294078064,
+      "md5": "95c8175dbc017bfbc3d423dfcde5d613",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_44.res",
+      "bytes": 6940,
+      "offset": 294085008,
+      "md5": "cfbe6f9922bdea076f68b9281314098f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_45.res",
+      "bytes": 6940,
+      "offset": 294091952,
+      "md5": "b8aa385bc76a2874985da1f5f7c46d48",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_46.res",
+      "bytes": 6940,
+      "offset": 294098896,
+      "md5": "9121e9a734cb60760fd409c33f52a4ed",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_47.res",
+      "bytes": 6940,
+      "offset": 294105840,
+      "md5": "a32ab77dd287a4fa0d4b89ca26186e2b",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_48.res",
+      "bytes": 6940,
+      "offset": 294112784,
+      "md5": "d63eb2ecb8f89f1eced70df380d6bddf",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_49.res",
+      "bytes": 6940,
+      "offset": 294119728,
+      "md5": "983e759d2a43a32d3b16f93be6613957",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_50.res",
+      "bytes": 1620,
+      "offset": 294126672,
+      "md5": "b887aeadc73c96f8bb07858de357ee14",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_51.res",
+      "bytes": 1620,
+      "offset": 294128304,
+      "md5": "fe1661439b3de42ca3186771bc04f6c5",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_52.res",
+      "bytes": 36452,
+      "offset": 294129936,
+      "md5": "0ed8e071a6335cd0c82cb548019ad5f1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_53.res",
+      "bytes": 36452,
+      "offset": 294166400,
+      "md5": "1775a595f012db595050c4a8187cfc8d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_54.res",
+      "bytes": 1484,
+      "offset": 294202864,
+      "md5": "47fa82d0d8b0c4bedaa2a84c8506a5e0",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_55.res",
+      "bytes": 1484,
+      "offset": 294204352,
+      "md5": "7995cb05a3486bf0849fa8274c296b0d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_56.res",
+      "bytes": 4460,
+      "offset": 294205840,
+      "md5": "cfa89462466420a45aa1f76195d21e25",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_57.res",
+      "bytes": 1484,
+      "offset": 294210304,
+      "md5": "aa5aeba3e02580c788de93ac4092d151",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_58.res",
+      "bytes": 1484,
+      "offset": 294211792,
+      "md5": "40cdc050e8da1091280cf79e899f3263",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_59.res",
+      "bytes": 3460,
+      "offset": 294213280,
+      "md5": "191fe91bfda374a81d276b0e80c2ca35",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_6.res",
+      "bytes": 105009,
+      "offset": 292606672,
+      "md5": "d5f80fbfe0ecfbd2fe42165529f1386f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_60.res",
+      "bytes": 9519,
+      "offset": 294216752,
+      "md5": "fe48d640d48b579cba9f04f9f64e0d32",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_61.res",
+      "bytes": 1484,
+      "offset": 294226272,
+      "md5": "a808bc45c0d69d6c5b41bb4a12cd0d64",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_62.res",
+      "bytes": 1484,
+      "offset": 294227760,
+      "md5": "5e964cf925c6fb951c6cded8bcb74233",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_63.res",
+      "bytes": 1484,
+      "offset": 294229248,
+      "md5": "b2cdf020565224087fd03e90895e02b4",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_64.res",
+      "bytes": 4460,
+      "offset": 294230736,
+      "md5": "dba77b0b779dcd166c29a1a8149193d3",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_65.res",
+      "bytes": 4460,
+      "offset": 294235200,
+      "md5": "7f739b925b57c6d938981d9c96eff022",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_66.res",
+      "bytes": 4460,
+      "offset": 294239664,
+      "md5": "884240e76867e07afd831533523363d3",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_67.res",
+      "bytes": 4460,
+      "offset": 294244128,
+      "md5": "2d010aef0ea84df52bd841a4a4980003",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_68.res",
+      "bytes": 4460,
+      "offset": 294248592,
+      "md5": "016dacdf0a622f93d1aff4e002749d12",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_69.res",
+      "bytes": 4460,
+      "offset": 294253056,
+      "md5": "2034e3b2d8623b329ca602b961063e0d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_70.res",
+      "bytes": 4460,
+      "offset": 294257520,
+      "md5": "286d71cdb22e355ee5acefb680e34717",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_71.res",
+      "bytes": 9519,
+      "offset": 294261984,
+      "md5": "4d6036a77ff487174f8d782fc05c3cb0",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_72.res",
+      "bytes": 4460,
+      "offset": 294271504,
+      "md5": "b971ae8e5b452ed3611e154f9dd4a9a2",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_73.res",
+      "bytes": 4460,
+      "offset": 294275968,
+      "md5": "f3952fc0aaef6716c1d9cb84024942db",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_74.res",
+      "bytes": 9519,
+      "offset": 294280432,
+      "md5": "ee04e6217e5d276b06030dff149c979d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_75.res",
+      "bytes": 9519,
+      "offset": 294289952,
+      "md5": "8cc7c88ce45a96e05470c96bde45d05d",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_76.res",
+      "bytes": 9519,
+      "offset": 294299472,
+      "md5": "303c9ebd2a4569fc5d6d5bd5a3c6fceb",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_77.res",
+      "bytes": 4460,
+      "offset": 294308992,
+      "md5": "0264d2945d2d68049dd13651c85d6662",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_78.res",
+      "bytes": 4460,
+      "offset": 294313456,
+      "md5": "bd05aaf886f4999212df51c6c2a4ab52",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_79.res",
+      "bytes": 9519,
+      "offset": 294317920,
+      "md5": "004ceded150cd6418205f4db3ad6f4fa",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_8.res",
+      "bytes": 105009,
+      "offset": 292711696,
+      "md5": "ab0a39ce482f1dbabaa3ab6b3343f6c9",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_80.res",
+      "bytes": 9519,
+      "offset": 294327440,
+      "md5": "e245b90af740ffa3ef081345318456d9",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_81.res",
+      "bytes": 16364,
+      "offset": 294336960,
+      "md5": "3656fd6514514381b5941d8c18b73e1b",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_82.res",
+      "bytes": 16364,
+      "offset": 294353328,
+      "md5": "4a5279b1e34a25e0a9427d6d0cb11734",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_83.res",
+      "bytes": 16364,
+      "offset": 294369696,
+      "md5": "9c9945d67aea78fee3605c478f733d3f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_84.res",
+      "bytes": 16364,
+      "offset": 294386064,
+      "md5": "d4d5dd74b42c3477086dac88e79f49e1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_85.res",
+      "bytes": 2500,
+      "offset": 294402432,
+      "md5": "d39539d70825d90b4255ac685ca786e1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_86.res",
+      "bytes": 1484,
+      "offset": 294404944,
+      "md5": "4b069502ed3384a244b3452ce25095bf",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_87.res",
+      "bytes": 1484,
+      "offset": 294406432,
+      "md5": "4d469f180e51fda09f4af379a99185ff",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_88.res",
+      "bytes": 1484,
+      "offset": 294407920,
+      "md5": "dee8dc57403af71a193b52d513904221",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_89.res",
+      "bytes": 1484,
+      "offset": 294409408,
+      "md5": "e7e3b627b2873f45570d56e97bb7a4e1",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_90.res",
+      "bytes": 5252,
+      "offset": 294410896,
+      "md5": "ff9c06b84767f2c241312ac3977007d6",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_91.res",
+      "bytes": 5252,
+      "offset": 294416160,
+      "md5": "6a60c499b20a13fb5ed1e3a0894362ef",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_92.res",
+      "bytes": 5252,
+      "offset": 294421424,
+      "md5": "f36da807825eefb4c8e2a0387682e923",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_93.res",
+      "bytes": 5252,
+      "offset": 294426688,
+      "md5": "1c1b48bc923e8ee72eca7696599c3cf6",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_94.res",
+      "bytes": 8180,
+      "offset": 294431952,
+      "md5": "8bc5755bce4efb38eb9ea6997b3651a2",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_95.res",
+      "bytes": 8180,
+      "offset": 294440144,
+      "md5": "d388d1e2239cb9649ccaa49a9621cd8c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_96.res",
+      "bytes": 8180,
+      "offset": 294448336,
+      "md5": "76b5712b28d9da6e72b519c61e323a69",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_97.res",
+      "bytes": 8180,
+      "offset": 294456528,
+      "md5": "b6a76303d9029b21011146f39f39243f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_98.res",
+      "bytes": 36452,
+      "offset": 294464720,
+      "md5": "b216b924996da085a83848e4e1b5fa98",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mesh_99.res",
+      "bytes": 36452,
+      "offset": 294501184,
+      "md5": "dd9f778cf31931298bd05408a42a89d2",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/mountain.tres.remap",
+      "bytes": 101,
+      "offset": 295696848,
+      "md5": "bf5524468c5325481b253bc8d7a49795",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/ruins.tres.remap",
+      "bytes": 98,
+      "offset": 295696736,
+      "md5": "a6ddea134f7ce73cf6b81026c8e251c3",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/rust.tres.remap",
+      "bytes": 97,
+      "offset": 295696624,
+      "md5": "9e67102813612b1de9f1397dee02ad0f",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/sand.tres.remap",
+      "bytes": 97,
+      "offset": 295696512,
+      "md5": "04136c174d14e87e5ad1ca311b5fc91a",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/stone.tres.remap",
+      "bytes": 98,
+      "offset": 295696400,
+      "md5": "449d5a3f748aa18cb4dd39fd62a841c8",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_1.res",
+      "bytes": 699518,
+      "offset": 91612480,
+      "md5": "e8d101486f5de7f62a7c842084270b69",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_155.res",
+      "bytes": 5592870,
+      "offset": 82522912,
+      "md5": "0beaf5ff02f3cbcfb347b726ba7a62ec",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_156.res",
+      "bytes": 2796673,
+      "offset": 79726224,
+      "md5": "bb33016e9fd16cd3363506e54b606856",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_157.res",
+      "bytes": 5592870,
+      "offset": 74133344,
+      "md5": "06bd289090211b36856f8bd57b55a349",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_159.res",
+      "bytes": 5592870,
+      "offset": 68540464,
+      "md5": "515cd4cfe47cd067f1399949e347f814",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_160.res",
+      "bytes": 2796673,
+      "offset": 65743776,
+      "md5": "95efbca46f1d14b0e3c64d3a549a1754",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_161.res",
+      "bytes": 5592870,
+      "offset": 60150896,
+      "md5": "a4c9d5d029f257b938964032241acb87",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_162.res",
+      "bytes": 5592870,
+      "offset": 54558016,
+      "md5": "e2ec1299da916a172c89347f2c792e56",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_164.res",
+      "bytes": 5592870,
+      "offset": 48965136,
+      "md5": "84d24faf570bb2c8d901a4b4ed3bdb0c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_165.res",
+      "bytes": 2796673,
+      "offset": 46168448,
+      "md5": "a72d1441a939beeda23d5aedc10db118",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_166.res",
+      "bytes": 5592870,
+      "offset": 40575568,
+      "md5": "2f6812f455850f2d89f41eacbfab10f3",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_167.res",
+      "bytes": 5592870,
+      "offset": 34982688,
+      "md5": "88f473c6269cdfb9073a19343cfc0dab",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_169.res",
+      "bytes": 5592870,
+      "offset": 29389808,
+      "md5": "3b2125aabb705b142e5e0b1a036c1949",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_170.res",
+      "bytes": 2796673,
+      "offset": 26593120,
+      "md5": "02c0accbc9920203642fc9a3e3228bc6",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_171.res",
+      "bytes": 5592870,
+      "offset": 21000240,
+      "md5": "fe87d87970d81262a7e3485688465991",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_172.res",
+      "bytes": 5592870,
+      "offset": 15407360,
+      "md5": "809c9f1adaec299e3c3f495524267a31",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_174.res",
+      "bytes": 5592870,
+      "offset": 9814480,
+      "md5": "f229372e2c1c4b236698bdccdc06405c",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_175.res",
+      "bytes": 2796673,
+      "offset": 7017792,
+      "md5": "9aa8eaa3c0555b3efd9101bf472456b6",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_176.res",
+      "bytes": 5592870,
+      "offset": 1424912,
+      "md5": "ee5549457578ef0288b9af29edb3d329",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_4.res",
+      "bytes": 1398566,
+      "offset": 90213904,
+      "md5": "7ec8a27895a3eeb660956254707b5ed3",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_5.res",
+      "bytes": 699521,
+      "offset": 89514368,
+      "md5": "c035736500d50b2297ddb2954df6f022",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/texture_6.res",
+      "bytes": 1398566,
+      "offset": 88115792,
+      "md5": "8f7a90fd5c232edd50aadce7b34de9fb",
+      "flags": 0
+    },
+    {
+      "path": "resources/environment_4a/wood.tres.remap",
+      "bytes": 97,
+      "offset": 295696288,
+      "md5": "18ae3744e7ea7531df6662d96a3b677e",
+      "flags": 0
+    },
+    {
+      "path": "resources/tutorial/intro_lessons.tres.remap",
+      "bytes": 106,
+      "offset": 295696176,
+      "md5": "e20d6ec333e05845934a10b77bc63d80",
+      "flags": 0
+    },
+    {
+      "path": "resources/ui/menu_theme.tres.remap",
+      "bytes": 103,
+      "offset": 295696064,
+      "md5": "9cb2d13308cac11cb377f9559b854902",
+      "flags": 0
+    },
+    {
+      "path": "scenes/audio/audio_director.tscn.remap",
+      "bytes": 107,
+      "offset": 295695952,
+      "md5": "5a2a41caef77e43249f6f17cccbeaf2b",
+      "flags": 0
+    },
+    {
+      "path": "scenes/bosses/ruins_guardian.tscn.remap",
+      "bytes": 107,
+      "offset": 295692160,
+      "md5": "3cd580ec6f99f7c4bf898436c53e42da",
+      "flags": 0
+    },
+    {
+      "path": "scenes/enemies/soldier.tscn.remap",
+      "bytes": 100,
+      "offset": 295692048,
+      "md5": "4210ad7578ff8c1875c81f180821e008",
+      "flags": 0
+    },
+    {
+      "path": "scenes/environment/bonfire_visual.tscn.remap",
+      "bytes": 107,
+      "offset": 295691936,
+      "md5": "da08f3415cd1bcb4157b95dcd7b90d81",
+      "flags": 0
+    },
+    {
+      "path": "scenes/environment/decorative_rock.tscn.remap",
+      "bytes": 108,
+      "offset": 295695840,
+      "md5": "623dd6a62f8a6f959b883441113d1655",
+      "flags": 0
+    },
+    {
+      "path": "scenes/environment/dry_forest.tscn.remap",
+      "bytes": 103,
+      "offset": 295695728,
+      "md5": "ad5b8cf478a76ad96cf00434f1642af1",
+      "flags": 0
+    },
+    {
+      "path": "scenes/environment/estus_visual.tscn.remap",
+      "bytes": 105,
+      "offset": 295695616,
+      "md5": "4f63919f6004aa82b79d1ccf6938ac7d",
+      "flags": 0
+    },
+    {
+      "path": "scenes/environment/integrated_bonfire.tscn.remap",
+      "bytes": 111,
+      "offset": 295695504,
+      "md5": "f1b5954c8418c5026d5d9398a29943be",
+      "flags": 0
+    },
+    {
+      "path": "scenes/environment/rock_prop.tscn.remap",
+      "bytes": 102,
+      "offset": 295695392,
+      "md5": "fb9765efc95c234b8d07d7915a9ba390",
+      "flags": 0
+    },
+    {
+      "path": "scenes/environment/ruins_arena.tscn.remap",
+      "bytes": 104,
+      "offset": 295695280,
+      "md5": "6630106edf579c94e691c4e117c5abb4",
+      "flags": 0
+    },
+    {
+      "path": "scenes/levels/boss_arena.tscn.remap",
+      "bytes": 103,
+      "offset": 295695168,
+      "md5": "aedd49eaccb669a501e549a43feaa93f",
+      "flags": 0
+    },
+    {
+      "path": "scenes/levels/main_level.tscn.remap",
+      "bytes": 103,
+      "offset": 295695056,
+      "md5": "e2184aa9630712acffd62d2732a2f37f",
+      "flags": 0
+    },
+    {
+      "path": "scenes/levels/ruins_boss_arena.tscn.remap",
+      "bytes": 109,
+      "offset": 295694944,
+      "md5": "a502865ed08333010fe95acb7c18ea35",
+      "flags": 0
+    },
+    {
+      "path": "scenes/levels/test_arena.tscn.remap",
+      "bytes": 103,
+      "offset": 295694832,
+      "md5": "eeb7bb639af87b60fc4db44696baa37f",
+      "flags": 0
+    },
+    {
+      "path": "scenes/player/player.tscn.remap",
+      "bytes": 99,
+      "offset": 295694720,
+      "md5": "b31fb330090efbbdd31c09d53771eed4",
+      "flags": 0
+    },
+    {
+      "path": "scenes/props/bonfire.tscn.remap",
+      "bytes": 100,
+      "offset": 295694608,
+      "md5": "2b06e128608f70e165cfa15c04fe8329",
+      "flags": 0
+    },
+    {
+      "path": "scenes/props/camera_rig.tscn.remap",
+      "bytes": 103,
+      "offset": 295694496,
+      "md5": "c53d62d248f87267d2b1cba0ecfd36dc",
+      "flags": 0
+    },
+    {
+      "path": "scenes/props/lockable_dummy.tscn.remap",
+      "bytes": 107,
+      "offset": 295694384,
+      "md5": "52e736690f04accd4a0b20807fb9f4ac",
+      "flags": 0
+    },
+    {
+      "path": "scenes/props/training_dummy.tscn.remap",
+      "bytes": 107,
+      "offset": 295694272,
+      "md5": "d21fe5b44b04d27bdf77d5ef1a810467",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/arena_menu_link.tscn.remap",
+      "bytes": 108,
+      "offset": 295694160,
+      "md5": "810b693d4635c908e4a51a35b536b4d0",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/arena_selector.tscn.remap",
+      "bytes": 107,
+      "offset": 295694048,
+      "md5": "52ef106b28c4cb9a61ed179a468cf06a",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/boss_hud.tscn.remap",
+      "bytes": 101,
+      "offset": 295693936,
+      "md5": "199ebcf3b4b87780ae29312f10e55834",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/death_screen.tscn.remap",
+      "bytes": 105,
+      "offset": 295693824,
+      "md5": "83e5de658ae4345f0966bc9597bb6740",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/estus_hud.tscn.remap",
+      "bytes": 102,
+      "offset": 295693712,
+      "md5": "4113fbf578cf2d3c11df3cdda86591a3",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/game_menus.tscn.remap",
+      "bytes": 103,
+      "offset": 295693600,
+      "md5": "d17d009c599347cf63ab0062f7ad1101",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/main_menu.tscn.remap",
+      "bytes": 102,
+      "offset": 295693488,
+      "md5": "8f548fb73d12930d435202c4bba354f4",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/menu_screen.tscn.remap",
+      "bytes": 104,
+      "offset": 295693376,
+      "md5": "b83dda0e47203b13fc13186bd30331a5",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/options_panel.tscn.remap",
+      "bytes": 106,
+      "offset": 295693264,
+      "md5": "7033b915fe00cb6999d657c7ea26311e",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/player_vitals.tscn.remap",
+      "bytes": 106,
+      "offset": 295693152,
+      "md5": "a739220deacd1d2127ea9f7ec21e309b",
+      "flags": 0
+    },
+    {
+      "path": "scenes/ui/tutorial_panel.tscn.remap",
+      "bytes": 107,
+      "offset": 295693040,
+      "md5": "0f15c99c95863f875ff2c30e22a04041",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_catalog.gd.remap",
+      "bytes": 54,
+      "offset": 295692976,
+      "md5": "743b105e30c708a719f8ceec0bf21610",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_catalog.gdc",
+      "bytes": 1372,
+      "offset": 512448,
+      "md5": "d290b4322b6074ff8084854589afcfec",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_cue.gd.remap",
+      "bytes": 50,
+      "offset": 295692912,
+      "md5": "0b33c56e737b2569026f41be8e6fcac9",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_cue.gdc",
+      "bytes": 3304,
+      "offset": 509136,
+      "md5": "2cdb83a29c74ad0fa3e81575520a846b",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_director.gd.remap",
+      "bytes": 55,
+      "offset": 295696960,
+      "md5": "fac210a0c518c871e5e9415aa3d5481b",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_director.gdc",
+      "bytes": 13280,
+      "offset": 92872512,
+      "md5": "8fdaec9d44a62f45691bc5da28d3dd35",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_routing.gd.remap",
+      "bytes": 54,
+      "offset": 295697024,
+      "md5": "2d4f1ed1b14e8cf4e8a99fc136ba54ee",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/audio_routing.gdc",
+      "bytes": 1224,
+      "offset": 92885792,
+      "md5": "4baf31f1a7596886657f712daecc340b",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/music_controller.gd.remap",
+      "bytes": 57,
+      "offset": 295697088,
+      "md5": "173269d464e4f5f4969c8934a6485252",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/music_controller.gdc",
+      "bytes": 8268,
+      "offset": 92887024,
+      "md5": "ca5a8a9d9c4605bedc506ce459916402",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/scene_audio_bridge.gd.remap",
+      "bytes": 59,
+      "offset": 295697152,
+      "md5": "87fbc0c7b8eb62e83358d445c39ba301",
+      "flags": 0
+    },
+    {
+      "path": "scripts/audio/scene_audio_bridge.gdc",
+      "bytes": 22132,
+      "offset": 92895296,
+      "md5": "0b7ee7ee4cb424d187115a4788459a23",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/boss_hud.gd.remap",
+      "bytes": 50,
+      "offset": 295697216,
+      "md5": "18803454feb32763c1652b2ca1dee035",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/boss_hud.gdc",
+      "bytes": 4924,
+      "offset": 92917440,
+      "md5": "496158341f230d13317df0f63472d262",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/boss_pattern.gd.remap",
+      "bytes": 54,
+      "offset": 295697280,
+      "md5": "ba53ef15fba52574d9ab33a5345b5725",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/boss_pattern.gdc",
+      "bytes": 2496,
+      "offset": 92922368,
+      "md5": "1e191801c776332e5c1a520b4a1ffabf",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/encounter_entry.gd.remap",
+      "bytes": 57,
+      "offset": 295697344,
+      "md5": "06d5e94f1de8f6ca4dd37e383b78bd16",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/encounter_entry.gdc",
+      "bytes": 1084,
+      "offset": 92924864,
+      "md5": "8fb04aa85116e556651cb32c157c4828",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/guardian_brain.gd.remap",
+      "bytes": 56,
+      "offset": 295697408,
+      "md5": "354bd9ecd61a2c0e039aed47c06728d4",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/guardian_brain.gdc",
+      "bytes": 34088,
+      "offset": 92925952,
+      "md5": "afe85f10653343151679061b0e8e5030",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/ruins_guardian.gd.remap",
+      "bytes": 56,
+      "offset": 295689824,
+      "md5": "8d09156a91bf7db606879678fb213039",
+      "flags": 0
+    },
+    {
+      "path": "scripts/bosses/ruins_guardian.gdc",
+      "bytes": 3444,
+      "offset": 120512,
+      "md5": "5cf5451fec630abac9d38fe9eb349f26",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/action_debug.gd.remap",
+      "bytes": 54,
+      "offset": 295689888,
+      "md5": "b9cfd1ee58ad983790255637e8391b8b",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/action_debug.gdc",
+      "bytes": 1964,
+      "offset": 123968,
+      "md5": "07149cccd0dc512daaf536f048951321",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_data.gd.remap",
+      "bytes": 53,
+      "offset": 295689952,
+      "md5": "cd65b2117b83cd285ea981aed00c6589",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_data.gdc",
+      "bytes": 5536,
+      "offset": 125936,
+      "md5": "bfafb68723277c56a7180c1c529f18aa",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_debug.gd.remap",
+      "bytes": 54,
+      "offset": 295690016,
+      "md5": "b6d6a2c7073a93356b8065d95af4154a",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_debug.gdc",
+      "bytes": 1528,
+      "offset": 131472,
+      "md5": "0da4158e3d3e0b1e7f221b176142444c",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_hitbox.gd.remap",
+      "bytes": 55,
+      "offset": 295690080,
+      "md5": "2dc629dd6e315683bb09fc9cba47ae6f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_hitbox.gdc",
+      "bytes": 11872,
+      "offset": 133008,
+      "md5": "98d7259836a56864566a0d7b2dd3d7d6",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_variant.gd.remap",
+      "bytes": 56,
+      "offset": 295690144,
+      "md5": "fe389bc8b4e0b0ec8d48edabffbeb075",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/attack_variant.gdc",
+      "bytes": 3420,
+      "offset": 144880,
+      "md5": "ab306254d5c555e6b39f18eac99f5bd9",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/combat_debug_geometry.gd.remap",
+      "bytes": 63,
+      "offset": 295690208,
+      "md5": "f39499f561ac735b3396c965185ad84f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/combat_debug_geometry.gdc",
+      "bytes": 3112,
+      "offset": 148304,
+      "md5": "6146c2e9290b695333b01260aeb6d2d7",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/critical_vulnerability.gd.remap",
+      "bytes": 64,
+      "offset": 295690272,
+      "md5": "9feab86d127adce90024fddb2600341d",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/critical_vulnerability.gdc",
+      "bytes": 9304,
+      "offset": 151424,
+      "md5": "7c58065ea3662bfa4ab461f5386c3327",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/defense_controller.gd.remap",
+      "bytes": 60,
+      "offset": 295690336,
+      "md5": "6b78375be2404a172030202424898de5",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/defense_controller.gdc",
+      "bytes": 21004,
+      "offset": 160736,
+      "md5": "d4fc05a6cb379393953799543e00fb1d",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/defense_debug.gd.remap",
+      "bytes": 55,
+      "offset": 295690400,
+      "md5": "f09f6d7e328d695865201b9c22ceff7c",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/defense_debug.gdc",
+      "bytes": 4236,
+      "offset": 181744,
+      "md5": "7f8e00d75ed4a1a37611310e7efb4536",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/defense_test_attacker.gd.remap",
+      "bytes": 63,
+      "offset": 295690464,
+      "md5": "e003b603541fae8371e9477d9493f936",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/defense_test_attacker.gdc",
+      "bytes": 12264,
+      "offset": 185984,
+      "md5": "8991b8fb2e150deff5f6fd5dfcbc9f77",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/hurtbox.gd.remap",
+      "bytes": 49,
+      "offset": 295690528,
+      "md5": "bb7e6255b7856c929d2d79266edf038b",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/hurtbox.gdc",
+      "bytes": 9760,
+      "offset": 198256,
+      "md5": "3d44a2dbbcb4e887152b2953a381db01",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/riposte_controller.gd.remap",
+      "bytes": 60,
+      "offset": 295690592,
+      "md5": "fb757ee1d2eb996d2de18d6e77f5dbec",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/riposte_controller.gdc",
+      "bytes": 21180,
+      "offset": 208016,
+      "md5": "8eae6c842104fa305c7eeea178b98f2f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/training_dummy.gd.remap",
+      "bytes": 56,
+      "offset": 295690656,
+      "md5": "4f011bbb3e1f1430ad48e11630e9cea4",
+      "flags": 0
+    },
+    {
+      "path": "scripts/combat/training_dummy.gdc",
+      "bytes": 7236,
+      "offset": 229200,
+      "md5": "26997bc6e1023a59049bd98ad20d91c9",
+      "flags": 0
+    },
+    {
+      "path": "scripts/enemies/enemy_world_queries.gd.remap",
+      "bytes": 62,
+      "offset": 295690720,
+      "md5": "c0f8d668b2a29a94c10beebf81210bc5",
+      "flags": 0
+    },
+    {
+      "path": "scripts/enemies/enemy_world_queries.gdc",
+      "bytes": 6900,
+      "offset": 236448,
+      "md5": "9bdb6910c292d2b3a07e8c174df1a814",
+      "flags": 0
+    },
+    {
+      "path": "scripts/enemies/soldier_actor.gd.remap",
+      "bytes": 56,
+      "offset": 295690784,
+      "md5": "6b4bf8111803e1bc57b87f259351d6af",
+      "flags": 0
+    },
+    {
+      "path": "scripts/enemies/soldier_actor.gdc",
+      "bytes": 18596,
+      "offset": 243360,
+      "md5": "d52a38545741bb95d03247d61134dfb9",
+      "flags": 0
+    },
+    {
+      "path": "scripts/enemies/soldier_ai.gd.remap",
+      "bytes": 53,
+      "offset": 295690848,
+      "md5": "726a628ae10dc63bc1a0f632038bed7e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/enemies/soldier_ai.gdc",
+      "bytes": 21048,
+      "offset": 261968,
+      "md5": "2a4ac017e8273d6bd8bf9793cc5cb3e6",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/action_state.gd.remap",
+      "bytes": 54,
+      "offset": 295690912,
+      "md5": "08600825f1a7faf45f49c19ad42b6d7e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/action_state.gdc",
+      "bytes": 4908,
+      "offset": 283024,
+      "md5": "0301dca36ee3838a2f6e6c80f9ad59f9",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/attack_controller.gd.remap",
+      "bytes": 59,
+      "offset": 295690976,
+      "md5": "c1bd3009130189420597f00fbc43c6da",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/attack_controller.gdc",
+      "bytes": 27208,
+      "offset": 287936,
+      "md5": "952d68a457a1c4a710db175b8bbd32ba",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/defense_controller.gd.remap",
+      "bytes": 60,
+      "offset": 295691040,
+      "md5": "5ff4dbb77c2ef781170a645b28b5d47c",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/defense_controller.gdc",
+      "bytes": 20368,
+      "offset": 315152,
+      "md5": "fdf0661697de6e5cfec8df95af0aa086",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/dodge_controller.gd.remap",
+      "bytes": 58,
+      "offset": 295691104,
+      "md5": "56098ba5980abb76fd39ceecd335e71a",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/dodge_controller.gdc",
+      "bytes": 16792,
+      "offset": 335520,
+      "md5": "f2f8b8ee997198c2d238e0138c2ff42e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/dodge_profile.gd.remap",
+      "bytes": 55,
+      "offset": 295691168,
+      "md5": "23f533d53acd4b72d58210917b49a9b5",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/dodge_profile.gdc",
+      "bytes": 2912,
+      "offset": 352320,
+      "md5": "d6ba034f3575e461dcb1dfce31c55f34",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/estus_controller.gd.remap",
+      "bytes": 58,
+      "offset": 295691232,
+      "md5": "5f716ed3890a02a4638fb362ef7187a2",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/estus_controller.gdc",
+      "bytes": 11312,
+      "offset": 355232,
+      "md5": "ef02a6d1d0d1ff0366f55966fe3774ba",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/grip_controller.gd.remap",
+      "bytes": 57,
+      "offset": 295691296,
+      "md5": "18d61a8f00920f66e141ab72d7b49137",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/grip_controller.gdc",
+      "bytes": 10664,
+      "offset": 366544,
+      "md5": "93dce72fb96297935c00fb9251a9274e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/lock_on_controller.gd.remap",
+      "bytes": 60,
+      "offset": 295689056,
+      "md5": "5eef1d69b8f55f5b039677d01d32959e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/lock_on_controller.gdc",
+      "bytes": 24140,
+      "offset": 0,
+      "md5": "8b5bd1b97578be99db9bad0ce849773f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/player_controller.gd.remap",
+      "bytes": 59,
+      "offset": 295689120,
+      "md5": "52ce043634fb1f6e79b8524e23f39604",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/player_controller.gdc",
+      "bytes": 33112,
+      "offset": 24144,
+      "md5": "7d16457e3ac31ba8eaa64fcc22f411b5",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/sprint_dodge_input.gd.remap",
+      "bytes": 60,
+      "offset": 295689184,
+      "md5": "3cae35dfe08f69a0647314aa88740ba1",
+      "flags": 0
+    },
+    {
+      "path": "scripts/player/sprint_dodge_input.gdc",
+      "bytes": 2084,
+      "offset": 57264,
+      "md5": "208d618cb9cf36bd393d068a2dc66720",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/actor_attributes.gd.remap",
+      "bytes": 59,
+      "offset": 295689248,
+      "md5": "70f3642d75ed31d00571a6fd01eed08e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/actor_attributes.gdc",
+      "bytes": 12048,
+      "offset": 59360,
+      "md5": "2156ba756a12a8e3a12a425217515820",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/arena_menu_link.gd.remap",
+      "bytes": 58,
+      "offset": 295689312,
+      "md5": "2381181d4b295ec6731b774faf792f27",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/arena_menu_link.gdc",
+      "bytes": 2852,
+      "offset": 71408,
+      "md5": "06bbcc3246a0a24a97ba39e1785a2a68",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/arena_selector.gd.remap",
+      "bytes": 57,
+      "offset": 295689376,
+      "md5": "28d72a55e991fe5acfbbdd4a967bde1f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/arena_selector.gdc",
+      "bytes": 13244,
+      "offset": 74272,
+      "md5": "4856e29fcbd0e11fb3be3dc0fd8fed15",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/bonfire.gd.remap",
+      "bytes": 50,
+      "offset": 295689440,
+      "md5": "9ed61477c73ef5461fdae55b63ecfed7",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/bonfire.gdc",
+      "bytes": 3960,
+      "offset": 87520,
+      "md5": "8cc3b51e4f9c218ebcb693c115bddf76",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/camera_spring_arm.gd.remap",
+      "bytes": 60,
+      "offset": 295689504,
+      "md5": "d89ca4b0cd6aac1af57a2886cecb88a9",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/camera_spring_arm.gdc",
+      "bytes": 2100,
+      "offset": 91488,
+      "md5": "0d7efad3f2fd407844e82a9a092c8ceb",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/checkpoint_manager.gd.remap",
+      "bytes": 61,
+      "offset": 295689568,
+      "md5": "cf08cec3350b168207e93c9115abe181",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/checkpoint_manager.gdc",
+      "bytes": 20940,
+      "offset": 93600,
+      "md5": "661ca75baa5936ce7a25da08b121a7ef",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/checkpoint_status.gd.remap",
+      "bytes": 60,
+      "offset": 295689632,
+      "md5": "b36adee3abc2bdfb7021769ad21d74c8",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/checkpoint_status.gdc",
+      "bytes": 1420,
+      "offset": 114544,
+      "md5": "0c9aa7d1fe4194476c81450038904fc1",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/controller_registry.gd.remap",
+      "bytes": 62,
+      "offset": 295689696,
+      "md5": "5678012ca04630f3e21d1093e4a857ce",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/controller_registry.gdc",
+      "bytes": 3552,
+      "offset": 115968,
+      "md5": "cf28ee7ed3c2573b6d7c5ff7c821c72f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/death_screen.gd.remap",
+      "bytes": 55,
+      "offset": 295689760,
+      "md5": "31232f3a464322aa3ce51f30fd835f30",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/death_screen.gdc",
+      "bytes": 980,
+      "offset": 119520,
+      "md5": "cd7c83ed1a5f03ee41486826fd5e5484",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/dodge_debug.gd.remap",
+      "bytes": 54,
+      "offset": 295691360,
+      "md5": "f7c85ea77780044e1cba3dd5e367c045",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/dodge_debug.gdc",
+      "bytes": 2200,
+      "offset": 377216,
+      "md5": "8d0da052bbd888b4dfcee26006ef232c",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/estus_hud.gd.remap",
+      "bytes": 52,
+      "offset": 295691424,
+      "md5": "76d091548257fda88b9574fe19955859",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/estus_hud.gdc",
+      "bytes": 1560,
+      "offset": 379424,
+      "md5": "1da4f508344ff402096b1164a28a3c7a",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/game_menus.gd.remap",
+      "bytes": 53,
+      "offset": 295691488,
+      "md5": "7dfa57deb9fafe24da5fbca3983debfe",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/game_menus.gdc",
+      "bytes": 25856,
+      "offset": 380992,
+      "md5": "4f6c899bf5cb51eb6453f8863d5588cd",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/game_options.gd.remap",
+      "bytes": 55,
+      "offset": 295691552,
+      "md5": "a340c9ca2acba2acf4f4b96b6374dab3",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/game_options.gdc",
+      "bytes": 8448,
+      "offset": 406848,
+      "md5": "404aaa080a6cf5b6d261eeb78dd43297",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/integrated_level.gd.remap",
+      "bytes": 59,
+      "offset": 295691616,
+      "md5": "0b405d35300fac6105a9401f0ae1578e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/integrated_level.gdc",
+      "bytes": 2804,
+      "offset": 415296,
+      "md5": "e5b63424684f0aaaaca4814e1f1dad50",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/lock_on_indicator.gd.remap",
+      "bytes": 60,
+      "offset": 295691744,
+      "md5": "d9db97295ba6f3df0c962043c51f65f3",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/lock_on_indicator.gdc",
+      "bytes": 3116,
+      "offset": 421056,
+      "md5": "111e38f8c6c258fd17d7d409cbd2fac5",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/lockable_target.gd.remap",
+      "bytes": 58,
+      "offset": 295691680,
+      "md5": "db7897f3a69639b6634bc46d0853ac0c",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/lockable_target.gdc",
+      "bytes": 2944,
+      "offset": 418112,
+      "md5": "a5c6efc731209c13c252cc727e8f9371",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/main_menu.gd.remap",
+      "bytes": 52,
+      "offset": 295691808,
+      "md5": "7f7e5d226dc178daef8c5bf52db1103f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/main_menu.gdc",
+      "bytes": 1224,
+      "offset": 424176,
+      "md5": "1516066702cfcdbf881650977c9c9870",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/menu_screen.gd.remap",
+      "bytes": 54,
+      "offset": 295691872,
+      "md5": "3f6bd6ee7d09e784b7926ee23c9db9fc",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/menu_screen.gdc",
+      "bytes": 3832,
+      "offset": 425408,
+      "md5": "1cde4f15edcc64eb1f57f863af1bde2d",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/options_panel.gd.remap",
+      "bytes": 56,
+      "offset": 295692272,
+      "md5": "35d530b30724ee24b41c502a525348d2",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/options_panel.gdc",
+      "bytes": 8996,
+      "offset": 445664,
+      "md5": "04a44467db474bdfa3f146f9667db7c8",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/orbit_camera.gd.remap",
+      "bytes": 55,
+      "offset": 295692336,
+      "md5": "090c1702a6261f6a61d3d5eaa2751296",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/orbit_camera.gdc",
+      "bytes": 12696,
+      "offset": 454672,
+      "md5": "d6de835ddd6557c603b3b59404c86d28",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/player_vitals_hud.gd.remap",
+      "bytes": 60,
+      "offset": 295692400,
+      "md5": "e37ba06a0a501b59a87f16ee1307a845",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/player_vitals_hud.gdc",
+      "bytes": 3388,
+      "offset": 467376,
+      "md5": "4255faaf798cdb04261595f4bf8bc309",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/session_progress.gd.remap",
+      "bytes": 59,
+      "offset": 295692464,
+      "md5": "d4d909dde82a2f8211564de05df8ebc2",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/session_progress.gdc",
+      "bytes": 1936,
+      "offset": 470768,
+      "md5": "2fbb2e55ed3ceefb930410733e0a049e",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/test_arena.gd.remap",
+      "bytes": 53,
+      "offset": 295692528,
+      "md5": "b4d4a50dc3b4c0142499228708b2c23d",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/test_arena.gdc",
+      "bytes": 4272,
+      "offset": 472704,
+      "md5": "9d25522998f237c689175948b1246ff4",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_catalog.gd.remap",
+      "bytes": 59,
+      "offset": 295692592,
+      "md5": "6cb15b0ec556f3c3b14e032f03b26f67",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_catalog.gdc",
+      "bytes": 420,
+      "offset": 476976,
+      "md5": "85b2a94149c5cb1329402e022af877e1",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_controller.gd.remap",
+      "bytes": 62,
+      "offset": 295692656,
+      "md5": "abf9f2a1518c3faa0580b2087a096a79",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_controller.gdc",
+      "bytes": 21532,
+      "offset": 477408,
+      "md5": "d7e37f438014334af0cfcae487f7b73f",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_input_hints.gd.remap",
+      "bytes": 63,
+      "offset": 295692720,
+      "md5": "1aac13dd200c68882334c6a9b91c8304",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_input_hints.gdc",
+      "bytes": 5224,
+      "offset": 498944,
+      "md5": "5b17c8b80f7c6161b51147ffd8e4d660",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_lesson.gd.remap",
+      "bytes": 58,
+      "offset": 295692784,
+      "md5": "a0d3044d092c589517abedf286d12ac0",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_lesson.gdc",
+      "bytes": 1096,
+      "offset": 504176,
+      "md5": "adbbca961c57885a48a4b4f0249e5b90",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_panel.gd.remap",
+      "bytes": 57,
+      "offset": 295692848,
+      "md5": "7eb11fb67242df7f45b0097b1f819795",
+      "flags": 0
+    },
+    {
+      "path": "scripts/systems/tutorial_panel.gdc",
+      "bytes": 3844,
+      "offset": 505280,
+      "md5": "6ae33883ace8ab05d2f567d1fb116664",
+      "flags": 0
+    }
+  ]
+}

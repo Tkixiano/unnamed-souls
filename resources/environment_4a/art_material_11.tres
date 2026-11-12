@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_4.res" id="1_iknu7"]
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_6.res" id="2_hrfdl"]
+[ext_resource type="Texture2D" path="res://resources/environment_4a/texture_5.res" id="3_uo8aq"]
+
+[resource]
+resource_name = "tripo_mat_9a1f2a02-b8a7-42be-9dbe-b2b30acf202c.003"
+albedo_texture = ExtResource("1_iknu7")
+metallic = 1.0
+metallic_texture = ExtResource("2_hrfdl")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_hrfdl")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_uo8aq")

@@ -1,0 +1,182 @@
+{
+	"checks": {
+		"450_fresh_vs_reused_and_default_query_comparisons": true,
+		"actor_rid_excluded": true,
+		"blocked_probe_agrees_with_original": true,
+		"moving_obstacle_clearance_seen_next_physics_tick": true,
+		"new_obstruction_seen_next_physics_tick": true,
+		"old_parameters_safe_in_new_world": true,
+		"physical_movement_still_advances": true,
+		"query_mask_preserved": true,
+		"resources_reused_not_results": true,
+		"restoration_keeps_safe_parameter_objects": true,
+		"speed_acceleration_and_attack_data_unchanged": true
+	},
+	"comparisons": 450,
+	"failed": [],
+	"microbenchmark": [
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 29.9266666666667,
+				"old_us_per_call": 33.6133333333333
+			},
+			"trial": 0
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 32.3333333333333,
+				"old_us_per_call": 30.9066666666667
+			},
+			"trial": 1
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 22.86,
+				"old_us_per_call": 27.6933333333333
+			},
+			"trial": 2
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 21.9966666666667,
+				"old_us_per_call": 31.3
+			},
+			"trial": 3
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 26.8733333333333,
+				"old_us_per_call": 30.2
+			},
+			"trial": 4
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 20.34,
+				"old_us_per_call": 20.3066666666667
+			},
+			"trial": 5
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 15.8,
+				"old_us_per_call": 19.88
+			},
+			"trial": 6
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 16.6166666666667,
+				"old_us_per_call": 20.0666666666667
+			},
+			"trial": 7
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 15.9133333333333,
+				"old_us_per_call": 19.43
+			},
+			"trial": 8
+		},
+		{
+			"blocked": true,
+			"times": {
+				"new_us_per_call": 15.3133333333333,
+				"old_us_per_call": 19.5533333333333
+			},
+			"trial": 9
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 24.5666666666667,
+				"old_us_per_call": 29.6233333333333
+			},
+			"trial": 0
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 24.9733333333333,
+				"old_us_per_call": 28.2633333333333
+			},
+			"trial": 1
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 21.3933333333333,
+				"old_us_per_call": 32.8733333333333
+			},
+			"trial": 2
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 16.8366666666667,
+				"old_us_per_call": 21.6733333333333
+			},
+			"trial": 3
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 18.2533333333333,
+				"old_us_per_call": 22.62
+			},
+			"trial": 4
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 17.7033333333333,
+				"old_us_per_call": 20.7166666666667
+			},
+			"trial": 5
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 19.4833333333333,
+				"old_us_per_call": 20.8833333333333
+			},
+			"trial": 6
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 21.0666666666667,
+				"old_us_per_call": 22.21
+			},
+			"trial": 7
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 16.3533333333333,
+				"old_us_per_call": 20.1933333333333
+			},
+			"trial": 8
+		},
+		{
+			"blocked": false,
+			"times": {
+				"new_us_per_call": 16.06,
+				"old_us_per_call": 20.3966666666667
+			},
+			"trial": 9
+		}
+	],
+	"passed": 11,
+	"scope": "Only query fixture disables decisions. Aggro/lifecycle regression separately runs real active soldiers.",
+	"total": 11
+}
